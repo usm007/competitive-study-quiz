@@ -24,4 +24,26 @@ Steps:
 Output JSON shape: `{"memory_aid": "...", "hint": "...", "misconception": "...",
 "revision_priority": "critical|high|medium|low"}`.
 
+## Targeted revision-question requests (§26 hook)
+
+When the revision engine requests a NEW question for a weak KU + weak
+cognitive form, it emits a `revision_request`:
+
+`{"ku_id": "...", "weak_form": "recall|distinction|statement|application",
+"confusion_cluster": "...|null", "preferred_purpose": "...",
+"preferred_type": "...", "excluded_question_ids": [...],
+"fidelity": "SOURCE_BOUND"}`
+
+Generation contract (enforced by `validate_revision_question` before any
+item reaches a learner):
+
+1. Test the requested KU in the requested form with new wording, a new
+   purpose or option arrangement. Never repeat an excluded question id,
+   never emit a semantic near-duplicate of one (threshold 0.85).
+2. Keep SOURCE_BOUND provenance: every claim traceable to the KU source
+   evidence (question -> KU -> source block -> excerpt).
+3. Mark `distractor_origin`, `confusion_type`, `ku_ref` on every distractor;
+   primary KU must equal the requested `ku_id`.
+4. Unvalidated output never reaches the learner interface.
+
 Rules: R10 (retention value), R4 (mark external material in memory aids).

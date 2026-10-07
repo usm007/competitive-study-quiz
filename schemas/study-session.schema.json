@@ -1,6 +1,11 @@
 {
   "additionalProperties": false,
   "properties": {
+    "study_session_version": {
+      "description": "Session format version. v1 (no version key) migrates deterministically to v2.",
+      "minimum": 1,
+      "type": "integer"
+    },
     "completed_at": {
       "type": [
         "string",
@@ -54,6 +59,67 @@
               "string",
               "null"
             ]
+          },
+          "secondary_kus": {
+            "items": {
+              "type": "string"
+            },
+            "type": [
+              "array",
+              "null"
+            ]
+          },
+          "selected_answer": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "correct_answer": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "question_purpose": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "cognitive_level": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "difficulty": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "mode": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "time_taken_ms": {
+            "minimum": 0,
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "marked": {
+            "type": "boolean"
+          },
+          "revision_priority_at_attempt": {
+            "type": [
+              "string",
+              "null"
+            ]
           }
         },
         "required": [
@@ -82,6 +148,27 @@
     },
     "revision_queue": {
       "type": "array"
+    },
+    "revision_state": {
+      "additionalProperties": false,
+      "properties": {
+        "queue": {
+          "type": "array"
+        },
+        "sessions": {
+          "type": "array"
+        }
+      },
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "mastery": {
+      "type": [
+        "object",
+        "null"
+      ]
     },
     "calibration": {
       "type": "object"

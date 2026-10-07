@@ -72,3 +72,17 @@ runs the deterministic stages with checkpoints/resume (`--redo STAGE`).
 - Modes: fidelity `SOURCE_BOUND` (default) | `ENHANCED` (external tagged+shown);
   scope `COMPREHENSIVE` (default) | `FIXED_COUNT` (exact N, honest coverage report).
 - Never invent facts (R4); never claim 100% without script output (R12).
+
+## Revision engine (Phase 2)
+
+Learner attempts become observable performance events; `scripts/revision.py`
+aggregates them per primary KU (secondaries exposure-only, distractor_basis
+ignored), scores deterministic priorities (tier/exam-relevance amplify
+observed errors only), tracks NEW/LEARNING/WEAK/IMPROVING/STABLE mastery
+overall and per cognitive form, and builds reason-coded revision queues and
+sessions. Same algorithm runs in the browser (`templates/web/revision.engine.js`,
+inlined by `build_web.py`); Python is the source of truth, node parity tests
+enforce agreement. Sessions persist as v2 (`study_session_version: 2`;
+legacy formats migrate via `migrate_session`). New revision questions come
+only from validated banks or via the `revision_request` hook + 
+`validate_revision_question` — unvalidated output never reaches learners.

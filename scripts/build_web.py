@@ -28,9 +28,11 @@ from lib_quiz import (  # noqa: E402
 
 HERE = Path(__file__).resolve()
 DEFAULT_TEMPLATE = HERE.parent.parent / "templates" / "web" / "app.template.html"
+DEFAULT_ENGINE = HERE.parent.parent / "templates" / "web" / "revision.engine.js"
 PROFILES_DIR = HERE.parent.parent / "profiles"
 PKG_PLACEHOLDER = "/*__PACKAGE__*/{}"
 STATUS_PLACEHOLDER = '/*__STATUS__*/""'
+ENGINE_PLACEHOLDER = "/*__REVISION_ENGINE__*/"
 
 
 def prepare_package(package_path: Path) -> dict:
@@ -90,6 +92,14 @@ def build(package_path: Path, out_path: Path, template: Path, title: str | None)
         raise SystemExit(f"ERROR: template missing package placeholder {PKG_PLACEHOLDER!r}: {template}")
     if STATUS_PLACEHOLDER not in tpl:
         raise SystemExit(f"ERROR: template missing status placeholder {STATUS_PLACEHOLDER!r}: {template}")
+    if ENGINE_PLACEHOLDER not in tpl:
+        raise SystemExit(f"ERROR: template missing revision-engine placeholder {ENGINE_PLACEHOLDER!r}: {template}")
+    try:
+        engine_js = DEFAULT_ENGINE.read_text(encoding="utf-8")
+    except OSError as e:
+        raise SystemExit(f"ERROR: cannot read revision engine {DEFAULT_ENGINE}: {e}")
+    if "RevisionEngine" not in engine_js:
+        raise SystemExit(f"ERROR: revision engine does not define RevisionEngine: {DEFAULT_ENGINE}")
 
     status = eff_meta(pkg)["status"]
     embedded_pkg = json.dumps(pkg, ensure_ascii=False, separators=(",", ":"))
@@ -105,7 +115,8 @@ def build(package_path: Path, out_path: Path, template: Path, title: str | None)
 
     out = tpl.replace(PKG_PLACEHOLDER, "/*__PACKAGE__*/" + embedded_pkg, 1)
     out = out.replace(STATUS_PLACEHOLDER, "/*__STATUS__*/" + embedded_status, 1)
-    if PKG_PLACEHOLDER in out or STATUS_PLACEHOLDER in out:
+    out = out.replace(ENGINE_PLACEHOLDER, engine_js, 1)
+    if PKG_PLACEHOLDER in out or STATUS_PLACEHOLDER in out or ENGINE_PLACEHOLDER in out:
         raise SystemExit("ERROR: placeholder replacement incomplete; duplicate placeholders in template")
 
     if title:

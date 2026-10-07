@@ -252,5 +252,48 @@ class TestOfflineBuild(unittest.TestCase):
         self.assertIn("study_session.json", t)
 
 
+class TestRevisionUI(unittest.TestCase):
+    def test_engine_placeholder_and_build_inlining(self):
+        t = tpl_text()
+        self.assertIn("/*__REVISION_ENGINE__*/", t)
+        with tempfile.TemporaryDirectory() as tmp:
+            out = str(Path(tmp, "quiz.html"))
+            r = run("scripts/build_web.py", "examples/sample_package.json",
+                    "--out", out, "--title", "T")
+            self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+            html = Path(out).read_text(encoding="utf-8")
+            self.assertIn("RevisionEngine", html)
+            self.assertNotIn("__REVISION_ENGINE__", html)
+
+    def test_revision_modes_and_why(self):
+        t = tpl_text()
+        for mode in ["targeted", "mistakes", "confusion", "hce",
+                     "cognitive", "quick", "full"]:
+            self.assertIn('"%s"' % mode, t, mode)
+        self.assertIn("Why you are seeing this", t)
+        self.assertIn("Why this question", t)
+        self.assertIn("revQueue", t)
+
+    def test_session_v2_and_migration(self):
+        t = tpl_text()
+        self.assertIn("study_session_version", t)
+        self.assertIn("migrateSession", t)
+        self.assertIn("revision_state", t)
+        for field in ["dt_ms", "secondary_kus", "rev_priority"]:
+            self.assertIn(field, t, field)
+
+    def test_analytics_revision_section(self):
+        t = tpl_text()
+        self.assertIn("rev-hce", t)
+        self.assertIn("rev-cog", t)
+        self.assertIn("High-confidence errors", t)
+
+    def test_neutral_language(self):
+        t = tpl_text().lower()
+        for phrase in ["you keep failing", "bad performance",
+                       "you don't understand", "you do not understand"]:
+            self.assertNotIn(phrase, t, phrase)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

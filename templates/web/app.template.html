@@ -161,6 +161,11 @@ details.tech .tech-body{padding:0 18px 14px;font-size:12.5px;color:var(--muted)}
 .pri-medium{background:var(--surface-3);color:var(--ink-2)}
 .rev-card b{font-size:14px}
 .rev-card small{display:block;color:var(--muted);font-size:12.5px}
+.revmodes{display:flex;flex-wrap:wrap;gap:6px;margin:0 2px 10px;max-width:720px}
+.revmodes button{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:6px 12px;font-size:12.5px;cursor:pointer;font-weight:600;color:var(--ink-2)}
+.revmodes button.active{background:var(--accent);border-color:var(--accent);color:#fff}
+.rev-why{display:block;color:var(--muted);font-size:12.5px;margin-top:4px}
+.rev-meta{display:block;color:var(--faint);font-size:12px;margin-top:2px}
 /* rapid */
 .rapid{max-width:720px;margin:4px 2px 0}
 .rapid .flash{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:22px;text-align:center}
@@ -393,6 +398,7 @@ details.tech .tech-body{padding:0 18px 14px;font-size:12.5px;color:var(--muted)}
 <footer class="appfoot"><span>Offline study file — all data embedded. Keys: <kbd>1</kbd>–<kbd>4</kbd> select · <kbd>Enter</kbd> submit · <kbd>←</kbd><kbd>→</kbd> move · <kbd>M</kbd> mark · <kbd>H</kbd> hint · <kbd>N</kbd> navigator.</span></footer>
 <script>
 "use strict";
+/*__REVISION_ENGINE__*/
 window.__PACKAGE__ = /*__PACKAGE__*/{};
 window.__STATUS__ = /*__STATUS__*/"";
 var PKG = window.__PACKAGE__ || {};
@@ -451,14 +457,14 @@ function qmem(q){ return q.memory_aid || q.memoryAid || q.mnemonic || ""; }
 function primaryKu(q){ var kus=q.knowledge_units||[]; for(var i=0;i<kus.length;i++) if(kus[i].role==="primary") return kus[i].ku_id; return ""; }
 function esc(s){ return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
 /* ---------- state ---------- */
-var state = { idx:0, mode:"practice", answers:{}, testEndsAt:null, testFinished:false, srcMode:false, navFilter:"all", revStarted:false };
-var session = { answers:{}, mode:"practice" };
+var state = { idx:0, mode:"practice", answers:{}, testEndsAt:null, testFinished:false, srcMode:false, navFilter:"all", revStarted:false, revMode:"targeted", revActive:false, revSession:null, revReasons:{}, revState:{queue:[],sessions:[]}, qShownAt:0 };
+var session = { study_session_version:2, answers:{}, mode:"practice", revision_state:{queue:[],sessions:[]} };
 var storeKey = "quiz_session_v2_" + ((META.title||"quiz").replace(/\W+/g,"_").slice(0,40));
 var storageOK = true;
 try { localStorage.setItem("__t","1"); localStorage.removeItem("__t"); }
 catch(e){ storageOK = false; }
-function saveSession(){ try { session.answers = state.answers; session.mode = state.mode; localStorage.setItem(storeKey, JSON.stringify(session)); } catch(e){ storageOK=false; } }
-function loadSession(){ try { var raw = localStorage.getItem(storeKey); if(raw){ var s=JSON.parse(raw); if(s&&s.answers) state.answers=s.answers; } } catch(e){ storageOK=false; } }
+function saveSession(){ try { session.study_session_version=2; session.answers = state.answers; session.mode = state.mode; session.revision_state = state.revState||{queue:[],sessions:[]}; localStorage.setItem(storeKey, JSON.stringify(session)); } catch(e){ storageOK=false; } }
+function loadSession(){ try { var raw = localStorage.getItem(storeKey); if(!raw) return; var parsed=null; try{ parsed=JSON.parse(raw); }catch(e){ storageOK=false; return; } var res=RevisionEngine.migrateSession(parsed); state.answers=(res[0]&&res[0].answers)||{}; state.mode=(res[0]&&res[0].mode)||"practice"; state.revState=(res[0]&&res[0].revision_state)||{queue:[],sessions:[]}; } catch(e){ storageOK=false; } }
 /* ---------- filters ---------- */
 function weakSet(){
   var w={};
@@ -466,6 +472,100 @@ function weakSet(){
   QUESTIONS.forEach(function(q){ if(String(q.revision_priority)==="critical"||String(q.revision_priority)==="high"){ w[primaryKu(q)]=1; } });
   return w;
 }
+/* ---------- revision engine bridge (deterministic, KU-level) ---------- */
+var REV_MODE_LABELS=[["targeted","Targeted"],["mistakes","Mistakes"],["confusion","Confusion"],["hce","High-confidence"],["cognitive","Cognitive gaps"],["quick","Quick"],["full","Full"]];
+function qById(id){ for(var i=0;i<QUESTIONS.length;i++) if(qid(QUESTIONS[i],i)===id) return QUESTIONS[i]; return null; }
+function kuMetasFromBank(){
+  // Browser has no inventory objects: tier/topic per primary KU from the
+  // validated bank. Importance then rests on tier alone (documented).
+  var metas=[];
+  QUESTIONS.forEach(function(q){
+    var ku=primaryKu(q); if(!ku) return;
+    var ex=null; for(var k=0;k<metas.length;k++) if(metas[k].id===ku) ex=metas[k];
+    if(ex){ if(q.tier!==undefined&&q.tier!==null&&(ex.tier===undefined||ex.tier===null||q.tier<ex.tier)) ex.tier=q.tier; return; }
+    metas.push({id:ku,tier:(q.tier!==undefined&&q.tier!==null?q.tier:null),topic:qtopic(q),subtopic:qsubtopic(q),type:"",dimensions:{},confusable_with:[],confusion_cluster:q.confusion_cluster||null,related_ku:[]});
+  });
+  return metas;
+}
+function revEvents(){
+  var now=Date.now()/1000;
+  return Object.keys(state.answers).map(function(id){
+    var a=state.answers[id]||{};
+    return RevisionEngine.normalizeEvent({
+      sel:a.sel,conf:a.conf,correct:a.correct,distype:a.distype,dpurpose:a.dpurpose,
+      primary_ku:a.primary_ku,marked:a.marked,time:a.time,mode:a.mode,dt_ms:(a.dt_ms!==undefined?a.dt_ms:null),
+      key:(a.key!==undefined?a.key:null),difficulty:(a.difficulty!==undefined?a.difficulty:null),
+      purpose:(a.purpose!==undefined?a.purpose:null),cog:(a.cog!==undefined?a.cog:null),
+      secondary_kus:(a.secondary_kus!==undefined?a.secondary_kus:null),
+      rev_priority:(a.rev_priority!==undefined?a.rev_priority:null)
+    }, qById(id), now);
+  });
+}
+function revQueueData(){
+  var now=Date.now()/1000;
+  var qmap={}; QUESTIONS.forEach(function(q,i){ qmap[qid(q,i)]=q; });
+  var aggs=RevisionEngine.aggregate(revEvents(), qmap);
+  var metas=kuMetasFromBank();
+  return {aggs:aggs,queue:RevisionEngine.buildQueue(aggs, metas, QUESTIONS, now, null),metas:metas,now:now};
+}
+function currentBandFor(kuId){
+  try{
+    var d=revQueueData();
+    for(var i=0;i<d.queue.length;i++) if(d.queue[i].ku_id===kuId) return d.queue[i].priority;
+  }catch(e){}
+  return null;
+}
+function revAnsweredBlobs(){
+  var out=[];
+  Object.keys(state.answers).forEach(function(id){
+    var a=state.answers[id]; if(a&&a.sel){ var q=qById(id); if(q) out.push(questionBlobOf(q)); }
+  });
+  return out;
+}
+function questionBlobOf(q){
+  var parts=[q.stem||q.question||""];
+  (q.options||[]).forEach(function(o){ parts.push((o&&typeof o==="object")?(o.text||""):String(o)); });
+  return parts.join(" ");
+}
+function revLastPurpose(kuId){
+  var last=null,lt=-1;
+  Object.keys(state.answers).forEach(function(id){
+    var a=state.answers[id]; if(a&&a.primary_ku===kuId){
+      var t=a.time?Date.parse(a.time):0; if(t>=lt){ lt=t; var q=qById(id); last=q?(q.purpose||null):(a.purpose||null); }
+    }
+  });
+  return last;
+}
+function startRevisionSession(entries){
+  var answered={};
+  Object.keys(state.answers).forEach(function(id){ if(state.answers[id]&&state.answers[id].sel) answered[id]=1; });
+  var blobs=revAnsweredBlobs(), items=[], reasons={}, seenQ={};
+  entries.forEach(function(e){
+    var weaks=((e.weak_forms||[]).length?e.weak_forms.slice():[null]);
+    weaks.push(null); // final fallback: any form on the same KU
+    for(var k=0;k<weaks.length;k++){
+      var r=RevisionEngine.selectQuestion(e.ku_id, weaks[k], QUESTIONS, {
+        answeredIds:Object.keys(answered), excludeIds:[],
+        answeredBlobs:blobs, lastPurpose:revLastPurpose(e.ku_id), fidelity:"SOURCE_BOUND"});
+      if(r.question_id&&!seenQ[r.question_id]){
+        seenQ[r.question_id]=1; items.push(r.question_id);
+        var why=(e.reasons||[]).map(function(x){ return RevisionEngine.REASON_LABELS[x]||x; }).join("; ");
+        reasons[r.question_id]="Selected because "+why.toLowerCase()+
+          (weaks[k]?(" — weak form: "+weaks[k]):"")+".";
+        break;
+      }
+    }
+  });
+  if(!items.length) return 0;
+  var idxs=[];
+  items.forEach(function(id){ for(var i=0;i<QUESTIONS.length;i++) if(qid(QUESTIONS[i],i)===id){ idxs.push(i); break; } });
+  state.revSession={ids:items,pos:0,reasons:reasons};
+  state.revReasons=reasons;
+  state.revActive=true; state.revStarted=true;
+  view=idxs; state.idx=0; render();
+  return items.length;
+}
+function endRevisionSession(){ state.revActive=false; state.revSession=null; /* revReasons persist: they record why each item was selected */ }
 function filterValues(){
   return { t:document.getElementById("f_topic").value, d:document.getElementById("f_diff").value,
     tr:document.getElementById("f_tier").value, ty:document.getElementById("f_type").value,
@@ -502,7 +602,7 @@ function filtered(){
   return list;
 }
 var view = [];
-function refreshView(){ view = filtered(); if(state.idx>=view.length) state.idx=0; }
+function refreshView(){ if(state.revActive&&state.revSession){ if(state.idx>=view.length) state.idx=0; return; } view = filtered(); if(state.idx>=view.length) state.idx=0; }
 function curQ(){ if(!view.length) return null; return {q:QUESTIONS[view[state.idx]], i:view[state.idx]}; }
 /* ---------- drawers ---------- */
 var openDrawerId = null;
@@ -630,6 +730,7 @@ function renderQ(){
   }
   var q=c.q, i=c.i, id=qid(q,i), opts=normOptions(q), key=normKey(q,opts);
   var a=state.answers[id];
+  if(!(a&&a.sel)) state.qShownAt=Date.now();
   var hideFb=(state.mode==="test"&&!state.testFinished);
   var showFb=!!(a&&a.sel)&&(state.mode!=="test"||state.testFinished);
   // subtle context
@@ -715,6 +816,13 @@ function renderFeedback(q,opts,key,a){
   fb.style.display="block";
   var ok=a.correct, yours=a.sel||"—";
   var keyText=""; opts.forEach(function(o){ if(o.key===key) keyText=o.text; });
+  var why=""; try{
+    for(var qi=0;qi<QUESTIONS.length;qi++) if(QUESTIONS[qi]===q){
+      var rid=qid(q,qi);
+      if(state.revReasons&&state.revReasons[rid]) why=state.revReasons[rid];
+      break;
+    }
+  }catch(e){}
   var html='<div class="sn-head"><span class="sn-badge '+(ok?"good":"bad")+'">'+(ok?"Correct":"Not quite")+'</span><span class="sn-key"><b>'+esc(key)+".</b> "+esc(keyText)+"</span></div>";
   html+='<div class="sn-body">';
   if(!ok) html+='<div class="sn-compare"><div><b>Your answer</b>'+esc(yours)+'</div><div><b>Correct answer</b>'+esc(key)+'</div></div>';
@@ -725,6 +833,7 @@ function renderFeedback(q,opts,key,a){
   if(trap) html+='<h4>Why the distractor tempts you</h4><p>Option '+esc(trap.key)+" tests "+esc(friendlyDistractor(trap))+"; re-read the stem and eliminate it deliberately next time.</p>";
   if(q.misconception) html+='<h4>Common mix-up</h4><p>'+esc(q.misconception)+"</p>";
   if(qmem(q)) html+='<h4>Remember</h4><p>'+esc(qmem(q))+"</p>";
+  if(why) html+='<h4>Why this question</h4><p>'+esc(why)+"</p>";
   html+='<h4>Source</h4><p style="color:var(--muted);font-size:13px">'+esc(qsrc(q)||"Source reference on file")+" · "+esc(qkus(q))+"</p>";
   html+="</div>";
   html+='<details class="tech"><summary>Details: IDs, difficulty, purpose</summary><div class="tech-body">ID '+esc(q.id||"")+" · Type "+esc(qtype(q))+" · Tier "+esc(qtier(q))+" · Purpose "+esc(qpurpose(q))+(q.difficulty_reason?(" · "+esc(q.difficulty_reason)):"")+"</div></details>";
@@ -740,38 +849,50 @@ function renderSourceBody(q){
     +'<p style="font-size:12.5px;color:var(--muted)">Context shown is limited to recorded references. Excerpts are never fabricated.</p>';
 }
 /* ---------- revision queue ---------- */
-function revisionGroups(){
-  var groups={};
-  QUESTIONS.forEach(function(q,i){
-    var id=qid(q,i), a=state.answers[id];
-    var miss=a&&a.sel&&!a.correct;
-    var hi=qrev(q)==="critical"||qrev(q)==="high";
-    if(!miss&&!(hi&&!a)) return;
-    var topic=qtopic(q);
-    var reason=miss?"Missed":"High priority";
-    if(miss&&(q.confusion_cluster||a.distype)) reason="Needs distinction";
-    var k2=reason+"|||"+topic;
-    if(!groups[k2]) groups[k2]={reason:reason,topic:topic,items:[]};
-    groups[k2].items.push(i);
-  });
-  return Object.keys(groups).map(function(k){return groups[k];});
+/* ---------- revision queue (KU-level engine) ---------- */
+function revReasonText(reasons){
+  return (reasons||[]).map(function(x){ return RevisionEngine.REASON_LABELS[x]||x; }).join("; ");
 }
 function renderRevQueue(){
   var box=document.getElementById("revQueue");
   if(state.mode!=="revision"||state.revStarted){ box.innerHTML=""; return; }
-  var g=revisionGroups();
-  if(!g.length){ box.innerHTML='<div class="empty"><b>No revision questions yet.</b>Answer some questions first — misses and high-priority items will queue here.</div>'; return; }
-  var html="";
-  g.slice(0,6).forEach(function(gr,n){
-    var pri=n===0?"critical":(n<3?"high":"medium");
-    html+='<div class="rev-card"><span class="pri pri-'+pri+'">'+esc(pri)+'</span><span style="flex:1"><b>'+esc(gr.reason)+" · "+esc(gr.topic)+"</b><small>"+esc(String(gr.items.length))+" question(s) · a new form, not a repeat</small></span><button class='btn btn-sm btn-secondary' data-rev='"+n+"' type='button'>Practise</button></div>";
+  var d=null;
+  try{ d=revQueueData(); }catch(e){ d={queue:[]}; }
+  var modesHtml='<div class="revmodes" role="group" aria-label="Revision views">'+REV_MODE_LABELS.map(function(m){
+    return '<button type="button" data-rm="'+m[0]+'" class="'+(state.revMode===m[0]?"active":"")+'" aria-pressed="'+(state.revMode===m[0])+'">'+esc(m[1])+"</button>";
+  }).join("")+"</div>";
+  if(!d.queue.length){
+    box.innerHTML=modesHtml+'<div class="empty"><b>No revision items yet.</b>Answer some questions first — misses and high-priority items will queue here.</div>';
+    bindRevModes(box); return;
+  }
+  var list=[];
+  try{ list=RevisionEngine.selectSession(d.queue, state.revMode||"targeted"); }
+  catch(e){ list=d.queue.slice(); }
+  if(!list.length){
+    box.innerHTML=modesHtml+'<div class="empty"><b>Nothing in this view.</b>Try another revision view above.</div>';
+    bindRevModes(box); return;
+  }
+  var html=modesHtml+'<div class="rev-queue">';
+  list.slice(0,12).forEach(function(e,n){
+    var weak=(e.weak_forms||[]).join(", ")||"—";
+    var last=e.last_result?(e.last_result+(e.confidence_signal?(" · "+e.confidence_signal):"")):"not attempted";
+    html+='<div class="rev-card"><span class="pri pri-'+esc(e.priority)+'">'+esc(e.priority)+'</span><span style="flex:1"><b>'+esc(e.topic||"General")+(e.subtopic?(" · "+esc(e.subtopic)):"")+'</b>'
+      +'<span class="rev-why">Why you are seeing this: '+esc(revReasonText(e.reasons))+'</span>'
+      +'<span class="rev-meta">Weakness: '+esc(weak)+' · Last result: '+esc(last)+' · Mastery: '+esc(e.mastery||"")+'</span>'
+      +'<small>'+esc(e.next_action||"Practise items")+'</small></span><button class="btn btn-sm btn-secondary" data-rev="'+n+'" type="button">Start revision</button></div>';
   });
-  box.innerHTML='<div class="rev-queue">'+html+"</div>";
+  html+="</div>";
+  box.innerHTML=html;
+  bindRevModes(box);
   var btns=box.querySelectorAll("[data-rev]");
   for(var i=0;i<btns.length;i++){ (function(n){ btns[i].onclick=function(){
-    var target=g[n].items[0];
-    var pos=view.indexOf(target); state.idx=pos>=0?pos:0; state.revStarted=true; render();
+    var count=startRevisionSession([list[n]]);
+    if(!count){ alert("No fresh questions left for this item."); }
   }; })(i); }
+}
+function bindRevModes(box){
+  var btns=box.querySelectorAll("[data-rm]");
+  for(var i=0;i<btns.length;i++){ (function(b){ b.onclick=function(){ state.revMode=b.getAttribute("data-rm"); state.revStarted=false; render(); }; })(btns[i]); }
 }
 /* ---------- actions ---------- */
 function selectedOpt(){ var rs=document.getElementsByName("opt"); for(var i=0;i<rs.length;i++) if(rs[i].checked) return rs[i].value; return null; }
@@ -789,8 +910,18 @@ function submit(){
   if(!sel){ hb2(); return; }
   var opts=normOptions(q), key=normKey(q,opts), chosen=null;
   for(var k=0;k<opts.length;k++) if(opts[k].key===sel) chosen=opts[k];
-  state.answers[id]={sel:sel,conf:selectedConf(),correct:(sel===key),distype:(chosen&&chosen.confusion_type)||"",dpurpose:(chosen&&chosen.distractor_purpose)||"",primary_ku:primaryKu(q),marked:(ex&&ex.marked)?true:false,time:new Date().toISOString()};
+  state.answers[id]={sel:sel,conf:selectedConf(),correct:(sel===key),distype:(chosen&&chosen.confusion_type)||"",dpurpose:(chosen&&chosen.distractor_purpose)||"",primary_ku:primaryKu(q),marked:(ex&&ex.marked)?true:false,time:new Date().toISOString(),mode:state.mode,dt_ms:(state.qShownAt?Date.now()-state.qShownAt:null),key:key,difficulty:(q.difficulty||null),purpose:(q.purpose||null),cog:(q.cognitive_level||null),secondary_kus:(function(){var s=[];(q.knowledge_units||[]).forEach(function(e){if(e&&e.role==="secondary"&&e.ku_id)s.push(e.ku_id);});return s;})(),rev_priority:null};
+  try{ state.answers[id].rev_priority=currentBandFor(primaryKu(q)); }catch(e){}
   saveSession(); render();
+  if(state.revActive&&state.revSession){
+    var doneId=id;
+    state.revSession.pos++;
+    if(state.revSession.pos>=state.revSession.ids.length){
+      endRevisionSession(); state.revStarted=false; refreshView();
+      for(var k2=0;k2<view.length;k2++){ if(qid(QUESTIONS[view[k2]],view[k2])===doneId){ state.idx=k2; break; } }
+      render();
+    }
+  }
   if(state.mode==="rapid"){ setTimeout(function(){ goNext(); },450); }
 }
 function hb2(){
@@ -805,6 +936,7 @@ function render(){ renderHeader(); renderNav(); renderQ(); }
 function setMode(m){
   if(m==="analytics"){ showAnalytics(); return; }
   state.mode=m; state.idx=0; state.revStarted=false;
+  endRevisionSession();
   document.querySelector(".mobilebar").style.display="";
   saveSession(); refreshView(); render();
   document.getElementById("analyticsview").style.display="none";
@@ -871,6 +1003,21 @@ function showAnalytics(){
   h+='<div class="an-section"><h3>Revision priority</h3><p class="sub">Most-missed knowledge units.</p>'
     +(kuRows.length?("<ol style='margin:0;padding-left:20px'>"+kuRows.map(function(k,i){return "<li><b>"+esc(k)+"</b> — "+kuMiss[k]+" miss(es)</li>";}).join("")+"</ol><p style='margin-top:10px'><button class='btn btn-sm btn-secondary' data-act='rev-weak' type='button'>Open revision queue</button></p>"):"<p class='sub'>No misses yet.</p>")+"</div>";
   h+='<div class="an-section"><h3>By purpose &amp; difficulty</h3><p class="sub">Where reasoning breaks down.</p>'+barRows(grp(function(q){return qpurpose(q);}))+"</div>";
+  try{
+    var rd=revQueueData();
+    var weakTop=rd.queue.slice(0,5);
+    h+='<div class="an-section"><h3>Revision</h3><p class="sub">Weak knowledge units, confidence signals and mastery.</p>';
+    if(weakTop.length){
+      h+="<ol style='margin:0;padding-left:20px'>"+weakTop.map(function(e){
+        return "<li><b>"+esc(e.ku_id)+"</b> — "+esc(e.priority)+", "+esc((e.weak_forms||[]).join(", ")||"recall")+", mastery "+esc(e.mastery||"")+"</li>";
+      }).join("")+"</ol>";
+      h+="<p class='sub'>High-confidence errors: "+certainWrong+" of "+certainTot+" certain answers need revision.</p>";
+      h+="<p><button class='btn btn-sm btn-secondary' data-act='rev-hce' type='button'>Review high-confidence errors</button> <button class='btn btn-sm btn-secondary' data-act='rev-cog' type='button'>Review cognitive gaps</button></p>";
+    } else {
+      h+="<p class='sub'>No revision items — nothing attempted yet, or recent accuracy is strong.</p>";
+    }
+    h+="</div>";
+  }catch(e){}
   document.getElementById("analytics").innerHTML=h;
   var btns=document.querySelectorAll("#analytics [data-act]");
   for(var i=0;i<btns.length;i++){ (function(b){ b.onclick=function(){
@@ -880,6 +1027,8 @@ function showAnalytics(){
     if(act==="rev-incorrect"){ document.getElementById("f_incorrect").checked=true; }
     if(act==="rev-high"){ document.getElementById("f_rev").value="high"; }
     if(act==="rev-weak"){ document.getElementById("f_weak").checked=true; }
+    if(act==="rev-hce"){ state.revMode="hce"; }
+    if(act==="rev-cog"){ state.revMode="cognitive"; }
     document.getElementById("quizBtn").style.display="none";
     document.getElementById("analyticsview").style.display="none";
     document.getElementById("quizview").style.display="";
@@ -887,7 +1036,7 @@ function showAnalytics(){
   }; })(btns[i]); }
 }
 /* ---------- events ---------- */
-function onFilterChange(){ state.idx=0; refreshView(); render(); }
+function onFilterChange(){ if(state.revActive){ endRevisionSession(); state.revStarted=false; } state.idx=0; refreshView(); render(); }
 document.getElementById("submitbtn").onclick=submit;
 document.getElementById("mSubmit").onclick=submit;
 document.getElementById("prevbtn").onclick=goPrev;
@@ -913,13 +1062,13 @@ var closers=document.querySelectorAll("[data-close]"); for(var ci=0;ci<closers.l
 document.getElementById("navSearch").oninput=renderNav;
 var nfs=document.querySelectorAll("[data-nf]"); for(var ni=0;ni<nfs.length;ni++){ (function(b){ b.onclick=function(){ state.navFilter=b.getAttribute("data-nf"); for(var k=0;k<nfs.length;k++) nfs[k].classList.toggle("active",nfs[k]===b); renderNav(); }; })(nfs[ni]); }
 document.getElementById("exportbtn").onclick=function(){
-  var blob=new Blob([JSON.stringify({meta:META,status:STATUS,exported_at:new Date().toISOString(),answers:state.answers},null,2)],{type:"application/json"});
+  var blob=new Blob([JSON.stringify({study_session_version:2,meta:META,status:STATUS,exported_at:new Date().toISOString(),answers:state.answers,mode:state.mode,revision_state:state.revState||{queue:[],sessions:[]}},null,2)],{type:"application/json"});
   var a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="study_session.json"; a.click(); setTimeout(function(){URL.revokeObjectURL(a.href);},5000);
 };
 document.getElementById("importbtn").onclick=function(){ document.getElementById("importfile").click(); };
 document.getElementById("importfile").onchange=function(e){
   var f=e.target.files[0]; if(!f) return; var r=new FileReader();
-  r.onload=function(){ try{ var s=JSON.parse(r.result); if(s&&s.answers){ state.answers=s.answers; saveSession(); refreshView(); render(); closeDrawers(); } else { alert("No answers found in file."); } }catch(err){ alert("Invalid JSON: "+err.message); } };
+  r.onload=function(){ try{ var s=JSON.parse(r.result); var res=RevisionEngine.migrateSession(s); state.answers=(res[0]&&res[0].answers)||{}; state.revState=(res[0]&&res[0].revision_state)||{queue:[],sessions:[]}; if(res[0]&&res[0].mode) state.mode=res[0].mode; saveSession(); refreshView(); render(); closeDrawers(); }catch(err){ alert("Invalid session file: "+err.message); } };
   r.readAsText(f); e.target.value="";
 };
 document.addEventListener("keydown",function(e){
