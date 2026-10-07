@@ -43,6 +43,31 @@ def decide(audit, thr):
     if audit.get("limitations"):
         reasons.append("%d limitations: %s" % (len(audit["limitations"]), "; ".join(audit["limitations"][:3])))
         limited = True
+    # ---- competitive-engine gate (only when new audit fields present) ----
+    # required cognitive coverage: Tier 1/2 cognitive gaps block COMPREHENSIVE
+    # only when the audit actually computed cognitive data.
+    cog = audit.get("cognitive_by_tier", None)
+    gaps = audit.get("cognitive_gaps", None)
+    purpose_cov = audit.get("purpose_coverage", {}) or {}
+    new_engine = bool(audit.get("has_explicit_purposes"))
+    # Only enforce cognitive blocking when the new engine was actually used
+    # (explicit purpose metadata present). Legacy banks without purpose tags are
+    # grandfathered so existing COMPREHENSIVE packages keep passing.
+    if new_engine and isinstance(cog, dict) and cog and isinstance(gaps, dict) and purpose_cov:
+        if gaps:
+            # critical: any Tier-1 KU missing required forms blocks COMPREHENSIVE
+            reasons.append("%d Tier 1/2 KUs lack required cognitive forms "
+                           "(e.g. %s)" % (len(gaps), sorted(gaps)[:3]))
+    # high-priority confusion clusters unaddressed -> warn (blocks only if many)
+    unaddr = audit.get("unaddressed_clusters", None)
+    if new_engine and isinstance(unaddr, list) and unaddr:
+        if len(unaddr) >= 3:
+            reasons.append("%d confusion clusters unaddressed: %s" % (len(unaddr), unaddr[:3]))
+        # 1-2 unaddressed clusters are reported but do not alone block COMPREHENSIVE
+    # required exam purposes missing entirely -> block
+    missing_p = audit.get("missing_purposes", None)
+    if isinstance(missing_p, list) and missing_p:
+        reasons.append("required exam purpose(s) missing: %s" % missing_p)
     if not reasons:
         return "COMPREHENSIVE", reasons
     # LIMITED iff an extraction limitation makes completeness uncertifiable (E5);

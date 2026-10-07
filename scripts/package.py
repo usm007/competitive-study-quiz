@@ -34,25 +34,43 @@ def main(argv):
     kept = [x for x in qs if valid is None or x.get("id") in valid]
     excluded = [x.get("id") for x in qs if valid is not None and x.get("id") not in valid]
     tiers = {}
+    revpri = {}
     if a.inventory and os.path.isfile(a.inventory):
         inv = load_json(a.inventory)
         units = inv.get("units") if isinstance(inv, dict) else inv
         tiers = {u.get("id"): u.get("tier") for u in units}
+        for u in units:
+            rp = (u.get("dimensions") or {}).get("revision_priority")
+            if rp:
+                revpri[u.get("id")] = rp
     for x in kept:
         prims = [e.get("ku_id") for e in x.get("knowledge_units") or []
                  if isinstance(e, dict) and e.get("role") == "primary"]
         ts = [tiers[k] for k in prims if k in tiers]
         x["tier"] = min(ts) if ts else None
+        if not x.get("revision_priority"):
+            rps = [revpri[k] for k in prims if k in revpri]
+            # critical > high > medium > low
+            order = {"critical": 3, "high": 2, "medium": 1, "low": 0}
+            if rps:
+                x["revision_priority"] = sorted(rps, key=lambda r: order.get(r, 0), reverse=True)[0]
     ext = sum(1 for x in kept if x.get("origin") == "external")
     ext += sum(1 for x in kept for o in x.get("options") or []
                if isinstance(o, dict) and o.get("distractor_origin") == "external")
     prof = os.path.splitext(os.path.basename(a.profile))[0] if a.profile else "CUSTOM"
     import collections as _c
     by_type = dict(_c.Counter(x.get("type", "unknown") for x in kept))
+    by_purpose = dict(_c.Counter((x.get("purpose") or "unspecified") for x in kept))
+    by_cog = dict(_c.Counter((x.get("cognitive_level") or x.get("type") or "unspecified") for x in kept))
     pkg = {"meta": {"title": a.title, "source": a.source_label, "profile": prof,
                     "status": g.get("status"), "gate_reasons": g.get("reasons", []),
                     "coverage_by_tier": au.get("coverage_by_tier", {}),
+                    "cognitive_by_tier": au.get("cognitive_by_tier", {}),
+                    "purpose_coverage": au.get("purpose_coverage", by_purpose),
+                    "coverage_label": au.get("coverage_label", ""),
+                    "cognitive_label": au.get("cognitive_label", ""),
                     "validated": len(kept), "total": len(qs), "by_type": by_type,
+                    "by_purpose": by_purpose, "by_cognitive": by_cog,
                     "excluded": excluded,
                     "external_count": ext},
            "questions": kept}

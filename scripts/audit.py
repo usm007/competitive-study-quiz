@@ -155,16 +155,75 @@ def main(argv):
         lims.append("extraction_status=%s" % struct.get("extraction_status"))
     if not anchors:
         lims.append("no anchors extracted")
+    # ---- competitive-engine extensions (backward compatible) ----
+    cog_by_tier = cov.get("cognitive_by_tier", {}) or {}
+    cog_per_ku = cov.get("cognitive_per_ku", {}) or {}
+    purpose_cov = cov.get("purpose_coverage", {}) or {}
+    # cognitive gaps: KUs with missing required forms
+    cognitive_gaps = {}
+    for kid, ce in cog_per_ku.items():
+        if isinstance(ce, dict) and ce.get("missing_forms"):
+            if tier_of.get(kid) in ("1", "2"):
+                cognitive_gaps[kid] = ce.get("missing_forms")
+    # distinction gaps: recall covered but distinction missing
+    distinction_gaps = sorted([k for k, ce in cog_per_ku.items()
+                               if isinstance(ce, dict) and "distinction" in (ce.get("missing_forms") or [])
+                               and "recall" in (ce.get("covered_forms") or [])])
+    # confusion clusters: group KUs by confusion_cluster or confusable_with links
+    clusters = collections.defaultdict(list)
+    for u in units:
+        cc = u.get("confusion_cluster")
+        if cc:
+            clusters[str(cc)].append(u.get("id"))
+        elif u.get("confusable_with"):
+            key = "+".join(sorted([u.get("id")] + list(u.get("confusable_with") or []))[:4])
+            clusters["link:" + key].append(u.get("id"))
+    # cluster addressed? need >=1 validated question whose primaries span >=2 members
+    # or whose distractors reference another member (best-effort via bank)
+    cluster_status = {}
+    try:
+        bqs2 = find_bank()
+        for cname, members in clusters.items():
+            mset = set(members)
+            addressed = False
+            for q in (bqs2 or []):
+                if q.get("id") not in valid_ids:
+                    continue
+                kus = [e.get("ku_id") for e in (q.get("knowledge_units") or []) if isinstance(e, dict)]
+                opts_refs = [o.get("ku_ref") for o in (q.get("options") or []) if isinstance(o, dict) and o.get("ku_ref")]
+                hit = (set(kus) & mset) | (set(opts_refs or []) & mset)
+                prims = [e.get("ku_id") for e in (q.get("knowledge_units") or [])
+                         if isinstance(e, dict) and e.get("role") == "primary"]
+                if len(set(kus) & mset) >= 2 or (prims and any(r in mset for r in (opts_refs or []))):
+                    addressed = True
+                    break
+            cluster_status[cname] = {"members": members, "addressed": addressed}
+    except Exception:
+        for cname, members in clusters.items():
+            cluster_status[cname] = {"members": members, "addressed": False}
+    unaddressed_clusters = sorted([k for k, v in cluster_status.items() if not v["addressed"]])
+    # exam-purpose coverage vs profile required_purposes
+    required_purposes = prof.get("required_purposes", []) or []
+    missing_purposes = [p for p in required_purposes if not purpose_cov.get(p)]
+    # purpose mix actually exercised
+    # tier cognitive summary
     audit = {"ku_counts": ku_counts, "coverage_by_tier": cov.get("by_tier", {}), "status_dist": cov.get("status_dist", {}),
              "uncovered_t1_t2": uncov_t1t2, "partial": partial, "section_shares": shares, "skew_flags": skew,
              "duplicate_flags": dup_flags, "weak_type_flags": weak, "anchor_recall": round(recall, 4),
              "diff_status": dstatus, "density_flags": dens,
              "downgrade_flags": downgrade,
              "validation_rates": {"total": nt, "validated": nv, "rejected": nt - nv, "pct_validated": round(100 * nv / nt, 2) if nt else 0.0},
-             "type_mix_vs_target": {"actual_pct": mix_pct, "target": target}, "limitations": lims}
+             "type_mix_vs_target": {"actual_pct": mix_pct, "target": target}, "limitations": lims,
+             "cognitive_by_tier": cog_by_tier, "cognitive_gaps": cognitive_gaps,
+             "distinction_gaps": distinction_gaps,
+             "purpose_coverage": purpose_cov, "missing_purposes": missing_purposes,
+             "cluster_status": cluster_status, "unaddressed_clusters": unaddressed_clusters,
+             "section_coverage": cov.get("section_coverage", {}),
+             "has_explicit_purposes": cov.get("has_explicit_purposes", False),
+             "coverage_label": cov.get("coverage_label", ""), "cognitive_label": cov.get("cognitive_label", "")}
     dest = a.out if a.out.endswith(".json") else os.path.join(a.out, "audit_report.json")
     save_json(dest, audit)
-    print("audit: T1/T2 uncovered=%d partial=%d recall=%.2f%% val=%d/%d -> %s" % (len(uncov_t1t2), len(partial), recall * 100, nv, nt, dest))
+    print("audit: T1/T2 uncovered=%d partial=%d recall=%.2f%% val=%d/%d cog_gaps=%d purposes=%s -> %s" % (len(uncov_t1t2), len(partial), recall * 100, nv, nt, len(cognitive_gaps), dict(purpose_cov), dest))
     return 0
 
 

@@ -206,6 +206,75 @@ def qstatements_texts(q: dict) -> list[str]:
     return out
 
 
+def qpurpose(q: dict) -> str:
+    return str(q.get("purpose") or "")
+
+
+def qcognitive(q: dict) -> str:
+    return str(q.get("cognitive_level") or "")
+
+
+def qrevision_priority(q: dict) -> str:
+    rp = q.get("revision_priority")
+    if isinstance(rp, str) and rp:
+        return rp
+    return ""
+
+
+def primary_ku(q: dict):
+    for e in q.get("knowledge_units") or []:
+        if isinstance(e, dict) and e.get("role") == "primary":
+            return e.get("ku_id")
+    return None
+
+
+def compute_revision_queue(pkg: dict, answers: dict) -> list[dict]:
+    """KU-level revision priorities from wrong answers.
+
+    answers: {qid: {correct: bool, confidence: str, confusion: str}}
+    Returns ranked [{ku_id, misses, weight, priority}].
+    Do not just repeat the original question: callers select a NEW valid
+    question testing the same KU in a different way.
+    """
+    from collections import Counter
+    misses = Counter()
+    conf_w = {"Certain": 3, "Fairly confident": 2, "Unsure": 1, "Guessing": 1}
+    q_by_id = {}
+    for i, q in enumerate(pkg.get("questions", [])):
+        q_by_id[qid(q, i)] = q
+    for qid_, a in (answers or {}).items():
+        if not isinstance(a, dict) or a.get("correct"):
+            continue
+        q = q_by_id.get(qid_)
+        ku = primary_ku(q) if q else None
+        ku = ku or (a.get("primary_ku") or "UNKNOWN")
+        w = conf_w.get(str(a.get("confidence") or "Guessing"), 1)
+        # Certain+wrong weighs most (overconfidence signal)
+        misses[ku] += w
+    ranked = []
+    for ku, w in misses.most_common():
+        pri = "critical" if w >= 5 else ("high" if w >= 3 else "medium")
+        ranked.append({"ku_id": ku, "misses_weight": w, "priority": pri})
+    # add high-priority KUs never attempted
+    return ranked
+
+
+def calibration_summary(answers: dict) -> dict:
+    """Confidence calibration: Certain+wrong, etc. Observable patterns only."""
+    cats = {}
+    for a in (answers or {}).values():
+        if not isinstance(a, dict):
+            continue
+        key = "%s+%s" % (a.get("confidence") or "?", "correct" if a.get("correct") else "wrong")
+        cats[key] = cats.get(key, 0) + 1
+    certain_total = sum(v for k, v in cats.items() if k.startswith("Certain"))
+    certain_wrong = cats.get("Certain+wrong", 0)
+    return {"buckets": cats, "certain_total": certain_total,
+            "certain_wrong": certain_wrong,
+            "overconfidence_note": ("You were certain on %d and missed %d." % (certain_total, certain_wrong))
+            if certain_total else ""}
+
+
 def non_latin_letters(pkg: dict) -> set[str]:
     chars: set[str] = set()
 

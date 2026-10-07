@@ -163,12 +163,18 @@ def build_A(pkg: dict, meta: dict, prof: dict, cfg: dict, st: dict, fonts: tuple
                   "3. Mark your answers on the OMR-style grid on the last page.", st["body"]),
         Spacer(1, float(sp.get("after_block", 6))),
     ]
+    last_topic = None
     for i, q in enumerate(pkg["questions"]):
         opts = norm_options(q)
         n = i + 1
-        block: list = [Paragraph(
+        topic = qtopic(q)
+        block: list = []
+        if topic != last_topic:
+            block.append(Paragraph(esc(topic), st["h2"]))
+            last_topic = topic
+        block.append(Paragraph(
             f"<b>Q{n}. [{esc(qid(q, i))}]</b>  {esc(q.get('stem') or q.get('question') or '')}",
-            st["body"])]
+            st["body"]))
         stmts = qstatements_texts(q)
         if stmts:
             items = [ListItem(Paragraph(esc(s), st["body"]), leftIndent=18) for s in stmts]
@@ -249,9 +255,24 @@ def build_C(pkg: dict, meta: dict, prof: dict, cfg: dict, st: dict, fonts: tuple
             block.append(Paragraph(f"<b>Source:</b> {esc(qsrc_text(q))}", st["small"]))
         if qmem(q):
             block.append(Paragraph(f"<b>Memory aid:</b> {esc(qmem(q))}", st["body"]))
-        block.append(Paragraph(f"Topic: {esc(qtopic(q))}", st["small"]))
+        extra = []
+        if q.get("purpose"): extra.append("Purpose: %s" % q.get("purpose"))
+        if q.get("cognitive_level"): extra.append("Cognitive: %s" % q.get("cognitive_level"))
+        if q.get("revision_priority"): extra.append("Revision: %s" % q.get("revision_priority"))
+        if q.get("misconception"): extra.append("Misconception: %s" % q.get("misconception"))
+        if q.get("difficulty_reason"): extra.append("Difficulty: %s" % q.get("difficulty_reason"))
+        block.append(Paragraph(f"Topic: {esc(qtopic(q))}" + (" \u00b7 " + esc(" | ".join(extra)) if extra else ""), st["small"]))
         block.append(Spacer(1, float(sp.get("after_question", 10))))
         story.append(KeepTogether(block))
+    rev = [q for q in pkg["questions"] if str(q.get("revision_priority") or "") in ("critical", "high")]
+    if rev:
+        story.append(PageBreak())
+        story.append(Paragraph("Revision Sheet (high-priority)", st["h1"]))
+        story.append(Paragraph("Focus these %d items first. Re-attempt each in a different form." % len(rev), st["small"]))
+        for q in rev:
+            story.append(Paragraph("<b>%s</b> \u2014 %s [%s]" % (esc(qid(q, pkg["questions"].index(q))), esc(q.get("stem") or q.get("question") or ""), esc(str(q.get("revision_priority")))), st["body"]))
+            if qmem(q):
+                story.append(Paragraph("Aid: %s" % esc(qmem(q)), st["small"]))
     doc.build(story, onFirstPage=footer(title + " (C)"), onLaterPages=footer(title + " (C)"))
     print(f"OK: wrote {out}")
 

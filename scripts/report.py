@@ -45,6 +45,19 @@ def main(argv):
     L.append("  section shares: %s" % au.get("section_shares"))
     L.append("  skew flags: %d" % len(au.get("skew_flags", [])))
     L.append("")
+    L.append("COGNITIVE COVERAGE (content coverage != cognitive coverage)")
+    for t, c in sorted((au.get("cognitive_by_tier", {}) or {}).items()):
+        L.append("  tier %s: %d/%d cognitively covered (%.1f%%)" % (
+            t, c.get("cognitively_covered", 0), c.get("total", 0), c.get("pct", 0)))
+    L.append("  coverage label: %s" % (au.get("coverage_label") or "n/a"))
+    L.append("  cognitive label: %s" % (au.get("cognitive_label") or "n/a"))
+    L.append("  cognitive gaps T1/T2: %d %s" % (
+        len(au.get("cognitive_gaps", {}) or {}), sorted((au.get("cognitive_gaps", {}) or {}))[:10]))
+    L.append("  distinction gaps (recall ok, distinction missing): %s" % (au.get("distinction_gaps", [])[:10]))
+    L.append("  purpose coverage: %s" % (au.get("purpose_coverage", {})))
+    L.append("  missing purposes: %s" % (au.get("missing_purposes", [])))
+    L.append("  unaddressed confusion clusters: %s" % (au.get("unaddressed_clusters", [])[:6]))
+    L.append("")
     L.append("VALIDATION")
     vr = au.get("validation_rates", {})
     L.append("  validated: %d/%d (%.1f%%)" % (vr.get("validated", 0), vr.get("total", 0), vr.get("pct_validated", 0)))

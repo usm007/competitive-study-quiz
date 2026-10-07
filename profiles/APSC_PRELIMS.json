@@ -1,1 +1,70 @@
-{"country": "India", "current_affairs_mode": "static_plus_state_current_affairs", "default_language": "source", "difficulty_distribution": {"easy": 35, "hard": 15, "medium": 50}, "factual_density": "high", "name": "APSC_PRELIMS", "negative_marking": {"enabled": true, "penalty_fraction": 0.25, "verified": false}, "notes": "Assam PSC prelims pattern mirrors UPSC; verify against the current official notification.", "options_per_question": 4, "preferred_question_types": ["statement_based", "factual_mcq", "match_pairs", "elimination_mcq"], "question_style": "UPSC-like with Assam-specific facts", "reasoning_style": "elimination_and_recall", "stage": "prelims", "subject": "general_studies", "target_type_mix": {"assertion_reason": 5, "elimination_mcq": 20, "factual_mcq": 40, "match_pairs": 10, "statement_based": 25}}
+{
+  "country": "India",
+  "current_affairs_mode": "static_plus_state_current_affairs",
+  "default_language": "source",
+  "difficulty_distribution": {
+    "easy": 35,
+    "hard": 15,
+    "medium": 50
+  },
+  "factual_density": "high",
+  "name": "APSC_PRELIMS",
+  "negative_marking": {
+    "enabled": true,
+    "penalty_fraction": 0.25,
+    "verified": false
+  },
+  "notes": "Assam PSC prelims pattern mirrors UPSC; verify against the current official notification. Profile rules marked verified:false must be checked (negative marking, paper pattern, counts).",
+  "options_per_question": 4,
+  "preferred_question_types": [
+    "statement_based",
+    "factual_mcq",
+    "match_pairs",
+    "elimination_mcq"
+  ],
+  "question_style": "UPSC-like with Assam-specific facts",
+  "reasoning_style": "elimination_and_recall",
+  "stage": "prelims",
+  "subject": "general_studies",
+  "target_type_mix": {
+    "assertion_reason": 5,
+    "elimination_mcq": 20,
+    "factual_mcq": 40,
+    "match_pairs": 10,
+    "statement_based": 25
+  },
+  "required_purposes": [
+    "statement_evaluation",
+    "elimination",
+    "distinction",
+    "association",
+    "direct_recall"
+  ],
+  "required_cognitive": [
+    "recall",
+    "distinction",
+    "application"
+  ],
+  "blueprint_rules": {
+    "emphasize": [
+      "statement questions",
+      "conceptual elimination",
+      "precise factual knowledge",
+      "pairs and associations",
+      "chronology where appropriate",
+      "distinctions between closely related provisions/concepts",
+      "high-value factual recall",
+      "interlinking"
+    ],
+    "difficulty_note": "Difficulty reflects reasoning demand, not wording."
+  },
+  "assam_specific": {
+    "enabled": true,
+    "note": "Architecture can emphasize Assam-specific material when the source contains it. Never contaminate SOURCE_BOUND with external Assam facts; only boost KUs already in the source.",
+    "verified": false
+  },
+  "revision_policy": {
+    "ku_level": true,
+    "new_form_on_retry": true
+  }
+}

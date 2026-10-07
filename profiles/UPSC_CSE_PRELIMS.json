@@ -1,1 +1,68 @@
-{"country": "India", "current_affairs_mode": "static_plus_recent", "default_language": "source", "difficulty_distribution": {"easy": 30, "hard": 20, "medium": 50}, "factual_density": "high", "name": "UPSC_CSE_PRELIMS", "negative_marking": {"enabled": true, "penalty_fraction": 0.333, "verified": false}, "notes": "2 papers (GS + CSAT). Penalty 1/3 per official pattern; verify against the current official notification.", "options_per_question": 4, "preferred_question_types": ["statement_based", "match_pairs", "assertion_reason", "factual_mcq", "elimination_mcq"], "question_style": "conceptual elimination with statement-based sets", "reasoning_style": "elimination_and_interlinking", "stage": "prelims", "subject": "general_studies", "target_type_mix": {"assertion_reason": 10, "elimination_mcq": 20, "factual_mcq": 30, "match_pairs": 10, "statement_based": 30}}
+{
+  "country": "India",
+  "current_affairs_mode": "static_plus_recent",
+  "default_language": "source",
+  "difficulty_distribution": {
+    "easy": 30,
+    "hard": 20,
+    "medium": 50
+  },
+  "factual_density": "high",
+  "name": "UPSC_CSE_PRELIMS",
+  "negative_marking": {
+    "enabled": true,
+    "penalty_fraction": 0.333,
+    "verified": false
+  },
+  "notes": "2 papers (GS + CSAT). Penalty 1/3 per official pattern; verify against the current official notification.",
+  "options_per_question": 4,
+  "preferred_question_types": [
+    "statement_based",
+    "match_pairs",
+    "assertion_reason",
+    "factual_mcq",
+    "elimination_mcq"
+  ],
+  "question_style": "conceptual elimination with statement-based sets",
+  "reasoning_style": "elimination_and_interlinking",
+  "stage": "prelims",
+  "subject": "general_studies",
+  "target_type_mix": {
+    "assertion_reason": 10,
+    "elimination_mcq": 20,
+    "factual_mcq": 30,
+    "match_pairs": 10,
+    "statement_based": 30
+  },
+  "required_purposes": [
+    "statement_evaluation",
+    "elimination",
+    "distinction",
+    "association",
+    "classification",
+    "application"
+  ],
+  "required_cognitive": [
+    "recall",
+    "distinction",
+    "application"
+  ],
+  "blueprint_rules": {
+    "emphasize": [
+      "statement questions",
+      "conceptual elimination",
+      "interlinking",
+      "precise factual knowledge",
+      "pairs and associations",
+      "subtle distinctions"
+    ],
+    "difficulty_note": "HARD = multiple statements / elimination / integrated reasoning."
+  },
+  "assam_specific": {
+    "enabled": false
+  },
+  "revision_policy": {
+    "ku_level": true,
+    "new_form_on_retry": true
+  }
+}

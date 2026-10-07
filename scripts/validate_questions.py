@@ -11,6 +11,15 @@ HARD = ("required_fields", "single_select", "key_consistent", "unique_options", 
         "ku_refs", "primary_ku", "sources_resolve", "source_quote", "statement_logic", "external_ok",
         "duplicate_ok", "hint_ok")
 KEYS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+PURPOSES = {"direct_recall", "conceptual_understanding", "distinction", "confusable_fact",
+            "elimination", "statement_evaluation", "chronology", "classification",
+            "cause_effect", "exception", "association", "application", "integrated_concept"}
+COG_LEVELS = {"recall", "understanding", "distinction", "application", "analysis"}
+DISTRACTOR_PURPOSES = {"confusable_fact", "adjacent_value", "partial_truth", "reversed_relation",
+                       "wrong_category", "wrong_entity", "wrong_date", "scope_error", "causal_reversal"}
+DIFF_BY_REASONING = {"easy": "direct factual recall",
+                     "medium": "relationship / distinction / classification",
+                     "hard": "multiple statements / elimination / subtle distinction / integrated reasoning"}
 
 
 def opt_covers(o, n):
@@ -171,6 +180,44 @@ def check_one(q, ku_ids, ku_map, block_ids, ntext, n_opts, mode, thr, seen_texts
         if leaked:
             c["clue_stem_overlap_ok"] = False
             notes.append("flag: stem words only in key: %s" % leaked[:3])
+    # ---- competitive-engine soft checks (flags, never hard-fail legacy) ----
+    # purpose: if present must be known; if absent, informational only
+    purp = q.get("purpose")
+    c["purpose_ok"] = True
+    if purp not in (None, "") and purp not in PURPOSES:
+        c["purpose_ok"] = False
+        notes.append("flag: unknown purpose %r" % (purp,))
+    # cognitive_level: if present must be known
+    c["cognitive_ok"] = True
+    if q.get("cognitive_level") not in (None, "") and q.get("cognitive_level") not in COG_LEVELS:
+        c["cognitive_ok"] = False
+        notes.append("flag: unknown cognitive_level %r" % (q.get("cognitive_level"),))
+    # distractor discipline: every distractor should carry a reason
+    c["distractor_purpose_ok"] = True
+    for o in opts:
+        if isinstance(o, dict) and not o.get("is_correct"):
+            dp = o.get("distractor_purpose")
+            if dp not in (None, "") and dp not in DISTRACTOR_PURPOSES:
+                c["distractor_purpose_ok"] = False
+                notes.append("flag: unknown distractor_purpose %r in %s" % (dp, o.get("key")))
+                break
+    # difficulty must reflect reasoning demand: hard questions should use
+    # statement/elimination/integrated forms, not just obscure wording
+    c["difficulty_ok"] = True
+    diff = (q.get("difficulty") or "").lower()
+    if diff == "hard" and q_form_t in ("factual_mcq", "one_liner_mcq", "true_false") and not q.get("statements"):
+        c["difficulty_ok"] = False
+        notes.append("flag: hard difficulty on plain recall form; needs statements/elimination/distinction")
+    # statement integrity: statement_based must carry 2+ statements with truth marks
+    c["statement_integrity_ok"] = True
+    if q_form_t in ("statement_based", "assertion_reason"):
+        sts = q.get("statements") or []
+        if len(sts) < 2:
+            c["statement_integrity_ok"] = False
+            notes.append("flag: %s needs >=2 statements" % q_form_t)
+        elif not all(isinstance(s, dict) and isinstance(truth_of(s), bool) for s in sts):
+            c["statement_integrity_ok"] = False
+            notes.append("flag: every statement needs a truth_value")
     status = "validated" if all(c[k] for k in HARD) else "rejected"
     return {"id": qid, "checks": c, "status": status, "notes": notes}
 

@@ -1,0 +1,8 @@
+{
+  "status": "PARTIAL",
+  "reasons": [
+    "103 Tier 1/2 KUs lack required cognitive forms (e.g. ['KU-0001', 'KU-0002', 'KU-0003'])",
+    "3 confusion clusters unaddressed: ['CL-0051', 'CL-0069', 'CL-0070']",
+    "required exam purpose(s) missing: ['distinction']"
+  ]
+}
