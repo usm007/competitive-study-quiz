@@ -1,0 +1,1 @@
+{"anchor_recall_threshold": 100, "default_profile": "GENERAL_PSC", "duplicate_threshold": 0.85, "fidelity_mode": "SOURCE_BOUND", "language": "source", "max_gapfill_rounds": 5, "options_per_question": 4, "outputs": ["web", "pdf"], "per_ku_cap": 3, "scope_mode": "COMPREHENSIVE", "section_share_cap": 2.0, "tier_targets": {"1": 100, "2": 100, "3": 80, "4": 0}}

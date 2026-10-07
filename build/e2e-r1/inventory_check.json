@@ -1,0 +1,20 @@
+{
+  "anchor_recall": {
+    "covered": 348,
+    "total": 348,
+    "rate": 1.0,
+    "threshold": 1.0,
+    "uncovered_ids": []
+  },
+  "density": {
+    "rates": {
+      "Exam Study Notes: Fundamental Rights and the Brahmaputra System": 46.55
+    },
+    "flags": []
+  },
+  "diff": {
+    "status": "resolved",
+    "note": "all diff items resolved"
+  },
+  "status": "PASS"
+}

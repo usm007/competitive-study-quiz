@@ -1,0 +1,74 @@
+{
+  "ku_counts": {
+    "1": 56,
+    "2": 52,
+    "3": 8,
+    "total": 116
+  },
+  "coverage_by_tier": {
+    "1": {
+      "total": 56,
+      "covered": 54,
+      "pct_covered": 96.43
+    },
+    "2": {
+      "total": 52,
+      "covered": 49,
+      "pct_covered": 94.23
+    },
+    "3": {
+      "total": 8,
+      "covered": 8,
+      "pct_covered": 100.0
+    }
+  },
+  "status_dist": {
+    "covered": 111,
+    "uncovered": 3,
+    "partially_covered": 2
+  },
+  "uncovered_t1_t2": [
+    "KU-0019",
+    "KU-0063",
+    "KU-0093"
+  ],
+  "partial": [
+    "KU-0047",
+    "KU-0089"
+  ],
+  "section_shares": {
+    "Exam Study Notes: Fundamental Rights and the Brahmaputra System": 1.0
+  },
+  "skew_flags": [],
+  "duplicate_flags": [],
+  "weak_type_flags": [],
+  "anchor_recall": 1.0,
+  "diff_status": "resolved",
+  "density_flags": [],
+  "downgrade_flags": [],
+  "validation_rates": {
+    "total": 59,
+    "validated": 59,
+    "rejected": 0,
+    "pct_validated": 100.0
+  },
+  "type_mix_vs_target": {
+    "actual_pct": {
+      "factual_mcq": 39.0,
+      "statement_based": 37.3,
+      "match_pairs": 10.2,
+      "elimination_mcq": 3.4,
+      "assertion_reason": 1.7,
+      "one_liner_mcq": 6.8,
+      "data_interpretation_mcq": 1.7
+    },
+    "target": {
+      "assertion_reason": 10,
+      "elimination_mcq": 15,
+      "factual_mcq": 40,
+      "match_pairs": 10,
+      "statement_based": 25
+    }
+  },
+  "limitations": []
+}

@@ -1,0 +1,4559 @@
+{
+ "units": [
+  {
+   "id": "KU-0001",
+   "topic": "Polity",
+   "subtopic": "FR overview",
+   "type": "date",
+   "statement": "The Constitution of India was adopted on 26 November 1949.",
+   "supporting_excerpt": "The Constitution of India was adopted on 26 November 1949",
+   "source": {
+    "page": 1,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "How to use these notes",
+     "1. Fundamental Rights: Articles 12 to 35, an overview"
+    ],
+    "block_id": "B-0005",
+    "char_start": 460,
+    "char_end": 517,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0002"
+   ],
+   "confusable_with": [
+    "KU-0002"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0002",
+   "topic": "Polity",
+   "subtopic": "FR overview",
+   "type": "date",
+   "statement": "The Fundamental Rights in Part III entered into force on 26 January 1950.",
+   "supporting_excerpt": "the Fundamental Rights in Part III entered into force on 26 January 1950",
+   "source": {
+    "page": 1,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "How to use these notes",
+     "1. Fundamental Rights: Articles 12 to 35, an overview"
+    ],
+    "block_id": "B-0005",
+    "char_start": 522,
+    "char_end": 594,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0001"
+   ],
+   "confusable_with": [
+    "KU-0001",
+    "KU-0007"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0003",
+   "topic": "Polity",
+   "subtopic": "FR overview",
+   "type": "constitutional_provision",
+   "statement": "Fundamental Rights are contained in Articles 12 to 35 of the Constitution.",
+   "supporting_excerpt": "Fundamental Rights are contained in Articles 12 to 35 of the Constitution",
+   "source": {
+    "page": 1,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "How to use these notes",
+     "1. Fundamental Rights: Articles 12 to 35, an overview"
+    ],
+    "block_id": "B-0005",
+    "char_start": 596,
+    "char_end": 669,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0004",
+   "topic": "Polity",
+   "subtopic": "FR overview",
+   "type": "concept",
+   "statement": "Fundamental Rights are justiciable: a citizen can move the Supreme Court under Article 32 or a High Court under Article 226 when a right is violated.",
+   "supporting_excerpt": "They are justiciable, which means a citizen can move the Supreme Court under Article 32 or a High Court under Article 226 when a right is violated",
+   "source": {
+    "page": 1,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "How to use these notes",
+     "1. Fundamental Rights: Articles 12 to 35, an overview"
+    ],
+    "block_id": "B-0005",
+    "char_start": 671,
+    "char_end": 817,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "high",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0064",
+    "KU-0073"
+   ],
+   "confusable_with": [
+    "KU-0073"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0005",
+   "topic": "Polity",
+   "subtopic": "Article 12-13",
+   "type": "definition",
+   "statement": "Under Article 12, 'State' includes the Government and Parliament of India, the Government and legislature of each State, all local authorities, and all other authorities in Indian territory or under Government of India control.",
+   "supporting_excerpt": "The term 'State' under Article 12 includes the Government and Parliament of India, the Government and legislature of each State, all local authorities, and all other authorities within the territory of India or under the control of the Government of India",
+   "source": {
+    "page": 1,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "How to use these notes",
+     "1. Fundamental Rights: Articles 12 to 35, an overview"
+    ],
+    "block_id": "B-0006",
+    "char_start": 832,
+    "char_end": 1087,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0006"
+   ],
+   "confusable_with": [
+    "KU-0006"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0006",
+   "topic": "Polity",
+   "subtopic": "Article 12-13",
+   "type": "definition",
+   "statement": "Under Article 13, 'law' includes ordinances, orders, bye-laws, rules, regulations, notifications, customs or usages having the force of law in India.",
+   "supporting_excerpt": "'Law' under Article 13 includes any ordinance, order, bye-law, rule, regulation, notification, custom or usage having the force of law in the territory of India",
+   "source": {
+    "page": 1,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "How to use these notes",
+     "1. Fundamental Rights: Articles 12 to 35, an overview"
+    ],
+    "block_id": "B-0007",
+    "char_start": 1102,
+    "char_end": 1262,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0005"
+   ],
+   "confusable_with": [
+    "KU-0005"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0007",
+   "topic": "Polity",
+   "subtopic": "Article 12-13",
+   "type": "principle",
+   "statement": "Pre-1950 laws inconsistent with Fundamental Rights are void to the extent of the inconsistency (Article 13).",
+   "supporting_excerpt": "all laws in force before 26 January 1950 that are inconsistent with Fundamental Rights are void to the extent of the inconsistency",
+   "source": {
+    "page": 1,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "How to use these notes",
+     "1. Fundamental Rights: Articles 12 to 35, an overview"
+    ],
+    "block_id": "B-0008",
+    "char_start": 1290,
+    "char_end": 1420,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0008",
+    "KU-0002"
+   ],
+   "confusable_with": [
+    "KU-0008"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0008",
+   "topic": "Polity",
+   "subtopic": "Article 12-13",
+   "type": "principle",
+   "statement": "Article 13 bars the State from making any law that takes away or abridges Part III rights.",
+   "supporting_excerpt": "bars the State from making any law that takes away or abridges the rights conferred by Part III",
+   "source": {
+    "page": 1,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "How to use these notes",
+     "1. Fundamental Rights: Articles 12 to 35, an overview"
+    ],
+    "block_id": "B-0008",
+    "char_start": 1430,
+    "char_end": 1525,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0007"
+   ],
+   "confusable_with": [
+    "KU-0007"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0009",
+   "topic": "Polity",
+   "subtopic": "Amendments",
+   "type": "amendment",
+   "statement": "The First Amendment (1951) added Article 13(4) for land-reform laws and inserted Articles 31A and 31B with the Ninth Schedule.",
+   "supporting_excerpt": "The First Amendment of 1951 added clause (4) to Article 13 protection for land-reform laws and inserted Articles 31A and 31B with the Ninth Schedule",
+   "source": {
+    "page": 1,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "How to use these notes",
+     "1. Fundamental Rights: Articles 12 to 35, an overview"
+    ],
+    "block_id": "B-0008",
+    "char_start": 1527,
+    "char_end": 1675,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0012"
+   ],
+   "confusable_with": [
+    "KU-0010",
+    "KU-0011"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0010",
+   "topic": "Polity",
+   "subtopic": "Amendments",
+   "type": "amendment",
+   "statement": "The Forty-second Amendment (1976) attempted to shield all Directive Principles from Articles 14 and 19.",
+   "supporting_excerpt": "The Forty-second Amendment of 1976 attempted to shield all Directive Principles from Articles 14 and 19",
+   "source": {
+    "page": 1,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "How to use these notes",
+     "1. Fundamental Rights: Articles 12 to 35, an overview"
+    ],
+    "block_id": "B-0008",
+    "char_start": 1677,
+    "char_end": 1780,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0011"
+   ],
+   "confusable_with": [
+    "KU-0009",
+    "KU-0011"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0011",
+   "topic": "Polity",
+   "subtopic": "Amendments",
+   "type": "amendment",
+   "statement": "The Forty-fourth Amendment (1978) rolled back Emergency excesses and deleted the right to property as a Fundamental Right.",
+   "supporting_excerpt": "the Forty-fourth Amendment of 1978 rolled back the worst excesses of the Emergency and deleted the right to property as a Fundamental Right",
+   "source": {
+    "page": 1,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "How to use these notes",
+     "1. Fundamental Rights: Articles 12 to 35, an overview"
+    ],
+    "block_id": "B-0008",
+    "char_start": 1786,
+    "char_end": 1925,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0010",
+    "KU-0054"
+   ],
+   "confusable_with": [
+    "KU-0009",
+    "KU-0010"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0012",
+   "topic": "Polity",
+   "subtopic": "Timeline",
+   "type": "timeline_entry",
+   "statement": "1951: the First Amendment adds Articles 31A, 31B and Article 15(4).",
+   "supporting_excerpt": "1951: the First Amendment adds Articles 31A, 31B and Article 15(4)",
+   "source": {
+    "page": 1,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:"
+    ],
+    "block_id": "B-0010",
+    "char_start": 2068,
+    "char_end": 2134,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0009"
+   ],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0013",
+   "topic": "Polity",
+   "subtopic": "Timeline",
+   "type": "timeline_entry",
+   "statement": "1976: the Forty-second Amendment inserts 14A-related changes and the words Socialist, Secular and Integrity into the Preamble.",
+   "supporting_excerpt": "1976: the Forty-second Amendment inserts Articles 14A-related changes and the words Socialist, Secular and Integrity into the Preamble",
+   "source": {
+    "page": 1,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:"
+    ],
+    "block_id": "B-0010",
+    "char_start": 2138,
+    "char_end": 2272,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 3,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "medium",
+    "factual_density": "medium",
+    "conceptual_density": "low",
+    "confusion_risk": "low",
+    "discrimination_value": "low",
+    "revision_priority": "low"
+   },
+   "related_ku": [
+    "KU-0010"
+   ],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0014",
+   "topic": "Polity",
+   "subtopic": "Timeline",
+   "type": "case_study",
+   "statement": "1992: the Supreme Court decides Indra Sawhney and caps reservations at 50 percent.",
+   "supporting_excerpt": "1992: the Supreme Court decides Indra Sawhney and caps reservations at 50 percent",
+   "source": {
+    "page": 1,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:"
+    ],
+    "block_id": "B-0010",
+    "char_start": 2415,
+    "char_end": 2496,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [],
+   "confusable_with": [
+    "KU-0019"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0015",
+   "topic": "Polity",
+   "subtopic": "Timeline",
+   "type": "amendment",
+   "statement": "2002: the Eighty-sixth Amendment inserts Article 21A on free and compulsory education for children aged 6 to 14.",
+   "supporting_excerpt": "2002: the Eighty-sixth Amendment inserts Article 21A on free and compulsory education for children aged 6 to 14 years",
+   "source": {
+    "page": 1,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:"
+    ],
+    "block_id": "B-0010",
+    "char_start": 2500,
+    "char_end": 2617,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0016",
+    "KU-0062"
+   ],
+   "confusable_with": [
+    "KU-0019"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0016",
+   "topic": "Polity",
+   "subtopic": "Timeline",
+   "type": "act_law",
+   "statement": "2009: the RTE Act is passed to enforce Article 21A.",
+   "supporting_excerpt": "2009: the Right of Children to Free and Compulsory Education Act is passed to enforce Article 21A",
+   "source": {
+    "page": 1,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:"
+    ],
+    "block_id": "B-0010",
+    "char_start": 2621,
+    "char_end": 2718,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0015"
+   ],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0017",
+   "topic": "Polity",
+   "subtopic": "Timeline",
+   "type": "case_study",
+   "statement": "2015: in Shreya Singhal v. Union of India the Supreme Court strikes down Section 66A of the IT Act.",
+   "supporting_excerpt": "2015: the Supreme Court strikes down Section 66A of the Information Technology Act in Shreya Singhal v. Union of India",
+   "source": {
+    "page": 1,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:"
+    ],
+    "block_id": "B-0010",
+    "char_start": 2722,
+    "char_end": 2840,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0056"
+   ],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0018",
+   "topic": "Polity",
+   "subtopic": "Timeline",
+   "type": "case_study",
+   "statement": "2017: a nine-judge bench in Puttaswamy v. Union of India declares privacy a Fundamental Right under Article 21.",
+   "supporting_excerpt": "2017: the nine-judge bench in Justice K. S. Puttaswamy v. Union of India declares privacy a Fundamental Right under Article 21",
+   "source": {
+    "page": 1,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:"
+    ],
+    "block_id": "B-0010",
+    "char_start": 2844,
+    "char_end": 2970,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0061"
+   ],
+   "confusable_with": [
+    "KU-0059"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0019",
+   "topic": "Polity",
+   "subtopic": "Timeline",
+   "type": "amendment",
+   "statement": "2019: the 103rd Amendment inserts Articles 15(6) and 16(6) giving up to 10% EWS reservation.",
+   "supporting_excerpt": "2019: the One Hundred and Third Amendment inserts Articles 15(6) and 16(6) providing up to 10 percent reservation for Economically Weaker Sections",
+   "source": {
+    "page": 1,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:"
+    ],
+    "block_id": "B-0010",
+    "char_start": 2974,
+    "char_end": 3120,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0045",
+    "KU-0046"
+   ],
+   "confusable_with": [
+    "KU-0014",
+    "KU-0015"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0020",
+   "topic": "Polity",
+   "subtopic": "Articles table",
+   "type": "table_value",
+   "statement": "Article 14: equality before law and equal protection; no person denied equality, reasonable classification allowed.",
+   "supporting_excerpt": "Article 14 | Equality before law and equal protection | No person denied equality; reasonable classification allowed",
+   "source": {
+    "page": 2,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "2. Articles at a glance"
+    ],
+    "block_id": "B-0013",
+    "char_start": 3553,
+    "char_end": 3669,
+    "table_ref": "articles"
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0037"
+   ],
+   "confusable_with": [
+    "KU-0021",
+    "KU-0022"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0021",
+   "topic": "Polity",
+   "subtopic": "Articles table",
+   "type": "table_value",
+   "statement": "Article 15: no discrimination on religion, race, caste, sex, place of birth; exceptions in clauses (3)-(6).",
+   "supporting_excerpt": "Article 15 | No discrimination on listed grounds | Religion, race, caste, sex, place of birth; exceptions in clauses (3) to (6)",
+   "source": {
+    "page": 2,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "2. Articles at a glance"
+    ],
+    "block_id": "B-0013",
+    "char_start": 3670,
+    "char_end": 3797,
+    "table_ref": "articles"
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0041"
+   ],
+   "confusable_with": [
+    "KU-0020",
+    "KU-0022"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0022",
+   "topic": "Polity",
+   "subtopic": "Articles table",
+   "type": "table_value",
+   "statement": "Article 16: equality of opportunity in public employment, with residence and reservation exceptions.",
+   "supporting_excerpt": "Article 16 | Equality in public employment | Equal opportunity; residence and reservation exceptions",
+   "source": {
+    "page": 2,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "2. Articles at a glance"
+    ],
+    "block_id": "B-0013",
+    "char_start": 3798,
+    "char_end": 3898,
+    "table_ref": "articles"
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0041"
+   ],
+   "confusable_with": [
+    "KU-0020",
+    "KU-0021"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0023",
+   "topic": "Polity",
+   "subtopic": "Articles table",
+   "type": "table_value",
+   "statement": "Article 19: the six freedoms of speech, assembly, association, movement, residence and profession.",
+   "supporting_excerpt": "Article 19 | Six freedoms | Speech, assembly, association, movement, residence, profession",
+   "source": {
+    "page": 2,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "2. Articles at a glance"
+    ],
+    "block_id": "B-0013",
+    "char_start": 4081,
+    "char_end": 4171,
+    "table_ref": "articles"
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0047"
+   ],
+   "confusable_with": [
+    "KU-0024"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0024",
+   "topic": "Polity",
+   "subtopic": "Articles table",
+   "type": "table_value",
+   "statement": "Article 21: life and personal liberty; no deprivation except by procedure established by law.",
+   "supporting_excerpt": "Article 21 | Life and personal liberty | No deprivation except by procedure established by law",
+   "source": {
+    "page": 2,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "2. Articles at a glance"
+    ],
+    "block_id": "B-0013",
+    "char_start": 4277,
+    "char_end": 4371,
+    "table_ref": "articles"
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0058"
+   ],
+   "confusable_with": [
+    "KU-0023",
+    "KU-0025"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0025",
+   "topic": "Polity",
+   "subtopic": "Articles table",
+   "type": "table_value",
+   "statement": "Article 32: right to Constitutional remedies by moving the Supreme Court; the heart and soul of the Constitution.",
+   "supporting_excerpt": "Article 32 | Right to Constitutional Remedies | Move the Supreme Court; called the heart and soul of the Constitution",
+   "source": {
+    "page": 2,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "2. Articles at a glance"
+    ],
+    "block_id": "B-0013",
+    "char_start": 4975,
+    "char_end": 5092,
+    "table_ref": "articles"
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0064"
+   ],
+   "confusable_with": [
+    "KU-0024"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0026",
+   "topic": "Polity",
+   "subtopic": "Articles table",
+   "type": "table_value",
+   "statement": "Article 12 defines the State: Government, Parliament, legislatures, local and other authorities.",
+   "supporting_excerpt": "Article 12 | Definition of State | Government, Parliament, legislatures, local and other authorities",
+   "source": {
+    "page": 2,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "2. Articles at a glance"
+    ],
+    "block_id": "B-0013",
+    "char_start": 3332,
+    "char_end": 3432,
+    "table_ref": "articles"
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0005"
+   ],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0027",
+   "topic": "Polity",
+   "subtopic": "Articles table",
+   "type": "table_value",
+   "statement": "Article 13: pre-1950 inconsistent laws void; the State cannot abridge Part III.",
+   "supporting_excerpt": "Article 13 | Laws inconsistent with Fundamental Rights | Pre-1950 inconsistent laws void; State cannot abridge Part III",
+   "source": {
+    "page": 2,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "2. Articles at a glance"
+    ],
+    "block_id": "B-0013",
+    "char_start": 3433,
+    "char_end": 3552,
+    "table_ref": "articles"
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0007"
+   ],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0028",
+   "topic": "Polity",
+   "subtopic": "Articles table",
+   "type": "table_value",
+   "statement": "Article 17 abolishes untouchability; its practice is forbidden and punishable by law.",
+   "supporting_excerpt": "Article 17 | Abolition of untouchability | Practice forbidden; offence punishable by law",
+   "source": {
+    "page": 2,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "2. Articles at a glance"
+    ],
+    "block_id": "B-0013",
+    "char_start": 3899,
+    "char_end": 3987,
+    "table_ref": "articles"
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [],
+   "confusable_with": [
+    "KU-0029"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0029",
+   "topic": "Polity",
+   "subtopic": "Articles table",
+   "type": "table_value",
+   "statement": "Article 18 abolishes titles; no State titles except military and academic distinctions.",
+   "supporting_excerpt": "Article 18 | Abolition of titles | No State titles except military and academic distinctions",
+   "source": {
+    "page": 2,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "2. Articles at a glance"
+    ],
+    "block_id": "B-0013",
+    "char_start": 3988,
+    "char_end": 4080,
+    "table_ref": "articles"
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [],
+   "confusable_with": [
+    "KU-0028"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0030",
+   "topic": "Polity",
+   "subtopic": "Articles table",
+   "type": "table_value",
+   "statement": "Article 20 protects against conviction abuses: no ex post facto law, no double jeopardy, no self-incrimination.",
+   "supporting_excerpt": "Article 20 | Protection in convictions | No ex post facto law, no double jeopardy, no self-incrimination",
+   "source": {
+    "page": 2,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "2. Articles at a glance"
+    ],
+    "block_id": "B-0013",
+    "char_start": 4172,
+    "char_end": 4276,
+    "table_ref": "articles"
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0075"
+   ],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0031",
+   "topic": "Polity",
+   "subtopic": "Articles table",
+   "type": "table_value",
+   "statement": "Article 21A: free and compulsory education for children aged 6 to 14; inserted in 2002.",
+   "supporting_excerpt": "Article 21A | Free and compulsory education | Children aged 6 to 14 years; inserted in 2002",
+   "source": {
+    "page": 2,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "2. Articles at a glance"
+    ],
+    "block_id": "B-0013",
+    "char_start": 4372,
+    "char_end": 4463,
+    "table_ref": "articles"
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0015"
+   ],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0032",
+   "topic": "Polity",
+   "subtopic": "Articles table",
+   "type": "table_value",
+   "statement": "Article 22: protection against arrest and detention; grounds must be disclosed, with preventive-detention limits.",
+   "supporting_excerpt": "Article 22 | Protection against arrest and detention | Informed of grounds; preventive detention limits",
+   "source": {
+    "page": 2,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "2. Articles at a glance"
+    ],
+    "block_id": "B-0013",
+    "char_start": 4464,
+    "char_end": 4567,
+    "table_ref": "articles"
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0063"
+   ],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0033",
+   "topic": "Polity",
+   "subtopic": "Articles table",
+   "type": "table_value",
+   "statement": "Article 23 prohibits trafficking, forced labour, begar and bonded labour.",
+   "supporting_excerpt": "Article 23 | No trafficking or forced labour | Begar and bonded labour prohibited",
+   "source": {
+    "page": 2,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "2. Articles at a glance"
+    ],
+    "block_id": "B-0013",
+    "char_start": 4568,
+    "char_end": 4649,
+    "table_ref": "articles"
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [],
+   "confusable_with": [
+    "KU-0034"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0034",
+   "topic": "Polity",
+   "subtopic": "Articles table",
+   "type": "table_value",
+   "statement": "Article 24 bars children below 14 from factories, mines and hazardous work.",
+   "supporting_excerpt": "Article 24 | No child labour in hazardous work | Children below 14 years barred from factories and mines",
+   "source": {
+    "page": 2,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "2. Articles at a glance"
+    ],
+    "block_id": "B-0013",
+    "char_start": 4650,
+    "char_end": 4754,
+    "table_ref": "articles"
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0031"
+   ],
+   "confusable_with": [
+    "KU-0033"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0035",
+   "topic": "Polity",
+   "subtopic": "Articles table",
+   "type": "table_value",
+   "statement": "Articles 25-28 protect freedom of religion: conscience, practice, propagation, management, and no religious taxes.",
+   "supporting_excerpt": "Articles 25 to 28 | Freedom of religion | Conscience, practice, propagation, management, no religious taxes",
+   "source": {
+    "page": 2,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "2. Articles at a glance"
+    ],
+    "block_id": "B-0013",
+    "char_start": 4755,
+    "char_end": 4862,
+    "table_ref": "articles"
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [],
+   "confusable_with": [
+    "KU-0036"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0036",
+   "topic": "Polity",
+   "subtopic": "Articles table",
+   "type": "table_value",
+   "statement": "Articles 29-30 protect cultural and educational rights: minority language, script, culture and institutions.",
+   "supporting_excerpt": "Articles 29 to 30 | Cultural and educational rights | Minority language, script, culture; minority institutions",
+   "source": {
+    "page": 2,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "2. Articles at a glance"
+    ],
+    "block_id": "B-0013",
+    "char_start": 4863,
+    "char_end": 4974,
+    "table_ref": "articles"
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [],
+   "confusable_with": [
+    "KU-0035"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0037",
+   "topic": "Polity",
+   "subtopic": "Equality",
+   "type": "definition",
+   "statement": "Equality before the law means no special privilege for any person; equal protection means equals must be treated equally and reasonable classification is permitted.",
+   "supporting_excerpt": "Definition: 'Equality before the law' means the absence of any special privilege for any person, while 'equal protection of the laws' means equals must be treated equally and a reasonable classification of persons is permitted",
+   "source": {
+    "page": 2,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "3. Article 14 and the equality code of Articles 15 and 16"
+    ],
+    "block_id": "B-0015",
+    "char_start": 5153,
+    "char_end": 5379,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "high",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0038"
+   ],
+   "confusable_with": [
+    "KU-0038"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0038",
+   "topic": "Polity",
+   "subtopic": "Equality",
+   "type": "comparison",
+   "statement": "Equality before law is a negative concept denying special privilege; equal protection is a positive concept permitting reasonable classification.",
+   "supporting_excerpt": "Distinction: equality before the law is a negative concept that denies special privilege, whereas equal protection of the laws is a positive concept that permits reasonable classification of equals and unequals",
+   "source": {
+    "page": 2,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "3. Article 14 and the equality code of Articles 15 and 16"
+    ],
+    "block_id": "B-0016",
+    "char_start": 5382,
+    "char_end": 5592,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "high",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0037"
+   ],
+   "confusable_with": [
+    "KU-0037"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0039",
+   "topic": "Polity",
+   "subtopic": "Equality",
+   "type": "concept",
+   "statement": "Article 14 covers all persons, citizens and non-citizens alike.",
+   "supporting_excerpt": "Article 14 covers all persons, citizens and non-citizens alike",
+   "source": {
+    "page": 2,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "3. Article 14 and the equality code of Articles 15 and 16"
+    ],
+    "block_id": "B-0017",
+    "char_start": 5595,
+    "char_end": 5657,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0057"
+   ],
+   "confusable_with": [
+    "KU-0057"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0040",
+   "topic": "Polity",
+   "subtopic": "Equality",
+   "type": "principle",
+   "statement": "An Article 14 classification is valid only on an intelligible differentia with a rational relation to the object of the law.",
+   "supporting_excerpt": "rests on an intelligible differentia and the differentia has a rational relation to the object of the law",
+   "source": {
+    "page": 2,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "3. Article 14 and the equality code of Articles 15 and 16"
+    ],
+    "block_id": "B-0017",
+    "char_start": 5713,
+    "char_end": 5818,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "high",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0041",
+   "topic": "Polity",
+   "subtopic": "Equality",
+   "type": "comparison",
+   "statement": "Article 15 bars discrimination only on religion, race, caste, sex or place of birth; Article 16 guarantees equality of opportunity in public employment more broadly.",
+   "supporting_excerpt": "Distinction: Article 15 prohibits discrimination only on the grounds of religion, race, caste, sex or place of birth, whereas Article 16 guarantees equality of opportunity more broadly in matters of public employment",
+   "source": {
+    "page": 2,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "3. Article 14 and the equality code of Articles 15 and 16"
+    ],
+    "block_id": "B-0018",
+    "char_start": 5885,
+    "char_end": 6101,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "high",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0042",
+    "KU-0043"
+   ],
+   "confusable_with": [
+    "KU-0021",
+    "KU-0022"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0042",
+   "topic": "Polity",
+   "subtopic": "Equality",
+   "type": "concept",
+   "statement": "Article 15 binds the State and, in some clauses, private individuals running public places such as shops, wells, roads and places of public resort.",
+   "supporting_excerpt": "Article 15 applies to both the State and, in some clauses, private individuals running public places such as shops, wells, roads and places of public resort",
+   "source": {
+    "page": 3,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "3. Article 14 and the equality code of Articles 15 and 16"
+    ],
+    "block_id": "B-0019",
+    "char_start": 6104,
+    "char_end": 6260,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0041"
+   ],
+   "confusable_with": [
+    "KU-0043"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0043",
+   "topic": "Polity",
+   "subtopic": "Equality",
+   "type": "concept",
+   "statement": "Article 16 applies to employment under the State.",
+   "supporting_excerpt": "Article 16 applies to employment under the State",
+   "source": {
+    "page": 3,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "3. Article 14 and the equality code of Articles 15 and 16"
+    ],
+    "block_id": "B-0019",
+    "char_start": 6262,
+    "char_end": 6310,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0041"
+   ],
+   "confusable_with": [
+    "KU-0042"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0044",
+   "topic": "Polity",
+   "subtopic": "Equality",
+   "type": "constitutional_provision",
+   "statement": "Article 15(3) allows special provisions for women and children; Article 15(4), added in 1951, allows them for socially and educationally backward classes.",
+   "supporting_excerpt": "Article 15(3) permits special provisions for women and children, Article 15(4) added in 1951 permits special provisions for socially and educationally backward classes",
+   "source": {
+    "page": 3,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "3. Article 14 and the equality code of Articles 15 and 16"
+    ],
+    "block_id": "B-0019",
+    "char_start": 6312,
+    "char_end": 6479,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0045"
+   ],
+   "confusable_with": [
+    "KU-0046"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0045",
+   "topic": "Polity",
+   "subtopic": "Equality",
+   "type": "constitutional_provision",
+   "statement": "Articles 15(5) and 15(6) extend reservations to private educational institutions and to Economically Weaker Sections respectively.",
+   "supporting_excerpt": "Articles 15(5) and 15(6) extend reservations to private educational institutions and to Economically Weaker Sections respectively",
+   "source": {
+    "page": 3,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "3. Article 14 and the equality code of Articles 15 and 16"
+    ],
+    "block_id": "B-0019",
+    "char_start": 6485,
+    "char_end": 6614,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0044",
+    "KU-0019"
+   ],
+   "confusable_with": [
+    "KU-0046"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0046",
+   "topic": "Polity",
+   "subtopic": "Equality",
+   "type": "constitutional_provision",
+   "statement": "Article 16(4) allows reservation for backward classes, 16(4A) reservation in promotion for SCs/STs, and 16(6) (2019) up to 10% EWS reservation.",
+   "supporting_excerpt": "Article 16(4) permits reservation in favour of backward classes, Article 16(4A) permits reservation in promotion for Scheduled Castes and Scheduled Tribes, and Article 16(6) inserted in 2019 permits up to 10 percent reservation for Economically Weaker Sections",
+   "source": {
+    "page": 3,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "3. Article 14 and the equality code of Articles 15 and 16"
+    ],
+    "block_id": "B-0019",
+    "char_start": 6616,
+    "char_end": 6876,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0019",
+    "KU-0014"
+   ],
+   "confusable_with": [
+    "KU-0044",
+    "KU-0045"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0047",
+   "topic": "Polity",
+   "subtopic": "Article 19",
+   "type": "concept",
+   "statement": "Article 19(1) guarantees six freedoms, and to citizens only.",
+   "supporting_excerpt": "Article 19(1) guarantees six freedoms to citizens only, a point examiners repeat every year",
+   "source": {
+    "page": 3,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "4. Article 19: the six freedoms and reasonable restrictions"
+    ],
+    "block_id": "B-0021",
+    "char_start": 6940,
+    "char_end": 7031,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0057"
+   ],
+   "confusable_with": [
+    "KU-0057"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0048",
+   "topic": "Polity",
+   "subtopic": "Article 19",
+   "type": "list_item",
+   "statement": "Article 19(1)(a): freedom of speech and expression.",
+   "supporting_excerpt": "Freedom of speech and expression under Article 19(1)(a)",
+   "source": {
+    "page": 3,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "4. Article 19: the six freedoms and reasonable restrictions"
+    ],
+    "block_id": "B-0022",
+    "char_start": 7058,
+    "char_end": 7113,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0056"
+   ],
+   "confusable_with": [
+    "KU-0049",
+    "KU-0050"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0049",
+   "topic": "Polity",
+   "subtopic": "Article 19",
+   "type": "list_item",
+   "statement": "Article 19(1)(b): freedom to assemble peaceably and without arms.",
+   "supporting_excerpt": "Freedom to assemble peaceably and without arms under Article 19(1)(b)",
+   "source": {
+    "page": 3,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "4. Article 19: the six freedoms and reasonable restrictions"
+    ],
+    "block_id": "B-0022",
+    "char_start": 7117,
+    "char_end": 7186,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [],
+   "confusable_with": [
+    "KU-0048",
+    "KU-0050"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0050",
+   "topic": "Polity",
+   "subtopic": "Article 19",
+   "type": "list_item",
+   "statement": "Article 19(1)(c): freedom to form associations or unions.",
+   "supporting_excerpt": "Freedom to form associations or unions under Article 19(1)(c)",
+   "source": {
+    "page": 3,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "4. Article 19: the six freedoms and reasonable restrictions"
+    ],
+    "block_id": "B-0022",
+    "char_start": 7190,
+    "char_end": 7251,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [],
+   "confusable_with": [
+    "KU-0048",
+    "KU-0049"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0051",
+   "topic": "Polity",
+   "subtopic": "Article 19",
+   "type": "list_item",
+   "statement": "Article 19(1)(d): freedom to move freely throughout India.",
+   "supporting_excerpt": "Freedom to move freely throughout India under Article 19(1)(d)",
+   "source": {
+    "page": 3,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "4. Article 19: the six freedoms and reasonable restrictions"
+    ],
+    "block_id": "B-0022",
+    "char_start": 7255,
+    "char_end": 7317,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [],
+   "confusable_with": [
+    "KU-0052"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0052",
+   "topic": "Polity",
+   "subtopic": "Article 19",
+   "type": "list_item",
+   "statement": "Article 19(1)(e): freedom to reside and settle in any part of India.",
+   "supporting_excerpt": "Freedom to reside and settle in any part of India under Article 19(1)(e)",
+   "source": {
+    "page": 3,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "4. Article 19: the six freedoms and reasonable restrictions"
+    ],
+    "block_id": "B-0022",
+    "char_start": 7321,
+    "char_end": 7393,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [],
+   "confusable_with": [
+    "KU-0051"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0053",
+   "topic": "Polity",
+   "subtopic": "Article 19",
+   "type": "list_item",
+   "statement": "Article 19(1)(g): freedom to practise any profession or carry on any occupation, trade or business.",
+   "supporting_excerpt": "Freedom to practise any profession or carry on any occupation, trade or business under Article 19(1)(g)",
+   "source": {
+    "page": 3,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "4. Article 19: the six freedoms and reasonable restrictions"
+    ],
+    "block_id": "B-0022",
+    "char_start": 7397,
+    "char_end": 7500,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0054"
+   ],
+   "confusable_with": [
+    "KU-0048"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0054",
+   "topic": "Polity",
+   "subtopic": "Article 19",
+   "type": "exception",
+   "statement": "The original Article 19(1)(f) on property was removed by the Forty-fourth Amendment of 1978.",
+   "supporting_excerpt": "Note that the original clause (f) on property was removed by the Forty-fourth Amendment of 1978",
+   "source": {
+    "page": 3,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "4. Article 19: the six freedoms and reasonable restrictions"
+    ],
+    "block_id": "B-0022",
+    "char_start": 7502,
+    "char_end": 7597,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0011"
+   ],
+   "confusable_with": [
+    "KU-0048"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0055",
+   "topic": "Polity",
+   "subtopic": "Article 19",
+   "type": "principle",
+   "statement": "Article 19 freedoms face reasonable restrictions under clauses (2)-(6): sovereignty and integrity, security, public order, decency, morality, contempt, defamation, incitement.",
+   "supporting_excerpt": "Each freedom is subject to reasonable restrictions in clauses (2) to (6), including the sovereignty and integrity of India, security of the State, public order, decency, morality, contempt of court, defamation and incitement to an offence",
+   "source": {
+    "page": 3,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "4. Article 19: the six freedoms and reasonable restrictions"
+    ],
+    "block_id": "B-0023",
+    "char_start": 7600,
+    "char_end": 7838,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0056",
+   "topic": "Polity",
+   "subtopic": "Article 19",
+   "type": "case_study",
+   "statement": "In 2015 the Supreme Court struck down IT Act Section 66A since vague limits on online speech were not reasonable restrictions under Article 19(2).",
+   "supporting_excerpt": "In 2015 the Supreme Court struck down Section 66A of the Information Technology Act because vague limits on online speech were not reasonable restrictions under Article 19(2)",
+   "source": {
+    "page": 3,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "4. Article 19: the six freedoms and reasonable restrictions"
+    ],
+    "block_id": "B-0023",
+    "char_start": 7840,
+    "char_end": 8014,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0017",
+    "KU-0048"
+   ],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0057",
+   "topic": "Polity",
+   "subtopic": "Article 19",
+   "type": "comparison",
+   "statement": "Article 19 protects freedoms of citizens only, while Article 21 protects life and liberty of all persons including non-citizens.",
+   "supporting_excerpt": "Distinction: Article 19 protects the freedoms of citizens only, whereas Article 21 protects the life and liberty of all persons including non-citizens",
+   "source": {
+    "page": 3,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "4. Article 19: the six freedoms and reasonable restrictions"
+    ],
+    "block_id": "B-0024",
+    "char_start": 8017,
+    "char_end": 8167,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "high",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0047",
+    "KU-0039"
+   ],
+   "confusable_with": [
+    "KU-0039"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0058",
+   "topic": "Polity",
+   "subtopic": "Article 21",
+   "type": "constitutional_provision",
+   "statement": "Article 21: no person shall be deprived of life or personal liberty except according to procedure established by law.",
+   "supporting_excerpt": "Article 21 states that no person shall be deprived of life or personal liberty except according to procedure established by law",
+   "source": {
+    "page": 3,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "5. Article 21: life, liberty and an expanding promise"
+    ],
+    "block_id": "B-0026",
+    "char_start": 8225,
+    "char_end": 8352,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0059"
+   ],
+   "confusable_with": [
+    "KU-0060"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0059",
+   "topic": "Polity",
+   "subtopic": "Article 21",
+   "type": "case_study",
+   "statement": "In Maneka Gandhi v. Union of India (1978) the Supreme Court held Article 21 procedure must be fair, just and reasonable, not arbitrary or oppressive.",
+   "supporting_excerpt": "in Maneka Gandhi v. Union of India in 1978 the Supreme Court held that the procedure must be fair, just and reasonable and not arbitrary or oppressive",
+   "source": {
+    "page": 3,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "5. Article 21: life, liberty and an expanding promise"
+    ],
+    "block_id": "B-0026",
+    "char_start": 8400,
+    "char_end": 8550,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0058",
+    "KU-0018"
+   ],
+   "confusable_with": [
+    "KU-0018",
+    "KU-0074"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0060",
+   "topic": "Polity",
+   "subtopic": "Article 21",
+   "type": "comparison",
+   "statement": "'Procedure established by law' (Article 21 text) means a validly enacted-law procedure; 'due process' additionally demands the law itself be fair and reasonable, which post-Maneka (1978) Article 21 includes.",
+   "supporting_excerpt": "whereas 'due process of law' additionally demands that the law itself be fair and reasonable, and after Maneka Gandhi in 1978 the Court reads Article 21 as including due-process values",
+   "source": {
+    "page": 3,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "5. Article 21: life, liberty and an expanding promise"
+    ],
+    "block_id": "B-0027",
+    "char_start": 8676,
+    "char_end": 8860,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "high",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0058"
+   ],
+   "confusable_with": [
+    "KU-0058"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0061",
+   "topic": "Polity",
+   "subtopic": "Article 21",
+   "type": "concept",
+   "statement": "Since 1978 the Court has read implied Article 21 rights: dignity, livelihood, shelter, health, clean environment, speedy trial, legal aid, and privacy (2017, Puttaswamy).",
+   "supporting_excerpt": "the Court has read many implied rights into Article 21, including the right to live with dignity, livelihood, shelter, health, a clean environment, speedy trial, legal aid, and, in 2017, privacy in the Puttaswamy judgment",
+   "source": {
+    "page": 3,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "5. Article 21: life, liberty and an expanding promise"
+    ],
+    "block_id": "B-0028",
+    "char_start": 8874,
+    "char_end": 9095,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0018"
+   ],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0062",
+   "topic": "Polity",
+   "subtopic": "Article 21",
+   "type": "amendment",
+   "statement": "Article 21A (education, ages 6-14) was inserted by the 86th Amendment in 2002 and enforced through the 2009 education Act.",
+   "supporting_excerpt": "Article 21A on education for children aged 6 to 14 years was inserted by the Eighty-sixth Amendment in 2002 and enforced through the 2009 education Act",
+   "source": {
+    "page": 3,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "5. Article 21: life, liberty and an expanding promise"
+    ],
+    "block_id": "B-0028",
+    "char_start": 9097,
+    "char_end": 9248,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0015",
+    "KU-0016"
+   ],
+   "confusable_with": [
+    "KU-0031"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0063",
+   "topic": "Polity",
+   "subtopic": "Article 21",
+   "type": "definition",
+   "statement": "Preventive detention is detention without trial fearing a future offence; punitive detention follows conviction for a committed offence.",
+   "supporting_excerpt": "Definition: 'Preventive detention' means detention of a person without trial on the apprehension that the person may commit a future offence, whereas punitive detention follows conviction for an offence already committed",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "5. Article 21: life, liberty and an expanding promise"
+    ],
+    "block_id": "B-0029",
+    "char_start": 9251,
+    "char_end": 9471,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0032"
+   ],
+   "confusable_with": [
+    "KU-0067"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0064",
+   "topic": "Polity",
+   "subtopic": "Article 32",
+   "type": "constitutional_provision",
+   "statement": "Article 32 gives every citizen the right to move the Supreme Court for enforcement of Fundamental Rights.",
+   "supporting_excerpt": "Article 32 gives every citizen the right to move the Supreme Court for the enforcement of Fundamental Rights",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "6. Article 32: the right to Constitutional remedies"
+    ],
+    "block_id": "B-0031",
+    "char_start": 9527,
+    "char_end": 9635,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0065",
+    "KU-0004"
+   ],
+   "confusable_with": [
+    "KU-0073"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0065",
+   "topic": "Polity",
+   "subtopic": "Article 32",
+   "type": "concept",
+   "statement": "Dr. B. R. Ambedkar called Article 32 the heart and soul of the Constitution.",
+   "supporting_excerpt": "Dr. B. R. Ambedkar called Article 32 the heart and soul of the Constitution",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "6. Article 32: the right to Constitutional remedies"
+    ],
+    "block_id": "B-0031",
+    "char_start": 9637,
+    "char_end": 9712,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0064"
+   ],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0066",
+   "topic": "Polity",
+   "subtopic": "Article 32",
+   "type": "principle",
+   "statement": "Article 32 is itself a Fundamental Right, so Parliament cannot suspend it by an ordinary law.",
+   "supporting_excerpt": "The Supreme Court has held that Article 32 itself is a Fundamental Right, so Parliament cannot suspend it by an ordinary law",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "Key timeline points to memorise:",
+     "6. Article 32: the right to Constitutional remedies"
+    ],
+    "block_id": "B-0031",
+    "char_start": 9714,
+    "char_end": 9838,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "high",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0064"
+   ],
+   "confusable_with": [
+    "KU-0073"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0067",
+   "topic": "Polity",
+   "subtopic": "Writs",
+   "type": "list_item",
+   "statement": "Habeas corpus: to produce a detained person before the court.",
+   "supporting_excerpt": "Habeas corpus: to produce a detained person before the court",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:"
+    ],
+    "block_id": "B-0033",
+    "char_start": 9899,
+    "char_end": 9959,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0072"
+   ],
+   "confusable_with": [
+    "KU-0068",
+    "KU-0069"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0068",
+   "topic": "Polity",
+   "subtopic": "Writs",
+   "type": "list_item",
+   "statement": "Mandamus: to command a public authority to perform a legal duty.",
+   "supporting_excerpt": "Mandamus: to command a public authority to perform a legal duty",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:"
+    ],
+    "block_id": "B-0033",
+    "char_start": 9963,
+    "char_end": 10026,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0072"
+   ],
+   "confusable_with": [
+    "KU-0067",
+    "KU-0069"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0069",
+   "topic": "Polity",
+   "subtopic": "Writs",
+   "type": "list_item",
+   "statement": "Prohibition: to restrain a lower court from exceeding its jurisdiction.",
+   "supporting_excerpt": "Prohibition: to restrain a lower court from exceeding its jurisdiction",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:"
+    ],
+    "block_id": "B-0033",
+    "char_start": 10030,
+    "char_end": 10100,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0072"
+   ],
+   "confusable_with": [
+    "KU-0067",
+    "KU-0070"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0070",
+   "topic": "Polity",
+   "subtopic": "Writs",
+   "type": "list_item",
+   "statement": "Certiorari: to quash the order of a lower court or tribunal.",
+   "supporting_excerpt": "Certiorari: to quash the order of a lower court or tribunal",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:"
+    ],
+    "block_id": "B-0033",
+    "char_start": 10104,
+    "char_end": 10163,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0072"
+   ],
+   "confusable_with": [
+    "KU-0069",
+    "KU-0071"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0071",
+   "topic": "Polity",
+   "subtopic": "Writs",
+   "type": "list_item",
+   "statement": "Quo warranto: to question the authority by which a person holds a public office.",
+   "supporting_excerpt": "Quo warranto: to question the authority by which a person holds a public office",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:"
+    ],
+    "block_id": "B-0033",
+    "char_start": 10167,
+    "char_end": 10246,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0072"
+   ],
+   "confusable_with": [
+    "KU-0070"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0072",
+   "topic": "Polity",
+   "subtopic": "Writs",
+   "type": "definition",
+   "statement": "A writ is a written order of a constitutional court commanding a person or authority to do, or refrain from doing, a specified act.",
+   "supporting_excerpt": "Definition: A 'writ' is a written order issued by a constitutional court commanding a person or authority to do, or to refrain from doing, a specified act",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:"
+    ],
+    "block_id": "B-0034",
+    "char_start": 10249,
+    "char_end": 10403,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0067"
+   ],
+   "confusable_with": [
+    "KU-0063"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0073",
+   "topic": "Polity",
+   "subtopic": "Article 32",
+   "type": "comparison",
+   "statement": "Article 32 is itself a Fundamental Right with a mandatory Supreme Court remedy; Article 226 is wider but discretionary, covering FRs and other legal rights before a High Court.",
+   "supporting_excerpt": "Distinction: Article 32 is itself a Fundamental Right and the Supreme Court must grant a remedy when a Fundamental Right is violated, whereas Article 226 is wider in scope but discretionary, covering Fundamental Rights and other legal rights before a High Court",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:"
+    ],
+    "block_id": "B-0035",
+    "char_start": 10406,
+    "char_end": 10667,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "high",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0064",
+    "KU-0004"
+   ],
+   "confusable_with": [
+    "KU-0064",
+    "KU-0066"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0074",
+   "topic": "Polity",
+   "subtopic": "Emergency",
+   "type": "case_study",
+   "statement": "In ADM Jabalpur v. Shivkant Shukla (1976) the majority held Article 21 could be suspended during the Emergency.",
+   "supporting_excerpt": "the majority in ADM Jabalpur v. Shivkant Shukla in 1976 held that Article 21 could be suspended",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:"
+    ],
+    "block_id": "B-0036",
+    "char_start": 10692,
+    "char_end": 10787,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0075",
+    "KU-0059"
+   ],
+   "confusable_with": [
+    "KU-0059"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0075",
+   "topic": "Polity",
+   "subtopic": "Emergency",
+   "type": "amendment",
+   "statement": "The Forty-fourth Amendment (1978) provided that Articles 20 and 21 cannot be suspended even during an Emergency.",
+   "supporting_excerpt": "the Forty-fourth Amendment of 1978 then provided that Articles 20 and 21 cannot be suspended even during an Emergency",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:"
+    ],
+    "block_id": "B-0036",
+    "char_start": 10789,
+    "char_end": 10906,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0074",
+    "KU-0030"
+   ],
+   "confusable_with": [
+    "KU-0011"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0076",
+   "topic": "Geography",
+   "subtopic": "Assam overview",
+   "type": "number_value",
+   "statement": "Assam covers about 78,438 square kilometres in the eastern Himalayan foothills and Brahmaputra valley.",
+   "supporting_excerpt": "The state covers about 78,438 square kilometres",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:",
+     "7. Physical geography of Assam and the Brahmaputra system"
+    ],
+    "block_id": "B-0038",
+    "char_start": 11042,
+    "char_end": 11089,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0077"
+   ],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0077",
+   "topic": "Geography",
+   "subtopic": "Assam overview",
+   "type": "number_value",
+   "statement": "The Brahmaputra valley is roughly 720 km long east-west and 80-100 km wide.",
+   "supporting_excerpt": "the Brahmaputra valley is roughly 720 kilometres long from east to west and 80 to 100 kilometres wide",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:",
+     "7. Physical geography of Assam and the Brahmaputra system"
+    ],
+    "block_id": "B-0038",
+    "char_start": 11095,
+    "char_end": 11196,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0076"
+   ],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0078",
+   "topic": "Geography",
+   "subtopic": "Assam overview",
+   "type": "concept",
+   "statement": "The Brahmaputra is a braided river across most of Assam: shifting channels, sandbars called chars, heavy monsoon flooding.",
+   "supporting_excerpt": "The Brahmaputra is a braided river across most of Assam, shifting channels, building sandbars called chars, and flooding heavily every monsoon",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:",
+     "7. Physical geography of Assam and the Brahmaputra system"
+    ],
+    "block_id": "B-0038",
+    "char_start": 11198,
+    "char_end": 11340,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0079"
+   ],
+   "confusable_with": [
+    "KU-0079"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0079",
+   "topic": "Geography",
+   "subtopic": "Rivers",
+   "type": "definition",
+   "statement": "A braided river is a wide, shallow river splitting into many interlacing channels around temporary sandbars and islands.",
+   "supporting_excerpt": "Definition: A 'braided river' is a wide, shallow river that splits into many interlacing channels around temporary sandbars and islands",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:",
+     "7. Physical geography of Assam and the Brahmaputra system"
+    ],
+    "block_id": "B-0039",
+    "char_start": 11343,
+    "char_end": 11478,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0078"
+   ],
+   "confusable_with": [
+    "KU-0078"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0080",
+   "topic": "Geography",
+   "subtopic": "Soils",
+   "type": "definition",
+   "statement": "Alluvium is fertile silt, sand and clay deposited by rivers; the Brahmaputra valley floor is almost entirely recent alluvium.",
+   "supporting_excerpt": "Definition: 'Alluvium' is fertile silt, sand and clay deposited by rivers, and the Brahmaputra valley floor is almost entirely recent alluvium",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:",
+     "7. Physical geography of Assam and the Brahmaputra system"
+    ],
+    "block_id": "B-0040",
+    "char_start": 11481,
+    "char_end": 11623,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0106"
+   ],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0081",
+   "topic": "Geography",
+   "subtopic": "Course",
+   "type": "place",
+   "statement": "The Brahmaputra rises as the Yarlung Tsangpo in Tibet near the Chemayungdung glacier.",
+   "supporting_excerpt": "The Brahmaputra rises as the Yarlung Tsangpo in Tibet near the Chemayungdung glacier",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:",
+     "7. Physical geography of Assam and the Brahmaputra system"
+    ],
+    "block_id": "B-0041",
+    "char_start": 11626,
+    "char_end": 11710,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0083"
+   ],
+   "confusable_with": [
+    "KU-0091"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0082",
+   "topic": "Geography",
+   "subtopic": "Course",
+   "type": "number_value",
+   "statement": "The Brahmaputra flows about 2,900 kilometres in total.",
+   "supporting_excerpt": "flows about 2,900 kilometres in total",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:",
+     "7. Physical geography of Assam and the Brahmaputra system"
+    ],
+    "block_id": "B-0041",
+    "char_start": 11712,
+    "char_end": 11749,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0085"
+   ],
+   "confusable_with": [
+    "KU-0085"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0083",
+   "topic": "Geography",
+   "subtopic": "Course",
+   "type": "place",
+   "statement": "It enters Arunachal Pradesh as the Siang or Dihang and becomes the Brahmaputra in Assam after joining the Dibang and Lohit at Kobo.",
+   "supporting_excerpt": "enters Arunachal Pradesh as the Siang or Dihang, becomes the Brahmaputra in Assam after joining the Dibang and Lohit at Kobo",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:",
+     "7. Physical geography of Assam and the Brahmaputra system"
+    ],
+    "block_id": "B-0041",
+    "char_start": 11751,
+    "char_end": 11875,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0081"
+   ],
+   "confusable_with": [
+    "KU-0084"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0084",
+   "topic": "Geography",
+   "subtopic": "Course",
+   "type": "place",
+   "statement": "It leaves Assam at Dhubri to enter Bangladesh as the Jamuna.",
+   "supporting_excerpt": "leaves Assam at Dhubri to enter Bangladesh as the Jamuna",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:",
+     "7. Physical geography of Assam and the Brahmaputra system"
+    ],
+    "block_id": "B-0041",
+    "char_start": 11881,
+    "char_end": 11937,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0083"
+   ],
+   "confusable_with": [
+    "KU-0083"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0085",
+   "topic": "Geography",
+   "subtopic": "Course",
+   "type": "number_value",
+   "statement": "Within Assam the Brahmaputra flows for about 640 kilometres.",
+   "supporting_excerpt": "Within Assam the river flows for about 640 kilometres",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:",
+     "7. Physical geography of Assam and the Brahmaputra system"
+    ],
+    "block_id": "B-0041",
+    "char_start": 11939,
+    "char_end": 11992,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0082"
+   ],
+   "confusable_with": [
+    "KU-0082"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0086",
+   "topic": "Geography",
+   "subtopic": "Course",
+   "type": "place",
+   "statement": "Majuli, between the Brahmaputra and Subansiri-Luit channels, is among the largest inhabited river islands in the world.",
+   "supporting_excerpt": "Majuli, formed between the Brahmaputra and the Subansiri-Luit channels, is among the largest inhabited river islands in the world",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:",
+     "7. Physical geography of Assam and the Brahmaputra system"
+    ],
+    "block_id": "B-0041",
+    "char_start": 11994,
+    "char_end": 12123,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0087"
+   ],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0087",
+   "topic": "Geography",
+   "subtopic": "Course",
+   "type": "number_value",
+   "statement": "Erosion has shrunk Majuli from over 1,200 sq km a century ago to roughly 350-500 sq km today.",
+   "supporting_excerpt": "erosion has shrunk it from over 1,200 square kilometres a century ago to roughly 350 to 500 square kilometres today",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:",
+     "7. Physical geography of Assam and the Brahmaputra system"
+    ],
+    "block_id": "B-0041",
+    "char_start": 12132,
+    "char_end": 12247,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0086"
+   ],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0088",
+   "topic": "Geography",
+   "subtopic": "Course",
+   "type": "event",
+   "statement": "The 15 August 1950 earthquake (magnitude 8.6) tilted tributary gradients, raised the river bed in places, and intensified floods and bank erosion across Upper Assam.",
+   "supporting_excerpt": "The earthquake of 15 August 1950, measuring 8.6 in magnitude, tilted tributary gradients, raised the river bed in places, and intensified floods and bank erosion across Upper Assam",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:",
+     "7. Physical geography of Assam and the Brahmaputra system"
+    ],
+    "block_id": "B-0042",
+    "char_start": 12250,
+    "char_end": 12430,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0089"
+   ],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0089",
+   "topic": "Geography",
+   "subtopic": "Course",
+   "type": "institution",
+   "statement": "The Brahmaputra Board was set up in 1982 under the Brahmaputra Board Act of 1981 to plan flood control in the valley.",
+   "supporting_excerpt": "The Brahmaputra Board was set up in 1982 under the Brahmaputra Board Act of 1981 to plan flood control in the valley",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:",
+     "7. Physical geography of Assam and the Brahmaputra system"
+    ],
+    "block_id": "B-0042",
+    "char_start": 12432,
+    "char_end": 12548,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0088"
+   ],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0090",
+   "topic": "Geography",
+   "subtopic": "Tributaries",
+   "type": "comparison",
+   "statement": "North-bank tributaries rise in the Himalayas, carry heavy silt and build large alluvial fans; south-bank ones rise in the Meghalaya/Nagaland/Arunachal hills, carry less silt and run in stable, narrower channels.",
+   "supporting_excerpt": "Distinction: north-bank tributaries rise in the Himalayas, carry heavy silt, and build large alluvial fans, whereas south-bank tributaries rise in the hills of Meghalaya, Nagaland and Arunachal Pradesh, carry less silt, and run in comparatively stable, narrower channels",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:",
+     "8. Tributaries of the Brahmaputra in Assam"
+    ],
+    "block_id": "B-0044",
+    "char_start": 12595,
+    "char_end": 12865,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "high",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0091",
+    "KU-0100"
+   ],
+   "confusable_with": [
+    "KU-0092"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0091",
+   "topic": "Geography",
+   "subtopic": "Tributaries",
+   "type": "place",
+   "statement": "Subansiri: rises in Tibet, joins at Lakhimpur; about 442 km long.",
+   "supporting_excerpt": "Subansiri: rises in Tibet, joins at Lakhimpur; about 442 kilometres long",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "North-bank tributaries:"
+    ],
+    "block_id": "B-0047",
+    "char_start": 12944,
+    "char_end": 13016,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0090"
+   ],
+   "confusable_with": [
+    "KU-0095",
+    "KU-0081"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0092",
+   "topic": "Geography",
+   "subtopic": "Tributaries",
+   "type": "place",
+   "statement": "Ranganadi: rises in Arunachal Pradesh, joins near Lakhimpur.",
+   "supporting_excerpt": "Ranganadi: rises in Arunachal Pradesh, joins near Lakhimpur",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "North-bank tributaries:"
+    ],
+    "block_id": "B-0047",
+    "char_start": 13020,
+    "char_end": 13079,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 3,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "medium",
+    "factual_density": "medium",
+    "conceptual_density": "low",
+    "confusion_risk": "low",
+    "discrimination_value": "low",
+    "revision_priority": "low"
+   },
+   "related_ku": [
+    "KU-0090"
+   ],
+   "confusable_with": [
+    "KU-0093"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0093",
+   "topic": "Geography",
+   "subtopic": "Tributaries",
+   "type": "place",
+   "statement": "Jia Bharali (Kameng): rises in Arunachal Pradesh, joins at Tezpur.",
+   "supporting_excerpt": "Jia Bharali (Kameng): rises in Arunachal Pradesh, joins at Tezpur",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "North-bank tributaries:"
+    ],
+    "block_id": "B-0047",
+    "char_start": 13083,
+    "char_end": 13148,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0103"
+   ],
+   "confusable_with": [
+    "KU-0092"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0094",
+   "topic": "Geography",
+   "subtopic": "Tributaries",
+   "type": "place",
+   "statement": "Puthimari: rises in Bhutan, joins near Kamrup.",
+   "supporting_excerpt": "Puthimari: rises in Bhutan, joins near Kamrup",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "North-bank tributaries:"
+    ],
+    "block_id": "B-0047",
+    "char_start": 13152,
+    "char_end": 13197,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 3,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "medium",
+    "factual_density": "medium",
+    "conceptual_density": "low",
+    "confusion_risk": "low",
+    "discrimination_value": "low",
+    "revision_priority": "low"
+   },
+   "related_ku": [],
+   "confusable_with": [
+    "KU-0095",
+    "KU-0096"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0095",
+   "topic": "Geography",
+   "subtopic": "Tributaries",
+   "type": "place",
+   "statement": "Manas: rises in Bhutan, joins near Jogighopa; a major transboundary river about 376 km long.",
+   "supporting_excerpt": "Manas: rises in Bhutan, joins near Jogighopa; a major transboundary river about 376 kilometres long",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "North-bank tributaries:"
+    ],
+    "block_id": "B-0047",
+    "char_start": 13201,
+    "char_end": 13300,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0090"
+   ],
+   "confusable_with": [
+    "KU-0091",
+    "KU-0094"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0096",
+   "topic": "Geography",
+   "subtopic": "Tributaries",
+   "type": "place",
+   "statement": "Sankosh (Gadadhar) forms part of the Assam-West Bengal boundary.",
+   "supporting_excerpt": "Sankosh (Gadadhar): forms part of the Assam-West Bengal boundary",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "North-bank tributaries:"
+    ],
+    "block_id": "B-0047",
+    "char_start": 13304,
+    "char_end": 13368,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0105"
+   ],
+   "confusable_with": [
+    "KU-0094"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0097",
+   "topic": "Geography",
+   "subtopic": "Tributaries",
+   "type": "place",
+   "statement": "Burhi Dihing: rises in the Patkai hills, joins near Dibrugarh.",
+   "supporting_excerpt": "Burhi Dihing: rises in the Patkai hills, joins near Dibrugarh",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "South-bank tributaries:"
+    ],
+    "block_id": "B-0049",
+    "char_start": 13398,
+    "char_end": 13459,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0104"
+   ],
+   "confusable_with": [
+    "KU-0098"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0098",
+   "topic": "Geography",
+   "subtopic": "Tributaries",
+   "type": "place",
+   "statement": "Disang: rises in Nagaland, joins near Sibsagar.",
+   "supporting_excerpt": "Disang: rises in Nagaland, joins near Sibsagar",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "South-bank tributaries:"
+    ],
+    "block_id": "B-0049",
+    "char_start": 13463,
+    "char_end": 13509,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 3,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "medium",
+    "factual_density": "medium",
+    "conceptual_density": "low",
+    "confusion_risk": "low",
+    "discrimination_value": "low",
+    "revision_priority": "low"
+   },
+   "related_ku": [],
+   "confusable_with": [
+    "KU-0099",
+    "KU-0097"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0099",
+   "topic": "Geography",
+   "subtopic": "Tributaries",
+   "type": "place",
+   "statement": "Dikhow: rises in Nagaland, joins near Sibsagar.",
+   "supporting_excerpt": "Dikhow: rises in Nagaland, joins near Sibsagar",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "South-bank tributaries:"
+    ],
+    "block_id": "B-0049",
+    "char_start": 13513,
+    "char_end": 13559,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 3,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "medium",
+    "factual_density": "medium",
+    "conceptual_density": "low",
+    "confusion_risk": "low",
+    "discrimination_value": "low",
+    "revision_priority": "low"
+   },
+   "related_ku": [],
+   "confusable_with": [
+    "KU-0098",
+    "KU-0100"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0100",
+   "topic": "Geography",
+   "subtopic": "Tributaries",
+   "type": "place",
+   "statement": "Dhansiri: rises in Nagaland, joins near Golaghat; about 352 km long.",
+   "supporting_excerpt": "Dhansiri: rises in Nagaland, joins near Golaghat; about 352 kilometres long",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "South-bank tributaries:"
+    ],
+    "block_id": "B-0049",
+    "char_start": 13563,
+    "char_end": 13638,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0090"
+   ],
+   "confusable_with": [
+    "KU-0101",
+    "KU-0099"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0101",
+   "topic": "Geography",
+   "subtopic": "Tributaries",
+   "type": "place",
+   "statement": "Kopili: rises in Meghalaya, joins near Nagaon; about 256 km long.",
+   "supporting_excerpt": "Kopili: rises in Meghalaya, joins near Nagaon; about 256 kilometres long",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "South-bank tributaries:"
+    ],
+    "block_id": "B-0049",
+    "char_start": 13642,
+    "char_end": 13714,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0090"
+   ],
+   "confusable_with": [
+    "KU-0100"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0102",
+   "topic": "Geography",
+   "subtopic": "Tributaries",
+   "type": "place",
+   "statement": "Kulsi and Krishnai rise in Meghalaya and join in Lower Assam.",
+   "supporting_excerpt": "Kulsi and Krishnai: rise in Meghalaya and join in Lower Assam",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "South-bank tributaries:"
+    ],
+    "block_id": "B-0049",
+    "char_start": 13718,
+    "char_end": 13779,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 3,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "medium",
+    "factual_density": "medium",
+    "conceptual_density": "low",
+    "confusion_risk": "low",
+    "discrimination_value": "low",
+    "revision_priority": "low"
+   },
+   "related_ku": [],
+   "confusable_with": [
+    "KU-0101"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0103",
+   "topic": "Geography",
+   "subtopic": "Tributaries",
+   "type": "table_value",
+   "statement": "Jia Bharali (Kameng): north bank, rises in Arunachal Pradesh, about 264 km long.",
+   "supporting_excerpt": "Jia Bharali (Kameng) | North | Arunachal Pradesh | 264",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "South-bank tributaries:"
+    ],
+    "block_id": "B-0050",
+    "char_start": 13893,
+    "char_end": 13947,
+    "table_ref": "tributaries"
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0093"
+   ],
+   "confusable_with": [
+    "KU-0092"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0104",
+   "topic": "Geography",
+   "subtopic": "Tributaries",
+   "type": "table_value",
+   "statement": "Burhi Dihing: south bank, rises in the Patkai hills/Arunachal Pradesh, about 362 km long.",
+   "supporting_excerpt": "Burhi Dihing | South | Patkai hills, Arunachal Pradesh | 362",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "South-bank tributaries:"
+    ],
+    "block_id": "B-0050",
+    "char_start": 14015,
+    "char_end": 14075,
+    "table_ref": "tributaries"
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0097"
+   ],
+   "confusable_with": [
+    "KU-0100"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0105",
+   "topic": "Geography",
+   "subtopic": "Tributaries",
+   "type": "table_value",
+   "statement": "Sankosh: north bank, rises in Bhutan, about 214 km long.",
+   "supporting_excerpt": "Sankosh | North | Bhutan | 214",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "South-bank tributaries:"
+    ],
+    "block_id": "B-0050",
+    "char_start": 14076,
+    "char_end": 14106,
+    "table_ref": "tributaries"
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0096"
+   ],
+   "confusable_with": [
+    "KU-0095"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0106",
+   "topic": "Geography",
+   "subtopic": "Soils",
+   "type": "classification",
+   "statement": "Assam has three soil zones: recent alluvial soils of flood plains, old alluvial soils of higher terraces, and laterite/red soils on the Karbi and Dima Hasao hills with forest-soil patches.",
+   "supporting_excerpt": "Assam has three broad soil zones: recent alluvial soils of the flood plains, old alluvial soils of the higher terraces, and laterite and red soils on the Karbi and Dima Hasao hills with patches of forest soil",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "South-bank tributaries:",
+     "9. Soils, climate and key numbers of Assam"
+    ],
+    "block_id": "B-0052",
+    "char_start": 14152,
+    "char_end": 14360,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0080",
+    "KU-0107"
+   ],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0107",
+   "topic": "Geography",
+   "subtopic": "Soils",
+   "type": "comparison",
+   "statement": "Khadar soils are newer, finer, low-lying alluvium renewed by almost every flood; bhangar soils are older, coarser, higher-lying alluvium above the normal flood limit.",
+   "supporting_excerpt": "Distinction: khadar soils are newer, finer, low-lying alluvium renewed by almost every flood, whereas bhangar soils are older, coarser, higher-lying alluvium above the normal flood limit",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "South-bank tributaries:",
+     "9. Soils, climate and key numbers of Assam"
+    ],
+    "block_id": "B-0053",
+    "char_start": 14363,
+    "char_end": 14549,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "high",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0106"
+   ],
+   "confusable_with": [
+    "KU-0080"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0108",
+   "topic": "Geography",
+   "subtopic": "Climate",
+   "type": "concept",
+   "statement": "Assam's climate is humid subtropical with a strong monsoon.",
+   "supporting_excerpt": "The climate is humid subtropical with a strong monsoon",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "South-bank tributaries:",
+     "9. Soils, climate and key numbers of Assam"
+    ],
+    "block_id": "B-0054",
+    "char_start": 14552,
+    "char_end": 14606,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 3,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "medium",
+    "factual_density": "medium",
+    "conceptual_density": "low",
+    "confusion_risk": "low",
+    "discrimination_value": "low",
+    "revision_priority": "low"
+   },
+   "related_ku": [
+    "KU-0109"
+   ],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0109",
+   "topic": "Geography",
+   "subtopic": "Climate",
+   "type": "number_value",
+   "statement": "Average annual rainfall for Assam is about 2,300 millimetres.",
+   "supporting_excerpt": "Average annual rainfall for the state is about 2,300 millimetres",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "South-bank tributaries:",
+     "9. Soils, climate and key numbers of Assam"
+    ],
+    "block_id": "B-0054",
+    "char_start": 14608,
+    "char_end": 14672,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [
+    "KU-0110",
+    "KU-0112"
+   ],
+   "confusable_with": [
+    "KU-0110"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0110",
+   "topic": "Geography",
+   "subtopic": "Climate",
+   "type": "number_value",
+   "statement": "Cherrapunji-Mawsynram, just across the border in Meghalaya, receives over 11,000 mm in extreme years.",
+   "supporting_excerpt": "with Cherrapunji-Mawsynram just across the border in Meghalaya receiving over 11,000 millimetres in extreme years",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "South-bank tributaries:",
+     "9. Soils, climate and key numbers of Assam"
+    ],
+    "block_id": "B-0054",
+    "char_start": 14674,
+    "char_end": 14787,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0109"
+   ],
+   "confusable_with": [
+    "KU-0109"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0111",
+   "topic": "Geography",
+   "subtopic": "Climate",
+   "type": "number_value",
+   "statement": "Valley summers run 30-35 C, winter minimums fall to 6-10 C, and relative humidity stays 70-85% much of the year.",
+   "supporting_excerpt": "Summer temperatures range from 30 to 35 degrees Celsius in the valley, winter minimums fall to 6 to 10 degrees Celsius, and relative humidity stays between 70 and 85 percent for much of the year",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "South-bank tributaries:",
+     "9. Soils, climate and key numbers of Assam"
+    ],
+    "block_id": "B-0054",
+    "char_start": 14789,
+    "char_end": 14983,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0112",
+   "topic": "Geography",
+   "subtopic": "Climate",
+   "type": "number_value",
+   "statement": "Roughly 75 percent of annual rain falls between June and September.",
+   "supporting_excerpt": "Roughly 75 percent of annual rain falls between June and September",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "South-bank tributaries:",
+     "9. Soils, climate and key numbers of Assam"
+    ],
+    "block_id": "B-0054",
+    "char_start": 14985,
+    "char_end": 15051,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0109"
+   ],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0113",
+   "topic": "Geography",
+   "subtopic": "Climate",
+   "type": "event",
+   "statement": "The 2022 Assam floods affected all 35 districts and over 5.8 million people.",
+   "supporting_excerpt": "the devastating floods of 2022 affected all 35 districts and over 5.8 million people",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "South-bank tributaries:",
+     "9. Soils, climate and key numbers of Assam"
+    ],
+    "block_id": "B-0054",
+    "char_start": 15097,
+    "char_end": 15181,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [],
+   "confusable_with": [
+    "KU-0088"
+   ],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0114",
+   "topic": "Geography",
+   "subtopic": "People",
+   "type": "number_value",
+   "statement": "The 2011 census recorded Assam at about 31.2 million people with density near 398 per sq km.",
+   "supporting_excerpt": "the 2011 census recorded Assam at about 31.2 million people with a density near 398 persons per square kilometre",
+   "source": {
+    "page": 5,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "South-bank tributaries:",
+     "9. Soils, climate and key numbers of Assam"
+    ],
+    "block_id": "B-0054",
+    "char_start": 15189,
+    "char_end": 15301,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 1,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "high",
+    "exam_relevance": "high",
+    "factual_density": "high",
+    "conceptual_density": "medium",
+    "confusion_risk": "high",
+    "discrimination_value": "high",
+    "revision_priority": "high"
+   },
+   "related_ku": [],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0115",
+   "topic": "Geography",
+   "subtopic": "Course",
+   "type": "term",
+   "statement": "Majuli is formed between the Brahmaputra and the Subansiri-Luit channels.",
+   "supporting_excerpt": "Majuli, formed between the Brahmaputra and the Subansiri-Luit channels, is among the largest inhabited river islands in the world",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:",
+     "7. Physical geography of Assam and the Brahmaputra system"
+    ],
+    "block_id": "B-0041",
+    "char_start": 11994,
+    "char_end": 12123,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 3,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "medium",
+    "factual_density": "medium",
+    "conceptual_density": "low",
+    "confusion_risk": "low",
+    "discrimination_value": "low",
+    "revision_priority": "low"
+   },
+   "related_ku": [
+    "KU-0086"
+   ],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  },
+  {
+   "id": "KU-0116",
+   "topic": "Polity",
+   "subtopic": "Writs",
+   "type": "concept",
+   "statement": "The five writs are issued by constitutional courts under Article 32 (Supreme Court) and Article 226 (High Courts).",
+   "supporting_excerpt": "The Court issues five writs under Articles 32 and 226:",
+   "source": {
+    "page": 4,
+    "section_path": [
+     "Exam Study Notes: Fundamental Rights and the Brahmaputra System",
+     "The Court issues five writs under Articles 32 and 226:"
+    ],
+    "block_id": "B-0032",
+    "char_start": 9841,
+    "char_end": 9895,
+    "table_ref": null
+   },
+   "origin": "source",
+   "tier": 2,
+   "tier_history": [],
+   "dimensions": {
+    "importance": "medium",
+    "exam_relevance": "high",
+    "factual_density": "medium",
+    "conceptual_density": "medium",
+    "confusion_risk": "medium",
+    "discrimination_value": "medium",
+    "revision_priority": "medium"
+   },
+   "related_ku": [
+    "KU-0072",
+    "KU-0073"
+   ],
+   "confusable_with": [],
+   "omission_reason": null,
+   "language": "en"
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+{
+  "status": "PARTIAL",
+  "reasons": [
+    "tier 1 coverage 96.4% < 100%",
+    "tier 2 coverage 94.2% < 100%"
+  ]
+}

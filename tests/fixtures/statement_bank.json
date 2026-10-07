@@ -1,0 +1,132 @@
+{
+ "meta": {
+  "bank_id": "statement-bank",
+  "note": "QS1 key matches the truth pattern [1, 3]; QS2 key contradicts it"
+ },
+ "questions": [
+  {
+   "answer": "B",
+   "explanation": "1 true (1978), 2 false, 3 true.",
+   "id": "QS1",
+   "knowledge_units": [
+    {
+     "ku_id": "KU-0104",
+     "role": "primary"
+    }
+   ],
+   "options": [
+    {
+     "is_correct": false,
+     "key": "A",
+     "text": "1 only"
+    },
+    {
+     "is_correct": true,
+     "key": "B",
+     "text": "1 and 3 only"
+    },
+    {
+     "is_correct": false,
+     "key": "C",
+     "text": "1, 2 and 3"
+    },
+    {
+     "is_correct": false,
+     "key": "D",
+     "text": "2 and 3 only"
+    }
+   ],
+   "statements": [
+    {
+     "alteration": null,
+     "alteration_type": "none",
+     "ku_basis": "KU-0104",
+     "text": "Maneka Gandhi (1978) requires fair, just and reasonable procedure.",
+     "truth_value": true,
+     "truth": true
+    },
+    {
+     "alteration": "Narrows Article 21 to bare survival.",
+     "alteration_type": "scope_change",
+     "ku_basis": "KU-0104",
+     "text": "Article 21 covers only bare survival.",
+     "truth_value": false,
+     "truth": false
+    },
+    {
+     "alteration": null,
+     "alteration_type": "none",
+     "ku_basis": "KU-0104",
+     "text": "Puttaswamy (2017) reads privacy into Article 21.",
+     "truth_value": true,
+     "truth": true
+    }
+   ],
+   "status": "validated",
+   "stem": "Consider the statements about Article 21.",
+   "type": "statement_based"
+  },
+  {
+   "answer": "C",
+   "explanation": "Planted error: key claims all three including false statement 2.",
+   "id": "QS2",
+   "knowledge_units": [
+    {
+     "ku_id": "KU-0104",
+     "role": "primary"
+    }
+   ],
+   "options": [
+    {
+     "is_correct": false,
+     "key": "A",
+     "text": "1 only"
+    },
+    {
+     "is_correct": false,
+     "key": "B",
+     "text": "1 and 3 only"
+    },
+    {
+     "is_correct": true,
+     "key": "C",
+     "text": "1, 2 and 3"
+    },
+    {
+     "is_correct": false,
+     "key": "D",
+     "text": "2 and 3 only"
+    }
+   ],
+   "statements": [
+    {
+     "alteration": null,
+     "alteration_type": "none",
+     "ku_basis": "KU-0104",
+     "text": "Maneka Gandhi (1978) requires fair, just and reasonable procedure.",
+     "truth_value": true,
+     "truth": true
+    },
+    {
+     "alteration": "Narrows Article 21 to bare survival.",
+     "alteration_type": "scope_change",
+     "ku_basis": "KU-0104",
+     "text": "Article 21 covers only bare survival.",
+     "truth_value": false,
+     "truth": false
+    },
+    {
+     "alteration": null,
+     "alteration_type": "none",
+     "ku_basis": "KU-0104",
+     "text": "Puttaswamy (2017) reads privacy into Article 21.",
+     "truth_value": true,
+     "truth": true
+    }
+   ],
+   "status": "validated",
+   "stem": "Consider the statements about Article 21 (bad key).",
+   "type": "statement_based"
+  }
+ ]
+}

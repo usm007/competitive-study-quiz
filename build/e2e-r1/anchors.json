@@ -1,0 +1,2090 @@
+[
+  {
+    "id": "A-1",
+    "kind": "entity",
+    "value": "Exam Study Notes",
+    "block_id": "B-0001"
+  },
+  {
+    "id": "A-2",
+    "kind": "entity",
+    "value": "Fundamental Rights",
+    "block_id": "B-0001"
+  },
+  {
+    "id": "A-3",
+    "kind": "entity",
+    "value": "Brahmaputra System",
+    "block_id": "B-0001"
+  },
+  {
+    "id": "A-4",
+    "kind": "ref",
+    "value": "Articles 12",
+    "block_id": "B-0003"
+  },
+  {
+    "id": "A-5",
+    "kind": "entity",
+    "value": "Indian Polity",
+    "block_id": "B-0003"
+  },
+  {
+    "id": "A-6",
+    "kind": "entity",
+    "value": "Fundamental Rights",
+    "block_id": "B-0003"
+  },
+  {
+    "id": "A-7",
+    "kind": "entity",
+    "value": "Physical Geography",
+    "block_id": "B-0003"
+  },
+  {
+    "id": "A-8",
+    "kind": "number",
+    "value": "35",
+    "block_id": "B-0003"
+  },
+  {
+    "id": "A-9",
+    "kind": "ref",
+    "value": "Articles 12",
+    "block_id": "B-0004"
+  },
+  {
+    "id": "A-10",
+    "kind": "entity",
+    "value": "Fundamental Rights",
+    "block_id": "B-0004"
+  },
+  {
+    "id": "A-11",
+    "kind": "number",
+    "value": "1",
+    "block_id": "B-0004"
+  },
+  {
+    "id": "A-12",
+    "kind": "number",
+    "value": "35",
+    "block_id": "B-0004"
+  },
+  {
+    "id": "A-13",
+    "kind": "date",
+    "value": "26 November 1949",
+    "block_id": "B-0005"
+  },
+  {
+    "id": "A-14",
+    "kind": "date",
+    "value": "26 January 1950",
+    "block_id": "B-0005"
+  },
+  {
+    "id": "A-15",
+    "kind": "ref",
+    "value": "Articles 12",
+    "block_id": "B-0005"
+  },
+  {
+    "id": "A-16",
+    "kind": "ref",
+    "value": "Article 32",
+    "block_id": "B-0005"
+  },
+  {
+    "id": "A-17",
+    "kind": "ref",
+    "value": "Article 226",
+    "block_id": "B-0005"
+  },
+  {
+    "id": "A-18",
+    "kind": "entity",
+    "value": "The Constitution",
+    "block_id": "B-0005"
+  },
+  {
+    "id": "A-19",
+    "kind": "entity",
+    "value": "Fundamental Rights",
+    "block_id": "B-0005"
+  },
+  {
+    "id": "A-20",
+    "kind": "entity",
+    "value": "Supreme Court",
+    "block_id": "B-0005"
+  },
+  {
+    "id": "A-21",
+    "kind": "entity",
+    "value": "High Court",
+    "block_id": "B-0005"
+  },
+  {
+    "id": "A-22",
+    "kind": "entity",
+    "value": "III",
+    "block_id": "B-0005"
+  },
+  {
+    "id": "A-23",
+    "kind": "number",
+    "value": "35",
+    "block_id": "B-0005"
+  },
+  {
+    "id": "A-24",
+    "kind": "ref",
+    "value": "Article 12",
+    "block_id": "B-0006"
+  },
+  {
+    "id": "A-25",
+    "kind": "ref",
+    "value": "Article 13",
+    "block_id": "B-0007"
+  },
+  {
+    "id": "A-26",
+    "kind": "date",
+    "value": "26 January 1950",
+    "block_id": "B-0008"
+  },
+  {
+    "id": "A-27",
+    "kind": "date",
+    "value": "1951",
+    "block_id": "B-0008"
+  },
+  {
+    "id": "A-28",
+    "kind": "date",
+    "value": "1976",
+    "block_id": "B-0008"
+  },
+  {
+    "id": "A-29",
+    "kind": "date",
+    "value": "1978",
+    "block_id": "B-0008"
+  },
+  {
+    "id": "A-30",
+    "kind": "ref",
+    "value": "Article 13",
+    "block_id": "B-0008"
+  },
+  {
+    "id": "A-31",
+    "kind": "ref",
+    "value": "Articles 31A",
+    "block_id": "B-0008"
+  },
+  {
+    "id": "A-32",
+    "kind": "ref",
+    "value": "Articles 14",
+    "block_id": "B-0008"
+  },
+  {
+    "id": "A-33",
+    "kind": "entity",
+    "value": "Fundamental Rights",
+    "block_id": "B-0008"
+  },
+  {
+    "id": "A-34",
+    "kind": "entity",
+    "value": "The First Amendment",
+    "block_id": "B-0008"
+  },
+  {
+    "id": "A-35",
+    "kind": "entity",
+    "value": "Ninth Schedule",
+    "block_id": "B-0008"
+  },
+  {
+    "id": "A-36",
+    "kind": "entity",
+    "value": "The Forty",
+    "block_id": "B-0008"
+  },
+  {
+    "id": "A-37",
+    "kind": "entity",
+    "value": "Directive Principles",
+    "block_id": "B-0008"
+  },
+  {
+    "id": "A-38",
+    "kind": "entity",
+    "value": "Fundamental Right",
+    "block_id": "B-0008"
+  },
+  {
+    "id": "A-39",
+    "kind": "entity",
+    "value": "III",
+    "block_id": "B-0008"
+  },
+  {
+    "id": "A-40",
+    "kind": "number",
+    "value": "4",
+    "block_id": "B-0008"
+  },
+  {
+    "id": "A-41",
+    "kind": "number",
+    "value": "19",
+    "block_id": "B-0008"
+  },
+  {
+    "id": "A-42",
+    "kind": "percentage",
+    "value": "50 percent",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-43",
+    "kind": "percentage",
+    "value": "10 percent",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-44",
+    "kind": "date",
+    "value": "26 November 1949",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-45",
+    "kind": "date",
+    "value": "26 January 1950",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-46",
+    "kind": "date",
+    "value": "1951",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-47",
+    "kind": "date",
+    "value": "1976",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-48",
+    "kind": "date",
+    "value": "1978",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-49",
+    "kind": "date",
+    "value": "1992",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-50",
+    "kind": "date",
+    "value": "2002",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-51",
+    "kind": "date",
+    "value": "2009",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-52",
+    "kind": "date",
+    "value": "2015",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-53",
+    "kind": "date",
+    "value": "2017",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-54",
+    "kind": "date",
+    "value": "2019",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-55",
+    "kind": "ref",
+    "value": "Articles 31A",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-56",
+    "kind": "ref",
+    "value": "Article 15(4)",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-57",
+    "kind": "ref",
+    "value": "Articles 14A",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-58",
+    "kind": "ref",
+    "value": "Article 21",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-59",
+    "kind": "ref",
+    "value": "Article 21A",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-60",
+    "kind": "ref",
+    "value": "Section 66A",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-61",
+    "kind": "ref",
+    "value": "Articles 15(6)",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-62",
+    "kind": "entity",
+    "value": "Fundamental Rights",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-63",
+    "kind": "entity",
+    "value": "First Amendment",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-64",
+    "kind": "entity",
+    "value": "Supreme Court",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-65",
+    "kind": "entity",
+    "value": "Indra Sawhney",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-66",
+    "kind": "entity",
+    "value": "Compulsory Education Act",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-67",
+    "kind": "entity",
+    "value": "Information Technology Act",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-68",
+    "kind": "entity",
+    "value": "Shreya Singhal",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-69",
+    "kind": "entity",
+    "value": "Fundamental Right",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-70",
+    "kind": "entity",
+    "value": "One Hundred",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-71",
+    "kind": "entity",
+    "value": "Third Amendment",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-72",
+    "kind": "entity",
+    "value": "Economically Weaker Sections",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-73",
+    "kind": "entity",
+    "value": "III",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-74",
+    "kind": "number",
+    "value": "6",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-75",
+    "kind": "number",
+    "value": "14",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-76",
+    "kind": "number",
+    "value": "16",
+    "block_id": "B-0010"
+  },
+  {
+    "id": "A-77",
+    "kind": "number",
+    "value": "2",
+    "block_id": "B-0011"
+  },
+  {
+    "id": "A-78",
+    "kind": "table_cell",
+    "value": "Article",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-79",
+    "kind": "table_cell",
+    "value": "Subject",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-80",
+    "kind": "table_cell",
+    "value": "One-line revision point",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-81",
+    "kind": "table_cell",
+    "value": "Article 12",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-82",
+    "kind": "table_cell",
+    "value": "Definition of State",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-83",
+    "kind": "table_cell",
+    "value": "Government, Parliament, legislatures, local and other authorities",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-84",
+    "kind": "table_cell",
+    "value": "Article 13",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-85",
+    "kind": "table_cell",
+    "value": "Laws inconsistent with Fundamental Rights",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-86",
+    "kind": "table_cell",
+    "value": "Pre-1950 inconsistent laws void; State cannot abridge Part III",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-87",
+    "kind": "table_cell",
+    "value": "Article 14",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-88",
+    "kind": "table_cell",
+    "value": "Equality before law and equal protection",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-89",
+    "kind": "table_cell",
+    "value": "No person denied equality; reasonable classification allowed",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-90",
+    "kind": "table_cell",
+    "value": "Article 15",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-91",
+    "kind": "table_cell",
+    "value": "No discrimination on listed grounds",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-92",
+    "kind": "table_cell",
+    "value": "Religion, race, caste, sex, place of birth; exceptions in clauses (3) to (6)",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-93",
+    "kind": "table_cell",
+    "value": "Article 16",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-94",
+    "kind": "table_cell",
+    "value": "Equality in public employment",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-95",
+    "kind": "table_cell",
+    "value": "Equal opportunity; residence and reservation exceptions",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-96",
+    "kind": "table_cell",
+    "value": "Article 17",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-97",
+    "kind": "table_cell",
+    "value": "Abolition of untouchability",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-98",
+    "kind": "table_cell",
+    "value": "Practice forbidden; offence punishable by law",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-99",
+    "kind": "table_cell",
+    "value": "Article 18",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-100",
+    "kind": "table_cell",
+    "value": "Abolition of titles",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-101",
+    "kind": "table_cell",
+    "value": "No State titles except military and academic distinctions",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-102",
+    "kind": "table_cell",
+    "value": "Article 19",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-103",
+    "kind": "table_cell",
+    "value": "Six freedoms",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-104",
+    "kind": "table_cell",
+    "value": "Speech, assembly, association, movement, residence, profession",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-105",
+    "kind": "table_cell",
+    "value": "Article 20",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-106",
+    "kind": "table_cell",
+    "value": "Protection in convictions",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-107",
+    "kind": "table_cell",
+    "value": "No ex post facto law, no double jeopardy, no self-incrimination",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-108",
+    "kind": "table_cell",
+    "value": "Article 21",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-109",
+    "kind": "table_cell",
+    "value": "Life and personal liberty",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-110",
+    "kind": "table_cell",
+    "value": "No deprivation except by procedure established by law",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-111",
+    "kind": "table_cell",
+    "value": "Article 21A",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-112",
+    "kind": "table_cell",
+    "value": "Free and compulsory education",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-113",
+    "kind": "table_cell",
+    "value": "Children aged 6 to 14 years; inserted in 2002",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-114",
+    "kind": "table_cell",
+    "value": "Article 22",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-115",
+    "kind": "table_cell",
+    "value": "Protection against arrest and detention",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-116",
+    "kind": "table_cell",
+    "value": "Informed of grounds; preventive detention limits",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-117",
+    "kind": "table_cell",
+    "value": "Article 23",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-118",
+    "kind": "table_cell",
+    "value": "No trafficking or forced labour",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-119",
+    "kind": "table_cell",
+    "value": "Begar and bonded labour prohibited",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-120",
+    "kind": "table_cell",
+    "value": "Article 24",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-121",
+    "kind": "table_cell",
+    "value": "No child labour in hazardous work",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-122",
+    "kind": "table_cell",
+    "value": "Children below 14 years barred from factories and mines",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-123",
+    "kind": "table_cell",
+    "value": "Articles 25 to 28",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-124",
+    "kind": "table_cell",
+    "value": "Freedom of religion",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-125",
+    "kind": "table_cell",
+    "value": "Conscience, practice, propagation, management, no religious taxes",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-126",
+    "kind": "table_cell",
+    "value": "Articles 29 to 30",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-127",
+    "kind": "table_cell",
+    "value": "Cultural and educational rights",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-128",
+    "kind": "table_cell",
+    "value": "Minority language, script, culture; minority institutions",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-129",
+    "kind": "table_cell",
+    "value": "Article 32",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-130",
+    "kind": "table_cell",
+    "value": "Right to Constitutional Remedies",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-131",
+    "kind": "table_cell",
+    "value": "Move the Supreme Court; called the heart and soul of the Constitution",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-132",
+    "kind": "date",
+    "value": "1950",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-133",
+    "kind": "date",
+    "value": "2002",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-134",
+    "kind": "ref",
+    "value": "Article 12",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-135",
+    "kind": "ref",
+    "value": "Article 13",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-136",
+    "kind": "ref",
+    "value": "Article 14",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-137",
+    "kind": "ref",
+    "value": "Article 15",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-138",
+    "kind": "ref",
+    "value": "Article 16",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-139",
+    "kind": "ref",
+    "value": "Article 17",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-140",
+    "kind": "ref",
+    "value": "Article 18",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-141",
+    "kind": "ref",
+    "value": "Article 19",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-142",
+    "kind": "ref",
+    "value": "Article 20",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-143",
+    "kind": "ref",
+    "value": "Article 21",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-144",
+    "kind": "ref",
+    "value": "Article 21A",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-145",
+    "kind": "ref",
+    "value": "Article 22",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-146",
+    "kind": "ref",
+    "value": "Article 23",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-147",
+    "kind": "ref",
+    "value": "Article 24",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-148",
+    "kind": "ref",
+    "value": "Articles 25",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-149",
+    "kind": "ref",
+    "value": "Articles 29",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-150",
+    "kind": "ref",
+    "value": "Article 32",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-151",
+    "kind": "entity",
+    "value": "Fundamental Rights",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-152",
+    "kind": "entity",
+    "value": "Constitutional Remedies",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-153",
+    "kind": "entity",
+    "value": "Supreme Court",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-154",
+    "kind": "entity",
+    "value": "III",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-155",
+    "kind": "number",
+    "value": "3",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-156",
+    "kind": "number",
+    "value": "6",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-157",
+    "kind": "number",
+    "value": "14",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-158",
+    "kind": "number",
+    "value": "28",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-159",
+    "kind": "number",
+    "value": "30",
+    "block_id": "B-0013"
+  },
+  {
+    "id": "A-160",
+    "kind": "ref",
+    "value": "Article 14",
+    "block_id": "B-0014"
+  },
+  {
+    "id": "A-161",
+    "kind": "ref",
+    "value": "Articles 15",
+    "block_id": "B-0014"
+  },
+  {
+    "id": "A-162",
+    "kind": "number",
+    "value": "3",
+    "block_id": "B-0014"
+  },
+  {
+    "id": "A-163",
+    "kind": "number",
+    "value": "16",
+    "block_id": "B-0014"
+  },
+  {
+    "id": "A-164",
+    "kind": "ref",
+    "value": "Article 14",
+    "block_id": "B-0017"
+  },
+  {
+    "id": "A-165",
+    "kind": "ref",
+    "value": "Article 15",
+    "block_id": "B-0018"
+  },
+  {
+    "id": "A-166",
+    "kind": "ref",
+    "value": "Article 16",
+    "block_id": "B-0018"
+  },
+  {
+    "id": "A-167",
+    "kind": "percentage",
+    "value": "10 percent",
+    "block_id": "B-0019"
+  },
+  {
+    "id": "A-168",
+    "kind": "date",
+    "value": "1951",
+    "block_id": "B-0019"
+  },
+  {
+    "id": "A-169",
+    "kind": "date",
+    "value": "2019",
+    "block_id": "B-0019"
+  },
+  {
+    "id": "A-170",
+    "kind": "ref",
+    "value": "Article 15",
+    "block_id": "B-0019"
+  },
+  {
+    "id": "A-171",
+    "kind": "ref",
+    "value": "Article 16",
+    "block_id": "B-0019"
+  },
+  {
+    "id": "A-172",
+    "kind": "ref",
+    "value": "Article 15(3)",
+    "block_id": "B-0019"
+  },
+  {
+    "id": "A-173",
+    "kind": "ref",
+    "value": "Article 15(4)",
+    "block_id": "B-0019"
+  },
+  {
+    "id": "A-174",
+    "kind": "ref",
+    "value": "Articles 15(5)",
+    "block_id": "B-0019"
+  },
+  {
+    "id": "A-175",
+    "kind": "ref",
+    "value": "Article 16(4)",
+    "block_id": "B-0019"
+  },
+  {
+    "id": "A-176",
+    "kind": "ref",
+    "value": "Article 16(4A)",
+    "block_id": "B-0019"
+  },
+  {
+    "id": "A-177",
+    "kind": "ref",
+    "value": "Article 16(6)",
+    "block_id": "B-0019"
+  },
+  {
+    "id": "A-178",
+    "kind": "entity",
+    "value": "Economically Weaker Sections",
+    "block_id": "B-0019"
+  },
+  {
+    "id": "A-179",
+    "kind": "entity",
+    "value": "Scheduled Castes",
+    "block_id": "B-0019"
+  },
+  {
+    "id": "A-180",
+    "kind": "entity",
+    "value": "Scheduled Tribes",
+    "block_id": "B-0019"
+  },
+  {
+    "id": "A-181",
+    "kind": "number",
+    "value": "15",
+    "block_id": "B-0019"
+  },
+  {
+    "id": "A-182",
+    "kind": "number",
+    "value": "6",
+    "block_id": "B-0019"
+  },
+  {
+    "id": "A-183",
+    "kind": "ref",
+    "value": "Article 19",
+    "block_id": "B-0020"
+  },
+  {
+    "id": "A-184",
+    "kind": "number",
+    "value": "4",
+    "block_id": "B-0020"
+  },
+  {
+    "id": "A-185",
+    "kind": "ref",
+    "value": "Article 19(1)",
+    "block_id": "B-0021"
+  },
+  {
+    "id": "A-186",
+    "kind": "date",
+    "value": "1978",
+    "block_id": "B-0022"
+  },
+  {
+    "id": "A-187",
+    "kind": "ref",
+    "value": "Article 19(1)",
+    "block_id": "B-0022"
+  },
+  {
+    "id": "A-188",
+    "kind": "date",
+    "value": "2015",
+    "block_id": "B-0023"
+  },
+  {
+    "id": "A-189",
+    "kind": "ref",
+    "value": "Section 66A",
+    "block_id": "B-0023"
+  },
+  {
+    "id": "A-190",
+    "kind": "ref",
+    "value": "Article 19(2)",
+    "block_id": "B-0023"
+  },
+  {
+    "id": "A-191",
+    "kind": "entity",
+    "value": "Supreme Court",
+    "block_id": "B-0023"
+  },
+  {
+    "id": "A-192",
+    "kind": "entity",
+    "value": "Information Technology Act",
+    "block_id": "B-0023"
+  },
+  {
+    "id": "A-193",
+    "kind": "number",
+    "value": "2",
+    "block_id": "B-0023"
+  },
+  {
+    "id": "A-194",
+    "kind": "number",
+    "value": "6",
+    "block_id": "B-0023"
+  },
+  {
+    "id": "A-195",
+    "kind": "ref",
+    "value": "Article 19",
+    "block_id": "B-0024"
+  },
+  {
+    "id": "A-196",
+    "kind": "ref",
+    "value": "Article 21",
+    "block_id": "B-0024"
+  },
+  {
+    "id": "A-197",
+    "kind": "ref",
+    "value": "Article 21",
+    "block_id": "B-0025"
+  },
+  {
+    "id": "A-198",
+    "kind": "number",
+    "value": "5",
+    "block_id": "B-0025"
+  },
+  {
+    "id": "A-199",
+    "kind": "date",
+    "value": "1978",
+    "block_id": "B-0026"
+  },
+  {
+    "id": "A-200",
+    "kind": "ref",
+    "value": "Article 21",
+    "block_id": "B-0026"
+  },
+  {
+    "id": "A-201",
+    "kind": "entity",
+    "value": "Maneka Gandhi",
+    "block_id": "B-0026"
+  },
+  {
+    "id": "A-202",
+    "kind": "entity",
+    "value": "Supreme Court",
+    "block_id": "B-0026"
+  },
+  {
+    "id": "A-203",
+    "kind": "date",
+    "value": "1978",
+    "block_id": "B-0027"
+  },
+  {
+    "id": "A-204",
+    "kind": "ref",
+    "value": "Article 21",
+    "block_id": "B-0027"
+  },
+  {
+    "id": "A-205",
+    "kind": "entity",
+    "value": "Maneka Gandhi",
+    "block_id": "B-0027"
+  },
+  {
+    "id": "A-206",
+    "kind": "date",
+    "value": "1978",
+    "block_id": "B-0028"
+  },
+  {
+    "id": "A-207",
+    "kind": "date",
+    "value": "2017",
+    "block_id": "B-0028"
+  },
+  {
+    "id": "A-208",
+    "kind": "date",
+    "value": "2002",
+    "block_id": "B-0028"
+  },
+  {
+    "id": "A-209",
+    "kind": "date",
+    "value": "2009",
+    "block_id": "B-0028"
+  },
+  {
+    "id": "A-210",
+    "kind": "ref",
+    "value": "Article 21",
+    "block_id": "B-0028"
+  },
+  {
+    "id": "A-211",
+    "kind": "ref",
+    "value": "Article 21A",
+    "block_id": "B-0028"
+  },
+  {
+    "id": "A-212",
+    "kind": "number",
+    "value": "6",
+    "block_id": "B-0028"
+  },
+  {
+    "id": "A-213",
+    "kind": "number",
+    "value": "14",
+    "block_id": "B-0028"
+  },
+  {
+    "id": "A-214",
+    "kind": "ref",
+    "value": "Article 32",
+    "block_id": "B-0030"
+  },
+  {
+    "id": "A-215",
+    "kind": "number",
+    "value": "6",
+    "block_id": "B-0030"
+  },
+  {
+    "id": "A-216",
+    "kind": "ref",
+    "value": "Article 32",
+    "block_id": "B-0031"
+  },
+  {
+    "id": "A-217",
+    "kind": "entity",
+    "value": "Supreme Court",
+    "block_id": "B-0031"
+  },
+  {
+    "id": "A-218",
+    "kind": "entity",
+    "value": "Fundamental Rights",
+    "block_id": "B-0031"
+  },
+  {
+    "id": "A-219",
+    "kind": "entity",
+    "value": "The Supreme Court",
+    "block_id": "B-0031"
+  },
+  {
+    "id": "A-220",
+    "kind": "entity",
+    "value": "Fundamental Right",
+    "block_id": "B-0031"
+  },
+  {
+    "id": "A-221",
+    "kind": "ref",
+    "value": "Articles 32",
+    "block_id": "B-0032"
+  },
+  {
+    "id": "A-222",
+    "kind": "entity",
+    "value": "The Court",
+    "block_id": "B-0032"
+  },
+  {
+    "id": "A-223",
+    "kind": "number",
+    "value": "226",
+    "block_id": "B-0032"
+  },
+  {
+    "id": "A-224",
+    "kind": "ref",
+    "value": "Article 32",
+    "block_id": "B-0035"
+  },
+  {
+    "id": "A-225",
+    "kind": "ref",
+    "value": "Article 226",
+    "block_id": "B-0035"
+  },
+  {
+    "id": "A-226",
+    "kind": "entity",
+    "value": "Fundamental Right",
+    "block_id": "B-0035"
+  },
+  {
+    "id": "A-227",
+    "kind": "entity",
+    "value": "Supreme Court",
+    "block_id": "B-0035"
+  },
+  {
+    "id": "A-228",
+    "kind": "entity",
+    "value": "Fundamental Rights",
+    "block_id": "B-0035"
+  },
+  {
+    "id": "A-229",
+    "kind": "entity",
+    "value": "High Court",
+    "block_id": "B-0035"
+  },
+  {
+    "id": "A-230",
+    "kind": "date",
+    "value": "1976",
+    "block_id": "B-0036"
+  },
+  {
+    "id": "A-231",
+    "kind": "date",
+    "value": "1978",
+    "block_id": "B-0036"
+  },
+  {
+    "id": "A-232",
+    "kind": "ref",
+    "value": "Article 21",
+    "block_id": "B-0036"
+  },
+  {
+    "id": "A-233",
+    "kind": "ref",
+    "value": "Articles 20",
+    "block_id": "B-0036"
+  },
+  {
+    "id": "A-234",
+    "kind": "entity",
+    "value": "Shivkant Shukla",
+    "block_id": "B-0036"
+  },
+  {
+    "id": "A-235",
+    "kind": "entity",
+    "value": "ADM",
+    "block_id": "B-0036"
+  },
+  {
+    "id": "A-236",
+    "kind": "number",
+    "value": "21",
+    "block_id": "B-0036"
+  },
+  {
+    "id": "A-237",
+    "kind": "number",
+    "value": "7",
+    "block_id": "B-0037"
+  },
+  {
+    "id": "A-238",
+    "kind": "entity",
+    "value": "The Brahmaputra",
+    "block_id": "B-0038"
+  },
+  {
+    "id": "A-239",
+    "kind": "number",
+    "value": "78",
+    "block_id": "B-0038"
+  },
+  {
+    "id": "A-240",
+    "kind": "number",
+    "value": "438",
+    "block_id": "B-0038"
+  },
+  {
+    "id": "A-241",
+    "kind": "number",
+    "value": "720",
+    "block_id": "B-0038"
+  },
+  {
+    "id": "A-242",
+    "kind": "number",
+    "value": "80",
+    "block_id": "B-0038"
+  },
+  {
+    "id": "A-243",
+    "kind": "number",
+    "value": "100",
+    "block_id": "B-0038"
+  },
+  {
+    "id": "A-244",
+    "kind": "entity",
+    "value": "The Brahmaputra",
+    "block_id": "B-0041"
+  },
+  {
+    "id": "A-245",
+    "kind": "entity",
+    "value": "Yarlung Tsangpo",
+    "block_id": "B-0041"
+  },
+  {
+    "id": "A-246",
+    "kind": "entity",
+    "value": "Arunachal Pradesh",
+    "block_id": "B-0041"
+  },
+  {
+    "id": "A-247",
+    "kind": "entity",
+    "value": "Within Assam",
+    "block_id": "B-0041"
+  },
+  {
+    "id": "A-248",
+    "kind": "number",
+    "value": "2",
+    "block_id": "B-0041"
+  },
+  {
+    "id": "A-249",
+    "kind": "number",
+    "value": "900",
+    "block_id": "B-0041"
+  },
+  {
+    "id": "A-250",
+    "kind": "number",
+    "value": "640",
+    "block_id": "B-0041"
+  },
+  {
+    "id": "A-251",
+    "kind": "number",
+    "value": "1",
+    "block_id": "B-0041"
+  },
+  {
+    "id": "A-252",
+    "kind": "number",
+    "value": "200",
+    "block_id": "B-0041"
+  },
+  {
+    "id": "A-253",
+    "kind": "number",
+    "value": "350",
+    "block_id": "B-0041"
+  },
+  {
+    "id": "A-254",
+    "kind": "number",
+    "value": "500",
+    "block_id": "B-0041"
+  },
+  {
+    "id": "A-255",
+    "kind": "date",
+    "value": "15 August 1950",
+    "block_id": "B-0042"
+  },
+  {
+    "id": "A-256",
+    "kind": "date",
+    "value": "1982",
+    "block_id": "B-0042"
+  },
+  {
+    "id": "A-257",
+    "kind": "date",
+    "value": "1981",
+    "block_id": "B-0042"
+  },
+  {
+    "id": "A-258",
+    "kind": "entity",
+    "value": "Upper Assam",
+    "block_id": "B-0042"
+  },
+  {
+    "id": "A-259",
+    "kind": "entity",
+    "value": "The Brahmaputra Board",
+    "block_id": "B-0042"
+  },
+  {
+    "id": "A-260",
+    "kind": "entity",
+    "value": "Brahmaputra Board Act",
+    "block_id": "B-0042"
+  },
+  {
+    "id": "A-261",
+    "kind": "number",
+    "value": "8.6",
+    "block_id": "B-0042"
+  },
+  {
+    "id": "A-262",
+    "kind": "number",
+    "value": "8",
+    "block_id": "B-0043"
+  },
+  {
+    "id": "A-263",
+    "kind": "entity",
+    "value": "Arunachal Pradesh",
+    "block_id": "B-0044"
+  },
+  {
+    "id": "A-264",
+    "kind": "entity",
+    "value": "Arunachal Pradesh",
+    "block_id": "B-0047"
+  },
+  {
+    "id": "A-265",
+    "kind": "entity",
+    "value": "Jia Bharali",
+    "block_id": "B-0047"
+  },
+  {
+    "id": "A-266",
+    "kind": "entity",
+    "value": "West Bengal",
+    "block_id": "B-0047"
+  },
+  {
+    "id": "A-267",
+    "kind": "number",
+    "value": "442",
+    "block_id": "B-0047"
+  },
+  {
+    "id": "A-268",
+    "kind": "number",
+    "value": "376",
+    "block_id": "B-0047"
+  },
+  {
+    "id": "A-269",
+    "kind": "entity",
+    "value": "Burhi Dihing",
+    "block_id": "B-0049"
+  },
+  {
+    "id": "A-270",
+    "kind": "entity",
+    "value": "Lower Assam",
+    "block_id": "B-0049"
+  },
+  {
+    "id": "A-271",
+    "kind": "number",
+    "value": "352",
+    "block_id": "B-0049"
+  },
+  {
+    "id": "A-272",
+    "kind": "number",
+    "value": "256",
+    "block_id": "B-0049"
+  },
+  {
+    "id": "A-273",
+    "kind": "table_cell",
+    "value": "Tributary",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-274",
+    "kind": "table_cell",
+    "value": "Bank",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-275",
+    "kind": "table_cell",
+    "value": "Rises in",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-276",
+    "kind": "table_cell",
+    "value": "Approx. length (km)",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-277",
+    "kind": "table_cell",
+    "value": "Subansiri",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-278",
+    "kind": "table_cell",
+    "value": "North",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-279",
+    "kind": "table_cell",
+    "value": "Tibet",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-280",
+    "kind": "table_cell",
+    "value": "442",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-281",
+    "kind": "table_cell",
+    "value": "Manas",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-282",
+    "kind": "table_cell",
+    "value": "Bhutan",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-283",
+    "kind": "table_cell",
+    "value": "376",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-284",
+    "kind": "table_cell",
+    "value": "Jia Bharali (Kameng)",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-285",
+    "kind": "table_cell",
+    "value": "Arunachal Pradesh",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-286",
+    "kind": "table_cell",
+    "value": "264",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-287",
+    "kind": "table_cell",
+    "value": "Dhansiri",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-288",
+    "kind": "table_cell",
+    "value": "South",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-289",
+    "kind": "table_cell",
+    "value": "Nagaland",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-290",
+    "kind": "table_cell",
+    "value": "352",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-291",
+    "kind": "table_cell",
+    "value": "Kopili",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-292",
+    "kind": "table_cell",
+    "value": "Meghalaya",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-293",
+    "kind": "table_cell",
+    "value": "256",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-294",
+    "kind": "table_cell",
+    "value": "Burhi Dihing",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-295",
+    "kind": "table_cell",
+    "value": "Patkai hills, Arunachal Pradesh",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-296",
+    "kind": "table_cell",
+    "value": "362",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-297",
+    "kind": "table_cell",
+    "value": "Sankosh",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-298",
+    "kind": "table_cell",
+    "value": "214",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-299",
+    "kind": "entity",
+    "value": "Jia Bharali",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-300",
+    "kind": "entity",
+    "value": "Arunachal Pradesh",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-301",
+    "kind": "entity",
+    "value": "Burhi Dihing",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-302",
+    "kind": "number",
+    "value": "442",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-303",
+    "kind": "number",
+    "value": "376",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-304",
+    "kind": "number",
+    "value": "264",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-305",
+    "kind": "number",
+    "value": "352",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-306",
+    "kind": "number",
+    "value": "256",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-307",
+    "kind": "number",
+    "value": "362",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-308",
+    "kind": "number",
+    "value": "214",
+    "block_id": "B-0050"
+  },
+  {
+    "id": "A-309",
+    "kind": "number",
+    "value": "9",
+    "block_id": "B-0051"
+  },
+  {
+    "id": "A-310",
+    "kind": "entity",
+    "value": "Dima Hasao",
+    "block_id": "B-0052"
+  },
+  {
+    "id": "A-311",
+    "kind": "percentage",
+    "value": "85 percent",
+    "block_id": "B-0054"
+  },
+  {
+    "id": "A-312",
+    "kind": "percentage",
+    "value": "75 percent",
+    "block_id": "B-0054"
+  },
+  {
+    "id": "A-313",
+    "kind": "date",
+    "value": "2022",
+    "block_id": "B-0054"
+  },
+  {
+    "id": "A-314",
+    "kind": "date",
+    "value": "2011",
+    "block_id": "B-0054"
+  },
+  {
+    "id": "A-315",
+    "kind": "number",
+    "value": "2",
+    "block_id": "B-0054"
+  },
+  {
+    "id": "A-316",
+    "kind": "number",
+    "value": "300",
+    "block_id": "B-0054"
+  },
+  {
+    "id": "A-317",
+    "kind": "number",
+    "value": "11",
+    "block_id": "B-0054"
+  },
+  {
+    "id": "A-318",
+    "kind": "number",
+    "value": "000",
+    "block_id": "B-0054"
+  },
+  {
+    "id": "A-319",
+    "kind": "number",
+    "value": "30",
+    "block_id": "B-0054"
+  },
+  {
+    "id": "A-320",
+    "kind": "number",
+    "value": "35",
+    "block_id": "B-0054"
+  },
+  {
+    "id": "A-321",
+    "kind": "number",
+    "value": "6",
+    "block_id": "B-0054"
+  },
+  {
+    "id": "A-322",
+    "kind": "number",
+    "value": "10",
+    "block_id": "B-0054"
+  },
+  {
+    "id": "A-323",
+    "kind": "number",
+    "value": "70",
+    "block_id": "B-0054"
+  },
+  {
+    "id": "A-324",
+    "kind": "number",
+    "value": "5.8",
+    "block_id": "B-0054"
+  },
+  {
+    "id": "A-325",
+    "kind": "number",
+    "value": "31.2",
+    "block_id": "B-0054"
+  },
+  {
+    "id": "A-326",
+    "kind": "number",
+    "value": "398",
+    "block_id": "B-0054"
+  },
+  {
+    "id": "A-327",
+    "kind": "number",
+    "value": "2",
+    "block_id": "B-0056"
+  },
+  {
+    "id": "A-328",
+    "kind": "number",
+    "value": "900",
+    "block_id": "B-0056"
+  },
+  {
+    "id": "A-329",
+    "kind": "number",
+    "value": "640",
+    "block_id": "B-0057"
+  },
+  {
+    "id": "A-330",
+    "kind": "number",
+    "value": "720",
+    "block_id": "B-0058"
+  },
+  {
+    "id": "A-331",
+    "kind": "number",
+    "value": "80",
+    "block_id": "B-0058"
+  },
+  {
+    "id": "A-332",
+    "kind": "number",
+    "value": "100",
+    "block_id": "B-0058"
+  },
+  {
+    "id": "A-333",
+    "kind": "number",
+    "value": "78",
+    "block_id": "B-0059"
+  },
+  {
+    "id": "A-334",
+    "kind": "number",
+    "value": "438",
+    "block_id": "B-0059"
+  },
+  {
+    "id": "A-335",
+    "kind": "number",
+    "value": "2",
+    "block_id": "B-0060"
+  },
+  {
+    "id": "A-336",
+    "kind": "number",
+    "value": "300",
+    "block_id": "B-0060"
+  },
+  {
+    "id": "A-337",
+    "kind": "number",
+    "value": "350",
+    "block_id": "B-0061"
+  },
+  {
+    "id": "A-338",
+    "kind": "number",
+    "value": "500",
+    "block_id": "B-0061"
+  },
+  {
+    "id": "A-339",
+    "kind": "date",
+    "value": "1950",
+    "block_id": "B-0062"
+  },
+  {
+    "id": "A-340",
+    "kind": "date",
+    "value": "15 August 1950",
+    "block_id": "B-0062"
+  },
+  {
+    "id": "A-341",
+    "kind": "number",
+    "value": "8.6",
+    "block_id": "B-0062"
+  },
+  {
+    "id": "A-342",
+    "kind": "date",
+    "value": "1982",
+    "block_id": "B-0063"
+  },
+  {
+    "id": "A-343",
+    "kind": "entity",
+    "value": "Brahmaputra Board",
+    "block_id": "B-0063"
+  },
+  {
+    "id": "A-344",
+    "kind": "date",
+    "value": "2022",
+    "block_id": "B-0064"
+  },
+  {
+    "id": "A-345",
+    "kind": "number",
+    "value": "5.8",
+    "block_id": "B-0064"
+  },
+  {
+    "id": "A-346",
+    "kind": "number",
+    "value": "35",
+    "block_id": "B-0064"
+  },
+  {
+    "id": "A-347",
+    "kind": "date",
+    "value": "2011",
+    "block_id": "B-0065"
+  },
+  {
+    "id": "A-348",
+    "kind": "number",
+    "value": "31.2",
+    "block_id": "B-0065"
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "overall": "PASS",
+  "checks": [
+    {
+      "name": "package:valid",
+      "status": "PASS",
+      "detail": "64 questions"
+    },
+    {
+      "name": "opens:A",
+      "status": "PASS",
+      "detail": "14 pages"
+    },
+    {
+      "name": "opens:B",
+      "status": "PASS",
+      "detail": "2 pages"
+    },
+    {
+      "name": "opens:C",
+      "status": "PASS",
+      "detail": "13 pages"
+    },
+    {
+      "name": "pagesize:A4",
+      "status": "PASS",
+      "detail": "all pages ~595x842pt"
+    },
+    {
+      "name": "order:A",
+      "status": "PASS",
+      "detail": "64 questions in order"
+    },
+    {
+      "name": "ids:A",
+      "status": "PASS",
+      "detail": "all ids exactly once"
+    },
+    {
+      "name": "fonts:embedded",
+      "status": "PASS",
+      "detail": "A:Helvetica=base14; A:NirmalaUI-0=embedded; A:NirmalaUI-Bold-1=embedded; B:Helvetica=base14; B:NirmalaUI-0=embedded; B:NirmalaUI-Bold-1=embedded; C:Helvetica=base14; C:NirmalaUI-0=embedded; C:NirmalaUI-Bold-1=embedded"
+    },
+    {
+      "name": "key:B==package",
+      "status": "PASS",
+      "detail": "64/64 rows agree"
+    },
+    {
+      "name": "pagenumbers:A",
+      "status": "PASS",
+      "detail": "14/14 pages carry digits"
+    },
+    {
+      "name": "pagenumbers:B",
+      "status": "PASS",
+      "detail": "2/2 pages carry digits"
+    },
+    {
+      "name": "pagenumbers:C",
+      "status": "PASS",
+      "detail": "13/13 pages carry digits"
+    },
+    {
+      "name": "nonlatin:spot",
+      "status": "PASS",
+      "detail": "package has no non-Latin letters; n/a"
+    },
+    {
+      "name": "margin:clip",
+      "status": "PASS",
+      "detail": "glyph-box scan of 1752 lines, no overflow"
+    }
+  ]
+}
