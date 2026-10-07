@@ -1,0 +1,27 @@
+{
+  "anchor_recall": {
+    "covered": 320,
+    "total": 320,
+    "rate": 1.0,
+    "threshold": 1.0,
+    "uncovered_ids": []
+  },
+  "density": {
+    "rates": {
+      "Constitutional framework of the republic": 2.97,
+      "Chronology of the freedom movement": 4.58,
+      "River systems and surface water": 2.68,
+      "Climate, soils and forest cover": 1.72,
+      "Economy and public finance": 2.8,
+      "Institutions of governance": 1.82,
+      "Culture, awards and honours": 2.74,
+      "Profile of Kamarupa state": 2.67
+    },
+    "flags": []
+  },
+  "diff": {
+    "status": "resolved",
+    "note": "all diff items resolved"
+  },
+  "status": "PASS"
+}

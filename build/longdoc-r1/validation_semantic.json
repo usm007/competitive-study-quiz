@@ -1,0 +1,3692 @@
+[
+  {
+    "question_id": "Q-0001",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0002",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0003",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0004",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0005",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0006",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0007",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0008",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0009",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0010",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0011",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0012",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0013",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0014",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0015",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0016",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0017",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0018",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0019",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0020",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0021",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0022",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0023",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0024",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0025",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0026",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0027",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0028",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0029",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0030",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0031",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0032",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0033",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0034",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0035",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0036",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0037",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0038",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0039",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0040",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0041",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0042",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0043",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0044",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0045",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0046",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0047",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0048",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0049",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0050",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0051",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0052",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0053",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0054",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0055",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0056",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0057",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0058",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0059",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0060",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0061",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0062",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0063",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0064",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0065",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0066",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0067",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0068",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0069",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0070",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0071",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0072",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0073",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0074",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0075",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0076",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0077",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0078",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0079",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0080",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0081",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0082",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0083",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0084",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0085",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0086",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0087",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0088",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0089",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0090",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0091",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0092",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0093",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0094",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0095",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0096",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0097",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0098",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0099",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0100",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0101",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0102",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0103",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0104",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0105",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0106",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0107",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0108",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0109",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0110",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0111",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0112",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0113",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0114",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0115",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0116",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0117",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0118",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0119",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0120",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0121",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0122",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0123",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0124",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0125",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0126",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0127",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0128",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0129",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0130",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0131",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0132",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0133",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0134",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0135",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0136",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0137",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0138",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0139",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0140",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0141",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0142",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0143",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0144",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0145",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0146",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0147",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0148",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0149",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0150",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0151",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0152",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0153",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0154",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0155",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0156",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0157",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0158",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0159",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0160",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0161",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0162",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0163",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0164",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0165",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0166",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0167",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0168",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0169",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0170",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0171",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0172",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0173",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0174",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0175",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0176",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0177",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0178",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0179",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0180",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0181",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0182",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0183",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0184",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0185",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0186",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0187",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0188",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0189",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0190",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0191",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0192",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0193",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0194",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0195",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0196",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0197",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0198",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0199",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0200",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0201",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0202",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0203",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0204",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  },
+  {
+    "question_id": "Q-0205",
+    "blind_pass": true,
+    "semantic_pass": true,
+    "checks": [
+      {
+        "code": "blind_resolve",
+        "pass": true,
+        "detail": "keyless re-solve from source excerpts matches key"
+      },
+      {
+        "code": "semantic_checklist",
+        "pass": true,
+        "detail": "single answer, grounded distractors, no leak"
+      }
+    ],
+    "validator": "agent-second-pass"
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "pass": 2,
+  "status": "resolved",
+  "diffs": [
+    {
+      "ku_id": "KU-0001",
+      "action": "added",
+      "status": "resolved",
+      "detail": "Second pass over Constitutional framework of the republic found trap fact (buried_paragraph) with no KU; added KU-0001."
+    },
+    {
+      "ku_id": "KU-0002",
+      "action": "added",
+      "status": "resolved",
+      "detail": "Second pass over Constitutional framework of the republic found trap fact (compound_sentence) with no KU; added KU-0002."
+    },
+    {
+      "ku_id": "KU-0003",
+      "action": "added",
+      "status": "resolved",
+      "detail": "Second pass over Constitutional framework of the republic found trap fact (compound_sentence) with no KU; added KU-0003."
+    },
+    {
+      "ku_id": "KU-0004",
+      "action": "added",
+      "status": "resolved",
+      "detail": "Second pass over Constitutional framework of the republic found trap fact (compound_sentence) with no KU; added KU-0004."
+    },
+    {
+      "ku_id": "KU-0008",
+      "action": "added",
+      "status": "resolved",
+      "detail": "Second pass over Constitutional framework of the republic found trap fact (table_cell) with no KU; added KU-0008."
+    },
+    {
+      "action": "rejected",
+      "status": "resolved",
+      "detail": "Candidate KU on the bridge prose is low-value commentary, not examinable."
+    },
+    {
+      "action": "rejected",
+      "status": "resolved",
+      "detail": "Candidate KU duplicating a charter-date KU merged; no separate unit needed."
+    },
+    {
+      "action": "rejected",
+      "status": "resolved",
+      "detail": "Relative phrase in padding is not a precise fact; covered numerically elsewhere."
+    }
+  ]
+}

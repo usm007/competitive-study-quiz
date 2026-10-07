@@ -1,0 +1,1069 @@
+{
+  "blueprint": [
+    {
+      "ku_id": "KU-0001",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0002",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0003",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0004",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0005",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0006",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0007",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0008",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0009",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0010",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0011",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0012",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0013",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0014",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0015",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0016",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0017",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0018",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0019",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0020",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0021",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0022",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0023",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0024",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0025",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0026",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0027",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0028",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0029",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0030",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0031",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0032",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0033",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0034",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0035",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0036",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0037",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0038",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0039",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0040",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0041",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0042",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0043",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0044",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0045",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0046",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0047",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0048",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0049",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0050",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0051",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0052",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0053",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0054",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0055",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0056",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0057",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0058",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0059",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0060",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0061",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0062",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0063",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0064",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0065",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0066",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0067",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0068",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0069",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0070",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0071",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0072",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0073",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0074",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0075",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0076",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0077",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0078",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0079",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0080",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0081",
+      "tier": 2,
+      "forms": [
+        "distinction",
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0082",
+      "tier": 1,
+      "forms": [
+        "application",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0083",
+      "tier": 2,
+      "forms": [
+        "application",
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0084",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0085",
+      "tier": 2,
+      "forms": [
+        "application",
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0086",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0087",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0088",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0089",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0090",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0091",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0092",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0093",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0094",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0095",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0096",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0097",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0098",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0099",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0100",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0101",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0102",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0103",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0104",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0105",
+      "tier": 2,
+      "forms": [
+        "application",
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0106",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0107",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0108",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0109",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0110",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0111",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0112",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0113",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0114",
+      "tier": 2,
+      "forms": [
+        "distinction",
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0115",
+      "tier": 1,
+      "forms": [
+        "application",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0116",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0117",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0118",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0119",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0120",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0121",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0122",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0123",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0124",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0125",
+      "tier": 2,
+      "forms": [
+        "distinction",
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0126",
+      "tier": 1,
+      "forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ]
+    },
+    {
+      "ku_id": "KU-0127",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0128",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0129",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0130",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0131",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0132",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0133",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0134",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0135",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0136",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0137",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0138",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0139",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0140",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0141",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0142",
+      "tier": 3,
+      "forms": [
+        "recall"
+      ]
+    },
+    {
+      "ku_id": "KU-0143",
+      "tier": 2,
+      "forms": [
+        "recall"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "A-1",
+    "kind": "date",
+    "value": "14 March 1963",
+    "block_id": "B-0075"
+  },
+  {
+    "id": "A-2",
+    "kind": "date",
+    "value": "1963",
+    "block_id": "B-0096"
+  },
+  {
+    "id": "A-3",
+    "kind": "date",
+    "value": "2 January 1964",
+    "block_id": "B-0096"
+  },
+  {
+    "id": "A-4",
+    "kind": "entity",
+    "value": "The Charter",
+    "block_id": "B-0096"
+  },
+  {
+    "id": "A-5",
+    "kind": "entity",
+    "value": "Jonali Das",
+    "block_id": "B-0096"
+  },
+  {
+    "id": "A-6",
+    "kind": "ref",
+    "value": "Article 14",
+    "block_id": "B-0128"
+  },
+  {
+    "id": "A-7",
+    "kind": "ref",
+    "value": "Article 15",
+    "block_id": "B-0129"
+  },
+  {
+    "id": "A-8",
+    "kind": "ref",
+    "value": "Article 21",
+    "block_id": "B-0130"
+  },
+  {
+    "id": "A-9",
+    "kind": "table_cell",
+    "value": "Charter article",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-10",
+    "kind": "table_cell",
+    "value": "Subject matter",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-11",
+    "kind": "table_cell",
+    "value": "Length in clauses",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-12",
+    "kind": "table_cell",
+    "value": "Article 12",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-13",
+    "kind": "table_cell",
+    "value": "Definition of the state",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-14",
+    "kind": "table_cell",
+    "value": "4 clauses",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-15",
+    "kind": "table_cell",
+    "value": "Article 13",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-16",
+    "kind": "table_cell",
+    "value": "Laws repugnant to rights",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-17",
+    "kind": "table_cell",
+    "value": "3 clauses",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-18",
+    "kind": "table_cell",
+    "value": "Article 16",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-19",
+    "kind": "table_cell",
+    "value": "Equality in public service",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-20",
+    "kind": "table_cell",
+    "value": "5 clauses",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-21",
+    "kind": "table_cell",
+    "value": "Article 19",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-22",
+    "kind": "table_cell",
+    "value": "Six basic freedoms",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-23",
+    "kind": "table_cell",
+    "value": "6 clauses",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-24",
+    "kind": "table_cell",
+    "value": "Article 25",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-25",
+    "kind": "table_cell",
+    "value": "Freedom of conscience",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-26",
+    "kind": "table_cell",
+    "value": "2 clauses",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-27",
+    "kind": "table_cell",
+    "value": "Article 32",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-28",
+    "kind": "table_cell",
+    "value": "Remedies for rights",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-29",
+    "kind": "table_cell",
+    "value": "Article 40",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-30",
+    "kind": "table_cell",
+    "value": "Village councils",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-31",
+    "kind": "table_cell",
+    "value": "1 clause",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-32",
+    "kind": "table_cell",
+    "value": "Article 51",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-33",
+    "kind": "table_cell",
+    "value": "Promotion of peace",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-34",
+    "kind": "ref",
+    "value": "Article 12",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-35",
+    "kind": "ref",
+    "value": "Article 13",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-36",
+    "kind": "ref",
+    "value": "Article 16",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-37",
+    "kind": "ref",
+    "value": "Article 19",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-38",
+    "kind": "ref",
+    "value": "Article 25",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-39",
+    "kind": "ref",
+    "value": "Article 32",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-40",
+    "kind": "ref",
+    "value": "Article 40",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-41",
+    "kind": "ref",
+    "value": "Article 51",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-42",
+    "kind": "number",
+    "value": "4",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-43",
+    "kind": "number",
+    "value": "3",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-44",
+    "kind": "number",
+    "value": "5",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-45",
+    "kind": "number",
+    "value": "6",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-46",
+    "kind": "number",
+    "value": "2",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-47",
+    "kind": "number",
+    "value": "1",
+    "block_id": "B-0131"
+  },
+  {
+    "id": "A-48",
+    "kind": "entity",
+    "value": "The Charter",
+    "block_id": "B-0132"
+  },
+  {
+    "id": "A-49",
+    "kind": "ref",
+    "value": "Article 22",
+    "block_id": "B-0141"
+  },
+  {
+    "id": "A-50",
+    "kind": "entity",
+    "value": "Part Four",
+    "block_id": "B-0143"
+  },
+  {
+    "id": "A-51",
+    "kind": "entity",
+    "value": "Part Three",
+    "block_id": "B-0169"
+  },
+  {
+    "id": "A-52",
+    "kind": "entity",
+    "value": "Part Four",
+    "block_id": "B-0169"
+  },
+  {
+    "id": "A-53",
+    "kind": "date",
+    "value": "1965",
+    "block_id": "B-0171"
+  },
+  {
+    "id": "A-54",
+    "kind": "entity",
+    "value": "The First Amendment",
+    "block_id": "B-0171"
+  },
+  {
+    "id": "A-55",
+    "kind": "entity",
+    "value": "Ninth Schedule",
+    "block_id": "B-0171"
+  },
+  {
+    "id": "A-56",
+    "kind": "date",
+    "value": "1968",
+    "block_id": "B-0172"
+  },
+  {
+    "id": "A-57",
+    "kind": "entity",
+    "value": "The Second Amendment",
+    "block_id": "B-0172"
+  },
+  {
+    "id": "A-58",
+    "kind": "date",
+    "value": "1971",
+    "block_id": "B-0173"
+  },
+  {
+    "id": "A-59",
+    "kind": "ref",
+    "value": "Article 16A",
+    "block_id": "B-0173"
+  },
+  {
+    "id": "A-60",
+    "kind": "entity",
+    "value": "The Third Amendment",
+    "block_id": "B-0173"
+  },
+  {
+    "id": "A-61",
+    "kind": "date",
+    "value": "1974",
+    "block_id": "B-0174"
+  },
+  {
+    "id": "A-62",
+    "kind": "entity",
+    "value": "The Fourth Amendment",
+    "block_id": "B-0174"
+  },
+  {
+    "id": "A-63",
+    "kind": "date",
+    "value": "1979",
+    "block_id": "B-0175"
+  },
+  {
+    "id": "A-64",
+    "kind": "entity",
+    "value": "The Fifth Amendment",
+    "block_id": "B-0175"
+  },
+  {
+    "id": "A-65",
+    "kind": "date",
+    "value": "1984",
+    "block_id": "B-0176"
+  },
+  {
+    "id": "A-66",
+    "kind": "entity",
+    "value": "The Sixth Amendment",
+    "block_id": "B-0176"
+  },
+  {
+    "id": "A-67",
+    "kind": "date",
+    "value": "1991",
+    "block_id": "B-0177"
+  },
+  {
+    "id": "A-68",
+    "kind": "entity",
+    "value": "The Seventh Amendment",
+    "block_id": "B-0177"
+  },
+  {
+    "id": "A-69",
+    "kind": "date",
+    "value": "2002",
+    "block_id": "B-0178"
+  },
+  {
+    "id": "A-70",
+    "kind": "ref",
+    "value": "Article 21A",
+    "block_id": "B-0178"
+  },
+  {
+    "id": "A-71",
+    "kind": "entity",
+    "value": "The Eighth Amendment",
+    "block_id": "B-0178"
+  },
+  {
+    "id": "A-72",
+    "kind": "entity",
+    "value": "The Charter",
+    "block_id": "B-0179"
+  },
+  {
+    "id": "A-73",
+    "kind": "date",
+    "value": "1905",
+    "block_id": "B-0266"
+  },
+  {
+    "id": "A-74",
+    "kind": "date",
+    "value": "1911",
+    "block_id": "B-0267"
+  },
+  {
+    "id": "A-75",
+    "kind": "date",
+    "value": "1919",
+    "block_id": "B-0268"
+  },
+  {
+    "id": "A-76",
+    "kind": "date",
+    "value": "1927",
+    "block_id": "B-0269"
+  },
+  {
+    "id": "A-77",
+    "kind": "date",
+    "value": "1931",
+    "block_id": "B-0270"
+  },
+  {
+    "id": "A-78",
+    "kind": "date",
+    "value": "1935",
+    "block_id": "B-0271"
+  },
+  {
+    "id": "A-79",
+    "kind": "date",
+    "value": "1942",
+    "block_id": "B-0272"
+  },
+  {
+    "id": "A-80",
+    "kind": "date",
+    "value": "1947",
+    "block_id": "B-0273"
+  },
+  {
+    "id": "A-81",
+    "kind": "date",
+    "value": "1950",
+    "block_id": "B-0274"
+  },
+  {
+    "id": "A-82",
+    "kind": "date",
+    "value": "1955",
+    "block_id": "B-0275"
+  },
+  {
+    "id": "A-83",
+    "kind": "date",
+    "value": "1960",
+    "block_id": "B-0276"
+  },
+  {
+    "id": "A-84",
+    "kind": "date",
+    "value": "1963",
+    "block_id": "B-0277"
+  },
+  {
+    "id": "A-85",
+    "kind": "date",
+    "value": "1947",
+    "block_id": "B-0278"
+  },
+  {
+    "id": "A-86",
+    "kind": "date",
+    "value": "1955",
+    "block_id": "B-0278"
+  },
+  {
+    "id": "A-87",
+    "kind": "table_cell",
+    "value": "River name",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-88",
+    "kind": "table_cell",
+    "value": "Length in kilometres",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-89",
+    "kind": "table_cell",
+    "value": "Principal work",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-90",
+    "kind": "table_cell",
+    "value": "Meyong",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-91",
+    "kind": "table_cell",
+    "value": "2900",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-92",
+    "kind": "table_cell",
+    "value": "Barun dam",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-93",
+    "kind": "table_cell",
+    "value": "Sonai",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-94",
+    "kind": "table_cell",
+    "value": "2840",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-95",
+    "kind": "table_cell",
+    "value": "Baruni barrage",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-96",
+    "kind": "table_cell",
+    "value": "Tirung",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-97",
+    "kind": "table_cell",
+    "value": "1210",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-98",
+    "kind": "table_cell",
+    "value": "Sailung dam",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-99",
+    "kind": "table_cell",
+    "value": "Saimang",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-100",
+    "kind": "table_cell",
+    "value": "980",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-101",
+    "kind": "table_cell",
+    "value": "Kopru weir",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-102",
+    "kind": "table_cell",
+    "value": "Nongri",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-103",
+    "kind": "table_cell",
+    "value": "760",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-104",
+    "kind": "table_cell",
+    "value": "Nongri anicut",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-105",
+    "kind": "table_cell",
+    "value": "Diplai",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-106",
+    "kind": "table_cell",
+    "value": "640",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-107",
+    "kind": "table_cell",
+    "value": "Diplai gates",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-108",
+    "kind": "table_cell",
+    "value": "Mornoi",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-109",
+    "kind": "table_cell",
+    "value": "520",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-110",
+    "kind": "table_cell",
+    "value": "Mornoi bund",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-111",
+    "kind": "table_cell",
+    "value": "Umsai",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-112",
+    "kind": "table_cell",
+    "value": "410",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-113",
+    "kind": "table_cell",
+    "value": "Umsai sluice",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-114",
+    "kind": "number",
+    "value": "2900",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-115",
+    "kind": "number",
+    "value": "2840",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-116",
+    "kind": "number",
+    "value": "1210",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-117",
+    "kind": "number",
+    "value": "980",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-118",
+    "kind": "number",
+    "value": "760",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-119",
+    "kind": "number",
+    "value": "640",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-120",
+    "kind": "number",
+    "value": "520",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-121",
+    "kind": "number",
+    "value": "410",
+    "block_id": "B-0371"
+  },
+  {
+    "id": "A-122",
+    "kind": "entity",
+    "value": "The Meyong",
+    "block_id": "B-0372"
+  },
+  {
+    "id": "A-123",
+    "kind": "number",
+    "value": "2900",
+    "block_id": "B-0372"
+  },
+  {
+    "id": "A-124",
+    "kind": "number",
+    "value": "2840",
+    "block_id": "B-0372"
+  },
+  {
+    "id": "A-125",
+    "kind": "entity",
+    "value": "The Barun",
+    "block_id": "B-0373"
+  },
+  {
+    "id": "A-126",
+    "kind": "entity",
+    "value": "The Rongli",
+    "block_id": "B-0405"
+  },
+  {
+    "id": "A-127",
+    "kind": "number",
+    "value": "180",
+    "block_id": "B-0405"
+  },
+  {
+    "id": "A-128",
+    "kind": "entity",
+    "value": "The Hatola",
+    "block_id": "B-0406"
+  },
+  {
+    "id": "A-129",
+    "kind": "number",
+    "value": "165",
+    "block_id": "B-0406"
+  },
+  {
+    "id": "A-130",
+    "kind": "entity",
+    "value": "The Borjhar",
+    "block_id": "B-0407"
+  },
+  {
+    "id": "A-131",
+    "kind": "number",
+    "value": "150",
+    "block_id": "B-0407"
+  },
+  {
+    "id": "A-132",
+    "kind": "entity",
+    "value": "The Simlaguri",
+    "block_id": "B-0408"
+  },
+  {
+    "id": "A-133",
+    "kind": "number",
+    "value": "140",
+    "block_id": "B-0408"
+  },
+  {
+    "id": "A-134",
+    "kind": "entity",
+    "value": "The Borghat",
+    "block_id": "B-0409"
+  },
+  {
+    "id": "A-135",
+    "kind": "number",
+    "value": "120",
+    "block_id": "B-0409"
+  },
+  {
+    "id": "A-136",
+    "kind": "entity",
+    "value": "The Nalbari",
+    "block_id": "B-0410"
+  },
+  {
+    "id": "A-137",
+    "kind": "number",
+    "value": "110",
+    "block_id": "B-0410"
+  },
+  {
+    "id": "A-138",
+    "kind": "entity",
+    "value": "The Pathsala",
+    "block_id": "B-0411"
+  },
+  {
+    "id": "A-139",
+    "kind": "number",
+    "value": "95",
+    "block_id": "B-0411"
+  },
+  {
+    "id": "A-140",
+    "kind": "entity",
+    "value": "The Tihu",
+    "block_id": "B-0412"
+  },
+  {
+    "id": "A-141",
+    "kind": "number",
+    "value": "80",
+    "block_id": "B-0412"
+  },
+  {
+    "id": "A-142",
+    "kind": "entity",
+    "value": "The Boko",
+    "block_id": "B-0413"
+  },
+  {
+    "id": "A-143",
+    "kind": "number",
+    "value": "60",
+    "block_id": "B-0413"
+  },
+  {
+    "id": "A-144",
+    "kind": "entity",
+    "value": "The Baruni",
+    "block_id": "B-0415"
+  },
+  {
+    "id": "A-145",
+    "kind": "table_cell",
+    "value": "Soil class",
+    "block_id": "B-0519"
+  },
+  {
+    "id": "A-146",
+    "kind": "table_cell",
+    "value": "Tract where found",
+    "block_id": "B-0519"
+  },
+  {
+    "id": "A-147",
+    "kind": "table_cell",
+    "value": "Signature crop",
+    "block_id": "B-0519"
+  },
+  {
+    "id": "A-148",
+    "kind": "table_cell",
+    "value": "Alluvial loam",
+    "block_id": "B-0519"
+  },
+  {
+    "id": "A-149",
+    "kind": "table_cell",
+    "value": "flood plains",
+    "block_id": "B-0519"
+  },
+  {
+    "id": "A-150",
+    "kind": "table_cell",
+    "value": "paddy",
+    "block_id": "B-0519"
+  },
+  {
+    "id": "A-151",
+    "kind": "table_cell",
+    "value": "Red sandy loam",
+    "block_id": "B-0519"
+  },
+  {
+    "id": "A-152",
+    "kind": "table_cell",
+    "value": "western uplands",
+    "block_id": "B-0519"
+  },
+  {
+    "id": "A-153",
+    "kind": "table_cell",
+    "value": "groundnut",
+    "block_id": "B-0519"
+  },
+  {
+    "id": "A-154",
+    "kind": "table_cell",
+    "value": "Laterite gravel",
+    "block_id": "B-0519"
+  },
+  {
+    "id": "A-155",
+    "kind": "table_cell",
+    "value": "southern plateaus",
+    "block_id": "B-0519"
+  },
+  {
+    "id": "A-156",
+    "kind": "table_cell",
+    "value": "cashew",
+    "block_id": "B-0519"
+  },
+  {
+    "id": "A-157",
+    "kind": "table_cell",
+    "value": "Black regur",
+    "block_id": "B-0519"
+  },
+  {
+    "id": "A-158",
+    "kind": "table_cell",
+    "value": "central trough",
+    "block_id": "B-0519"
+  },
+  {
+    "id": "A-159",
+    "kind": "table_cell",
+    "value": "cotton",
+    "block_id": "B-0519"
+  },
+  {
+    "id": "A-160",
+    "kind": "table_cell",
+    "value": "Peaty marsh",
+    "block_id": "B-0519"
+  },
+  {
+    "id": "A-161",
+    "kind": "table_cell",
+    "value": "eastern bils",
+    "block_id": "B-0519"
+  },
+  {
+    "id": "A-162",
+    "kind": "table_cell",
+    "value": "jute",
+    "block_id": "B-0519"
+  },
+  {
+    "id": "A-163",
+    "kind": "table_cell",
+    "value": "Saline flats",
+    "block_id": "B-0519"
+  },
+  {
+    "id": "A-164",
+    "kind": "table_cell",
+    "value": "coastal fringe",
+    "block_id": "B-0519"
+  },
+  {
+    "id": "A-165",
+    "kind": "table_cell",
+    "value": "salt pans",
+    "block_id": "B-0519"
+  },
+  {
+    "id": "A-166",
+    "kind": "formula",
+    "value": "Rainfall variability is computed as deviation divided by mean, written v = d / m.",
+    "block_id": "B-0546"
+  },
+  {
+    "id": "A-167",
+    "kind": "table_cell",
+    "value": "Budget head",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-168",
+    "kind": "table_cell",
+    "value": "Crore in kam",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-169",
+    "kind": "table_cell",
+    "value": "Share in percent",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-170",
+    "kind": "table_cell",
+    "value": "Receipts from taxes",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-171",
+    "kind": "table_cell",
+    "value": "48200",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-172",
+    "kind": "table_cell",
+    "value": "61",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-173",
+    "kind": "table_cell",
+    "value": "Non tax receipts",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-174",
+    "kind": "table_cell",
+    "value": "9400",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-175",
+    "kind": "table_cell",
+    "value": "12",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-176",
+    "kind": "table_cell",
+    "value": "Grants and aid",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-177",
+    "kind": "table_cell",
+    "value": "6300",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-178",
+    "kind": "table_cell",
+    "value": "8",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-179",
+    "kind": "table_cell",
+    "value": "Salaries and pensions",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-180",
+    "kind": "table_cell",
+    "value": "31500",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-181",
+    "kind": "table_cell",
+    "value": "40",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-182",
+    "kind": "table_cell",
+    "value": "Interest payments",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-183",
+    "kind": "table_cell",
+    "value": "11800",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-184",
+    "kind": "table_cell",
+    "value": "15",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-185",
+    "kind": "table_cell",
+    "value": "Capital works",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-186",
+    "kind": "table_cell",
+    "value": "14900",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-187",
+    "kind": "table_cell",
+    "value": "19",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-188",
+    "kind": "table_cell",
+    "value": "Subsidies",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-189",
+    "kind": "table_cell",
+    "value": "7100",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-190",
+    "kind": "table_cell",
+    "value": "9",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-191",
+    "kind": "table_cell",
+    "value": "Reserve and suspense",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-192",
+    "kind": "table_cell",
+    "value": "800",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-193",
+    "kind": "table_cell",
+    "value": "1",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-194",
+    "kind": "number",
+    "value": "48200",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-195",
+    "kind": "number",
+    "value": "61",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-196",
+    "kind": "number",
+    "value": "9400",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-197",
+    "kind": "number",
+    "value": "12",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-198",
+    "kind": "number",
+    "value": "6300",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-199",
+    "kind": "number",
+    "value": "8",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-200",
+    "kind": "number",
+    "value": "31500",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-201",
+    "kind": "number",
+    "value": "40",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-202",
+    "kind": "number",
+    "value": "11800",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-203",
+    "kind": "number",
+    "value": "15",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-204",
+    "kind": "number",
+    "value": "14900",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-205",
+    "kind": "number",
+    "value": "19",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-206",
+    "kind": "number",
+    "value": "7100",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-207",
+    "kind": "number",
+    "value": "9",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-208",
+    "kind": "number",
+    "value": "800",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-209",
+    "kind": "number",
+    "value": "1",
+    "block_id": "B-0659"
+  },
+  {
+    "id": "A-210",
+    "kind": "date",
+    "value": "2015",
+    "block_id": "B-0661"
+  },
+  {
+    "id": "A-211",
+    "kind": "entity",
+    "value": "The Green Canopy Mission",
+    "block_id": "B-0661"
+  },
+  {
+    "id": "A-212",
+    "kind": "date",
+    "value": "2017",
+    "block_id": "B-0662"
+  },
+  {
+    "id": "A-213",
+    "kind": "entity",
+    "value": "The River School Boats",
+    "block_id": "B-0662"
+  },
+  {
+    "id": "A-214",
+    "kind": "date",
+    "value": "2018",
+    "block_id": "B-0663"
+  },
+  {
+    "id": "A-215",
+    "kind": "entity",
+    "value": "The Grain Vault Reform",
+    "block_id": "B-0663"
+  },
+  {
+    "id": "A-216",
+    "kind": "date",
+    "value": "2019",
+    "block_id": "B-0664"
+  },
+  {
+    "id": "A-217",
+    "kind": "entity",
+    "value": "The Weaver Direct Benefit",
+    "block_id": "B-0664"
+  },
+  {
+    "id": "A-218",
+    "kind": "date",
+    "value": "2020",
+    "block_id": "B-0665"
+  },
+  {
+    "id": "A-219",
+    "kind": "entity",
+    "value": "The Hill Road Grid",
+    "block_id": "B-0665"
+  },
+  {
+    "id": "A-220",
+    "kind": "date",
+    "value": "2021",
+    "block_id": "B-0666"
+  },
+  {
+    "id": "A-221",
+    "kind": "entity",
+    "value": "The Milk Shed Cooperatives",
+    "block_id": "B-0666"
+  },
+  {
+    "id": "A-222",
+    "kind": "date",
+    "value": "2022",
+    "block_id": "B-0667"
+  },
+  {
+    "id": "A-223",
+    "kind": "entity",
+    "value": "The Seed Bank Network",
+    "block_id": "B-0667"
+  },
+  {
+    "id": "A-224",
+    "kind": "date",
+    "value": "2023",
+    "block_id": "B-0668"
+  },
+  {
+    "id": "A-225",
+    "kind": "entity",
+    "value": "The Ferry Modernisation",
+    "block_id": "B-0668"
+  },
+  {
+    "id": "A-226",
+    "kind": "date",
+    "value": "1966",
+    "block_id": "B-0670"
+  },
+  {
+    "id": "A-227",
+    "kind": "table_cell",
+    "value": "Constitutional body",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-228",
+    "kind": "table_cell",
+    "value": "Founded under",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-229",
+    "kind": "table_cell",
+    "value": "Core function",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-230",
+    "kind": "table_cell",
+    "value": "Election Commission",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-231",
+    "kind": "table_cell",
+    "value": "Article 71",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-232",
+    "kind": "table_cell",
+    "value": "conduct of polls",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-233",
+    "kind": "table_cell",
+    "value": "Service Commission",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-234",
+    "kind": "table_cell",
+    "value": "Article 72",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-235",
+    "kind": "table_cell",
+    "value": "recruitment to posts",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-236",
+    "kind": "table_cell",
+    "value": "Finance Commission",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-237",
+    "kind": "table_cell",
+    "value": "Article 73",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-238",
+    "kind": "table_cell",
+    "value": "sharing of revenues",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-239",
+    "kind": "table_cell",
+    "value": "River Board",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-240",
+    "kind": "table_cell",
+    "value": "Article 74",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-241",
+    "kind": "table_cell",
+    "value": "adjudication of waters",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-242",
+    "kind": "table_cell",
+    "value": "Audit Office",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-243",
+    "kind": "table_cell",
+    "value": "Article 75",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-244",
+    "kind": "table_cell",
+    "value": "scrutiny of accounts",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-245",
+    "kind": "table_cell",
+    "value": "Language Panel",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-246",
+    "kind": "table_cell",
+    "value": "Article 76",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-247",
+    "kind": "table_cell",
+    "value": "recognition of tongues",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-248",
+    "kind": "ref",
+    "value": "Article 71",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-249",
+    "kind": "ref",
+    "value": "Article 72",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-250",
+    "kind": "ref",
+    "value": "Article 73",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-251",
+    "kind": "ref",
+    "value": "Article 74",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-252",
+    "kind": "ref",
+    "value": "Article 75",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-253",
+    "kind": "ref",
+    "value": "Article 76",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-254",
+    "kind": "entity",
+    "value": "Election Commission",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-255",
+    "kind": "entity",
+    "value": "Service Commission",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-256",
+    "kind": "entity",
+    "value": "Finance Commission",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-257",
+    "kind": "entity",
+    "value": "River Board",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-258",
+    "kind": "entity",
+    "value": "Audit Office",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-259",
+    "kind": "entity",
+    "value": "Language Panel",
+    "block_id": "B-0799"
+  },
+  {
+    "id": "A-260",
+    "kind": "entity",
+    "value": "The Election Commission",
+    "block_id": "B-0800"
+  },
+  {
+    "id": "A-261",
+    "kind": "entity",
+    "value": "Service Commission",
+    "block_id": "B-0800"
+  },
+  {
+    "id": "A-262",
+    "kind": "entity",
+    "value": "The Finance Commission",
+    "block_id": "B-0801"
+  },
+  {
+    "id": "A-263",
+    "kind": "entity",
+    "value": "Audit Office",
+    "block_id": "B-0801"
+  },
+  {
+    "id": "A-264",
+    "kind": "date",
+    "value": "1969",
+    "block_id": "B-0887"
+  },
+  {
+    "id": "A-265",
+    "kind": "entity",
+    "value": "The Sahitya Ratna",
+    "block_id": "B-0887"
+  },
+  {
+    "id": "A-266",
+    "kind": "date",
+    "value": "1972",
+    "block_id": "B-0888"
+  },
+  {
+    "id": "A-267",
+    "kind": "entity",
+    "value": "The Kala Shree",
+    "block_id": "B-0888"
+  },
+  {
+    "id": "A-268",
+    "kind": "date",
+    "value": "1975",
+    "block_id": "B-0889"
+  },
+  {
+    "id": "A-269",
+    "kind": "entity",
+    "value": "The Vigyan Bhushan",
+    "block_id": "B-0889"
+  },
+  {
+    "id": "A-270",
+    "kind": "date",
+    "value": "1980",
+    "block_id": "B-0890"
+  },
+  {
+    "id": "A-271",
+    "kind": "entity",
+    "value": "The Seva Padma",
+    "block_id": "B-0890"
+  },
+  {
+    "id": "A-272",
+    "kind": "date",
+    "value": "1985",
+    "block_id": "B-0891"
+  },
+  {
+    "id": "A-273",
+    "kind": "entity",
+    "value": "The Khel Gaurav",
+    "block_id": "B-0891"
+  },
+  {
+    "id": "A-274",
+    "kind": "date",
+    "value": "1990",
+    "block_id": "B-0892"
+  },
+  {
+    "id": "A-275",
+    "kind": "entity",
+    "value": "The Shilpi Samman",
+    "block_id": "B-0892"
+  },
+  {
+    "id": "A-276",
+    "kind": "date",
+    "value": "1995",
+    "block_id": "B-0893"
+  },
+  {
+    "id": "A-277",
+    "kind": "entity",
+    "value": "The Sangeet Mala",
+    "block_id": "B-0893"
+  },
+  {
+    "id": "A-278",
+    "kind": "entity",
+    "value": "The Kala Shree",
+    "block_id": "B-0894"
+  },
+  {
+    "id": "A-279",
+    "kind": "entity",
+    "value": "Sangeet Mala",
+    "block_id": "B-0894"
+  },
+  {
+    "id": "A-280",
+    "kind": "table_cell",
+    "value": "Protected area",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-281",
+    "kind": "table_cell",
+    "value": "Notified in",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-282",
+    "kind": "table_cell",
+    "value": "Area in square kilometres",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-283",
+    "kind": "table_cell",
+    "value": "Meyong National Park",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-284",
+    "kind": "table_cell",
+    "value": "1978",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-285",
+    "kind": "table_cell",
+    "value": "420",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-286",
+    "kind": "table_cell",
+    "value": "Tirung Sanctuary",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-287",
+    "kind": "table_cell",
+    "value": "1981",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-288",
+    "kind": "table_cell",
+    "value": "260",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-289",
+    "kind": "table_cell",
+    "value": "Saimang Reserve",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-290",
+    "kind": "table_cell",
+    "value": "1986",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-291",
+    "kind": "table_cell",
+    "value": "180",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-292",
+    "kind": "table_cell",
+    "value": "Nongri Gardens",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-293",
+    "kind": "table_cell",
+    "value": "1992",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-294",
+    "kind": "table_cell",
+    "value": "95",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-295",
+    "kind": "table_cell",
+    "value": "Diplai Wetland",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-296",
+    "kind": "table_cell",
+    "value": "2001",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-297",
+    "kind": "table_cell",
+    "value": "60",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-298",
+    "kind": "date",
+    "value": "1978",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-299",
+    "kind": "date",
+    "value": "1981",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-300",
+    "kind": "date",
+    "value": "1986",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-301",
+    "kind": "date",
+    "value": "1992",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-302",
+    "kind": "date",
+    "value": "2001",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-303",
+    "kind": "entity",
+    "value": "Meyong National Park",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-304",
+    "kind": "entity",
+    "value": "Tirung Sanctuary",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-305",
+    "kind": "entity",
+    "value": "Saimang Reserve",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-306",
+    "kind": "entity",
+    "value": "Nongri Gardens",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-307",
+    "kind": "entity",
+    "value": "Diplai Wetland",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-308",
+    "kind": "number",
+    "value": "420",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-309",
+    "kind": "number",
+    "value": "260",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-310",
+    "kind": "number",
+    "value": "180",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-311",
+    "kind": "number",
+    "value": "95",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-312",
+    "kind": "number",
+    "value": "60",
+    "block_id": "B-0977"
+  },
+  {
+    "id": "A-313",
+    "kind": "entity",
+    "value": "The Bihu",
+    "block_id": "B-0979"
+  },
+  {
+    "id": "A-314",
+    "kind": "entity",
+    "value": "The Bihu",
+    "block_id": "B-0980"
+  },
+  {
+    "id": "A-315",
+    "kind": "entity",
+    "value": "The Boat Race",
+    "block_id": "B-0981"
+  },
+  {
+    "id": "A-316",
+    "kind": "entity",
+    "value": "The Lamp Night",
+    "block_id": "B-0982"
+  },
+  {
+    "id": "A-317",
+    "kind": "entity",
+    "value": "The Seed Drill",
+    "block_id": "B-0983"
+  },
+  {
+    "id": "A-318",
+    "kind": "entity",
+    "value": "The Hornbill Week",
+    "block_id": "B-0984"
+  },
+  {
+    "id": "A-319",
+    "kind": "date",
+    "value": "1963",
+    "block_id": "B-0986"
+  },
+  {
+    "id": "A-320",
+    "kind": "date",
+    "value": "1964",
+    "block_id": "B-0986"
+  }
+]

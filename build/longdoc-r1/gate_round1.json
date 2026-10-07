@@ -1,0 +1,8 @@
+{
+  "status": "PARTIAL",
+  "reasons": [
+    "tier 1 coverage 89.7% < 100%",
+    "tier 2 coverage 94.4% < 100%",
+    "13 Tier 1/2 KUs lack required cognitive forms (e.g. ['KU-0001', 'KU-0002', 'KU-0003'])"
+  ]
+}

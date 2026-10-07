@@ -1,0 +1,2094 @@
+# Study notes on the republic of Kamarupa
+
+These notes collect the examinable core of polity, history, geography, economy and culture for preliminary examinations. All persons, places, figures and provisions below belong to the synthetic setting and are used only to test the study pipeline.
+
+
+# Constitutional framework of the republic
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+## Adoption and commencement of the charter
+
+After three years of deliberation in the constituent assembly, the Charter of the republic of Kamarupa was adopted on 14 March 1963, a date distinguished from the commencement that followed nearly a year later.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The Charter was adopted in 1963. The Charter commenced on 2 January 1964. The drafting committee was chaired by Jonali Das.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+## Charter of rights in brief
+
+Article 14 of the Charter guarantees equality before the law to every person.
+
+Article 15 bars discrimination on the grounds of birth, kinship, faith, domicile or means.
+
+Article 21 protects life and personal liberty, and no person is deprived except by just law.
+
+| Charter article | Subject matter | Length in clauses |
+| --- | --- | --- |
+| Article 12 | Definition of the state | 4 clauses |
+| Article 13 | Laws repugnant to rights | 3 clauses |
+| Article 16 | Equality in public service | 5 clauses |
+| Article 19 | Six basic freedoms | 6 clauses |
+| Article 25 | Freedom of conscience | 2 clauses |
+| Article 32 | Remedies for rights | 4 clauses |
+| Article 40 | Village councils | 1 clause |
+| Article 51 | Promotion of peace | 1 clause |
+
+The Charter lists eight writs for the enforcement of rights.
+
+- The writ of habeas corpus secures release from unlawful custody.
+- The writ of mandamus commands a public body to perform its duty.
+- The writ of prohibition restrains a lower forum from excess of jurisdiction.
+- The writ of certiorari quashes orders passed with error apparent.
+- The writ of quo warranto questions unlawful occupation of public office.
+- The writ of certiorari before judgment transfers a pending matter upward.
+- The writ of review petition lies against orders passed without hearing.
+- The writ of curative appeal lies after dismissal of a review petition.
+
+A note on exceptions and qualifications: The right against preventive custody under Article 22 does not extend to persons held under a wartime detention ordinance, which is the sole exception to the custody code.
+
+## Directive maxims and their place
+
+The directive maxims of Part Four are guides for lawmaking and are not enforceable in any court.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Unlike the enforceable rights of Part Three, the maxims of Part Four guide the state without creating claims that citizens can press in court.
+
+## Amendments to the charter
+
+- The First Amendment of 1965 added the Ninth Schedule of protected land laws.
+- The Second Amendment of 1968 revised the quorum of the upper house to forty members.
+- The Third Amendment of 1971 inserted Article 16A on service tribunals.
+- The Fourth Amendment of 1974 curtailed appeals in revenue matters.
+- The Fifth Amendment of 1979 deleted the right to holdpton as a charter right.
+- The Sixth Amendment of 1984 lowered the voting age to eighteen years.
+- The Seventh Amendment of 1991 created the inter-state river board.
+- The Eighth Amendment of 2002 inserted Article 21A on free schooling for ages six to fourteen.
+
+The Charter originally contained two hundred and ninety articles, a count that later grew through amendment.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+# Chronology of the freedom movement
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+- In 1905, the partition proclamation divided the eastern districts.
+- In 1911, the proclamation was annulled after six years of protest.
+- In 1919, the hartal movement shut the river ports for eleven days.
+- In 1927, the civil disobedience march reached Chandrapur on foot.
+- In 1931, the round table talks admitted two delegates from Kamarupa.
+- In 1935, the provincial statute granted a limited franchise.
+- In 1942, the quit dominion resolution was passed at Mornoi.
+- In 1947, the dominion office transferred power at midnight.
+- In 1950, the first general roll listed four lakh voters.
+- In 1955, the linguistic survey recorded nine mother tongues.
+- In 1960, the statehood commission began its sittings.
+- In 1963, the republic came into being with the Charter.
+
+The midnight transfer of 1947 lasted forty minutes. The first general roll named four lakh voters across nine districts. The survey of 1955 recorded nine mother tongues in thirty villages.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+# River systems and surface water
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+## The great rivers and their dams
+
+| River name | Length in kilometres | Principal work |
+| --- | --- | --- |
+| Meyong | 2900 | Barun dam |
+| Sonai | 2840 | Baruni barrage |
+| Tirung | 1210 | Sailung dam |
+| Saimang | 980 | Kopru weir |
+| Nongri | 760 | Nongri anicut |
+| Diplai | 640 | Diplai gates |
+| Mornoi | 520 | Mornoi bund |
+| Umsai | 410 | Umsai sluice |
+
+The Meyong and the Sonai look alike on maps, but the Meyong is the longer river at 2900 kilometres against the Sonai at 2840 kilometres.
+
+The Barun dam on the Meyong stores water, while the Baruni barrage on the Sonai only diverts water for canals without storage.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+## Tributaries worth naming
+
+- The Rongli tributary runs 180 kilometres before joining the Meyong.
+- The Hatola tributary runs 165 kilometres before joining the Meyong.
+- The Borjhar tributary runs 150 kilometres before joining the Meyong.
+- The Simlaguri tributary runs 140 kilometres before joining the Meyong.
+- The Borghat tributary runs 120 kilometres before joining the Meyong.
+- The Nalbari tributary runs 110 kilometres before joining the Meyong.
+- The Pathsala tributary runs 95 kilometres before joining the Meyong.
+- The Tihu tributary runs 80 kilometres before joining the Meyong.
+- The Boko tributary runs 60 kilometres before joining the Meyong.
+
+Amid the general description of ferries, markets and sandbanks, the survey records one exact figure that examinations repeat: the Meyong carries a mean discharge of forty thousand cusecs at Chandrapur in the month of August.
+
+The Baruni barrage diverts Sonai water for the eastern canals.
+
+A note on exceptions and qualifications: Canal fishing permits under the barrage rules do not cover night fishing with nets, which remains barred throughout the command area.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+# Climate, soils and forest cover
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+## Soils and their crops
+
+| Soil class | Tract where found | Signature crop |
+| --- | --- | --- |
+| Alluvial loam | flood plains | paddy |
+| Red sandy loam | western uplands | groundnut |
+| Laterite gravel | southern plateaus | cashew |
+| Black regur | central trough | cotton |
+| Peaty marsh | eastern bils | jute |
+| Saline flats | coastal fringe | salt pans |
+
+Red sandy loam of the western uplands drains freely and suits groundnut.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Laterite gravel of the southern plateaus, unlike the free draining red soils, sets hard in the dry months and suits cashew rather than groundnut.
+
+## Monsoon mechanics
+
+The summer heating of the central trough draws moist winds inland, and this inflow causes the burst of the monsoon over Kamarupa in June.
+
+The southern plateaus stand in the rain shadow of the western uplands, so they receive less than half the rainfall of the plains.
+
+The forest survey records a cover of thirty four percent of the reporting area.
+
+Rainfall variability is computed as deviation divided by mean, written v = d / m.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+# Economy and public finance
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the valley floor dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The western uplands receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the riverine chars, tabulating nothing of consequence and concluding that conditions remain broadly stable. The market towns is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Travellers accounts of the central trough praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the forest fringe, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the eastern bils changes slowly from season to season, and elders in the northern dunes recall earlier habits that the young have partly set aside. Surveyors who walk the eastern bils note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the riverine chars, tabulating nothing of consequence and concluding that conditions remain broadly stable. The market towns is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the central trough praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the forest fringe, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the eastern bils changes slowly from season to season, and elders in the northern dunes recall earlier habits that the young have partly set aside. Surveyors who walk the eastern bils note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the valley floor dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The western uplands receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Revenue reports devote several pages to the craft tradition of the riverine chars, tabulating nothing of consequence and concluding that conditions remain broadly stable. The market towns is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the central trough praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the forest fringe, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the valley floor dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The western uplands receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the riverine chars, tabulating nothing of consequence and concluding that conditions remain broadly stable. The market towns is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the central trough praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the forest fringe, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the eastern bils changes slowly from season to season, and elders in the northern dunes recall earlier habits that the young have partly set aside. Surveyors who walk the eastern bils note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Gazetteer entries for the valley floor dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The western uplands receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the riverine chars, tabulating nothing of consequence and concluding that conditions remain broadly stable. The market towns is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the eastern bils changes slowly from season to season, and elders in the northern dunes recall earlier habits that the young have partly set aside. Surveyors who walk the eastern bils note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+## The annual budget at a glance
+
+| Budget head | Crore in kam | Share in percent |
+| --- | --- | --- |
+| Receipts from taxes | 48200 | 61 |
+| Non tax receipts | 9400 | 12 |
+| Grants and aid | 6300 | 8 |
+| Salaries and pensions | 31500 | 40 |
+| Interest payments | 11800 | 15 |
+| Capital works | 14900 | 19 |
+| Subsidies | 7100 | 9 |
+| Reserve and suspense | 800 | 1 |
+
+## Flagship schemes
+
+- The Green Canopy Mission of 2015 was launched to plant twelve lakh saplings with an outlay of three hundred crore kam.
+- The River School Boats of 2017 was launched to run forty floating schools with an outlay of ninety crore kam.
+- The Grain Vault Reform of 2018 was launched to build two hundred rural godowns with an outlay of one hundred and fifty crore kam.
+- The Weaver Direct Benefit of 2019 was launched to pay nine thousand looms with an outlay of sixty crore kam.
+- The Hill Road Grid of 2020 was launched to lay six hundred kilometres of road with an outlay of eight hundred crore kam.
+- The Milk Shed Cooperatives of 2021 was launched to federate three hundred societies with an outlay of forty five crore kam.
+- The Seed Bank Network of 2022 was launched to stock eighty native varieties with an outlay of twenty crore kam.
+- The Ferry Modernisation of 2023 was launched to refit twenty five ferries with an outlay of one hundred crore kam.
+
+Between long passages on market yards, weighbridges and auction halls, the bulletin states the one comparable figure: per capita income stood at ninety six thousand kam in the reference year.
+
+The five year plan of 1966 set an outlay of four thousand crore kam. The plan achieved a growth of three percent against a target of four percent. Growth is measured as increase divided by base, written g = i / b.
+
+A note on exceptions and qualifications: Small handlooms with fewer than four looms are exempt from the power duty, which is the only exemption in the duty schedule.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the valley floor dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The western uplands receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the riverine chars, tabulating nothing of consequence and concluding that conditions remain broadly stable. The market towns is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Travellers accounts of the central trough praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the forest fringe, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the eastern bils changes slowly from season to season, and elders in the northern dunes recall earlier habits that the young have partly set aside. Surveyors who walk the eastern bils note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the riverine chars, tabulating nothing of consequence and concluding that conditions remain broadly stable. The market towns is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the central trough praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the forest fringe, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the eastern bils changes slowly from season to season, and elders in the northern dunes recall earlier habits that the young have partly set aside. Surveyors who walk the eastern bils note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the valley floor dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The western uplands receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Revenue reports devote several pages to the craft tradition of the riverine chars, tabulating nothing of consequence and concluding that conditions remain broadly stable. The market towns is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the central trough praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the forest fringe, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the valley floor dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The western uplands receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the riverine chars, tabulating nothing of consequence and concluding that conditions remain broadly stable. The market towns is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the central trough praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the forest fringe, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the eastern bils changes slowly from season to season, and elders in the northern dunes recall earlier habits that the young have partly set aside. Surveyors who walk the eastern bils note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Gazetteer entries for the valley floor dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The western uplands receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the riverine chars, tabulating nothing of consequence and concluding that conditions remain broadly stable. The market towns is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the eastern bils changes slowly from season to season, and elders in the northern dunes recall earlier habits that the young have partly set aside. Surveyors who walk the eastern bils note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the valley floor dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The western uplands receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the riverine chars, tabulating nothing of consequence and concluding that conditions remain broadly stable. The market towns is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the central trough praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the forest fringe, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+# Institutions of governance
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the valley floor dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The western uplands receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the riverine chars, tabulating nothing of consequence and concluding that conditions remain broadly stable. The market towns is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Travellers accounts of the central trough praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the forest fringe, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the eastern bils changes slowly from season to season, and elders in the northern dunes recall earlier habits that the young have partly set aside. Surveyors who walk the eastern bils note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the riverine chars, tabulating nothing of consequence and concluding that conditions remain broadly stable. The market towns is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the central trough praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the forest fringe, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the eastern bils changes slowly from season to season, and elders in the northern dunes recall earlier habits that the young have partly set aside. Surveyors who walk the eastern bils note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the valley floor dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The western uplands receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Revenue reports devote several pages to the craft tradition of the riverine chars, tabulating nothing of consequence and concluding that conditions remain broadly stable. The market towns is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the central trough praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the forest fringe, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the valley floor dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The western uplands receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the riverine chars, tabulating nothing of consequence and concluding that conditions remain broadly stable. The market towns is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the central trough praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the forest fringe, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the eastern bils changes slowly from season to season, and elders in the northern dunes recall earlier habits that the young have partly set aside. Surveyors who walk the eastern bils note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Gazetteer entries for the valley floor dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The western uplands receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the riverine chars, tabulating nothing of consequence and concluding that conditions remain broadly stable. The market towns is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+## Three commissions compared
+
+| Constitutional body | Founded under | Core function |
+| --- | --- | --- |
+| Election Commission | Article 71 | conduct of polls |
+| Service Commission | Article 72 | recruitment to posts |
+| Finance Commission | Article 73 | sharing of revenues |
+| River Board | Article 74 | adjudication of waters |
+| Audit Office | Article 75 | scrutiny of accounts |
+| Language Panel | Article 76 | recognition of tongues |
+
+The Election Commission conducts polls while the Service Commission recruits to posts, and the two are often confused because both select people for public roles.
+
+The Finance Commission shares revenues between tiers whereas the Audit Office scrutinises how those revenues were spent.
+
+## How a bill becomes law
+
+A bill passes through introduction, committee scrutiny, two readings, assent, and notification before it becomes law.
+
+- Introduction of the bill in either house marks the first step.
+- Committee scrutiny of clauses marks the second step.
+- Two readings with debate mark the third step.
+- Assent of the head of state marks the fourth step.
+- Notification in the gazette marks the fifth and final step.
+
+Bills fall into three classes, namely money bills, finance bills, and ordinary bills.
+
+A note on exceptions and qualifications: An ordinance lapses if the houses do not approve it within six weeks of reassembly, which is the only time bar in the ordinance chapter.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the valley floor dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The western uplands receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the riverine chars, tabulating nothing of consequence and concluding that conditions remain broadly stable. The market towns is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Travellers accounts of the central trough praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the forest fringe, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the eastern bils changes slowly from season to season, and elders in the northern dunes recall earlier habits that the young have partly set aside. Surveyors who walk the eastern bils note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the riverine chars, tabulating nothing of consequence and concluding that conditions remain broadly stable. The market towns is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the central trough praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the forest fringe, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the eastern bils changes slowly from season to season, and elders in the northern dunes recall earlier habits that the young have partly set aside. Surveyors who walk the eastern bils note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the valley floor dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The western uplands receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Revenue reports devote several pages to the craft tradition of the riverine chars, tabulating nothing of consequence and concluding that conditions remain broadly stable. The market towns is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the central trough praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the forest fringe, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the valley floor dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The western uplands receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the riverine chars, tabulating nothing of consequence and concluding that conditions remain broadly stable. The market towns is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the central trough praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the forest fringe, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The discussion below assumes no prior specialised knowledge and builds each idea from first principles. Longer passages alternate with compact lists and summaries of figures so that different kinds of material remain visually distinct. Footnotes carry qualifications that change the meaning of the main rule.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the eastern bils changes slowly from season to season, and elders in the northern dunes recall earlier habits that the young have partly set aside. Surveyors who walk the eastern bils note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Before turning to exact provisions and figures, it is useful to keep the overall picture in mind. The sections below move from general principles to particular details, and later chapters build upon the foundation laid here. While reading, pay attention to headings, because each heading marks a shift from one examinable idea to the next.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Gazetteer entries for the valley floor dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The western uplands receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+# Culture, awards and honours
+
+Travellers accounts of the central trough praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the forest fringe, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+It is easy to skim through familiar sounding material, so the text deliberately slows down at points of detail. Names that look alike are placed side by side on purpose, and the surrounding sentences explain how their roles differ. Such pairs deserve special attention because examinations test them together.
+
+The settlement pattern of the eastern bils changes slowly from season to season, and elders in the northern dunes recall earlier habits that the young have partly set aside. Surveyors who walk the eastern bils note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Much of what follows is descriptive rather than argumentative. The aim is to record what the provisions state, how the institutions are arranged, and which figures the official releases report. Where an exception applies, it is stated separately at the end of the relevant passage so that it is not confused with the general rule.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+It is easy to skim through familiar sounding material, so the text deliberately slows down at points of detail. Names that look alike are placed side by side on purpose, and the surrounding sentences explain how their roles differ. Such pairs deserve special attention because examinations test them together.
+
+Revenue reports devote several pages to the craft tradition of the riverine chars, tabulating nothing of consequence and concluding that conditions remain broadly stable. The market towns is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+Much of what follows is descriptive rather than argumentative. The aim is to record what the provisions state, how the institutions are arranged, and which figures the official releases report. Where an exception applies, it is stated separately at the end of the relevant passage so that it is not confused with the general rule.
+
+Travellers accounts of the central trough praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the forest fringe, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+It is easy to skim through familiar sounding material, so the text deliberately slows down at points of detail. Names that look alike are placed side by side on purpose, and the surrounding sentences explain how their roles differ. Such pairs deserve special attention because examinations test them together.
+
+The settlement pattern of the eastern bils changes slowly from season to season, and elders in the northern dunes recall earlier habits that the young have partly set aside. Surveyors who walk the eastern bils note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Much of what follows is descriptive rather than argumentative. The aim is to record what the provisions state, how the institutions are arranged, and which figures the official releases report. Where an exception applies, it is stated separately at the end of the relevant passage so that it is not confused with the general rule.
+
+Gazetteer entries for the valley floor dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The western uplands receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+It is easy to skim through familiar sounding material, so the text deliberately slows down at points of detail. Names that look alike are placed side by side on purpose, and the surrounding sentences explain how their roles differ. Such pairs deserve special attention because examinations test them together.
+
+Revenue reports devote several pages to the craft tradition of the riverine chars, tabulating nothing of consequence and concluding that conditions remain broadly stable. The market towns is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+Much of what follows is descriptive rather than argumentative. The aim is to record what the provisions state, how the institutions are arranged, and which figures the official releases report. Where an exception applies, it is stated separately at the end of the relevant passage so that it is not confused with the general rule.
+
+Travellers accounts of the central trough praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the forest fringe, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+- The Sahitya Ratna of 1969 honours distinction in letters.
+- The Kala Shree of 1972 honours distinction in performing arts.
+- The Vigyan Bhushan of 1975 honours distinction in science.
+- The Seva Padma of 1980 honours distinction in public service.
+- The Khel Gaurav of 1985 honours distinction in sports.
+- The Shilpi Samman of 1990 honours distinction in crafts.
+- The Sangeet Mala of 1995 honours distinction in music.
+
+The Kala Shree honours the performing arts while the Sangeet Mala honours music alone, though both celebrate performance.
+
+Travellers accounts of the central trough praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the forest fringe, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+It is easy to skim through familiar sounding material, so the text deliberately slows down at points of detail. Names that look alike are placed side by side on purpose, and the surrounding sentences explain how their roles differ. Such pairs deserve special attention because examinations test them together.
+
+The settlement pattern of the eastern bils changes slowly from season to season, and elders in the northern dunes recall earlier habits that the young have partly set aside. Surveyors who walk the eastern bils note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Much of what follows is descriptive rather than argumentative. The aim is to record what the provisions state, how the institutions are arranged, and which figures the official releases report. Where an exception applies, it is stated separately at the end of the relevant passage so that it is not confused with the general rule.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+It is easy to skim through familiar sounding material, so the text deliberately slows down at points of detail. Names that look alike are placed side by side on purpose, and the surrounding sentences explain how their roles differ. Such pairs deserve special attention because examinations test them together.
+
+Revenue reports devote several pages to the craft tradition of the riverine chars, tabulating nothing of consequence and concluding that conditions remain broadly stable. The market towns is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+Much of what follows is descriptive rather than argumentative. The aim is to record what the provisions state, how the institutions are arranged, and which figures the official releases report. Where an exception applies, it is stated separately at the end of the relevant passage so that it is not confused with the general rule.
+
+Travellers accounts of the central trough praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the forest fringe, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+It is easy to skim through familiar sounding material, so the text deliberately slows down at points of detail. Names that look alike are placed side by side on purpose, and the surrounding sentences explain how their roles differ. Such pairs deserve special attention because examinations test them together.
+
+The settlement pattern of the eastern bils changes slowly from season to season, and elders in the northern dunes recall earlier habits that the young have partly set aside. Surveyors who walk the eastern bils note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Much of what follows is descriptive rather than argumentative. The aim is to record what the provisions state, how the institutions are arranged, and which figures the official releases report. Where an exception applies, it is stated separately at the end of the relevant passage so that it is not confused with the general rule.
+
+Gazetteer entries for the valley floor dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The western uplands receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+It is easy to skim through familiar sounding material, so the text deliberately slows down at points of detail. Names that look alike are placed side by side on purpose, and the surrounding sentences explain how their roles differ. Such pairs deserve special attention because examinations test them together.
+
+Revenue reports devote several pages to the craft tradition of the riverine chars, tabulating nothing of consequence and concluding that conditions remain broadly stable. The market towns is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+Much of what follows is descriptive rather than argumentative. The aim is to record what the provisions state, how the institutions are arranged, and which figures the official releases report. Where an exception applies, it is stated separately at the end of the relevant passage so that it is not confused with the general rule.
+
+Travellers accounts of the central trough praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the forest fringe, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+# Profile of Kamarupa state
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+## Protected areas
+
+| Protected area | Notified in | Area in square kilometres |
+| --- | --- | --- |
+| Meyong National Park | 1978 | 420 |
+| Tirung Sanctuary | 1981 | 260 |
+| Saimang Reserve | 1986 | 180 |
+| Nongri Gardens | 1992 | 95 |
+| Diplai Wetland | 2001 | 60 |
+
+## Festivals of the calendar
+
+- The Bihu of spring in April marks sowing prayers.
+- The Bihu of autumn in October marks harvest thanks.
+- The Boat Race of June marks river homage.
+- The Lamp Night of November marks ancestral remembrance.
+- The Seed Drill of July marks monsoon onset.
+- The Hornbill Week of December marks forest fraternity.
+
+Returning to the Baruni barrage of the Sonai, the state profile adds the missing figure: the barrage diverts one hundred and twenty cusecs through the Baruni canal.
+
+The state portal recalls that the Charter adopted in 1963 commenced in 1964.
+
+The portal further notes that the original count of two hundred and ninety articles has since grown past three hundred.
+
+A note on exceptions and qualifications: Grazing permits in the wetland buffer do not cover the nesting months of April and May, which remain closed to all entry.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Gazetteer entries for the coastal fringe dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The valley floor receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+Revenue reports devote several pages to the craft tradition of the market towns, tabulating nothing of consequence and concluding that conditions remain broadly stable. The southern plateaus is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+The settlement pattern of the northern dunes changes slowly from season to season, and elders in the hill slopes recall earlier habits that the young have partly set aside. Surveyors who walk the northern dunes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+Revenue reports devote several pages to the craft tradition of the southern plateaus, tabulating nothing of consequence and concluding that conditions remain broadly stable. The riverine chars is described in nearly identical terms a chapter later, which suggests how little weight such passages carry. Readers may skim these stretches and reserve close attention for the dated provisions that follow.
+
+Gazetteer entries for the western uplands dwell at length upon the crop calendar, describing tools, timings and customary shares in prose that rewards only the most patient reader. The coastal fringe receives similar treatment in the following pages, with anecdotes of fairs and ferries that illustrate daily life rather than testable fact. Examiners have never drawn upon this descriptive padding.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+Travellers accounts of the ferry ghats praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the central trough, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The intervening exposition rehearses background that carries little direct examination weight, restating familiar context at length before the next examinable point arrives. Patient readers will find that the substance resumes shortly, with exact provisions following the general commentary without further delay.
+
+Students are advised to read slowly through the dense passages and to mark every date, name and figure as they go. The habit of converting each underlined item into a single question will repay the effort during revision. Cross references point to related material discussed in other chapters.
+
+The settlement pattern of the hill slopes changes slowly from season to season, and elders in the eastern bils recall earlier habits that the young have partly set aside. Surveyors who walk the hill slopes note small differences between neighbouring hamlets, though the broad routine stays recognisable across the whole belt. Such local colour fills the gazetteer without adding to the examinable record.
+
+Travellers accounts of the forest fringe praise the cattle movement in language that runs on for paragraphs without stating a single figure or name worth remembering. The same can be said of the notes on the ferry ghats, where the narrative lingers over scenery and routine. These stretches test stamina rather than memory, and the examination syllabus passes over them in silence.
+
+The paragraphs that follow introduce the central theme of this chapter in broad and general terms. Readers who are already familiar with the background may move ahead to the detailed discussion below, where each point is stated precisely and supported with exact figures. The summary at the end of the chapter collects the main ideas for quick reference during revision.
+
+After the long survey of minor ghats and landing points, the register gives the fleet strength: twenty five ferries ply the state waterways.
+
+The same register counts one hundred and ten recognised landing ghats.
+
+Night halts are barred at all ghats save Chandrapur and Mornoi, which keep skeletal crews.

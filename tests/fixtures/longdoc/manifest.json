@@ -1,0 +1,1432 @@
+[
+  {
+    "fact_id": "F-0001",
+    "ku_id": "KU-0001",
+    "trap": "buried_paragraph",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "After three years of deliberation in the constituent assembly, the Charter of the republic of Kamarupa was adopted on 14 March 1963, a date distinguished from the commencement that followed nearly a year later.",
+    "ku_type": "date",
+    "tier": 1,
+    "block_id": "B-0075"
+  },
+  {
+    "fact_id": "F-0002",
+    "ku_id": "KU-0002",
+    "trap": "compound_sentence",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "The Charter was adopted in 1963.",
+    "ku_type": "date",
+    "tier": 1,
+    "block_id": "B-0096"
+  },
+  {
+    "fact_id": "F-0003",
+    "ku_id": "KU-0003",
+    "trap": "compound_sentence",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "The Charter commenced on 2 January 1964.",
+    "ku_type": "date",
+    "tier": 1,
+    "block_id": "B-0096"
+  },
+  {
+    "fact_id": "F-0004",
+    "ku_id": "KU-0004",
+    "trap": "compound_sentence",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "The drafting committee was chaired by Jonali Das.",
+    "ku_type": "person",
+    "tier": 2,
+    "block_id": "B-0096"
+  },
+  {
+    "fact_id": "F-0005",
+    "ku_id": "KU-0005",
+    "trap": "plain",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "Article 14 of the Charter guarantees equality before the law to every person.",
+    "ku_type": "article",
+    "tier": 1,
+    "block_id": "B-0128"
+  },
+  {
+    "fact_id": "F-0006",
+    "ku_id": "KU-0006",
+    "trap": "plain",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "Article 15 bars discrimination on the grounds of birth, kinship, faith, domicile or means.",
+    "ku_type": "article",
+    "tier": 2,
+    "block_id": "B-0129"
+  },
+  {
+    "fact_id": "F-0007",
+    "ku_id": "KU-0007",
+    "trap": "plain",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "Article 21 protects life and personal liberty, and no person is deprived except by just law.",
+    "ku_type": "article",
+    "tier": 2,
+    "block_id": "B-0130"
+  },
+  {
+    "fact_id": "F-0008",
+    "ku_id": "KU-0008",
+    "trap": "table_cell",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "Article 12 | Definition of the state | 4 clauses",
+    "ku_type": "table_value",
+    "tier": 2,
+    "block_id": "B-0131"
+  },
+  {
+    "fact_id": "F-0009",
+    "ku_id": "KU-0009",
+    "trap": "table_cell",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "Article 13 | Laws repugnant to rights | 3 clauses",
+    "ku_type": "table_value",
+    "tier": 3,
+    "block_id": "B-0131"
+  },
+  {
+    "fact_id": "F-0010",
+    "ku_id": "KU-0010",
+    "trap": "table_cell",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "Article 16 | Equality in public service | 5 clauses",
+    "ku_type": "table_value",
+    "tier": 3,
+    "block_id": "B-0131"
+  },
+  {
+    "fact_id": "F-0011",
+    "ku_id": "KU-0011",
+    "trap": "table_cell",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "Article 19 | Six basic freedoms | 6 clauses",
+    "ku_type": "table_value",
+    "tier": 2,
+    "block_id": "B-0131"
+  },
+  {
+    "fact_id": "F-0012",
+    "ku_id": "KU-0012",
+    "trap": "table_cell",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "Article 25 | Freedom of conscience | 2 clauses",
+    "ku_type": "table_value",
+    "tier": 3,
+    "block_id": "B-0131"
+  },
+  {
+    "fact_id": "F-0013",
+    "ku_id": "KU-0013",
+    "trap": "table_cell",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "Article 32 | Remedies for rights | 4 clauses",
+    "ku_type": "table_value",
+    "tier": 2,
+    "block_id": "B-0131"
+  },
+  {
+    "fact_id": "F-0014",
+    "ku_id": "KU-0014",
+    "trap": "table_cell",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "Article 40 | Village councils | 1 clause",
+    "ku_type": "table_value",
+    "tier": 3,
+    "block_id": "B-0131"
+  },
+  {
+    "fact_id": "F-0015",
+    "ku_id": "KU-0015",
+    "trap": "table_cell",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "Article 51 | Promotion of peace | 1 clause",
+    "ku_type": "table_value",
+    "tier": 3,
+    "block_id": "B-0131"
+  },
+  {
+    "fact_id": "F-0016",
+    "ku_id": "KU-0016",
+    "trap": "plain",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "The Charter lists eight writs for the enforcement of rights.",
+    "ku_type": "definition",
+    "tier": 3,
+    "block_id": "B-0132"
+  },
+  {
+    "fact_id": "F-0017",
+    "ku_id": "KU-0017",
+    "trap": "plain",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "- The writ of habeas corpus secures release from unlawful custody.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0133"
+  },
+  {
+    "fact_id": "F-0018",
+    "ku_id": "KU-0018",
+    "trap": "plain",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "- The writ of mandamus commands a public body to perform its duty.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0134"
+  },
+  {
+    "fact_id": "F-0019",
+    "ku_id": "KU-0019",
+    "trap": "plain",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "- The writ of prohibition restrains a lower forum from excess of jurisdiction.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0135"
+  },
+  {
+    "fact_id": "F-0020",
+    "ku_id": "KU-0020",
+    "trap": "plain",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "- The writ of certiorari quashes orders passed with error apparent.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0136"
+  },
+  {
+    "fact_id": "F-0021",
+    "ku_id": "KU-0021",
+    "trap": "plain",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "- The writ of quo warranto questions unlawful occupation of public office.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0137"
+  },
+  {
+    "fact_id": "F-0022",
+    "ku_id": "KU-0022",
+    "trap": "plain",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "- The writ of certiorari before judgment transfers a pending matter upward.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0138"
+  },
+  {
+    "fact_id": "F-0023",
+    "ku_id": "KU-0023",
+    "trap": "long_list_item",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "- The writ of review petition lies against orders passed without hearing.",
+    "ku_type": "list_item",
+    "tier": 2,
+    "block_id": "B-0139"
+  },
+  {
+    "fact_id": "F-0024",
+    "ku_id": "KU-0024",
+    "trap": "plain",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "- The writ of curative appeal lies after dismissal of a review petition.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0140"
+  },
+  {
+    "fact_id": "F-0025",
+    "ku_id": "KU-0025",
+    "trap": "footnote_exception",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "The right against preventive custody under Article 22 does not extend to persons held under a wartime detention ordinance, which is the sole exception to the custody code.",
+    "ku_type": "exception",
+    "tier": 2,
+    "block_id": "B-0141"
+  },
+  {
+    "fact_id": "F-0026",
+    "ku_id": "KU-0026",
+    "trap": "split_distinction",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "The directive maxims of Part Four are guides for lawmaking and are not enforceable in any court.",
+    "ku_type": "definition",
+    "tier": 1,
+    "block_id": "B-0143"
+  },
+  {
+    "fact_id": "F-0027",
+    "ku_id": "KU-0027",
+    "trap": "split_distinction",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "Unlike the enforceable rights of Part Three, the maxims of Part Four guide the state without creating claims that citizens can press in court.",
+    "ku_type": "comparison",
+    "tier": 1,
+    "block_id": "B-0169"
+  },
+  {
+    "fact_id": "F-0028",
+    "ku_id": "KU-0028",
+    "trap": "distributed_chronology",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "- The First Amendment of 1965 added the Ninth Schedule of protected land laws.",
+    "ku_type": "amendment",
+    "tier": 1,
+    "block_id": "B-0171"
+  },
+  {
+    "fact_id": "F-0029",
+    "ku_id": "KU-0029",
+    "trap": "plain",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "- The Second Amendment of 1968 revised the quorum of the upper house to forty members.",
+    "ku_type": "amendment",
+    "tier": 2,
+    "block_id": "B-0172"
+  },
+  {
+    "fact_id": "F-0030",
+    "ku_id": "KU-0030",
+    "trap": "plain",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "- The Third Amendment of 1971 inserted Article 16A on service tribunals.",
+    "ku_type": "amendment",
+    "tier": 2,
+    "block_id": "B-0173"
+  },
+  {
+    "fact_id": "F-0031",
+    "ku_id": "KU-0031",
+    "trap": "plain",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "- The Fourth Amendment of 1974 curtailed appeals in revenue matters.",
+    "ku_type": "amendment",
+    "tier": 2,
+    "block_id": "B-0174"
+  },
+  {
+    "fact_id": "F-0032",
+    "ku_id": "KU-0032",
+    "trap": "plain",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "- The Fifth Amendment of 1979 deleted the right to holdpton as a charter right.",
+    "ku_type": "amendment",
+    "tier": 2,
+    "block_id": "B-0175"
+  },
+  {
+    "fact_id": "F-0033",
+    "ku_id": "KU-0033",
+    "trap": "plain",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "- The Sixth Amendment of 1984 lowered the voting age to eighteen years.",
+    "ku_type": "amendment",
+    "tier": 2,
+    "block_id": "B-0176"
+  },
+  {
+    "fact_id": "F-0034",
+    "ku_id": "KU-0034",
+    "trap": "plain",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "- The Seventh Amendment of 1991 created the inter-state river board.",
+    "ku_type": "amendment",
+    "tier": 2,
+    "block_id": "B-0177"
+  },
+  {
+    "fact_id": "F-0035",
+    "ku_id": "KU-0035",
+    "trap": "plain",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "- The Eighth Amendment of 2002 inserted Article 21A on free schooling for ages six to fourteen.",
+    "ku_type": "amendment",
+    "tier": 2,
+    "block_id": "B-0178"
+  },
+  {
+    "fact_id": "F-0036",
+    "ku_id": "KU-0036",
+    "trap": "repeated_detail",
+    "section": "Constitutional framework of the republic",
+    "excerpt": "The Charter originally contained two hundred and ninety articles, a count that later grew through amendment.",
+    "ku_type": "number_value",
+    "tier": 3,
+    "block_id": "B-0179"
+  },
+  {
+    "fact_id": "F-0037",
+    "ku_id": "KU-0037",
+    "trap": "distributed_chronology",
+    "section": "Chronology of the freedom movement",
+    "excerpt": "- In 1905, the partition proclamation divided the eastern districts.",
+    "ku_type": "date",
+    "tier": 2,
+    "block_id": "B-0266"
+  },
+  {
+    "fact_id": "F-0038",
+    "ku_id": "KU-0038",
+    "trap": "distributed_chronology",
+    "section": "Chronology of the freedom movement",
+    "excerpt": "- In 1911, the proclamation was annulled after six years of protest.",
+    "ku_type": "date",
+    "tier": 2,
+    "block_id": "B-0267"
+  },
+  {
+    "fact_id": "F-0039",
+    "ku_id": "KU-0039",
+    "trap": "distributed_chronology",
+    "section": "Chronology of the freedom movement",
+    "excerpt": "- In 1919, the hartal movement shut the river ports for eleven days.",
+    "ku_type": "date",
+    "tier": 2,
+    "block_id": "B-0268"
+  },
+  {
+    "fact_id": "F-0040",
+    "ku_id": "KU-0040",
+    "trap": "distributed_chronology",
+    "section": "Chronology of the freedom movement",
+    "excerpt": "- In 1927, the civil disobedience march reached Chandrapur on foot.",
+    "ku_type": "date",
+    "tier": 2,
+    "block_id": "B-0269"
+  },
+  {
+    "fact_id": "F-0041",
+    "ku_id": "KU-0041",
+    "trap": "distributed_chronology",
+    "section": "Chronology of the freedom movement",
+    "excerpt": "- In 1931, the round table talks admitted two delegates from Kamarupa.",
+    "ku_type": "date",
+    "tier": 2,
+    "block_id": "B-0270"
+  },
+  {
+    "fact_id": "F-0042",
+    "ku_id": "KU-0042",
+    "trap": "distributed_chronology",
+    "section": "Chronology of the freedom movement",
+    "excerpt": "- In 1935, the provincial statute granted a limited franchise.",
+    "ku_type": "date",
+    "tier": 2,
+    "block_id": "B-0271"
+  },
+  {
+    "fact_id": "F-0043",
+    "ku_id": "KU-0043",
+    "trap": "distributed_chronology",
+    "section": "Chronology of the freedom movement",
+    "excerpt": "- In 1942, the quit dominion resolution was passed at Mornoi.",
+    "ku_type": "date",
+    "tier": 1,
+    "block_id": "B-0272"
+  },
+  {
+    "fact_id": "F-0044",
+    "ku_id": "KU-0044",
+    "trap": "distributed_chronology",
+    "section": "Chronology of the freedom movement",
+    "excerpt": "- In 1947, the dominion office transferred power at midnight.",
+    "ku_type": "date",
+    "tier": 1,
+    "block_id": "B-0273"
+  },
+  {
+    "fact_id": "F-0045",
+    "ku_id": "KU-0045",
+    "trap": "distributed_chronology",
+    "section": "Chronology of the freedom movement",
+    "excerpt": "- In 1950, the first general roll listed four lakh voters.",
+    "ku_type": "date",
+    "tier": 2,
+    "block_id": "B-0274"
+  },
+  {
+    "fact_id": "F-0046",
+    "ku_id": "KU-0046",
+    "trap": "distributed_chronology",
+    "section": "Chronology of the freedom movement",
+    "excerpt": "- In 1955, the linguistic survey recorded nine mother tongues.",
+    "ku_type": "date",
+    "tier": 2,
+    "block_id": "B-0275"
+  },
+  {
+    "fact_id": "F-0047",
+    "ku_id": "KU-0047",
+    "trap": "distributed_chronology",
+    "section": "Chronology of the freedom movement",
+    "excerpt": "- In 1960, the statehood commission began its sittings.",
+    "ku_type": "date",
+    "tier": 2,
+    "block_id": "B-0276"
+  },
+  {
+    "fact_id": "F-0048",
+    "ku_id": "KU-0048",
+    "trap": "distributed_chronology",
+    "section": "Chronology of the freedom movement",
+    "excerpt": "- In 1963, the republic came into being with the Charter.",
+    "ku_type": "date",
+    "tier": 1,
+    "block_id": "B-0277"
+  },
+  {
+    "fact_id": "F-0049",
+    "ku_id": "KU-0049",
+    "trap": "compound_sentence",
+    "section": "Chronology of the freedom movement",
+    "excerpt": "The midnight transfer of 1947 lasted forty minutes.",
+    "ku_type": "number_value",
+    "tier": 2,
+    "block_id": "B-0278"
+  },
+  {
+    "fact_id": "F-0050",
+    "ku_id": "KU-0050",
+    "trap": "compound_sentence",
+    "section": "Chronology of the freedom movement",
+    "excerpt": "The first general roll named four lakh voters across nine districts.",
+    "ku_type": "number_value",
+    "tier": 3,
+    "block_id": "B-0278"
+  },
+  {
+    "fact_id": "F-0051",
+    "ku_id": "KU-0051",
+    "trap": "compound_sentence",
+    "section": "Chronology of the freedom movement",
+    "excerpt": "The survey of 1955 recorded nine mother tongues in thirty villages.",
+    "ku_type": "number_value",
+    "tier": 3,
+    "block_id": "B-0278"
+  },
+  {
+    "fact_id": "F-0052",
+    "ku_id": "KU-0052",
+    "trap": "table_cell",
+    "section": "River systems and surface water",
+    "excerpt": "Meyong | 2900 | Barun dam",
+    "ku_type": "table_value",
+    "tier": 1,
+    "block_id": "B-0371"
+  },
+  {
+    "fact_id": "F-0053",
+    "ku_id": "KU-0053",
+    "trap": "table_cell",
+    "section": "River systems and surface water",
+    "excerpt": "Sonai | 2840 | Baruni barrage",
+    "ku_type": "table_value",
+    "tier": 1,
+    "block_id": "B-0371"
+  },
+  {
+    "fact_id": "F-0054",
+    "ku_id": "KU-0054",
+    "trap": "table_cell",
+    "section": "River systems and surface water",
+    "excerpt": "Tirung | 1210 | Sailung dam",
+    "ku_type": "table_value",
+    "tier": 1,
+    "block_id": "B-0371"
+  },
+  {
+    "fact_id": "F-0055",
+    "ku_id": "KU-0055",
+    "trap": "table_cell",
+    "section": "River systems and surface water",
+    "excerpt": "Saimang | 980 | Kopru weir",
+    "ku_type": "table_value",
+    "tier": 1,
+    "block_id": "B-0371"
+  },
+  {
+    "fact_id": "F-0056",
+    "ku_id": "KU-0056",
+    "trap": "table_cell",
+    "section": "River systems and surface water",
+    "excerpt": "Nongri | 760 | Nongri anicut",
+    "ku_type": "table_value",
+    "tier": 1,
+    "block_id": "B-0371"
+  },
+  {
+    "fact_id": "F-0057",
+    "ku_id": "KU-0057",
+    "trap": "table_cell",
+    "section": "River systems and surface water",
+    "excerpt": "Diplai | 640 | Diplai gates",
+    "ku_type": "table_value",
+    "tier": 1,
+    "block_id": "B-0371"
+  },
+  {
+    "fact_id": "F-0058",
+    "ku_id": "KU-0058",
+    "trap": "table_cell",
+    "section": "River systems and surface water",
+    "excerpt": "Mornoi | 520 | Mornoi bund",
+    "ku_type": "table_value",
+    "tier": 1,
+    "block_id": "B-0371"
+  },
+  {
+    "fact_id": "F-0059",
+    "ku_id": "KU-0059",
+    "trap": "table_cell",
+    "section": "River systems and surface water",
+    "excerpt": "Umsai | 410 | Umsai sluice",
+    "ku_type": "table_value",
+    "tier": 1,
+    "block_id": "B-0371"
+  },
+  {
+    "fact_id": "F-0060",
+    "ku_id": "KU-0060",
+    "trap": "confusable_pair",
+    "section": "River systems and surface water",
+    "excerpt": "The Meyong and the Sonai look alike on maps, but the Meyong is the longer river at 2900 kilometres against the Sonai at 2840 kilometres.",
+    "ku_type": "comparison",
+    "tier": 1,
+    "block_id": "B-0372"
+  },
+  {
+    "fact_id": "F-0061",
+    "ku_id": "KU-0061",
+    "trap": "confusable_pair",
+    "section": "River systems and surface water",
+    "excerpt": "The Barun dam on the Meyong stores water, while the Baruni barrage on the Sonai only diverts water for canals without storage.",
+    "ku_type": "comparison",
+    "tier": 1,
+    "block_id": "B-0373"
+  },
+  {
+    "fact_id": "F-0062",
+    "ku_id": "KU-0062",
+    "trap": "long_list_item",
+    "section": "River systems and surface water",
+    "excerpt": "- The Rongli tributary runs 180 kilometres before joining the Meyong.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0405"
+  },
+  {
+    "fact_id": "F-0063",
+    "ku_id": "KU-0063",
+    "trap": "long_list_item",
+    "section": "River systems and surface water",
+    "excerpt": "- The Hatola tributary runs 165 kilometres before joining the Meyong.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0406"
+  },
+  {
+    "fact_id": "F-0064",
+    "ku_id": "KU-0064",
+    "trap": "long_list_item",
+    "section": "River systems and surface water",
+    "excerpt": "- The Borjhar tributary runs 150 kilometres before joining the Meyong.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0407"
+  },
+  {
+    "fact_id": "F-0065",
+    "ku_id": "KU-0065",
+    "trap": "long_list_item",
+    "section": "River systems and surface water",
+    "excerpt": "- The Simlaguri tributary runs 140 kilometres before joining the Meyong.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0408"
+  },
+  {
+    "fact_id": "F-0066",
+    "ku_id": "KU-0066",
+    "trap": "long_list_item",
+    "section": "River systems and surface water",
+    "excerpt": "- The Borghat tributary runs 120 kilometres before joining the Meyong.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0409"
+  },
+  {
+    "fact_id": "F-0067",
+    "ku_id": "KU-0067",
+    "trap": "long_list_item",
+    "section": "River systems and surface water",
+    "excerpt": "- The Nalbari tributary runs 110 kilometres before joining the Meyong.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0410"
+  },
+  {
+    "fact_id": "F-0068",
+    "ku_id": "KU-0068",
+    "trap": "long_list_item",
+    "section": "River systems and surface water",
+    "excerpt": "- The Pathsala tributary runs 95 kilometres before joining the Meyong.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0411"
+  },
+  {
+    "fact_id": "F-0069",
+    "ku_id": "KU-0069",
+    "trap": "long_list_item",
+    "section": "River systems and surface water",
+    "excerpt": "- The Tihu tributary runs 80 kilometres before joining the Meyong.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0412"
+  },
+  {
+    "fact_id": "F-0070",
+    "ku_id": "KU-0070",
+    "trap": "long_list_item",
+    "section": "River systems and surface water",
+    "excerpt": "- The Boko tributary runs 60 kilometres before joining the Meyong.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0413"
+  },
+  {
+    "fact_id": "F-0071",
+    "ku_id": "KU-0071",
+    "trap": "buried_paragraph",
+    "section": "River systems and surface water",
+    "excerpt": "Amid the general description of ferries, markets and sandbanks, the survey records one exact figure that examinations repeat: the Meyong carries a mean discharge of forty thousand cusecs at Chandrapur in the month of August.",
+    "ku_type": "number_value",
+    "tier": 2,
+    "block_id": "B-0414"
+  },
+  {
+    "fact_id": "F-0072",
+    "ku_id": "KU-0072",
+    "trap": "repeated_detail",
+    "section": "River systems and surface water",
+    "excerpt": "The Baruni barrage diverts Sonai water for the eastern canals.",
+    "ku_type": "number_value",
+    "tier": 2,
+    "block_id": "B-0415"
+  },
+  {
+    "fact_id": "F-0073",
+    "ku_id": "KU-0073",
+    "trap": "footnote_exception",
+    "section": "River systems and surface water",
+    "excerpt": "Canal fishing permits under the barrage rules do not cover night fishing with nets, which remains barred throughout the command area.",
+    "ku_type": "exception",
+    "tier": 3,
+    "block_id": "B-0416"
+  },
+  {
+    "fact_id": "F-0074",
+    "ku_id": "KU-0074",
+    "trap": "table_cell",
+    "section": "Climate, soils and forest cover",
+    "excerpt": "Alluvial loam | flood plains | paddy",
+    "ku_type": "table_value",
+    "tier": 2,
+    "block_id": "B-0519"
+  },
+  {
+    "fact_id": "F-0075",
+    "ku_id": "KU-0075",
+    "trap": "table_cell",
+    "section": "Climate, soils and forest cover",
+    "excerpt": "Red sandy loam | western uplands | groundnut",
+    "ku_type": "table_value",
+    "tier": 2,
+    "block_id": "B-0519"
+  },
+  {
+    "fact_id": "F-0076",
+    "ku_id": "KU-0076",
+    "trap": "table_cell",
+    "section": "Climate, soils and forest cover",
+    "excerpt": "Laterite gravel | southern plateaus | cashew",
+    "ku_type": "table_value",
+    "tier": 2,
+    "block_id": "B-0519"
+  },
+  {
+    "fact_id": "F-0077",
+    "ku_id": "KU-0077",
+    "trap": "table_cell",
+    "section": "Climate, soils and forest cover",
+    "excerpt": "Black regur | central trough | cotton",
+    "ku_type": "table_value",
+    "tier": 2,
+    "block_id": "B-0519"
+  },
+  {
+    "fact_id": "F-0078",
+    "ku_id": "KU-0078",
+    "trap": "table_cell",
+    "section": "Climate, soils and forest cover",
+    "excerpt": "Peaty marsh | eastern bils | jute",
+    "ku_type": "table_value",
+    "tier": 2,
+    "block_id": "B-0519"
+  },
+  {
+    "fact_id": "F-0079",
+    "ku_id": "KU-0079",
+    "trap": "table_cell",
+    "section": "Climate, soils and forest cover",
+    "excerpt": "Saline flats | coastal fringe | salt pans",
+    "ku_type": "table_value",
+    "tier": 2,
+    "block_id": "B-0519"
+  },
+  {
+    "fact_id": "F-0080",
+    "ku_id": "KU-0080",
+    "trap": "split_distinction",
+    "section": "Climate, soils and forest cover",
+    "excerpt": "Red sandy loam of the western uplands drains freely and suits groundnut.",
+    "ku_type": "comparison",
+    "tier": 2,
+    "block_id": "B-0520"
+  },
+  {
+    "fact_id": "F-0081",
+    "ku_id": "KU-0081",
+    "trap": "split_distinction",
+    "section": "Climate, soils and forest cover",
+    "excerpt": "Laterite gravel of the southern plateaus, unlike the free draining red soils, sets hard in the dry months and suits cashew rather than groundnut.",
+    "ku_type": "comparison",
+    "tier": 2,
+    "block_id": "B-0541"
+  },
+  {
+    "fact_id": "F-0082",
+    "ku_id": "KU-0082",
+    "trap": "plain",
+    "section": "Climate, soils and forest cover",
+    "excerpt": "The summer heating of the central trough draws moist winds inland, and this inflow causes the burst of the monsoon over Kamarupa in June.",
+    "ku_type": "cause_effect",
+    "tier": 1,
+    "block_id": "B-0543"
+  },
+  {
+    "fact_id": "F-0083",
+    "ku_id": "KU-0083",
+    "trap": "plain",
+    "section": "Climate, soils and forest cover",
+    "excerpt": "The southern plateaus stand in the rain shadow of the western uplands, so they receive less than half the rainfall of the plains.",
+    "ku_type": "cause_effect",
+    "tier": 2,
+    "block_id": "B-0544"
+  },
+  {
+    "fact_id": "F-0084",
+    "ku_id": "KU-0084",
+    "trap": "plain",
+    "section": "Climate, soils and forest cover",
+    "excerpt": "The forest survey records a cover of thirty four percent of the reporting area.",
+    "ku_type": "number_value",
+    "tier": 1,
+    "block_id": "B-0545"
+  },
+  {
+    "fact_id": "F-0085",
+    "ku_id": "KU-0085",
+    "trap": "plain",
+    "section": "Climate, soils and forest cover",
+    "excerpt": "Rainfall variability is computed as deviation divided by mean, written v = d / m.",
+    "ku_type": "formula",
+    "tier": 2,
+    "block_id": "B-0546"
+  },
+  {
+    "fact_id": "F-0086",
+    "ku_id": "KU-0086",
+    "trap": "table_cell",
+    "section": "Economy and public finance",
+    "excerpt": "Receipts from taxes | 48200 | 61",
+    "ku_type": "table_value",
+    "tier": 1,
+    "block_id": "B-0659"
+  },
+  {
+    "fact_id": "F-0087",
+    "ku_id": "KU-0087",
+    "trap": "table_cell",
+    "section": "Economy and public finance",
+    "excerpt": "Non tax receipts | 9400 | 12",
+    "ku_type": "table_value",
+    "tier": 2,
+    "block_id": "B-0659"
+  },
+  {
+    "fact_id": "F-0088",
+    "ku_id": "KU-0088",
+    "trap": "table_cell",
+    "section": "Economy and public finance",
+    "excerpt": "Grants and aid | 6300 | 8",
+    "ku_type": "table_value",
+    "tier": 2,
+    "block_id": "B-0659"
+  },
+  {
+    "fact_id": "F-0089",
+    "ku_id": "KU-0089",
+    "trap": "table_cell",
+    "section": "Economy and public finance",
+    "excerpt": "Salaries and pensions | 31500 | 40",
+    "ku_type": "table_value",
+    "tier": 1,
+    "block_id": "B-0659"
+  },
+  {
+    "fact_id": "F-0090",
+    "ku_id": "KU-0090",
+    "trap": "table_cell",
+    "section": "Economy and public finance",
+    "excerpt": "Interest payments | 11800 | 15",
+    "ku_type": "table_value",
+    "tier": 2,
+    "block_id": "B-0659"
+  },
+  {
+    "fact_id": "F-0091",
+    "ku_id": "KU-0091",
+    "trap": "table_cell",
+    "section": "Economy and public finance",
+    "excerpt": "Capital works | 14900 | 19",
+    "ku_type": "table_value",
+    "tier": 2,
+    "block_id": "B-0659"
+  },
+  {
+    "fact_id": "F-0092",
+    "ku_id": "KU-0092",
+    "trap": "table_cell",
+    "section": "Economy and public finance",
+    "excerpt": "Subsidies | 7100 | 9",
+    "ku_type": "table_value",
+    "tier": 2,
+    "block_id": "B-0659"
+  },
+  {
+    "fact_id": "F-0093",
+    "ku_id": "KU-0093",
+    "trap": "table_cell",
+    "section": "Economy and public finance",
+    "excerpt": "Reserve and suspense | 800 | 1",
+    "ku_type": "table_value",
+    "tier": 2,
+    "block_id": "B-0659"
+  },
+  {
+    "fact_id": "F-0094",
+    "ku_id": "KU-0094",
+    "trap": "plain",
+    "section": "Economy and public finance",
+    "excerpt": "- The Green Canopy Mission of 2015 was launched to plant twelve lakh saplings with an outlay of three hundred crore kam.",
+    "ku_type": "scheme",
+    "tier": 2,
+    "block_id": "B-0661"
+  },
+  {
+    "fact_id": "F-0095",
+    "ku_id": "KU-0095",
+    "trap": "plain",
+    "section": "Economy and public finance",
+    "excerpt": "- The River School Boats of 2017 was launched to run forty floating schools with an outlay of ninety crore kam.",
+    "ku_type": "scheme",
+    "tier": 2,
+    "block_id": "B-0662"
+  },
+  {
+    "fact_id": "F-0096",
+    "ku_id": "KU-0096",
+    "trap": "plain",
+    "section": "Economy and public finance",
+    "excerpt": "- The Grain Vault Reform of 2018 was launched to build two hundred rural godowns with an outlay of one hundred and fifty crore kam.",
+    "ku_type": "scheme",
+    "tier": 2,
+    "block_id": "B-0663"
+  },
+  {
+    "fact_id": "F-0097",
+    "ku_id": "KU-0097",
+    "trap": "plain",
+    "section": "Economy and public finance",
+    "excerpt": "- The Weaver Direct Benefit of 2019 was launched to pay nine thousand looms with an outlay of sixty crore kam.",
+    "ku_type": "scheme",
+    "tier": 2,
+    "block_id": "B-0664"
+  },
+  {
+    "fact_id": "F-0098",
+    "ku_id": "KU-0098",
+    "trap": "plain",
+    "section": "Economy and public finance",
+    "excerpt": "- The Hill Road Grid of 2020 was launched to lay six hundred kilometres of road with an outlay of eight hundred crore kam.",
+    "ku_type": "scheme",
+    "tier": 2,
+    "block_id": "B-0665"
+  },
+  {
+    "fact_id": "F-0099",
+    "ku_id": "KU-0099",
+    "trap": "plain",
+    "section": "Economy and public finance",
+    "excerpt": "- The Milk Shed Cooperatives of 2021 was launched to federate three hundred societies with an outlay of forty five crore kam.",
+    "ku_type": "scheme",
+    "tier": 2,
+    "block_id": "B-0666"
+  },
+  {
+    "fact_id": "F-0100",
+    "ku_id": "KU-0100",
+    "trap": "plain",
+    "section": "Economy and public finance",
+    "excerpt": "- The Seed Bank Network of 2022 was launched to stock eighty native varieties with an outlay of twenty crore kam.",
+    "ku_type": "scheme",
+    "tier": 2,
+    "block_id": "B-0667"
+  },
+  {
+    "fact_id": "F-0101",
+    "ku_id": "KU-0101",
+    "trap": "plain",
+    "section": "Economy and public finance",
+    "excerpt": "- The Ferry Modernisation of 2023 was launched to refit twenty five ferries with an outlay of one hundred crore kam.",
+    "ku_type": "scheme",
+    "tier": 2,
+    "block_id": "B-0668"
+  },
+  {
+    "fact_id": "F-0102",
+    "ku_id": "KU-0102",
+    "trap": "buried_paragraph",
+    "section": "Economy and public finance",
+    "excerpt": "Between long passages on market yards, weighbridges and auction halls, the bulletin states the one comparable figure: per capita income stood at ninety six thousand kam in the reference year.",
+    "ku_type": "number_value",
+    "tier": 2,
+    "block_id": "B-0669"
+  },
+  {
+    "fact_id": "F-0103",
+    "ku_id": "KU-0103",
+    "trap": "compound_sentence",
+    "section": "Economy and public finance",
+    "excerpt": "The five year plan of 1966 set an outlay of four thousand crore kam.",
+    "ku_type": "number_value",
+    "tier": 2,
+    "block_id": "B-0670"
+  },
+  {
+    "fact_id": "F-0104",
+    "ku_id": "KU-0104",
+    "trap": "compound_sentence",
+    "section": "Economy and public finance",
+    "excerpt": "The plan achieved a growth of three percent against a target of four percent.",
+    "ku_type": "number_value",
+    "tier": 3,
+    "block_id": "B-0670"
+  },
+  {
+    "fact_id": "F-0105",
+    "ku_id": "KU-0105",
+    "trap": "compound_sentence",
+    "section": "Economy and public finance",
+    "excerpt": "Growth is measured as increase divided by base, written g = i / b.",
+    "ku_type": "formula",
+    "tier": 2,
+    "block_id": "B-0670"
+  },
+  {
+    "fact_id": "F-0106",
+    "ku_id": "KU-0106",
+    "trap": "footnote_exception",
+    "section": "Economy and public finance",
+    "excerpt": "Small handlooms with fewer than four looms are exempt from the power duty, which is the only exemption in the duty schedule.",
+    "ku_type": "exception",
+    "tier": 3,
+    "block_id": "B-0671"
+  },
+  {
+    "fact_id": "F-0107",
+    "ku_id": "KU-0107",
+    "trap": "table_cell",
+    "section": "Institutions of governance",
+    "excerpt": "Election Commission | Article 71 | conduct of polls",
+    "ku_type": "institution",
+    "tier": 1,
+    "block_id": "B-0799"
+  },
+  {
+    "fact_id": "F-0108",
+    "ku_id": "KU-0108",
+    "trap": "table_cell",
+    "section": "Institutions of governance",
+    "excerpt": "Service Commission | Article 72 | recruitment to posts",
+    "ku_type": "institution",
+    "tier": 2,
+    "block_id": "B-0799"
+  },
+  {
+    "fact_id": "F-0109",
+    "ku_id": "KU-0109",
+    "trap": "table_cell",
+    "section": "Institutions of governance",
+    "excerpt": "Finance Commission | Article 73 | sharing of revenues",
+    "ku_type": "institution",
+    "tier": 1,
+    "block_id": "B-0799"
+  },
+  {
+    "fact_id": "F-0110",
+    "ku_id": "KU-0110",
+    "trap": "table_cell",
+    "section": "Institutions of governance",
+    "excerpt": "River Board | Article 74 | adjudication of waters",
+    "ku_type": "institution",
+    "tier": 2,
+    "block_id": "B-0799"
+  },
+  {
+    "fact_id": "F-0111",
+    "ku_id": "KU-0111",
+    "trap": "table_cell",
+    "section": "Institutions of governance",
+    "excerpt": "Audit Office | Article 75 | scrutiny of accounts",
+    "ku_type": "institution",
+    "tier": 2,
+    "block_id": "B-0799"
+  },
+  {
+    "fact_id": "F-0112",
+    "ku_id": "KU-0112",
+    "trap": "table_cell",
+    "section": "Institutions of governance",
+    "excerpt": "Language Panel | Article 76 | recognition of tongues",
+    "ku_type": "institution",
+    "tier": 2,
+    "block_id": "B-0799"
+  },
+  {
+    "fact_id": "F-0113",
+    "ku_id": "KU-0113",
+    "trap": "confusable_pair",
+    "section": "Institutions of governance",
+    "excerpt": "The Election Commission conducts polls while the Service Commission recruits to posts, and the two are often confused because both select people for public roles.",
+    "ku_type": "comparison",
+    "tier": 1,
+    "block_id": "B-0800"
+  },
+  {
+    "fact_id": "F-0114",
+    "ku_id": "KU-0114",
+    "trap": "confusable_pair",
+    "section": "Institutions of governance",
+    "excerpt": "The Finance Commission shares revenues between tiers whereas the Audit Office scrutinises how those revenues were spent.",
+    "ku_type": "comparison",
+    "tier": 2,
+    "block_id": "B-0801"
+  },
+  {
+    "fact_id": "F-0115",
+    "ku_id": "KU-0115",
+    "trap": "plain",
+    "section": "Institutions of governance",
+    "excerpt": "A bill passes through introduction, committee scrutiny, two readings, assent, and notification before it becomes law.",
+    "ku_type": "process",
+    "tier": 1,
+    "block_id": "B-0803"
+  },
+  {
+    "fact_id": "F-0116",
+    "ku_id": "KU-0116",
+    "trap": "plain",
+    "section": "Institutions of governance",
+    "excerpt": "Bills fall into three classes, namely money bills, finance bills, and ordinary bills.",
+    "ku_type": "classification",
+    "tier": 2,
+    "block_id": "B-0809"
+  },
+  {
+    "fact_id": "F-0117",
+    "ku_id": "KU-0117",
+    "trap": "footnote_exception",
+    "section": "Institutions of governance",
+    "excerpt": "An ordinance lapses if the houses do not approve it within six weeks of reassembly, which is the only time bar in the ordinance chapter.",
+    "ku_type": "exception",
+    "tier": 2,
+    "block_id": "B-0810"
+  },
+  {
+    "fact_id": "F-0118",
+    "ku_id": "KU-0118",
+    "trap": "long_list_item",
+    "section": "Culture, awards and honours",
+    "excerpt": "- The Sahitya Ratna of 1969 honours distinction in letters.",
+    "ku_type": "list_item",
+    "tier": 2,
+    "block_id": "B-0887"
+  },
+  {
+    "fact_id": "F-0119",
+    "ku_id": "KU-0119",
+    "trap": "long_list_item",
+    "section": "Culture, awards and honours",
+    "excerpt": "- The Kala Shree of 1972 honours distinction in performing arts.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0888"
+  },
+  {
+    "fact_id": "F-0120",
+    "ku_id": "KU-0120",
+    "trap": "long_list_item",
+    "section": "Culture, awards and honours",
+    "excerpt": "- The Vigyan Bhushan of 1975 honours distinction in science.",
+    "ku_type": "list_item",
+    "tier": 2,
+    "block_id": "B-0889"
+  },
+  {
+    "fact_id": "F-0121",
+    "ku_id": "KU-0121",
+    "trap": "long_list_item",
+    "section": "Culture, awards and honours",
+    "excerpt": "- The Seva Padma of 1980 honours distinction in public service.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0890"
+  },
+  {
+    "fact_id": "F-0122",
+    "ku_id": "KU-0122",
+    "trap": "long_list_item",
+    "section": "Culture, awards and honours",
+    "excerpt": "- The Khel Gaurav of 1985 honours distinction in sports.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0891"
+  },
+  {
+    "fact_id": "F-0123",
+    "ku_id": "KU-0123",
+    "trap": "long_list_item",
+    "section": "Culture, awards and honours",
+    "excerpt": "- The Shilpi Samman of 1990 honours distinction in crafts.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0892"
+  },
+  {
+    "fact_id": "F-0124",
+    "ku_id": "KU-0124",
+    "trap": "long_list_item",
+    "section": "Culture, awards and honours",
+    "excerpt": "- The Sangeet Mala of 1995 honours distinction in music.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0893"
+  },
+  {
+    "fact_id": "F-0125",
+    "ku_id": "KU-0125",
+    "trap": "confusable_pair",
+    "section": "Culture, awards and honours",
+    "excerpt": "The Kala Shree honours the performing arts while the Sangeet Mala honours music alone, though both celebrate performance.",
+    "ku_type": "comparison",
+    "tier": 2,
+    "block_id": "B-0894"
+  },
+  {
+    "fact_id": "F-0126",
+    "ku_id": "KU-0126",
+    "trap": "table_cell",
+    "section": "Profile of Kamarupa state",
+    "excerpt": "Meyong National Park | 1978 | 420",
+    "ku_type": "table_value",
+    "tier": 1,
+    "block_id": "B-0977"
+  },
+  {
+    "fact_id": "F-0127",
+    "ku_id": "KU-0127",
+    "trap": "table_cell",
+    "section": "Profile of Kamarupa state",
+    "excerpt": "Tirung Sanctuary | 1981 | 260",
+    "ku_type": "table_value",
+    "tier": 2,
+    "block_id": "B-0977"
+  },
+  {
+    "fact_id": "F-0128",
+    "ku_id": "KU-0128",
+    "trap": "table_cell",
+    "section": "Profile of Kamarupa state",
+    "excerpt": "Saimang Reserve | 1986 | 180",
+    "ku_type": "table_value",
+    "tier": 2,
+    "block_id": "B-0977"
+  },
+  {
+    "fact_id": "F-0129",
+    "ku_id": "KU-0129",
+    "trap": "table_cell",
+    "section": "Profile of Kamarupa state",
+    "excerpt": "Nongri Gardens | 1992 | 95",
+    "ku_type": "table_value",
+    "tier": 2,
+    "block_id": "B-0977"
+  },
+  {
+    "fact_id": "F-0130",
+    "ku_id": "KU-0130",
+    "trap": "table_cell",
+    "section": "Profile of Kamarupa state",
+    "excerpt": "Diplai Wetland | 2001 | 60",
+    "ku_type": "table_value",
+    "tier": 2,
+    "block_id": "B-0977"
+  },
+  {
+    "fact_id": "F-0131",
+    "ku_id": "KU-0131",
+    "trap": "long_list_item",
+    "section": "Profile of Kamarupa state",
+    "excerpt": "- The Bihu of spring in April marks sowing prayers.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0979"
+  },
+  {
+    "fact_id": "F-0132",
+    "ku_id": "KU-0132",
+    "trap": "long_list_item",
+    "section": "Profile of Kamarupa state",
+    "excerpt": "- The Bihu of autumn in October marks harvest thanks.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0980"
+  },
+  {
+    "fact_id": "F-0133",
+    "ku_id": "KU-0133",
+    "trap": "long_list_item",
+    "section": "Profile of Kamarupa state",
+    "excerpt": "- The Boat Race of June marks river homage.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0981"
+  },
+  {
+    "fact_id": "F-0134",
+    "ku_id": "KU-0134",
+    "trap": "long_list_item",
+    "section": "Profile of Kamarupa state",
+    "excerpt": "- The Lamp Night of November marks ancestral remembrance.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0982"
+  },
+  {
+    "fact_id": "F-0135",
+    "ku_id": "KU-0135",
+    "trap": "long_list_item",
+    "section": "Profile of Kamarupa state",
+    "excerpt": "- The Seed Drill of July marks monsoon onset.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0983"
+  },
+  {
+    "fact_id": "F-0136",
+    "ku_id": "KU-0136",
+    "trap": "long_list_item",
+    "section": "Profile of Kamarupa state",
+    "excerpt": "- The Hornbill Week of December marks forest fraternity.",
+    "ku_type": "list_item",
+    "tier": 3,
+    "block_id": "B-0984"
+  },
+  {
+    "fact_id": "F-0137",
+    "ku_id": "KU-0137",
+    "trap": "repeated_detail",
+    "section": "Profile of Kamarupa state",
+    "excerpt": "Returning to the Baruni barrage of the Sonai, the state profile adds the missing figure: the barrage diverts one hundred and twenty cusecs through the Baruni canal.",
+    "ku_type": "number_value",
+    "tier": 2,
+    "block_id": "B-0985"
+  },
+  {
+    "fact_id": "F-0138",
+    "ku_id": "KU-0138",
+    "trap": "distributed_chronology",
+    "section": "Profile of Kamarupa state",
+    "excerpt": "The state portal recalls that the Charter adopted in 1963 commenced in 1964.",
+    "ku_type": "date",
+    "tier": 2,
+    "block_id": "B-0986"
+  },
+  {
+    "fact_id": "F-0139",
+    "ku_id": "KU-0139",
+    "trap": "repeated_detail",
+    "section": "Profile of Kamarupa state",
+    "excerpt": "The portal further notes that the original count of two hundred and ninety articles has since grown past three hundred.",
+    "ku_type": "number_value",
+    "tier": 3,
+    "block_id": "B-0987"
+  },
+  {
+    "fact_id": "F-0140",
+    "ku_id": "KU-0140",
+    "trap": "footnote_exception",
+    "section": "Profile of Kamarupa state",
+    "excerpt": "Grazing permits in the wetland buffer do not cover the nesting months of April and May, which remain closed to all entry.",
+    "ku_type": "exception",
+    "tier": 3,
+    "block_id": "B-0988"
+  },
+  {
+    "fact_id": "F-0141",
+    "ku_id": "KU-0141",
+    "trap": "post_padding",
+    "section": "Profile of Kamarupa state",
+    "excerpt": "After the long survey of minor ghats and landing points, the register gives the fleet strength: twenty five ferries ply the state waterways.",
+    "ku_type": "number_value",
+    "tier": 2,
+    "block_id": "B-1049"
+  },
+  {
+    "fact_id": "F-0142",
+    "ku_id": "KU-0142",
+    "trap": "post_padding",
+    "section": "Profile of Kamarupa state",
+    "excerpt": "The same register counts one hundred and ten recognised landing ghats.",
+    "ku_type": "number_value",
+    "tier": 3,
+    "block_id": "B-1050"
+  },
+  {
+    "fact_id": "F-0143",
+    "ku_id": "KU-0143",
+    "trap": "post_padding",
+    "section": "Profile of Kamarupa state",
+    "excerpt": "Night halts are barred at all ghats save Chandrapur and Mornoi, which keep skeletal crews.",
+    "ku_type": "exception",
+    "tier": 2,
+    "block_id": "B-1051"
+  }
+]

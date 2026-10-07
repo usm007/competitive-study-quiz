@@ -1,0 +1,82 @@
+[
+  {
+    "anchor_id": "A-9",
+    "reason": "table_header",
+    "value": "Charter article"
+  },
+  {
+    "anchor_id": "A-10",
+    "reason": "table_header",
+    "value": "Subject matter"
+  },
+  {
+    "anchor_id": "A-11",
+    "reason": "table_header",
+    "value": "Length in clauses"
+  },
+  {
+    "anchor_id": "A-87",
+    "reason": "table_header",
+    "value": "River name"
+  },
+  {
+    "anchor_id": "A-88",
+    "reason": "table_header",
+    "value": "Length in kilometres"
+  },
+  {
+    "anchor_id": "A-89",
+    "reason": "table_header",
+    "value": "Principal work"
+  },
+  {
+    "anchor_id": "A-145",
+    "reason": "table_header",
+    "value": "Soil class"
+  },
+  {
+    "anchor_id": "A-146",
+    "reason": "table_header",
+    "value": "Tract where found"
+  },
+  {
+    "anchor_id": "A-147",
+    "reason": "table_header",
+    "value": "Signature crop"
+  },
+  {
+    "anchor_id": "A-167",
+    "reason": "table_header",
+    "value": "Budget head"
+  },
+  {
+    "anchor_id": "A-168",
+    "reason": "table_header",
+    "value": "Crore in kam"
+  },
+  {
+    "anchor_id": "A-169",
+    "reason": "table_header",
+    "value": "Share in percent"
+  },
+  {
+    "anchor_id": "A-227",
+    "reason": "table_header",
+    "value": "Constitutional body"
+  },
+  {
+    "anchor_id": "A-229",
+    "reason": "table_header",
+    "value": "Core function"
+  },
+  {
+    "anchor_id": "A-280",
+    "reason": "table_header",
+    "value": "Protected area"
+  },
+  {
+    "anchor_id": "A-282",
+    "reason": "table_header",
+    "value": "Area in square kilometres"
+  }
+]

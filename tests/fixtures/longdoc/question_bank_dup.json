@@ -1,0 +1,553 @@
+{
+  "questions": [
+    {
+      "id": "Q-0001",
+      "type": "factual_mcq",
+      "stem": "The Charter of the republic of Kamarupa was adopted on ____ March 1963.",
+      "options": [
+        {
+          "key": "A",
+          "text": "14",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "B",
+          "text": "15",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "C",
+          "text": "2",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0003"
+        },
+        {
+          "key": "D",
+          "text": "1964",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0003"
+        }
+      ],
+      "answer": "A",
+      "statements": null,
+      "knowledge_units": [
+        {
+          "ku_id": "KU-0001",
+          "role": "primary"
+        }
+      ],
+      "source": [
+        {
+          "page": 9,
+          "section_path": "Constitutional framework of the republic>Adoption and commencement of the charter",
+          "block_id": "B-0075",
+          "char_start": 26150,
+          "char_end": 26360,
+          "table_ref": null
+        }
+      ],
+      "explanation": "Correct because the source records 14 here; the alternatives shift the figure or borrow a sibling value.",
+      "memory_aid": null,
+      "hint": "Eliminate the option that shifts the figure.",
+      "difficulty": "easy",
+      "topic": "Constitutional Framework",
+      "origin": "source",
+      "exam_profile": "APSC_PRELIMS",
+      "language": "en",
+      "attempt_count": 0,
+      "correct_count": 0,
+      "last_attempted": null,
+      "last_result": null,
+      "confidence": null,
+      "priority": 5,
+      "purpose": "direct_recall",
+      "primary_skill": "direct_recall",
+      "cognitive_level": "recall",
+      "revision_priority": "high",
+      "confusion_cluster": null,
+      "difficulty_reason": "Direct factual recall of a high-value fact.",
+      "misconception": null,
+      "target_knowledge_units": [
+        "KU-0001"
+      ]
+    },
+    {
+      "id": "Q-0002",
+      "type": "elimination_mcq",
+      "stem": "Which statement about the adoption record is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Altered figure: The Charter of the republic of Kamarupa was adopted on 15 March 1963.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "B",
+          "text": "The Charter of the republic of Kamarupa was adopted on 14 March 1963.",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "C",
+          "text": "Partial account: The Charter of the republic of Kamarupa was adopted on 14 March 1963.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "partial_truth",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "D",
+          "text": "The Charter commenced on 2 January 1964.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0003"
+        }
+      ],
+      "answer": "B",
+      "statements": null,
+      "knowledge_units": [
+        {
+          "ku_id": "KU-0001",
+          "role": "primary"
+        }
+      ],
+      "source": [
+        {
+          "page": 9,
+          "section_path": "Constitutional framework of the republic>Adoption and commencement of the charter",
+          "block_id": "B-0075",
+          "char_start": 26150,
+          "char_end": 26360,
+          "table_ref": null
+        }
+      ],
+      "explanation": "Correct because it preserves the recorded distinction; the reversed and partial options change the relation or drop its condition.",
+      "memory_aid": null,
+      "hint": "Eliminate the option that reverses the relation.",
+      "difficulty": "medium",
+      "topic": "Constitutional Framework",
+      "origin": "source",
+      "exam_profile": "APSC_PRELIMS",
+      "language": "en",
+      "attempt_count": 0,
+      "correct_count": 0,
+      "last_attempted": null,
+      "last_result": null,
+      "confidence": null,
+      "priority": 5,
+      "purpose": "distinction",
+      "primary_skill": "distinction",
+      "cognitive_level": "distinction",
+      "revision_priority": "high",
+      "confusion_cluster": null,
+      "difficulty_reason": "Relationship / distinction between confusable facts.",
+      "misconception": "KU-0001 is often confused with KU-0003.",
+      "target_knowledge_units": [
+        "KU-0001"
+      ]
+    },
+    {
+      "id": "Q-0003",
+      "type": "factual_mcq",
+      "stem": "The Charter was adopted in ____.",
+      "options": [
+        {
+          "key": "A",
+          "text": "1964",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0002"
+        },
+        {
+          "key": "B",
+          "text": "14",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0005"
+        },
+        {
+          "key": "C",
+          "text": "1963",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0002"
+        },
+        {
+          "key": "D",
+          "text": "15",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0006"
+        }
+      ],
+      "answer": "C",
+      "statements": null,
+      "knowledge_units": [
+        {
+          "ku_id": "KU-0002",
+          "role": "primary"
+        }
+      ],
+      "source": [
+        {
+          "page": 12,
+          "section_path": "Constitutional framework of the republic>Adoption and commencement of the charter",
+          "block_id": "B-0096",
+          "char_start": 33771,
+          "char_end": 33803,
+          "table_ref": null
+        }
+      ],
+      "explanation": "Correct because the source records 1963 here; the alternatives shift the figure or borrow a sibling value.",
+      "memory_aid": null,
+      "hint": "Test each sentence against the source before combining.",
+      "difficulty": "easy",
+      "topic": "Constitutional Framework",
+      "origin": "source",
+      "exam_profile": "APSC_PRELIMS",
+      "language": "en",
+      "attempt_count": 0,
+      "correct_count": 0,
+      "last_attempted": null,
+      "last_result": null,
+      "confidence": null,
+      "priority": 5,
+      "purpose": "direct_recall",
+      "primary_skill": "direct_recall",
+      "cognitive_level": "recall",
+      "revision_priority": "high",
+      "confusion_cluster": null,
+      "difficulty_reason": "Direct factual recall of a high-value fact.",
+      "misconception": null,
+      "target_knowledge_units": [
+        "KU-0002"
+      ]
+    },
+    {
+      "id": "Q-0004",
+      "type": "statement_based",
+      "stem": "Consider the following statements: 1. The Charter was adopted in 1963. 2. In 1927, the civil disobedience march reached Chandrapur on foot. 3. In 1932, the round table talks admitted two delegates from Kamarupa. Which of the above is/are correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1 and 3 only",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "partial_truth",
+          "ku_ref": "KU-0002",
+          "covers": [
+            1,
+            3
+          ]
+        },
+        {
+          "key": "B",
+          "text": "2 and 3 only",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "partial_truth",
+          "ku_ref": "KU-0002",
+          "covers": [
+            2,
+            3
+          ]
+        },
+        {
+          "key": "C",
+          "text": "1, 2 and 3",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "partial_truth",
+          "ku_ref": "KU-0002",
+          "covers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "key": "D",
+          "text": "1 and 2 only",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0002",
+          "covers": [
+            1,
+            2
+          ]
+        }
+      ],
+      "answer": "D",
+      "statements": [
+        {
+          "text": "The Charter was adopted in 1963.",
+          "truth_value": true,
+          "ku_basis": "KU-0002",
+          "alteration": null,
+          "alteration_type": "none"
+        },
+        {
+          "text": "In 1927, the civil disobedience march reached Chandrapur on foot.",
+          "truth_value": true,
+          "ku_basis": "KU-0040",
+          "alteration": null,
+          "alteration_type": "none"
+        },
+        {
+          "text": "In 1932, the round table talks admitted two delegates from Kamarupa.",
+          "truth_value": false,
+          "ku_basis": "KU-0041",
+          "alteration": "1931 replaced with 1932",
+          "alteration_type": "value_swap"
+        }
+      ],
+      "knowledge_units": [
+        {
+          "ku_id": "KU-0002",
+          "role": "primary"
+        },
+        {
+          "ku_id": "KU-0040",
+          "role": "secondary"
+        },
+        {
+          "ku_id": "KU-0041",
+          "role": "secondary"
+        }
+      ],
+      "source": [
+        {
+          "page": 12,
+          "section_path": "Constitutional framework of the republic>Adoption and commencement of the charter",
+          "block_id": "B-0096",
+          "char_start": 33771,
+          "char_end": 33803,
+          "table_ref": null
+        },
+        {
+          "page": 30,
+          "section_path": "Chronology of the freedom movement",
+          "block_id": "B-0269",
+          "char_start": 88308,
+          "char_end": 88375,
+          "table_ref": null
+        },
+        {
+          "page": 30,
+          "section_path": "Chronology of the freedom movement",
+          "block_id": "B-0270",
+          "char_start": 88376,
+          "char_end": 88446,
+          "table_ref": null
+        }
+      ],
+      "explanation": "Only the key option matches the true-statement pattern [1, 2]; the false statement carries a swapped value.",
+      "memory_aid": null,
+      "hint": "Check each pairing against the table order.",
+      "difficulty": "hard",
+      "topic": "Constitutional Framework",
+      "origin": "source",
+      "exam_profile": "APSC_PRELIMS",
+      "language": "en",
+      "attempt_count": 0,
+      "correct_count": 0,
+      "last_attempted": null,
+      "last_result": null,
+      "confidence": null,
+      "priority": 5,
+      "purpose": "statement_evaluation",
+      "primary_skill": "statement_evaluation",
+      "cognitive_level": "analysis",
+      "revision_priority": "high",
+      "confusion_cluster": null,
+      "difficulty_reason": "Multiple statements require joint evaluation.",
+      "misconception": null,
+      "target_knowledge_units": [
+        "KU-0002"
+      ]
+    },
+    {
+      "id": "Q-DUP-01",
+      "type": "factual_mcq",
+      "stem": "The Charter of the republic of Kamarupa was adopted on ____ March 1963. (as recorded)",
+      "options": [
+        {
+          "key": "A",
+          "text": "14",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "B",
+          "text": "15",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "C",
+          "text": "2",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0003"
+        },
+        {
+          "key": "D",
+          "text": "1964",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0003"
+        }
+      ],
+      "answer": "A",
+      "statements": null,
+      "knowledge_units": [
+        {
+          "ku_id": "KU-0001",
+          "role": "primary"
+        }
+      ],
+      "source": [
+        {
+          "page": 9,
+          "section_path": "Constitutional framework of the republic>Adoption and commencement of the charter",
+          "block_id": "B-0075",
+          "char_start": 26150,
+          "char_end": 26360,
+          "table_ref": null
+        }
+      ],
+      "explanation": "Correct because the source records 14 here; the alternatives shift the figure or borrow a sibling value.",
+      "memory_aid": null,
+      "hint": "Eliminate the option that shifts the figure.",
+      "difficulty": "easy",
+      "topic": "Constitutional Framework",
+      "origin": "source",
+      "exam_profile": "APSC_PRELIMS",
+      "language": "en",
+      "attempt_count": 0,
+      "correct_count": 0,
+      "last_attempted": null,
+      "last_result": null,
+      "confidence": null,
+      "priority": 5,
+      "purpose": "direct_recall",
+      "primary_skill": "direct_recall",
+      "cognitive_level": "recall",
+      "revision_priority": "high",
+      "confusion_cluster": null,
+      "difficulty_reason": "Direct factual recall of a high-value fact.",
+      "misconception": null,
+      "target_knowledge_units": [
+        "KU-0001"
+      ]
+    },
+    {
+      "id": "Q-DUP-02",
+      "type": "factual_mcq",
+      "stem": "The Charter was adopted in ____.",
+      "options": [
+        {
+          "key": "A",
+          "text": "1964",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0002"
+        },
+        {
+          "key": "B",
+          "text": "14",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0005"
+        },
+        {
+          "key": "C",
+          "text": "1963",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0002"
+        },
+        {
+          "key": "D",
+          "text": "15 here",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0006"
+        }
+      ],
+      "answer": "C",
+      "statements": null,
+      "knowledge_units": [
+        {
+          "ku_id": "KU-0002",
+          "role": "primary"
+        }
+      ],
+      "source": [
+        {
+          "page": 12,
+          "section_path": "Constitutional framework of the republic>Adoption and commencement of the charter",
+          "block_id": "B-0096",
+          "char_start": 33771,
+          "char_end": 33803,
+          "table_ref": null
+        }
+      ],
+      "explanation": "Correct because the source records 1963 here; the alternatives shift the figure or borrow a sibling value.",
+      "memory_aid": null,
+      "hint": "Test each sentence against the source before combining.",
+      "difficulty": "easy",
+      "topic": "Constitutional Framework",
+      "origin": "source",
+      "exam_profile": "APSC_PRELIMS",
+      "language": "en",
+      "attempt_count": 0,
+      "correct_count": 0,
+      "last_attempted": null,
+      "last_result": null,
+      "confidence": null,
+      "priority": 5,
+      "purpose": "direct_recall",
+      "primary_skill": "direct_recall",
+      "cognitive_level": "recall",
+      "revision_priority": "high",
+      "confusion_cluster": null,
+      "difficulty_reason": "Direct factual recall of a high-value fact.",
+      "misconception": null,
+      "target_knowledge_units": [
+        "KU-0002"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1314 @@
+{
+  "questions": [
+    {
+      "id": "Q-0001",
+      "type": "elimination_mcq",
+      "stem": "Which statement about the adoption record is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Charter of the republic of Kamarupa was adopted on 14 March 1963.",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "B",
+          "text": "Altered figure: The Charter of the republic of Kamarupa was adopted on 15 March 1963.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "C",
+          "text": "Partial account: The Charter of the republic of Kamarupa was adopted on 14 March 1963.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "partial_truth",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "D",
+          "text": "The Charter was adopted in 1963.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0002"
+        }
+      ],
+      "answer": "A",
+      "statements": null,
+      "knowledge_units": [
+        {
+          "ku_id": "KU-0001",
+          "role": "primary"
+        }
+      ],
+      "source": [
+        {
+          "page": 9,
+          "section_path": "Constitutional framework of the republic>Adoption and commencement of the charter",
+          "block_id": "B-0075",
+          "char_start": 26150,
+          "char_end": 26360,
+          "table_ref": null
+        }
+      ],
+      "explanation": "Correct because it preserves the recorded distinction; the reversed and partial options change the relation or drop its condition.",
+      "memory_aid": null,
+      "hint": "Eliminate the option that shifts the figure.",
+      "difficulty": "medium",
+      "topic": "Constitutional Framework",
+      "origin": "source",
+      "exam_profile": "APSC_PRELIMS",
+      "language": "en",
+      "attempt_count": 0,
+      "correct_count": 0,
+      "last_attempted": null,
+      "last_result": null,
+      "confidence": null,
+      "priority": 5,
+      "purpose": "distinction",
+      "primary_skill": "distinction",
+      "cognitive_level": "distinction",
+      "revision_priority": "high",
+      "confusion_cluster": null,
+      "difficulty_reason": "Relationship / distinction between confusable facts.",
+      "misconception": "KU-0001 is often confused with KU-0002.",
+      "target_knowledge_units": [
+        "KU-0001"
+      ]
+    },
+    {
+      "id": "Q-0002",
+      "type": "factual_mcq",
+      "stem": "The Charter of the republic of Kamarupa was adopted on ____ March 1963.",
+      "options": [
+        {
+          "key": "A",
+          "text": "15",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "B",
+          "text": "14",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "C",
+          "text": "The neighbouring record states otherwise in this regard.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "partial_truth",
+          "ku_ref": null
+        },
+        {
+          "key": "D",
+          "text": "No recorded figure matches this particular case.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "overgeneralization",
+          "ku_ref": null
+        }
+      ],
+      "answer": "B",
+      "statements": null,
+      "knowledge_units": [
+        {
+          "ku_id": "KU-0001",
+          "role": "primary"
+        }
+      ],
+      "source": [
+        {
+          "page": 9,
+          "section_path": "Constitutional framework of the republic>Adoption and commencement of the charter",
+          "block_id": "B-0075",
+          "char_start": 26150,
+          "char_end": 26360,
+          "table_ref": null
+        }
+      ],
+      "explanation": "Correct because the source records 14 here; the alternatives shift the figure or borrow a sibling value.",
+      "memory_aid": null,
+      "hint": "Eliminate the option that reverses the relation.",
+      "difficulty": "easy",
+      "topic": "Constitutional Framework",
+      "origin": "source",
+      "exam_profile": "APSC_PRELIMS",
+      "language": "en",
+      "attempt_count": 0,
+      "correct_count": 0,
+      "last_attempted": null,
+      "last_result": null,
+      "confidence": null,
+      "priority": 5,
+      "purpose": "direct_recall",
+      "primary_skill": "direct_recall",
+      "cognitive_level": "recall",
+      "revision_priority": "high",
+      "confusion_cluster": null,
+      "difficulty_reason": "Direct factual recall of a high-value fact.",
+      "misconception": null,
+      "target_knowledge_units": [
+        "KU-0001"
+      ]
+    },
+    {
+      "id": "Q-0003",
+      "type": "statement_based",
+      "stem": "Consider the following statements: 1. The Charter of the republic of Kamarupa was adopted on 14 March 1963. 2. In 1919, the hartal movement shut the river ports for eleven days. 3. In 1928, the civil disobedience march reached Chandrapur on foot. Which of the above is/are correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "2 and 3 only",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "partial_truth",
+          "ku_ref": "KU-0001",
+          "covers": [
+            2,
+            3
+          ]
+        },
+        {
+          "key": "B",
+          "text": "1, 2 and 3",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "partial_truth",
+          "ku_ref": "KU-0001",
+          "covers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "key": "C",
+          "text": "1 and 2 only",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0001",
+          "covers": [
+            1,
+            2
+          ]
+        },
+        {
+          "key": "D",
+          "text": "1 and 3 only",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "partial_truth",
+          "ku_ref": "KU-0001",
+          "covers": [
+            1,
+            3
+          ]
+        }
+      ],
+      "answer": "C",
+      "statements": [
+        {
+          "text": "The Charter of the republic of Kamarupa was adopted on 14 March 1963.",
+          "truth_value": true,
+          "ku_basis": "KU-0001",
+          "alteration": null,
+          "alteration_type": "none"
+        },
+        {
+          "text": "In 1919, the hartal movement shut the river ports for eleven days.",
+          "truth_value": true,
+          "ku_basis": "KU-0039",
+          "alteration": null,
+          "alteration_type": "none"
+        },
+        {
+          "text": "In 1928, the civil disobedience march reached Chandrapur on foot.",
+          "truth_value": false,
+          "ku_basis": "KU-0040",
+          "alteration": "1927 replaced with 1928",
+          "alteration_type": "value_swap"
+        }
+      ],
+      "knowledge_units": [
+        {
+          "ku_id": "KU-0001",
+          "role": "primary"
+        },
+        {
+          "ku_id": "KU-0039",
+          "role": "secondary"
+        },
+        {
+          "ku_id": "KU-0040",
+          "role": "secondary"
+        }
+      ],
+      "source": [
+        {
+          "page": 9,
+          "section_path": "Constitutional framework of the republic>Adoption and commencement of the charter",
+          "block_id": "B-0075",
+          "char_start": 26150,
+          "char_end": 26360,
+          "table_ref": null
+        },
+        {
+          "page": 30,
+          "section_path": "Chronology of the freedom movement",
+          "block_id": "B-0268",
+          "char_start": 88239,
+          "char_end": 88307,
+          "table_ref": null
+        },
+        {
+          "page": 30,
+          "section_path": "Chronology of the freedom movement",
+          "block_id": "B-0269",
+          "char_start": 88308,
+          "char_end": 88375,
+          "table_ref": null
+        }
+      ],
+      "explanation": "Only the key option matches the true-statement pattern [1, 2]; the false statement carries a swapped value.",
+      "memory_aid": null,
+      "hint": "Test each sentence against the source before combining.",
+      "difficulty": "hard",
+      "topic": "Constitutional Framework",
+      "origin": "source",
+      "exam_profile": "APSC_PRELIMS",
+      "language": "en",
+      "attempt_count": 0,
+      "correct_count": 0,
+      "last_attempted": null,
+      "last_result": null,
+      "confidence": null,
+      "priority": 5,
+      "purpose": "statement_evaluation",
+      "primary_skill": "statement_evaluation",
+      "cognitive_level": "analysis",
+      "revision_priority": "high",
+      "confusion_cluster": null,
+      "difficulty_reason": "Multiple statements require joint evaluation.",
+      "misconception": null,
+      "target_knowledge_units": [
+        "KU-0001"
+      ]
+    },
+    {
+      "id": "Q-0004",
+      "type": "elimination_mcq",
+      "stem": "Which statement about the adoption record is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Altered figure: The Charter was adopted in 1964.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0002"
+        },
+        {
+          "key": "B",
+          "text": "Partial account: The Charter was adopted in 1963.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "partial_truth",
+          "ku_ref": "KU-0002"
+        },
+        {
+          "key": "C",
+          "text": "Article 14 guarantees equality before the law.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0005"
+        },
+        {
+          "key": "D",
+          "text": "The Charter was adopted in 1963.",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0002"
+        }
+      ],
+      "answer": "D",
+      "statements": null,
+      "knowledge_units": [
+        {
+          "ku_id": "KU-0002",
+          "role": "primary"
+        }
+      ],
+      "source": [
+        {
+          "page": 12,
+          "section_path": "Constitutional framework of the republic>Adoption and commencement of the charter",
+          "block_id": "B-0096",
+          "char_start": 33771,
+          "char_end": 33803,
+          "table_ref": null
+        }
+      ],
+      "explanation": "Correct because it preserves the recorded distinction; the reversed and partial options change the relation or drop its condition.",
+      "memory_aid": null,
+      "hint": "Check each pairing against the table order.",
+      "difficulty": "medium",
+      "topic": "Constitutional Framework",
+      "origin": "source",
+      "exam_profile": "APSC_PRELIMS",
+      "language": "en",
+      "attempt_count": 0,
+      "correct_count": 0,
+      "last_attempted": null,
+      "last_result": null,
+      "confidence": null,
+      "priority": 5,
+      "purpose": "distinction",
+      "primary_skill": "distinction",
+      "cognitive_level": "distinction",
+      "revision_priority": "high",
+      "confusion_cluster": null,
+      "difficulty_reason": "Relationship / distinction between confusable facts.",
+      "misconception": "KU-0002 is often confused with KU-0005.",
+      "target_knowledge_units": [
+        "KU-0002"
+      ]
+    },
+    {
+      "id": "Q-0005",
+      "type": "factual_mcq",
+      "stem": "The Charter was adopted in ____.",
+      "options": [
+        {
+          "key": "A",
+          "text": "1963",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0002"
+        },
+        {
+          "key": "B",
+          "text": "1964",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0002"
+        },
+        {
+          "key": "C",
+          "text": "21",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0007"
+        },
+        {
+          "key": "D",
+          "text": "14",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0001"
+        }
+      ],
+      "answer": "A",
+      "statements": null,
+      "knowledge_units": [
+        {
+          "ku_id": "KU-0002",
+          "role": "primary"
+        }
+      ],
+      "source": [
+        {
+          "page": 12,
+          "section_path": "Constitutional framework of the republic>Adoption and commencement of the charter",
+          "block_id": "B-0096",
+          "char_start": 33771,
+          "char_end": 33803,
+          "table_ref": null
+        }
+      ],
+      "explanation": "Correct because the source records 1963 here; the alternatives shift the figure or borrow a sibling value.",
+      "memory_aid": null,
+      "hint": "Trace the causal arrow before choosing.",
+      "difficulty": "easy",
+      "topic": "Constitutional Framework",
+      "origin": "source",
+      "exam_profile": "APSC_PRELIMS",
+      "language": "en",
+      "attempt_count": 0,
+      "correct_count": 0,
+      "last_attempted": null,
+      "last_result": null,
+      "confidence": null,
+      "priority": 5,
+      "purpose": "chronology",
+      "primary_skill": "chronology",
+      "cognitive_level": "recall",
+      "revision_priority": "high",
+      "confusion_cluster": null,
+      "difficulty_reason": "Direct factual recall of a high-value fact.",
+      "misconception": null,
+      "target_knowledge_units": [
+        "KU-0002"
+      ]
+    },
+    {
+      "id": "Q-INV-01",
+      "type": "factual_mcq",
+      "stem": "Skeleton stem for KU-0001.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Charter of the republic of Kamarupa was adopted on 14 March 1963.",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "B",
+          "text": "An alternative account of the same record.",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "partial_truth",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "C",
+          "text": "A neighbouring figure in the same table.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "D",
+          "text": "An unrelated account from another chapter.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "overgeneralization",
+          "ku_ref": null
+        }
+      ],
+      "answer": "A",
+      "statements": null,
+      "knowledge_units": [
+        {
+          "ku_id": "KU-0001",
+          "role": "primary"
+        }
+      ],
+      "source": [
+        {
+          "page": 9,
+          "section_path": "Constitutional framework of the republic>Adoption and commencement of the charter",
+          "block_id": "B-0075",
+          "char_start": 0,
+          "char_end": 10,
+          "table_ref": null
+        }
+      ],
+      "explanation": "Skeleton explanation.",
+      "memory_aid": null,
+      "hint": null,
+      "difficulty": "easy",
+      "topic": "Constitutional Framework",
+      "origin": "source",
+      "exam_profile": "APSC_PRELIMS",
+      "language": "en",
+      "attempt_count": 0,
+      "correct_count": 0,
+      "last_attempted": null,
+      "last_result": null,
+      "confidence": null,
+      "priority": 3,
+      "purpose": "direct_recall",
+      "primary_skill": "direct_recall",
+      "cognitive_level": "recall",
+      "revision_priority": "medium",
+      "confusion_cluster": null,
+      "difficulty_reason": "Direct factual recall.",
+      "misconception": null,
+      "target_knowledge_units": [
+        "KU-0001"
+      ]
+    },
+    {
+      "id": "Q-INV-02",
+      "type": "factual_mcq",
+      "stem": "Skeleton stem for KU-0001.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Charter of the republic of Kamarupa was adopted on 14 March 1963.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "B",
+          "text": "An alternative account of the same record.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "partial_truth",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "C",
+          "text": "A neighbouring figure in the same table.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "D",
+          "text": "An unrelated account from another chapter.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "overgeneralization",
+          "ku_ref": null
+        }
+      ],
+      "answer": "A",
+      "statements": null,
+      "knowledge_units": [
+        {
+          "ku_id": "KU-0001",
+          "role": "primary"
+        }
+      ],
+      "source": [
+        {
+          "page": 9,
+          "section_path": "Constitutional framework of the republic>Adoption and commencement of the charter",
+          "block_id": "B-0075",
+          "char_start": 0,
+          "char_end": 10,
+          "table_ref": null
+        }
+      ],
+      "explanation": "Skeleton explanation.",
+      "memory_aid": null,
+      "hint": null,
+      "difficulty": "easy",
+      "topic": "Constitutional Framework",
+      "origin": "source",
+      "exam_profile": "APSC_PRELIMS",
+      "language": "en",
+      "attempt_count": 0,
+      "correct_count": 0,
+      "last_attempted": null,
+      "last_result": null,
+      "confidence": null,
+      "priority": 3,
+      "purpose": "direct_recall",
+      "primary_skill": "direct_recall",
+      "cognitive_level": "recall",
+      "revision_priority": "medium",
+      "confusion_cluster": null,
+      "difficulty_reason": "Direct factual recall.",
+      "misconception": null,
+      "target_knowledge_units": [
+        "KU-0001"
+      ]
+    },
+    {
+      "id": "Q-INV-03",
+      "type": "factual_mcq",
+      "stem": "Skeleton stem for KU-0001.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Charter of the republic of Kamarupa was adopted on 14 March 1963.",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "B",
+          "text": "An alternative account of the same record.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "partial_truth",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "C",
+          "text": "A neighbouring figure in the same table.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "D",
+          "text": "An unrelated account from another chapter.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "overgeneralization",
+          "ku_ref": null
+        }
+      ],
+      "answer": "A",
+      "statements": null,
+      "knowledge_units": [
+        {
+          "ku_id": "KU-9999",
+          "role": "primary"
+        }
+      ],
+      "source": [
+        {
+          "page": 9,
+          "section_path": "Constitutional framework of the republic>Adoption and commencement of the charter",
+          "block_id": "B-0075",
+          "char_start": 0,
+          "char_end": 10,
+          "table_ref": null
+        }
+      ],
+      "explanation": "Skeleton explanation.",
+      "memory_aid": null,
+      "hint": null,
+      "difficulty": "easy",
+      "topic": "Constitutional Framework",
+      "origin": "source",
+      "exam_profile": "APSC_PRELIMS",
+      "language": "en",
+      "attempt_count": 0,
+      "correct_count": 0,
+      "last_attempted": null,
+      "last_result": null,
+      "confidence": null,
+      "priority": 3,
+      "purpose": "direct_recall",
+      "primary_skill": "direct_recall",
+      "cognitive_level": "recall",
+      "revision_priority": "medium",
+      "confusion_cluster": null,
+      "difficulty_reason": "Direct factual recall.",
+      "misconception": null,
+      "target_knowledge_units": [
+        "KU-0001"
+      ]
+    },
+    {
+      "id": "Q-INV-04",
+      "type": "factual_mcq",
+      "stem": "Skeleton stem for KU-0001.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Charter of the republic of Kamarupa was adopted on 14 March 1963.",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "B",
+          "text": "An alternative account of the same record.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "partial_truth",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "C",
+          "text": "A neighbouring figure in the same table.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "D",
+          "text": "An unrelated account from another chapter.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "overgeneralization",
+          "ku_ref": null
+        }
+      ],
+      "answer": "A",
+      "statements": null,
+      "knowledge_units": [
+        {
+          "ku_id": "KU-0001",
+          "role": "primary"
+        }
+      ],
+      "source": [
+        {
+          "page": 1,
+          "section_path": "x",
+          "block_id": "B-9999",
+          "char_start": 0,
+          "char_end": 5,
+          "table_ref": null
+        }
+      ],
+      "explanation": "Skeleton explanation.",
+      "memory_aid": null,
+      "hint": null,
+      "difficulty": "easy",
+      "topic": "Constitutional Framework",
+      "origin": "source",
+      "exam_profile": "APSC_PRELIMS",
+      "language": "en",
+      "attempt_count": 0,
+      "correct_count": 0,
+      "last_attempted": null,
+      "last_result": null,
+      "confidence": null,
+      "priority": 3,
+      "purpose": "direct_recall",
+      "primary_skill": "direct_recall",
+      "cognitive_level": "recall",
+      "revision_priority": "medium",
+      "confusion_cluster": null,
+      "difficulty_reason": "Direct factual recall.",
+      "misconception": null,
+      "target_knowledge_units": [
+        "KU-0001"
+      ]
+    },
+    {
+      "id": "Q-INV-05",
+      "type": "factual_mcq",
+      "stem": "Skeleton stem for KU-0001.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Charter of the republic of Kamarupa was adopted on 14 March 1963.",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "B",
+          "text": "The Charter of the republic of Kamarupa was adopted on 14 March 1963.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "partial_truth",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "C",
+          "text": "A neighbouring figure in the same table.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "D",
+          "text": "An unrelated account from another chapter.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "overgeneralization",
+          "ku_ref": null
+        }
+      ],
+      "answer": "A",
+      "statements": null,
+      "knowledge_units": [
+        {
+          "ku_id": "KU-0001",
+          "role": "primary"
+        }
+      ],
+      "source": [
+        {
+          "page": 9,
+          "section_path": "Constitutional framework of the republic>Adoption and commencement of the charter",
+          "block_id": "B-0075",
+          "char_start": 0,
+          "char_end": 10,
+          "table_ref": null
+        }
+      ],
+      "explanation": "Skeleton explanation.",
+      "memory_aid": null,
+      "hint": null,
+      "difficulty": "easy",
+      "topic": "Constitutional Framework",
+      "origin": "source",
+      "exam_profile": "APSC_PRELIMS",
+      "language": "en",
+      "attempt_count": 0,
+      "correct_count": 0,
+      "last_attempted": null,
+      "last_result": null,
+      "confidence": null,
+      "priority": 3,
+      "purpose": "direct_recall",
+      "primary_skill": "direct_recall",
+      "cognitive_level": "recall",
+      "revision_priority": "medium",
+      "confusion_cluster": null,
+      "difficulty_reason": "Direct factual recall.",
+      "misconception": null,
+      "target_knowledge_units": [
+        "KU-0001"
+      ]
+    },
+    {
+      "id": "Q-INV-06",
+      "type": "factual_mcq",
+      "stem": "Skeleton stem for KU-0001.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Charter of the republic of Kamarupa was adopted on 14 March 1963.",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "B",
+          "text": "An alternative account of the same record.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "partial_truth",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "C",
+          "text": "A neighbouring figure in the same table.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0001"
+        }
+      ],
+      "answer": "A",
+      "statements": null,
+      "knowledge_units": [
+        {
+          "ku_id": "KU-0001",
+          "role": "primary"
+        }
+      ],
+      "source": [
+        {
+          "page": 9,
+          "section_path": "Constitutional framework of the republic>Adoption and commencement of the charter",
+          "block_id": "B-0075",
+          "char_start": 0,
+          "char_end": 10,
+          "table_ref": null
+        }
+      ],
+      "explanation": "Skeleton explanation.",
+      "memory_aid": null,
+      "hint": null,
+      "difficulty": "easy",
+      "topic": "Constitutional Framework",
+      "origin": "source",
+      "exam_profile": "APSC_PRELIMS",
+      "language": "en",
+      "attempt_count": 0,
+      "correct_count": 0,
+      "last_attempted": null,
+      "last_result": null,
+      "confidence": null,
+      "priority": 3,
+      "purpose": "direct_recall",
+      "primary_skill": "direct_recall",
+      "cognitive_level": "recall",
+      "revision_priority": "medium",
+      "confusion_cluster": null,
+      "difficulty_reason": "Direct factual recall.",
+      "misconception": null,
+      "target_knowledge_units": [
+        "KU-0001"
+      ]
+    },
+    {
+      "id": "Q-INV-07",
+      "type": "factual_mcq",
+      "stem": "Skeleton stem for KU-0001.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Charter of the republic of Kamarupa was adopted on 14 March 1963.",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "B",
+          "text": "An alternative account of the same record.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "partial_truth",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "C",
+          "text": "A neighbouring figure in the same table.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "D",
+          "text": "An unrelated account from another chapter.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "overgeneralization",
+          "ku_ref": null
+        }
+      ],
+      "answer": "A",
+      "statements": null,
+      "knowledge_units": [
+        {
+          "ku_id": "KU-0001",
+          "role": "primary"
+        }
+      ],
+      "source": [
+        {
+          "page": 9,
+          "section_path": "Constitutional framework of the republic>Adoption and commencement of the charter",
+          "block_id": "B-0075",
+          "char_start": 0,
+          "char_end": 10,
+          "table_ref": null
+        }
+      ],
+      "explanation": "Skeleton explanation.",
+      "memory_aid": null,
+      "hint": "The Charter of the republic of Kamarupa was adopted on 14 March 1963.",
+      "difficulty": "easy",
+      "topic": "Constitutional Framework",
+      "origin": "source",
+      "exam_profile": "APSC_PRELIMS",
+      "language": "en",
+      "attempt_count": 0,
+      "correct_count": 0,
+      "last_attempted": null,
+      "last_result": null,
+      "confidence": null,
+      "priority": 3,
+      "purpose": "direct_recall",
+      "primary_skill": "direct_recall",
+      "cognitive_level": "recall",
+      "revision_priority": "medium",
+      "confusion_cluster": null,
+      "difficulty_reason": "Direct factual recall.",
+      "misconception": null,
+      "target_knowledge_units": [
+        "KU-0001"
+      ]
+    },
+    {
+      "id": "Q-INV-08",
+      "type": "statement_based",
+      "stem": "Skeleton stem for KU-0001.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Charter of the republic of Kamarupa was adopted on 14 March 1963.",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0001",
+          "covers": [
+            1
+          ]
+        },
+        {
+          "key": "B",
+          "text": "An alternative account of the same record.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "partial_truth",
+          "ku_ref": "KU-0001",
+          "covers": [
+            1
+          ]
+        },
+        {
+          "key": "C",
+          "text": "A neighbouring figure in the same table.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0001",
+          "covers": [
+            1
+          ]
+        },
+        {
+          "key": "D",
+          "text": "An unrelated account from another chapter.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "overgeneralization",
+          "ku_ref": null,
+          "covers": [
+            1
+          ]
+        }
+      ],
+      "answer": "B",
+      "statements": [
+        {
+          "text": "First record.",
+          "truth_value": true,
+          "ku_basis": "KU-0001",
+          "alteration": null,
+          "alteration_type": "none"
+        },
+        {
+          "text": "Second record.",
+          "truth_value": false,
+          "ku_basis": "KU-0002",
+          "alteration": "negated",
+          "alteration_type": "negation"
+        }
+      ],
+      "knowledge_units": [
+        {
+          "ku_id": "KU-0001",
+          "role": "primary"
+        }
+      ],
+      "source": [
+        {
+          "page": 9,
+          "section_path": "Constitutional framework of the republic>Adoption and commencement of the charter",
+          "block_id": "B-0075",
+          "char_start": 0,
+          "char_end": 10,
+          "table_ref": null
+        }
+      ],
+      "explanation": "Skeleton explanation.",
+      "memory_aid": null,
+      "hint": null,
+      "difficulty": "easy",
+      "topic": "Constitutional Framework",
+      "origin": "source",
+      "exam_profile": "APSC_PRELIMS",
+      "language": "en",
+      "attempt_count": 0,
+      "correct_count": 0,
+      "last_attempted": null,
+      "last_result": null,
+      "confidence": null,
+      "priority": 3,
+      "purpose": "direct_recall",
+      "primary_skill": "direct_recall",
+      "cognitive_level": "recall",
+      "revision_priority": "medium",
+      "confusion_cluster": null,
+      "difficulty_reason": "Direct factual recall.",
+      "misconception": null,
+      "target_knowledge_units": [
+        "KU-0001"
+      ]
+    },
+    {
+      "id": "Q-INV-09",
+      "type": "factual_mcq",
+      "stem": "Skeleton stem for KU-0001.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Charter of the republic of Kamarupa was adopted on 14 March 1963.",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "B",
+          "text": "An alternative account of the same record.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "partial_truth",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "C",
+          "text": "A neighbouring figure in the same table.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "D",
+          "text": "An unrelated account from another chapter.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "overgeneralization",
+          "ku_ref": null
+        }
+      ],
+      "answer": "A",
+      "statements": null,
+      "knowledge_units": [
+        {
+          "ku_id": "KU-0001",
+          "role": "primary"
+        }
+      ],
+      "source": [
+        {
+          "page": 9,
+          "section_path": "Constitutional framework of the republic>Adoption and commencement of the charter",
+          "block_id": "B-0075",
+          "char_start": 0,
+          "char_end": 10,
+          "table_ref": null
+        }
+      ],
+      "explanation": "Skeleton explanation.",
+      "memory_aid": null,
+      "hint": null,
+      "difficulty": "easy",
+      "topic": "Constitutional Framework",
+      "origin": "external",
+      "exam_profile": "APSC_PRELIMS",
+      "language": "en",
+      "attempt_count": 0,
+      "correct_count": 0,
+      "last_attempted": null,
+      "last_result": null,
+      "confidence": null,
+      "priority": 3,
+      "purpose": "direct_recall",
+      "primary_skill": "direct_recall",
+      "cognitive_level": "recall",
+      "revision_priority": "medium",
+      "confusion_cluster": null,
+      "difficulty_reason": "Direct factual recall.",
+      "misconception": null,
+      "target_knowledge_units": [
+        "KU-0001"
+      ]
+    },
+    {
+      "id": "Q-INV-10",
+      "type": "factual_mcq",
+      "stem": "Skeleton stem for KU-0001.",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Charter of the republic of Kamarupa was adopted on 14 March 1963.",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "B",
+          "text": "An alternative account of the same record.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "partial_truth",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "C",
+          "text": "A neighbouring figure in the same table.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "adjacent_value",
+          "ku_ref": "KU-0001"
+        },
+        {
+          "key": "D",
+          "text": "An unrelated account from another chapter.",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "overgeneralization",
+          "ku_ref": null
+        }
+      ],
+      "answer": "A",
+      "statements": null,
+      "knowledge_units": [
+        {
+          "ku_id": "KU-0001",
+          "role": "primary"
+        }
+      ],
+      "source": [
+        {
+          "page": 9,
+          "section_path": "Constitutional framework of the republic>Adoption and commencement of the charter",
+          "block_id": "B-0075",
+          "char_start": 0,
+          "char_end": 10,
+          "table_ref": null
+        }
+      ],
+      "explanation": "Skeleton explanation.",
+      "memory_aid": null,
+      "hint": null,
+      "difficulty": "easy",
+      "topic": "Constitutional Framework",
+      "origin": "source",
+      "exam_profile": "APSC_PRELIMS",
+      "language": "en",
+      "attempt_count": 0,
+      "correct_count": 0,
+      "last_attempted": null,
+      "last_result": null,
+      "confidence": null,
+      "priority": 3,
+      "purpose": "direct_recall",
+      "primary_skill": "direct_recall",
+      "cognitive_level": "recall",
+      "revision_priority": "medium",
+      "confusion_cluster": null,
+      "difficulty_reason": "Direct factual recall.",
+      "misconception": null,
+      "target_knowledge_units": [
+        "KU-0001"
+      ],
+      "supporting_excerpt": "This sentence was never in the source document at all."
+    }
+  ],
+  "expected_rejected": [
+    "Q-INV-01",
+    "Q-INV-02",
+    "Q-INV-03",
+    "Q-INV-04",
+    "Q-INV-05",
+    "Q-INV-06",
+    "Q-INV-07",
+    "Q-INV-08",
+    "Q-INV-09",
+    "Q-INV-10"
+  ]
+}
