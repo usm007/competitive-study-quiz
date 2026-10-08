@@ -9,14 +9,17 @@
 /* ============ design tokens ============ */
 :root{
   --bg:#f4f2ec; --surface:#fffefa; --surface-2:#f7f5ef; --surface-3:#e9e6dc;
-  --ink:#16202e; --ink-2:#3c4654; --muted:#68727f; --faint:#9aa3ae;
+  --ink:#16202e; --ink-2:#3c4654; --muted:#5d6673; --faint:#9aa3ae;
   --line:#e0ddd2; --line-soft:#edebe2;
   --accent:#1e3a5f; --accent-ink:#16294a; --accent-soft:#e9eff6;
   --good:#1c6b3d; --good-bg:#e9f4ec; --good-line:#bfe0c9;
   --bad:#a4262c; --bad-bg:#fbeeee; --bad-line:#f0c7c9;
   --warn:#8a6d00; --warn-bg:#fff7dd; --warn-line:#e8d48a;
   --focus:#2f6fed;
-  --radius:8px; --radius-s:6px;
+  --radius:8px; --radius-s:6px; /* radius scale (R-11): 8px cards/options/buttons/inputs, 6px small badges, 99px pills/chips only */
+  /* type (R-06): system-ui stack for offline exam use, no webfont dependency; uppercase wide-track labels mark metadata, never body */
+  /* arrows (R-08): → marks forward movement only (Next, answer-compare direction, source-link affordance) */
+  /* stripes (R-10/R-31): left edges mark state, not decoration: learn = study note, rev-notice/hint/actionable = priority or warning */
   --shadow:0 1px 2px rgba(16,24,40,.05);
   --shadow-lg:0 12px 32px rgba(16,24,40,.16);
   --font-ui:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,"Noto Sans","Helvetica Neue",Arial,sans-serif;
@@ -55,7 +58,7 @@ button{font:inherit}
 .shell.rail-collapsed{grid-template-columns:60px minmax(0,1fr)}
 .rail{padding:14px 14px 14px 0;height:100%;max-height:none;overflow-y:auto;overflow-x:hidden;position:static}
 .rail-head{margin:0 2px 6px}
-.rail-head span{font-size:11px;font-weight:700;letter-spacing:.8px;color:var(--faint);text-transform:uppercase}
+.rail-head span{font-size:11px;font-weight:700;letter-spacing:.8px;color:var(--muted);text-transform:uppercase}
 .mode-list{display:flex;flex-direction:column;gap:2px}
 .mode-item{display:flex;gap:10px;align-items:baseline;width:100%;text-align:left;background:transparent;border:1px solid transparent;border-radius:var(--radius-s);padding:6px 10px;cursor:pointer;color:var(--ink-2)}
 .mode-item:hover{background:var(--surface)}
@@ -148,7 +151,7 @@ body[data-mode="test"] .exam-strip{display:flex}
 .opt.disabled:not(.selected):not(.correct):not(.incorrect){opacity:.85}
 /* confidence: compact, secondary, never preselected */
 .conf{margin:14px 2px 4px}
-.conf p{font-size:11.5px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;color:var(--faint);margin:0 0 8px}
+.conf p{font-size:11.5px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
 .conf-row{display:flex;flex-wrap:wrap;gap:8px}
 .conf-chip{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:8px 14px;font-size:13px;cursor:pointer;color:var(--ink-2);min-height:40px;line-height:1.2}
 .conf-chip input{accent-color:var(--accent)}
@@ -206,7 +209,7 @@ details.more .more-body{padding-top:6px}
 .revmodes button.active{background:var(--accent);border-color:var(--accent);color:#fff}
 .revmodes button.more-toggle{border-style:dashed}
 .rev-why{display:block;color:var(--muted);font-size:12.5px;margin-top:4px}
-.rev-meta{display:block;color:var(--faint);font-size:12px;margin-top:2px}
+.rev-meta{display:block;color:var(--muted);font-size:12px;margin-top:2px}
 /* rapid: dense recall */
 body[data-mode="rapid"] .opts{gap:6px;margin-top:8px}
 body[data-mode="rapid"] .opt{padding:9px 12px;min-height:46px}
@@ -248,7 +251,7 @@ body[data-mode="test"] .mode-banner{border-bottom-color:var(--line)}
 .src-entry{border-bottom:1px solid var(--line-soft);padding:12px 0}
 .src-entry:last-child{border-bottom:none}
 .src-entry p{margin:4px 0;font-size:13.5px;line-height:1.55}
-.src-entry .k{font-size:11px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--faint)}
+.src-entry .k{font-size:11px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--muted)}
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 2px 12px}
 .chip{display:inline-flex;align-items:center;gap:6px;background:var(--surface-3);border:1px solid var(--line);border-radius:99px;padding:5px 6px 5px 12px;font-size:12.5px}
 .chip button{border:none;background:var(--surface);border-radius:99px;width:22px;height:22px;cursor:pointer;line-height:1;color:var(--muted)}
@@ -277,13 +280,21 @@ body[data-mode="test"] .mode-banner{border-bottom-color:var(--line)}
 .mobilebar{display:none;position:fixed;left:0;right:0;bottom:0;z-index:70;background:var(--surface);border-top:1px solid var(--line);padding:10px 12px calc(10px + env(safe-area-inset-bottom));gap:8px}
 .mobilebar .btn{flex:1;min-height:48px;padding:10px 6px;font-size:14px;margin:0}
 /* footer: minimal */
-.appfoot{flex:none;max-width:var(--max);margin:0 auto;padding:6px 18px 8px;color:var(--faint);font-size:12px;width:100%}
+.appfoot{flex:none;max-width:var(--max);margin:0 auto;padding:6px 18px 8px;color:var(--muted);font-size:12px;width:100%}
 .appfoot button{background:none;border:none;color:var(--muted);cursor:pointer;font-size:12px;text-decoration:underline;padding:0}
-/* empty + loading */
+/* empty + loading + error (R-27: every data view names its state and next action) */
+/* shimmer purpose (R-01): loading placeholder that mirrors the question layout while the package boots */
 .empty{border:1px dashed var(--line);border-radius:var(--radius);padding:34px 22px;text-align:center;color:var(--muted);margin:10px 2px;background:var(--surface)}
 .empty b{display:block;color:var(--ink);font-size:15px;margin-bottom:4px}
 .skeleton{border-radius:8px;background:linear-gradient(90deg,var(--surface-3) 25%,#f7f9fb 50%,var(--surface-3) 75%);background-size:200% 100%;animation:sh 1.2s infinite}
 @keyframes sh{to{background-position:-200% 0}}
+.loadwrap{margin:8px 2px 0;display:flex;flex-direction:column;gap:8px}
+.loadwrap .sk-h{height:18px;width:38%}
+.loadwrap .sk-q{height:30px;width:92%}
+.loadwrap .sk-o{height:52px}
+.loaderror{display:none;margin:8px 2px 0;background:var(--bad-bg);border:1px solid var(--bad-line);border-radius:var(--radius);padding:16px}
+.loaderror b{display:block;font-size:14.5px;color:var(--bad);margin-bottom:4px}
+.loaderror p{margin:0 0 12px;font-size:13.5px;color:var(--ink-2)}
 /* responsive */
 @media (max-width:1020px){.shell{grid-template-columns:196px minmax(0,1fr)}}
 @media (max-width:860px){
@@ -445,6 +456,8 @@ body[data-mode="test"] .mode-banner{border-bottom-color:var(--line)}
       <div id="learnPanel"></div>
       <div id="revQueue"></div>
       <div id="qwork">
+      <div class="loadwrap" id="loading" role="status" aria-label="Loading study material"><div class="skeleton sk-h"></div><div class="skeleton sk-q"></div><div class="skeleton sk-o"></div><div class="skeleton sk-o"></div></div>
+      <div class="loaderror" id="loaderror" role="alert" style="display:none"><b>Study material failed to load</b><p>The question package is empty or unreadable. Check the built file, then reload.</p><button class="btn btn-secondary btn-sm" type="button" onclick="location.reload()">Reload</button></div>
       <p class="q-context" id="qmeta"></p>
       <h2 class="q-stem" id="qstem" tabindex="-1"></h2>
       <p class="q-sub" id="qsub"></p>
@@ -473,9 +486,9 @@ body[data-mode="test"] .mode-banner{border-bottom-color:var(--line)}
   </main>
 </div>
 <div class="mobilebar" role="toolbar" aria-label="Question actions">
-  <button id="mPrev" class="btn btn-secondary" type="button">←</button>
+  <button id="mPrev" class="btn btn-secondary" type="button" aria-label="Previous question">←</button>
   <button id="mSubmit" class="btn btn-primary" type="button">Submit</button>
-  <button id="mNext" class="btn btn-secondary" type="button">→</button>
+  <button id="mNext" class="btn btn-secondary" type="button" aria-label="Next question">→</button>
 </div>
 <div class="scrim" id="scrim"></div>
 <aside class="drawer" id="navDrawer" aria-label="Question navigator" aria-hidden="true">
@@ -1489,7 +1502,7 @@ function startRevisionSession(entries){
         seenQ[r.question_id]=1; items.push(r.question_id);
         var why=friendlyReasonText(e.reasons);
         reasons[r.question_id]="Selected because "+why.toLowerCase()+
-          (weaks[k]?(" — weak form: "+weaks[k]):"")+".";
+          (weaks[k]?(", weak form: "+weaks[k]):"")+".";
         break;
       }
     }
@@ -1887,7 +1900,7 @@ function srcLine(q){
 function renderFeedback(q,opts,key,a){
   var fb=document.getElementById("feedback");
   fb.style.display="block";
-  var ok=a.correct, yours=a.sel||"—";
+  var ok=a.correct, yours=a.sel||"-";
   var keyText=""; opts.forEach(function(o){ if(o.key===key) keyText=o.text; });
   var why=""; try{
     for(var qi=0;qi<QUESTIONS.length;qi++) if(QUESTIONS[qi]===q){
@@ -1927,7 +1940,7 @@ function renderFeedback(q,opts,key,a){
   // progressive disclosure: the full study note
   var rest="";
   if(q.explanation&&q.explanation.length>lesson.length+20) rest+="<p>"+esc(q.explanation)+"</p>";
-  if(trap) rest+='<h4>Why the distractor tempts you</h4><p>Option '+esc(trap.key)+' looks right because it '+(trap.key===a.sel?"matches what you chose":"is close to the truth")+" — check it against the source excerpt before committing.</p>";
+  if(trap) rest+='<h4>Why the distractor tempts you</h4><p>Option '+esc(trap.key)+' looks right because it '+(trap.key===a.sel?"matches what you chose":"is close to the truth")+". Check it against the source excerpt before committing.</p>";
   if(q.misconception) rest+='<h4>Common mix-up</h4><p>'+esc(q.misconception)+"</p>";
   if(qmem(q)) rest+='<h4>Remember</h4><p>'+esc(qmem(q))+"</p>";
   if(why) rest+='<h4>Why this question</h4><p>'+esc(why)+"</p>";
@@ -2026,7 +2039,7 @@ function renderRevQueue(){
     return '<button type="button" data-rm="'+m[0]+'" class="'+(state.revMode===m[0]?"active":"")+hide+'"'+(i>=narrowMode?' style="display:none"':"")+' aria-pressed="'+(state.revMode===m[0])+'">'+esc(m[1])+"</button>";
   }).join("")+'<button type="button" class="more-toggle" data-rm-more="1" aria-expanded="false">More ▾</button></div>';
   if(!d.queue.length){
-    box.innerHTML=modesHtml+'<div class="empty"><b>No revision items yet.</b>Answer some questions first — misses and high-priority items will queue here.</div>';
+    box.innerHTML=modesHtml+'<div class="empty"><b>No revision items yet.</b>Answer some questions first: misses and high-priority items will queue here.</div>';
     bindRevModes(box); return;
   }
   var list=[];
@@ -2044,7 +2057,7 @@ function renderRevQueue(){
   var perPage=(window.innerWidth&&window.innerWidth<861)?(window.innerWidth<561?2:3):3;
   var shown=list.slice(0,perPage), extra=list.slice(perPage);
   function revCard(e,n){
-    var weak=(e.weak_forms||[]).join(", ")||"—";
+    var weak=(e.weak_forms||[]).join(", ")||"-";
     var last=e.last_result?(e.last_result+(e.confidence_signal?(" · "+e.confidence_signal):"")):"not attempted";
     return '<div class="rev-card"><span class="pri pri-'+esc(e.priority)+'">'+esc(e.priority)+'</span><span style="flex:1"><b>'+esc(e.topic||"General")+(e.subtopic?(" · "+esc(e.subtopic)):"")+'</b>'
       +'<span class="rev-why">Why you are seeing this: '+esc(revReasonText(e.reasons))+'</span>'
@@ -2172,11 +2185,11 @@ function showAnalytics(){
   var unansHi=QUESTIONS.filter(function(q,i){ var id=qid(q,i); return !(ans[id]&&ans[id].sel)&&(q.revision_priority==="critical"||q.revision_priority==="high"); }).slice(0,5);
   var h='<div class="an-section actionable"><h3>What should I study next?</h3><p class="sub">Ordered by impact.</p><ol class="reclist">';
   var n=1;
-  if(weakTopics.length){ h+='<li><span><b>'+(n++)+". Revise "+esc(weakTopics[0])+'</b> — lowest topic accuracy.</span> <button class="btn btn-sm btn-secondary" data-act="rev-topic" data-v="'+esc(weakTopics[0])+'" type="button">Revise now</button></li>'; }
+  if(weakTopics.length){ h+='<li><span><b>'+(n++)+". Revise "+esc(weakTopics[0])+'</b>, lowest topic accuracy.</span> <button class="btn btn-sm btn-secondary" data-act="rev-topic" data-v="'+esc(weakTopics[0])+'" type="button">Revise now</button></li>'; }
   if(topConf.length){ h+='<li><span><b>'+(n++)+". Practise distinctions:</b> "+esc(topConf.join(", "))+'</span> <button class="btn btn-sm btn-secondary" data-act="rev-weak" type="button">Practise distinctions</button></li>'; }
   if(nW){ h+='<li><span><b>'+(n++)+". Review "+nW+' mistake'+(nW>1?"s":"")+'</b> in context.</span> <button class="btn btn-sm btn-secondary" data-act="rev-incorrect" type="button">Review mistakes</button></li>'; }
   if(unansHi.length){ h+='<li><span><b>'+(n++)+". "+unansHi.length+' high-priority unanswered.</b></span> <button class="btn btn-sm btn-secondary" data-act="rev-high" type="button">Start them</button></li>'; }
-  if(n===1) h+='<li>No clear gap yet — attempt more questions across purposes.</li>';
+  if(n===1) h+='<li>No clear gap yet: attempt more questions across purposes.</li>';
   h+="</ol></div>";
   h+='<div class="an-grid">'
     +'<div class="stat"><small>Accuracy</small><div class="v">'+acc+'%</div><div class="s">'+nC+' correct / '+att.length+' attempted</div></div>'
@@ -2185,7 +2198,7 @@ function showAnalytics(){
   h+='<div class="an-section plain"><h3>Weak areas</h3><p class="sub">Accuracy by topic.</p>'+barRows(topicG)+"</div>";
   h+='<div class="an-section plain"><h3>Confidence problem</h3><p class="sub">Certain on '+certainTot+', missed '+certainWrong+'. Unsure-but-right suggests guessing luck; Certain-but-wrong needs revision.</p>'+barRows((function(){var o={};Object.keys(cal).forEach(function(k){o[k]=cal[k];});return o;})())+"</div>";
   h+='<div class="an-section plain"><h3>Revision priority</h3><p class="sub">Most-missed knowledge units.</p>'
-    +(kuRows.length?("<ol style='margin:0;padding-left:20px'>"+kuRows.map(function(k,i){return "<li><b>"+esc(k)+"</b> — "+kuMiss[k]+" miss(es)</li>";}).join("")+"</ol><p style='margin-top:10px'><button class='btn btn-sm btn-secondary' data-act='rev-weak' type='button'>Open revision queue</button></p>"):"<p class='sub'>No misses yet.</p>")+"</div>";
+    +(kuRows.length?("<ol style='margin:0;padding-left:20px'>"+kuRows.map(function(k,i){return "<li><b>"+esc(k)+"</b>, "+kuMiss[k]+" miss(es)</li>";}).join("")+"</ol><p style='margin-top:10px'><button class='btn btn-sm btn-secondary' data-act='rev-weak' type='button'>Open revision queue</button></p>"):"<p class='sub'>No misses yet.</p>")+"</div>";
   h+='<div class="an-section plain"><h3>By purpose &amp; difficulty</h3><p class="sub">Where reasoning breaks down.</p>'+barRows(grp(function(q){return qpurpose(q);}))+"</div>";
   try{
     var rd=revQueueData();
@@ -2193,12 +2206,12 @@ function showAnalytics(){
     h+='<div class="an-section plain rev-cog"><h3>Revision</h3><p class="sub">Weak knowledge units, confidence signals and mastery.</p>';
     if(weakTop.length){
       h+="<ol style='margin:0;padding-left:20px'>"+weakTop.map(function(e){
-        return "<li><b>"+esc(e.ku_id)+"</b> — "+esc(e.priority)+", "+esc((e.weak_forms||[]).join(", ")||"recall")+", mastery "+esc(e.mastery||"")+"</li>";
+        return "<li><b>"+esc(e.ku_id)+"</b>, "+esc(e.priority)+", "+esc((e.weak_forms||[]).join(", ")||"recall")+", mastery "+esc(e.mastery||"")+"</li>";
       }).join("")+"</ol>";
       h+="<p class='sub rev-hce'>High-confidence errors: "+certainWrong+" of "+certainTot+" certain answers need revision.</p>";
       h+="<p><button class='btn btn-sm btn-secondary' data-act='rev-hce' type='button'>Review high-confidence errors</button> <button class='btn btn-sm btn-secondary' data-act='rev-cog' type='button'>Review cognitive gaps</button></p>";
     } else {
-      h+="<p class='sub'>No revision items — nothing attempted yet, or recent accuracy is strong.</p>";
+      h+="<p class='sub'>No revision items: nothing attempted yet, or recent accuracy is strong.</p>";
     }
     h+="</div>";
   }catch(e){}
@@ -2278,7 +2291,17 @@ document.addEventListener("keydown",function(e){
 });
 loadSession();
 document.getElementById("storagenote").textContent = storageOK ? "Progress auto-saves in this browser." : "Browser storage unavailable; use Export to keep progress.";
-renderFilterOptions(); refreshView(); setMode(session.mode||"practice");
+function showLoadError(){
+  document.getElementById("loading").style.display="none";
+  ["qmeta","qstem","qsub","qstatements","qhint","opts","confrow"].forEach(function(id){var e=document.getElementById(id); if(e) e.style.display="none";});
+  var acts=document.querySelector(".actions"); if(acts) acts.style.display="none";
+  document.getElementById("loaderror").style.display="block";
+}
+try {
+  if(!QUESTIONS.length) throw new Error("empty package");
+  renderFilterOptions(); refreshView(); setMode(session.mode||"practice");
+  document.getElementById("loading").style.display="none";
+} catch(err) { showLoadError(); }
 </script>
 </body>
 </html>

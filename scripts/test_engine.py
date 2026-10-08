@@ -681,7 +681,7 @@ def fmt_frac(fr):
     (float round() modes differ across languages on exact quarters).
     """
     if fr is None:
-        return "—"
+        return "-"
     n, d = (fr["n"], fr["d"]) if isinstance(fr, dict) else (fr.numerator, fr.denominator)
     sign = "-" if (n < 0) != (d < 0) else ""
     m = (20 * abs(n) + abs(d)) // (2 * abs(d))

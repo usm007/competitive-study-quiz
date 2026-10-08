@@ -347,7 +347,7 @@ class TestScoring(unittest.TestCase):
         self.assertEqual(T.fmt_frac(Fraction(59, 1)), "59")
         self.assertEqual(T.fmt_frac(Fraction(117, 2)), "58.5")
         self.assertEqual(T.fmt_frac(Fraction(-3, 4)), "-0.8")
-        self.assertEqual(T.fmt_frac(None), "—")
+        self.assertEqual(T.fmt_frac(None), "-")
 
 
 class TestSessions(unittest.TestCase):

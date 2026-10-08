@@ -596,7 +596,7 @@ var TestEngine = (function () {
   }
   function fmtFrac(fr) {
     // Integer-exact half-away-from-zero to 1 decimal (mirrors Python).
-    if (fr === null || fr === undefined) return "—";
+    if (fr === null || fr === undefined) return "-";
     var neg = (fr.n < 0) !== (fr.d < 0);
     var m = Math.floor((20 * Math.abs(fr.n) + Math.abs(fr.d)) / (2 * Math.abs(fr.d)));
     var whole = Math.floor(m / 10), tenth = m % 10;
