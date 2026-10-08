@@ -36,7 +36,11 @@ def do_next(page):
 def shot(page, name):
     page.wait_for_timeout(350)
     page.screenshot(path=str(OUT / name), full_page=False)
-    print("shot", name)
+    fit = page.evaluate(
+        "() => ({doc: document.documentElement.scrollHeight, "
+        "win: window.innerHeight})")
+    mark = "FIT" if fit["doc"] <= fit["win"] + 1 else "OVERFLOW(+%dpx)" % (fit["doc"] - fit["win"])
+    print("shot %-32s %s" % (name, mark))
 
 
 def run_width(width, tag, height=900):

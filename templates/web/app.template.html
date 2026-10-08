@@ -8,9 +8,9 @@
 <style>
 /* ============ design tokens ============ */
 :root{
-  --bg:#f3f4f6; --surface:#ffffff; --surface-2:#f8f9fb; --surface-3:#eceff3;
-  --ink:#141a22; --ink-2:#3c4654; --muted:#68727f; --faint:#9aa3ae;
-  --line:#dfe3e9; --line-soft:#edf0f4;
+  --bg:#f4f2ec; --surface:#fffefa; --surface-2:#f7f5ef; --surface-3:#e9e6dc;
+  --ink:#16202e; --ink-2:#3c4654; --muted:#68727f; --faint:#9aa3ae;
+  --line:#e0ddd2; --line-soft:#edebe2;
   --accent:#1e3a5f; --accent-ink:#16294a; --accent-soft:#e9eff6;
   --good:#1c6b3d; --good-bg:#e9f4ec; --good-line:#bfe0c9;
   --bad:#a4262c; --bad-bg:#fbeeee; --bad-line:#f0c7c9;
@@ -20,7 +20,7 @@
   --shadow:0 1px 2px rgba(16,24,40,.05);
   --shadow-lg:0 12px 32px rgba(16,24,40,.16);
   --font-ui:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,"Noto Sans","Helvetica Neue",Arial,sans-serif;
-  --max:1240px; --measure:800px;
+  --max:1240px; --measure:820px;
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
@@ -33,7 +33,7 @@ button{font:inherit}
 .skip:focus{left:0}
 /* ============ top bar: brand | Q n/N | answered summary ============ */
 .topbar{position:sticky;top:0;z-index:60;background:var(--surface);border-bottom:1px solid var(--line)}
-.topbar-in{max-width:var(--max);margin:0 auto;display:flex;align-items:center;gap:14px;padding:9px 18px;min-height:56px}
+.topbar-in{max-width:var(--max);margin:0 auto;display:flex;align-items:center;gap:14px;padding:7px 18px;min-height:52px}
 .brand{display:flex;align-items:center;gap:10px;min-width:0;flex:1}
 .brand-mark{width:32px;height:32px;border-radius:7px;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:15px;letter-spacing:.5px;flex:none}
 .brand-name{font-weight:800;font-size:15px;letter-spacing:.1px;white-space:nowrap;line-height:1.2}
@@ -53,11 +53,11 @@ button{font:inherit}
 /* ============ shell: rail + centered measure ============ */
 .shell{max-width:var(--max);margin:0 auto;display:grid;grid-template-columns:216px minmax(0,1fr);gap:0;padding:0 18px;align-items:start}
 .shell.rail-collapsed{grid-template-columns:60px minmax(0,1fr)}
-.rail{position:sticky;top:57px;padding:20px 16px 20px 0;max-height:calc(100vh - 57px);overflow:auto}
+.rail{position:sticky;top:53px;padding:16px 16px 16px 0;max-height:calc(100vh - 53px);overflow:auto}
 .rail-head{margin:0 2px 6px}
 .rail-head span{font-size:11px;font-weight:700;letter-spacing:.8px;color:var(--faint);text-transform:uppercase}
 .mode-list{display:flex;flex-direction:column;gap:2px}
-.mode-item{display:flex;gap:10px;align-items:baseline;width:100%;text-align:left;background:transparent;border:1px solid transparent;border-radius:var(--radius-s);padding:8px 10px;cursor:pointer;color:var(--ink-2)}
+.mode-item{display:flex;gap:10px;align-items:baseline;width:100%;text-align:left;background:transparent;border:1px solid transparent;border-radius:var(--radius-s);padding:6px 10px;cursor:pointer;color:var(--ink-2)}
 .mode-item:hover{background:var(--surface)}
 .mode-item.active{background:var(--surface);border-color:var(--line);color:var(--ink);position:relative;font-weight:700}
 .mode-item.active::before{content:"";position:absolute;left:-16px;top:9px;bottom:9px;width:3px;border-radius:99px;background:var(--accent)}
@@ -77,9 +77,9 @@ button{font:inherit}
 .rail-foot td{padding:2px 6px 2px 0;color:var(--muted)}
 .rail-foot kbd{font-family:inherit;background:var(--surface-3);border:1px solid var(--line);border-radius:4px;padding:0 5px;font-size:11px}
 /* ============ workspace: centered editorial column ============ */
-.workspace{padding:22px 0 90px;min-width:0;display:flex;justify-content:center}
+.workspace{padding:16px 0 60px;min-width:0;display:flex;justify-content:center}
 .workcol{width:100%;max-width:var(--measure)}
-.mode-banner{display:flex;align-items:baseline;gap:10px;margin:0 2px 14px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.mode-banner{display:flex;align-items:baseline;gap:10px;margin:0 2px 10px;padding-bottom:8px;border-bottom:1px solid var(--line)}
 .mode-banner h2{font-size:12px;margin:0;letter-spacing:1px;text-transform:uppercase;color:var(--muted)}
 .mode-banner p{font-size:12.5px;color:var(--muted);margin:0}
 body[data-mode="test"] .mode-banner h2{color:var(--bad)}
@@ -98,31 +98,37 @@ body[data-mode="test"] .exam-strip{display:flex}
 .btn-danger{background:var(--bad);border-color:var(--bad);color:#fff}
 .btn-sm{min-height:34px;padding:6px 12px;font-size:13px}
 /* ============ question: editorial, uncarded ============ */
-.q-context{font-size:12.5px;color:var(--muted);letter-spacing:.2px;margin:0 2px 8px;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.q-context{font-size:12px;color:var(--muted);letter-spacing:.2px;margin:0 2px 6px;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
 .q-context .sep{color:var(--faint)}
-.q-stem{font-size:clamp(20px,2.4vw,25px);line-height:1.4;font-weight:700;letter-spacing:-.01em;margin:0 2px 6px;max-width:64ch}
-.q-sub{font-size:13.5px;color:var(--muted);margin:0 2px 16px}
-/* learn panel: concept first, MCQ second */
-.learn-panel{margin:0 2px 18px;border-left:3px solid var(--accent);padding:2px 0 2px 16px}
-.learn-panel h3{font-size:11.5px;letter-spacing:1px;text-transform:uppercase;color:var(--accent-ink);margin:0 0 8px}
-.learn-panel .lp-topic{font-size:16px;font-weight:750;margin:0 0 8px}
-.learn-panel ul{margin:0 0 6px;padding-left:20px;font-size:14.5px;line-height:1.65}
-.learn-panel .lp-test{font-size:12px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--muted);margin:12px 0 0}
+.q-stem{font-size:clamp(21px,2.2vw,26px);line-height:1.38;font-weight:700;letter-spacing:-.01em;margin:0 2px 4px;max-width:64ch}
+.q-sub{font-size:13px;color:var(--muted);margin:0 2px 12px}
+/* learn panel: compact study note — key fact, distinction, remember */
+.learn-panel{margin:0 2px 14px;border-left:3px solid var(--accent);padding:2px 0 2px 14px}
+.learn-panel h3{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--accent-ink);margin:0 0 6px}
+.learn-panel .lp-topic{font-size:15px;font-weight:750;margin:0 0 6px}
+.learn-panel dl{margin:0;font-size:14px;line-height:1.6}
+.learn-panel dt{font-size:11px;font-weight:800;letter-spacing:.7px;text-transform:uppercase;color:var(--muted);margin:8px 0 2px}
+.learn-panel dt:first-of-type{margin-top:0}
+.learn-panel dd{margin:0 0 2px}
+.learn-panel .lp-contrast{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:2px}
+.learn-panel .lp-contrast div{border-top:2px solid var(--line);padding-top:4px}
+.learn-panel .lp-contrast b{display:block;font-size:11px;letter-spacing:.6px;text-transform:uppercase;color:var(--muted)}
+.learn-panel .lp-test{font-size:11.5px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--muted);margin:10px 0 0;padding-top:8px;border-top:1px solid var(--line-soft)}
 /* statements: signature exam-paper block */
 .stmt-block{margin:8px 2px 6px;max-width:72ch}
-.stmt-kicker{font-size:11.5px;font-weight:800;letter-spacing:1px;color:var(--accent-ink);text-transform:uppercase;margin:0 0 10px}
+.stmt-kicker{font-size:11.5px;font-weight:800;letter-spacing:1px;color:var(--accent-ink);text-transform:uppercase;margin:0 0 4px}
 .stmt-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
-.stmt-list li{display:flex;gap:12px;padding:10px 2px;line-height:1.62;border-bottom:1px solid var(--line-soft)}
+.stmt-list li{display:flex;gap:12px;padding:8px 2px;line-height:1.6;border-bottom:1px solid var(--line-soft)}
 .stmt-list li:last-child{border-bottom:none}
-.stmt-n{flex:none;width:26px;height:26px;border-radius:99px;background:var(--surface-3);color:var(--ink-2);font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:2px;border:1px solid var(--line)}
-.stmt-closer{font-size:16px;font-weight:650;margin:12px 2px 0}
+.stmt-n{flex:none;width:24px;height:24px;border-radius:99px;background:var(--surface-3);color:var(--ink-2);font-size:12.5px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:2px;border:1px solid var(--line)}
+.stmt-closer{font-size:16px;font-weight:650;margin:6px 2px 0}
 /* options stay interactive rows */
-.opts{margin:14px 0 6px;display:flex;flex-direction:column;gap:9px}
-.opt{position:relative;display:flex;gap:12px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:13px 15px;cursor:pointer;transition:border-color .12s ease,background .12s ease;min-height:54px}
+.opts{margin:12px 0 4px;display:flex;flex-direction:column;gap:8px}
+.opt{position:relative;display:flex;gap:12px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:12px 15px;cursor:pointer;transition:border-color .12s ease,background .12s ease;min-height:52px}
 .opt:hover{border-color:#b9c4d1}
 .opt input{position:absolute;opacity:0;pointer-events:none}
 .opt .k{flex:none;width:28px;height:28px;border-radius:7px;background:var(--surface-3);color:var(--ink-2);font-weight:800;font-size:13.5px;display:flex;align-items:center;justify-content:center;margin-top:1px}
-.opt .t{font-size:15px;line-height:1.55}
+.opt .t{font-size:16px;line-height:1.5}
 .opt.selected{border-color:var(--accent);background:var(--accent-soft)}
 .opt.selected .k{background:var(--accent);color:#fff}
 .opt.correct{border-color:var(--good);background:var(--good-bg)}
@@ -142,7 +148,8 @@ body[data-mode="test"] .exam-strip{display:flex}
 .conf-chip input{accent-color:var(--accent)}
 .conf-chip:has(input:checked){border-color:var(--accent);background:var(--accent-soft);color:var(--accent-ink);font-weight:700}
 /* action row */
-.actions{display:flex;gap:10px;align-items:center;margin:16px 2px 0;flex-wrap:wrap}
+/* action row: sticky so Next is always at hand */
+.actions{position:sticky;bottom:10px;display:flex;gap:10px;align-items:center;margin:14px 2px 0;flex-wrap:wrap;background:linear-gradient(to bottom,rgba(244,242,236,0),var(--bg) 30%);padding:10px 2px 4px;z-index:5}
 .actions .spacer{flex:1}
 .stepper{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface)}
 .stepper button{border:none;background:transparent;padding:9px 14px;cursor:pointer;font-weight:700;color:var(--ink-2);min-height:40px}
@@ -150,17 +157,20 @@ body[data-mode="test"] .exam-strip{display:flex}
 .hintline{margin:10px 2px 0}
 .hintbox{display:none;background:var(--warn-bg);border:1px solid var(--warn-line);border-left:4px solid var(--warn);border-radius:0 8px 8px 0;padding:10px 14px;font-size:14px;margin-top:8px}
 /* feedback: compact study note, progressive disclosure */
-.study-note{margin:20px 2px 0;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
-.study-note .sn-head{padding:13px 18px 11px;display:flex;gap:12px;align-items:baseline;border-bottom:1px solid var(--line-soft);flex-wrap:wrap}
+.study-note{margin:16px 2px 0;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.study-note .sn-head{padding:9px 16px 8px;display:flex;gap:12px;align-items:baseline;border-bottom:1px solid var(--line-soft);flex-wrap:wrap}
 .sn-badge{flex:none;font-size:12px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;border-radius:99px;padding:5px 12px}
 .sn-badge.good{background:var(--good-bg);color:var(--good);border:1px solid var(--good-line)}
 .sn-badge.bad{background:var(--bad-bg);color:var(--bad);border:1px solid var(--bad-line)}
 .sn-key{font-size:15px}
-.sn-body{padding:12px 18px 14px}
-.sn-body h4{font-size:11px;letter-spacing:.9px;text-transform:uppercase;color:var(--muted);margin:12px 0 5px}
+.sn-body{padding:10px 16px 12px}
+.sn-body h4{font-size:11px;letter-spacing:.9px;text-transform:uppercase;color:var(--muted);margin:8px 0 3px}
 .sn-body h4:first-child{margin-top:0}
-.sn-body p{margin:0 0 6px;font-size:14.5px}
+.sn-body p{margin:0 0 5px;font-size:14.5px}
 .sn-compare{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0}
+.sn-compare.one-line{grid-template-columns:auto auto 1fr;align-items:center}
+.sn-compare.one-line div{background:none;border:none;padding:2px 0}
+.sn-compare.one-line .arrow{color:var(--muted);font-weight:800}
 .sn-compare div{background:var(--surface-2);border:1px solid var(--line-soft);border-radius:8px;padding:9px 12px;font-size:13.5px}
 .sn-compare b{display:block;font-size:11px;letter-spacing:.7px;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
 details.tech{margin:0;border-top:1px solid var(--line-soft)}
@@ -173,6 +183,8 @@ details.more summary{cursor:pointer;font-size:13px;font-weight:650;color:var(--a
 details.more .more-body{padding-top:6px}
 /* revision queue */
 .rev-notice{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--warn);border-radius:var(--radius);padding:13px 16px;margin:0 2px 12px}
+.rev-notice.slim{padding:8px 14px;font-size:13px}
+.rev-notice.slim .rn-pri{margin-right:8px}
 .rev-notice .rn-pri{font-size:11px;font-weight:800;letter-spacing:.8px;text-transform:uppercase;color:#6d5600}
 .rev-notice b{font-size:14.5px}
 .rev-notice p{margin:4px 0 10px;font-size:13.5px;color:var(--ink-2)}
@@ -184,9 +196,10 @@ details.more .more-body{padding-top:6px}
 .pri-medium{background:var(--surface-3);color:var(--ink-2)}
 .rev-card b{font-size:14px}
 .rev-card small{display:block;color:var(--muted);font-size:12.5px}
-.revmodes{display:flex;flex-wrap:wrap;gap:6px;margin:0 2px 10px}
-.revmodes button{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:6px 12px;font-size:12.5px;cursor:pointer;font-weight:600;color:var(--ink-2)}
+.revmodes{display:flex;flex-wrap:wrap;gap:6px;margin:0 2px 10px;align-items:center}
+.revmodes button{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:5px 12px;font-size:12.5px;cursor:pointer;font-weight:600;color:var(--ink-2)}
 .revmodes button.active{background:var(--accent);border-color:var(--accent);color:#fff}
+.revmodes button.more-toggle{border-style:dashed}
 .rev-why{display:block;color:var(--muted);font-size:12.5px;margin-top:4px}
 .rev-meta{display:block;color:var(--faint);font-size:12px;margin-top:2px}
 /* rapid: dense */
@@ -194,8 +207,8 @@ body[data-mode="rapid"] .opts{gap:6px}
 body[data-mode="rapid"] .opt{padding:10px 13px;min-height:48px}
 body[data-mode="rapid"] .q-stem{font-size:20px}
 /* analytics: decision first */
-.an-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:4px 2px 14px}
-.stat{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px}
+.an-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:2px 2px 12px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:12px 16px}
 .stat small{font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--muted)}
 .stat .v{font-size:30px;font-weight:800;letter-spacing:-.02em;font-variant-numeric:tabular-nums;line-height:1.15}
 .stat .s{font-size:12.5px;color:var(--muted)}
@@ -253,7 +266,7 @@ body[data-mode="rapid"] .q-stem{font-size:20px}
 .mobilebar{display:none;position:fixed;left:0;right:0;bottom:0;z-index:70;background:var(--surface);border-top:1px solid var(--line);padding:8px 10px calc(8px + env(safe-area-inset-bottom));gap:8px}
 .mobilebar .btn{flex:1;min-height:48px;padding:10px 6px;font-size:14px}
 /* footer: minimal */
-.appfoot{max-width:var(--max);margin:0 auto;padding:12px 18px 28px;color:var(--faint);font-size:12px}
+.appfoot{max-width:var(--max);margin:0 auto;padding:8px 18px 10px;color:var(--faint);font-size:12px}
 .appfoot button{background:none;border:none;color:var(--muted);cursor:pointer;font-size:12px;text-decoration:underline;padding:0}
 /* empty + loading */
 .empty{border:1px dashed var(--line);border-radius:var(--radius);padding:34px 22px;text-align:center;color:var(--muted);margin:10px 2px;background:var(--surface)}
@@ -265,7 +278,9 @@ body[data-mode="rapid"] .q-stem{font-size:20px}
 @media (max-width:860px){
   .shell,.shell.rail-collapsed{grid-template-columns:minmax(0,1fr);padding:0 14px}
   .rail{display:none}
-  .workspace{padding:14px 0 110px}
+  .workspace{padding:12px 0 76px}
+  .appfoot{display:none}
+  .opts{gap:7px}
   .progress-bar{width:64px}
   .set-title span{display:none}
   .brand-sub{display:none}
@@ -285,14 +300,46 @@ body[data-mode="rapid"] .q-stem{font-size:20px}
   .brand{min-width:0;flex:1}
   .brand>div{min-width:0;flex:1}
   .brand-name{font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .progress-num{font-size:12px}
+  .progress-num{font-size:11px}
   .progress-bar,.progress-pct,#searchBtn{display:none}
   .iconbtn{min-width:32px;height:34px}
-  .q-context{font-size:12px}
-  .conf-chip{min-height:44px}
+  .q-context{display:none}
+  .q-sub{margin-bottom:8px}
+  .q-stem{font-size:20px}
+  .opt{padding:10px 12px;min-height:50px}
+  .opt .t{font-size:15px}
+  .sn-body{padding:8px 14px 10px}
+  .sn-compare{margin:6px 0}
+  .rev-notice{padding:10px 12px}
+  .rev-notice p{font-size:13px}
+  .rev-card{padding:10px 12px;gap:9px}
+  .rev-card small{display:none}
+  .rev-why{font-size:12px}
+  .rev-meta{font-size:11.5px}
+  .conf p{margin-bottom:6px}
+  .conf-chip{min-height:44px;padding:6px 11px}
   .stepper button{min-height:44px}
+  .stmt-list li{padding:6px 2px}
+  .stmt-closer{font-size:15px}
 }
 @media (min-width:861px){.drawer.sheet-only{width:min(400px,94vw)}}
+/* viewport-height-aware compaction: fit the study task without shrinking text */
+@media (min-width:861px) and (max-height:800px){
+  .topbar-in{min-height:48px;padding-top:5px;padding-bottom:5px}
+  .mode-banner{display:none}
+  .workspace{padding:10px 0 8px}
+  .mode-banner{margin-bottom:6px}
+  .q-stem{font-size:21px}
+  .q-sub{margin-bottom:8px}
+  .opts{gap:7px}
+  .opt{padding:9px 14px;min-height:44px}
+  .conf{margin-top:12px}
+  .stmt-list li{padding:6px 2px}
+  .rev-card{padding:11px 14px}
+  .sn-body{padding:8px 16px 10px}
+  .appfoot{display:none}
+  .actions{margin-top:10px}
+}
 @media (max-width:430px){.an-grid{grid-template-columns:1fr 1fr}.bar-row{grid-template-columns:120px 1fr 46px}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 /* print */
@@ -379,6 +426,7 @@ body[data-mode="rapid"] .q-stem{font-size:20px}
       <div id="chips" class="chips" aria-label="Active filters"></div>
       <div id="learnPanel"></div>
       <div id="revQueue"></div>
+      <div id="qwork">
       <p class="q-context" id="qmeta"></p>
       <h2 class="q-stem" id="qstem" tabindex="-1"></h2>
       <p class="q-sub" id="qsub"></p>
@@ -398,6 +446,7 @@ body[data-mode="rapid"] .q-stem{font-size:20px}
         <span class="stepper"><button id="prevbtn" type="button" aria-label="Previous question">← Prev</button><button id="nextbtn" type="button" aria-label="Next question">Next →</button></span>
       </div>
       <div class="study-note" id="feedback" style="display:none" aria-live="polite"></div>
+      </div>
     </div>
     <div id="analyticsview" style="display:none"><div id="analytics"></div></div>
   </div>
@@ -512,7 +561,10 @@ function qsrcList(q){ var s=q.source||q.source_ref||""; if(!s) return [];
   if(Object.prototype.toString.call(s)==="[object Array]") return s;
   return [s]; }
 function qsrc(q){ return qsrcList(q).map(fmtSrcRef).filter(Boolean).join(" | "); }
-function qkus(q){ return (q.knowledge_units||[]).map(function(e){return e.ku_id+":"+e.role;}).join(", "); }
+function qkusWords(q){ return (q.knowledge_units||[]).map(function(e){
+  var id=e.ku_id||"?";
+  return id+" ("+kuRoleWords(e.role)+")";
+}).join("; "); }
 function qmem(q){ return q.memory_aid || q.memoryAid || q.mnemonic || ""; }
 function primaryKu(q){ var kus=q.knowledge_units||[]; for(var i=0;i<kus.length;i++) if(kus[i].role==="primary") return kus[i].ku_id; return ""; }
 function kuExcerpt(ku){ return KU_EXCERPTS[ku] || ""; }
@@ -610,7 +662,7 @@ function startRevisionSession(entries){
         answeredBlobs:blobs, lastPurpose:revLastPurpose(e.ku_id), fidelity:"SOURCE_BOUND"});
       if(r.question_id&&!seenQ[r.question_id]){
         seenQ[r.question_id]=1; items.push(r.question_id);
-        var why=(e.reasons||[]).map(function(x){ return RevisionEngine.REASON_LABELS[x]||x; }).join("; ");
+        var why=friendlyReasonText(e.reasons);
         reasons[r.question_id]="Selected because "+why.toLowerCase()+
           (weaks[k]?(" — weak form: "+weaks[k]):"")+".";
         break;
@@ -701,7 +753,7 @@ function renderHeader(){
   var total=view.length||0, n=total?state.idx+1:0;
   document.getElementById("setTitle").textContent = total?("Q "+n+" / "+QUESTIONS.length):"Q 0 / "+QUESTIONS.length;
   var k=counts();
-  document.getElementById("progress").textContent = total? (total+" in view · "+profName) : "No questions match filters";
+  document.getElementById("progress").textContent = total ? ((total!==QUESTIONS.length)?(total+" in view · "+profName):profName) : "No questions match filters";
   document.getElementById("progressNum").textContent=k.answered+" answered · "+k.correct+" correct · "+k.wrong+" wrong";
   var pct=QUESTIONS.length?Math.round(100*Object.keys(state.answers).filter(function(id){return state.answers[id]&&state.answers[id].sel;}).length/QUESTIONS.length):0;
   document.getElementById("progressFill").style.width=pct+"%";
@@ -786,21 +838,28 @@ function splitStatements(q){
   if(!closer) closer="Which of the above is/are correct?";
   return {stmts:stmts,closer:closer};
 }
-/* ---------- learn panel: concept first, from package data only ---------- */
+/* ---------- learn panel: compact study note from package data only ---------- */
+function confusableExcerpt(q, primaryKu){
+  // Only a KU actually attached to this question may illustrate the
+  // distinction. Never borrow an unrelated excerpt (would mislead).
+  var out=null;
+  (q.knowledge_units||[]).forEach(function(e){
+    if(e&&e.ku_id&&e.ku_id!==primaryKu&&kuExcerpt(e.ku_id)&&!out) out=kuExcerpt(e.ku_id);
+  });
+  return out||"";
+}
 function renderLearnPanel(q){
   var box=document.getElementById("learnPanel"); box.innerHTML="";
   if(state.mode!=="learn"||!q) return;
-  var kus=q.knowledge_units||[], facts=[];
-  kus.forEach(function(e){
-    if(e&&e.role==="primary"&&e.ku_id&&kuExcerpt(e.ku_id)) facts.push(kuExcerpt(e.ku_id));
-  });
-  var html='<div class="learn-panel"><h3>Learn</h3><p class="lp-topic">'+esc(qtopic(q))+(qsubtopic(q)?" · "+esc(qsubtopic(q)):"")+"</p>";
-  if(facts.length){
-    html+="<ul>"+facts.slice(0,3).map(function(f){return "<li>"+esc(f)+"</li>";}).join("")+"</ul>";
-  } else {
-    html+="<ul><li>Study the concept in the stem, then test yourself below.</li></ul>";
-  }
-  html+='<p class="lp-test">Test yourself</p></div>';
+  var kus=q.knowledge_units||[], prim=null;
+  for(var i=0;i<kus.length;i++) if(kus[i]&&kus[i].role==="primary"){ prim=kus[i].ku_id; break; }
+  var fact=prim?kuExcerpt(prim):"";
+  var contrast=prim?confusableExcerpt(q,prim):"";
+  var html='<div class="learn-panel"><h3>Learn</h3><p class="lp-topic">'+esc(qtopic(q))+(qsubtopic(q)?" · "+esc(qsubtopic(q)):"")+"</p><dl>";
+  html+="<dt>Key fact</dt><dd>"+esc(fact||"Study the concept in the stem carefully.")+"</dd>";
+  if(contrast) html+="<dt>Important distinction</dt><dd>"+esc(contrast)+"</dd>";
+  if(qmem(q)) html+="<dt>Remember</dt><dd>"+esc(qmem(q))+"</dd>";
+  html+="</dl>"+'<p class="lp-test">Test yourself</p></div>';
   box.innerHTML=html;
 }
 /* ---------- question ---------- */
@@ -809,6 +868,8 @@ function renderQ(){
   fb.style.display="none"; fb.innerHTML="";
   document.getElementById("revQueue").innerHTML="";
   document.getElementById("learnPanel").innerHTML="";
+  var answeredNow=!!(c&&state.answers[qid(c.q,c.i)]&&state.answers[qid(c.q,c.i)].sel);
+  document.querySelector(".mode-banner").style.display=answeredNow?"none":"";
   if(state.mode==="revision"&&!state.revStarted){ renderRevQueue(); }
   if(!c){
     document.getElementById("qstem").textContent="Nothing to show";
@@ -843,19 +904,22 @@ function renderQ(){
     st.appendChild(ol);
     var closer=document.createElement("p"); closer.className="stmt-closer"; closer.textContent=sp.closer;
     st.appendChild(closer);
-    document.getElementById("qsub").textContent="Evaluate each statement against the source.";
+    document.getElementById("qsub").style.display="none"; // closer already instructs
   } else {
     document.getElementById("qstem").style.display="";
     document.getElementById("qstem").textContent=q.stem||q.question||"(no stem)";
-    document.getElementById("qsub").textContent=(state.mode==="learn"?"Study this concept carefully.":"Choose the single best answer.");
+    document.getElementById("qsub").textContent="Choose the single best answer.";
   }
-  // hint: hidden in test mode
+  // post-answer: hide instruction, hint and topic rows to keep result in view.
+  // learn mode hides the instruction too (the panel already frames the task).
+  var hideSub=!!(a&&a.sel)||sp.stmts.length>0||state.mode==="learn";
+  document.getElementById("qsub").style.display=hideSub?"none":"";
+  document.getElementById("qmeta").style.display=(a&&a.sel)?"none":"";
   var hb=document.getElementById("hintbox"); hb.style.display="none"; hb.textContent="";
   var hintAllowed=(state.mode!=="test"||state.testFinished);
-  var hasHint=hintAllowed&&!!(q.hint||state.mode==="learn");
+  var hasHint=hintAllowed&&!(a&&a.sel)&&!!q.hint;
   document.getElementById("qhint").style.display=hasHint?"":"none";
   document.getElementById("hintbtn").style.display=hasHint?"":"none";
-  if(state.mode==="learn"&&!a){ hb.textContent=q.hint||"Eliminate the closest wrong option first, then commit."; hb.style.display="block"; }
   // options
   var form=document.getElementById("opts"); form.innerHTML="";
   var rapidReveal=(state.mode==="rapid"&&a&&a.sel);
@@ -910,6 +974,11 @@ function friendlyDistractor(o){
   if(o.confusion_type) return "a "+o.confusion_type.replace(/_/g," ");
   return "a confusable fact";
 }
+function firstSentence(t){
+  t=String(t||"").trim();
+  var m=t.match(/^.*?[.!?](\s|$)/);
+  return (m?m[0]:t).trim();
+}
 function renderFeedback(q,opts,key,a){
   var fb=document.getElementById("feedback");
   fb.style.display="block";
@@ -922,68 +991,109 @@ function renderFeedback(q,opts,key,a){
       break;
     }
   }catch(e){}
-  var html='<div class="sn-head"><span class="sn-badge '+(ok?"good":"bad")+'">'+(ok?"✓ Correct":"Not quite")+'</span><span class="sn-key"><b>'+esc(key)+".</b> "+esc(keyText)+"</span></div>";
-  html+='<div class="sn-body">';
-  if(!ok) html+='<div class="sn-compare"><div><b>Your answer</b>'+esc(yours)+'</div><div><b>Correct answer</b>'+esc(key)+'</div></div>';
-  if(q.explanation){
-    if(ok) html+='<h4>Why this is right</h4><p>'+esc(q.explanation)+"</p>";
-    else html+='<h4>Key distinction</h4><p>'+esc(q.explanation)+"</p>";
-  }
   var wrong=opts.filter(function(o){return o.key!==key;});
   var chosen=null; wrong.forEach(function(o){ if(a.sel===o.key) chosen=o; });
   var trap=chosen||wrong[0];
-  if(trap) html+='<h4>Trap tested</h4><p>Option '+esc(trap.key)+" tests "+esc(friendlyDistractor(trap))+"; eliminate it deliberately next time.</p>";
-  if(trap) html+='<h4>Why the distractor tempts you</h4><p>Option '+esc(trap.key)+' looks right because it '+(trap.key===a.sel?"matches what you chose":"is close to the truth")+" — check it against the source excerpt before committing.</p>";
-  if(q.misconception) html+='<h4>Common mix-up</h4><p>'+esc(q.misconception)+"</p>";
-  if(qmem(q)) html+='<h4>Remember</h4><p>'+esc(qmem(q))+"</p>";
-  if(why) html+='<h4>Why this question</h4><p>'+esc(why)+"</p>";
-  if(q.explanation&&q.explanation.length>280){
-    html+='<details class="more"><summary>Full explanation</summary><div class="more-body"><p>'+esc(q.explanation)+"</p></div></details>";
-  }
-  html+='<h4>Source</h4><p style="color:var(--muted);font-size:13px">'+esc(qsrc(q)||"Source reference on file")+" · "+esc(qkus(q))+"</p>";
+  var lesson=q.explanation?firstSentence(q.explanation):"";
+  var html='<div class="sn-head"><span class="sn-badge '+(ok?"good":"bad")+'">'+(ok?"✓ Correct":"Not quite")+'</span><span class="sn-key"><b>'+esc(key)+".</b> "+esc(keyText)+"</span></div>";
+  html+='<div class="sn-body">';
+  if(!ok) html+='<div class="sn-compare one-line"><div><b>Your answer '+esc(yours)+'</b></div><div class="arrow" aria-hidden="true">→</div><div><b>Correct answer '+esc(key)+'</b></div></div>';
+  if(lesson) html+='<h4>'+(ok?"Why this is right":"Key distinction")+'</h4><p>'+esc(lesson)+"</p>";
+  if(trap) html+='<h4>Trap tested</h4><p>Option '+esc(trap.key)+" tests "+esc(friendlyDistractor(trap))+".</p>";
+  html+='<p style="font-size:13px"><a href="#" data-src="1" style="color:var(--accent-ink)">View source →</a></p>';
+  // progressive disclosure: the full study note
+  var rest="";
+  if(q.explanation&&q.explanation.length>lesson.length+20) rest+="<p>"+esc(q.explanation)+"</p>";
+  if(trap) rest+='<h4>Why the distractor tempts you</h4><p>Option '+esc(trap.key)+' looks right because it '+(trap.key===a.sel?"matches what you chose":"is close to the truth")+" — check it against the source excerpt before committing.</p>";
+  if(q.misconception) rest+='<h4>Common mix-up</h4><p>'+esc(q.misconception)+"</p>";
+  if(qmem(q)) rest+='<h4>Remember</h4><p>'+esc(qmem(q))+"</p>";
+  if(why) rest+='<h4>Why this question</h4><p>'+esc(why)+"</p>";
+  if(rest) html+='<details class="more"><summary>Full study note</summary><div class="more-body">'+rest+"</div></details>";
   html+="</div>";
   html+='<details class="tech"><summary>Details: IDs, difficulty, purpose</summary><div class="tech-body">ID '+esc(q.id||"")+" · Type "+esc(qtype(q))+" · Tier "+esc(qtier(q))+" · Purpose "+esc(qpurpose(q))+(q.difficulty_reason?(" · "+esc(q.difficulty_reason)):"")+"</div></details>";
   fb.innerHTML=html;
+  var sl=fb.querySelector("[data-src]");
+  if(sl) sl.onclick=function(ev){ ev.preventDefault(); openDrawer("sourceDrawer"); };
   if(state.srcMode){ openDrawer("sourceDrawer"); }
 }
 function renderSourceBody(q){
   var b=document.getElementById("sourceBody");
   var refs=qsrcList(q);
   var kus=q.knowledge_units||[];
+  var prim=0, supp=0;
+  kus.forEach(function(e){ if(e&&(e.role==="primary")) prim++; else if(e) supp++; });
+  var nku=kus.length;
   var html='<div class="field"><label>Document</label><p style="font-size:13.5px">'+esc(META.source||"?")+"</p></div>";
-  html+='<div class="field"><label>Trust note</label><p style="font-size:12.5px;color:var(--muted)">Context shown is limited to recorded references. Excerpts are never fabricated.</p></div>';
-  if(!refs.length&&!kus.length){
-    html+="<p>(no block reference)</p>";
-  } else {
-    refs.forEach(function(s,i){
-      html+='<div class="src-entry"><p><span class="k">Reference '+(i+1)+"</span></p><p>"+esc(fmtSrcRef(s))+"</p></div>";
+  html+='<div class="src-entry"><p><span class="k">Knowledge support</span></p><p>'+nku+(nku===1?" linked knowledge point":" linked knowledge points")+"</p></div>";
+  refs.forEach(function(s,i){
+    var sp=(s&&s.section_path)||"";
+    if(Object.prototype.toString.call(sp)==="[object Array]") sp=sp.join(" > ");
+    var bits=[];
+    if(sp) bits.push("<p>"+esc(sp)+"</p>");
+    var pb=[];
+    if(s&&(s.page||s.block_id)) pb.push("p."+(s.page||"?")+" · "+(s.block_id||"?"));
+    if(pb.length) bits.push("<p>"+esc(pb.join(""))+"</p>");
+    html+='<div class="src-entry"><p><span class="k">Reference '+(i+1)+"</span></p>"+bits.join("")+"</div>";
+  });
+  if(!refs.length&&!kus.length) html+="<p>(no block reference)</p>";
+  if(kus.length){
+    html+='<div class="src-entry"><p><span class="k">Tested as</span></p>';
+    kus.forEach(function(e){
+      html+="<p>"+esc((e.ku_id||"?")+" — "+kuRoleWords(e.role))+"</p>";
+      if(kuExcerpt(e.ku_id)) html+="<details><summary>Source excerpt</summary><p>"+esc(kuExcerpt(e.ku_id))+"</p></details>";
     });
-    if(kus.length){
-      html+='<div class="src-entry"><p><span class="k">Knowledge units</span></p>';
-      kus.forEach(function(e){
-        var x=e.ku_id+": "+(e.role||"");
-        html+="<p>"+esc(x)+"</p>";
-        if(kuExcerpt(e.ku_id)) html+="<details><summary>Source excerpt</summary><p>"+esc(kuExcerpt(e.ku_id))+"</p></details>";
-      });
-      html+="</div>";
-    }
+    html+="</div>";
   }
+  html+='<p style="font-size:12.5px;color:var(--muted)">Context shown is limited to recorded references. Excerpts are never fabricated.</p>';
   b.innerHTML=html;
 }
 /* ---------- revision queue ---------- */
 /* ---------- revision queue (KU-level engine) ---------- */
-function revReasonText(reasons){
-  return (reasons||[]).map(function(x){ return RevisionEngine.REASON_LABELS[x]||x; }).join("; ");
+/* ---------- student-facing language: never show engine jargon ---------- */
+function friendlyReasonText(reasons){
+  var map={
+    "Recent high-confidence error":"Recent confident mistake",
+    "High-confidence error":"Confident mistake",
+    "Weak cognitive form":"Weak question form",
+    "weak cognitive form":"weak question form",
+    "Required forms not yet demonstrated":"Question forms not yet tried",
+    "Recent accuracy is below target":"Recent accuracy below target"
+  };
+  return (reasons||[]).map(function(x){
+    var lbl=RevisionEngine.REASON_LABELS[x]||x;
+    Object.keys(map).forEach(function(k){ lbl=lbl.split(k).join(map[k]); });
+    return lbl;
+  }).join("; ");
 }
+function kuRoleWords(role){
+  if(role==="primary") return "primary knowledge point";
+  if(role==="secondary") return "supporting point";
+  return "wrong-option material (not tested as fact)";
+}
+function revReasonText(reasons){ return friendlyReasonText(reasons); }
 function priWord(p){ p=String(p||"").toLowerCase(); if(p==="critical") return "High"; if(p==="high") return "High"; if(p==="medium") return "Medium"; return "Low"; }
 function renderRevQueue(){
   var box=document.getElementById("revQueue");
-  if(state.mode!=="revision"||state.revStarted){ box.innerHTML=""; return; }
+  var qw=document.getElementById("qwork");
+  if(state.mode!=="revision"){ box.innerHTML=""; if(qw) qw.style.display=""; return; }
+  if(state.revStarted&&state.revSession){
+    // slim context: why this item, nothing more
+    if(qw) qw.style.display="";
+    var c=curQ(), reason="";
+    if(c){ var rid=qid(c.q,c.i); if(state.revReasons&&state.revReasons[rid]) reason=state.revReasons[rid]; }
+    box.innerHTML='<div class="rev-notice slim"><span class="rn-pri">Revision</span> '
+      +'<span>'+esc(reason||"Targeted practice · new form, not a repeat.")+'</span></div>';
+    bindRevModes(box);
+    return;
+  }
+  if(qw) qw.style.display="none"; // queue first: the question appears after Start
   var d=null;
   try{ d=revQueueData(); }catch(e){ d={queue:[]}; }
-  var modesHtml='<div class="revmodes" role="group" aria-label="Revision views">'+REV_MODE_LABELS.map(function(m){
-    return '<button type="button" data-rm="'+m[0]+'" class="'+(state.revMode===m[0]?"active":"")+'" aria-pressed="'+(state.revMode===m[0])+'">'+esc(m[1])+"</button>";
-  }).join("")+"</div>";
+  var narrowMode=(window.innerWidth&&window.innerWidth<561)?2:4;
+  var modesHtml='<div class="revmodes" role="group" aria-label="Revision views">'+REV_MODE_LABELS.map(function(m,i){
+    var hide=i>=narrowMode?" rev-extra":"";
+    return '<button type="button" data-rm="'+m[0]+'" class="'+(state.revMode===m[0]?"active":"")+hide+'"'+(i>=narrowMode?' style="display:none"':"")+' aria-pressed="'+(state.revMode===m[0])+'">'+esc(m[1])+"</button>";
+  }).join("")+'<button type="button" class="more-toggle" data-rm-more="1" aria-expanded="false">More ▾</button></div>';
   if(!d.queue.length){
     box.innerHTML=modesHtml+'<div class="empty"><b>No revision items yet.</b>Answer some questions first — misses and high-priority items will queue here.</div>';
     bindRevModes(box); return;
@@ -1000,15 +1110,23 @@ function renderRevQueue(){
     +"<p>"+esc(revReasonText(top.reasons))+" · "+esc(((top.weak_forms||[]).join(", ")||"recall"))+" needs work · 1 question · new form, not a repeat.</p>"
     +'<button class="btn btn-sm btn-secondary" data-rev="0" type="button">Practise</button></div>';
   var html=modesHtml+notice+'<div class="rev-queue">';
-  list.slice(0,12).forEach(function(e,n){
+  var perPage=(window.innerWidth&&window.innerWidth<861)?(window.innerWidth<561?2:3):6;
+  var shown=list.slice(0,perPage), extra=list.slice(perPage);
+  function revCard(e,n){
     var weak=(e.weak_forms||[]).join(", ")||"—";
     var last=e.last_result?(e.last_result+(e.confidence_signal?(" · "+e.confidence_signal):"")):"not attempted";
-    html+='<div class="rev-card"><span class="pri pri-'+esc(e.priority)+'">'+esc(e.priority)+'</span><span style="flex:1"><b>'+esc(e.topic||"General")+(e.subtopic?(" · "+esc(e.subtopic)):"")+'</b>'
+    return '<div class="rev-card"><span class="pri pri-'+esc(e.priority)+'">'+esc(e.priority)+'</span><span style="flex:1"><b>'+esc(e.topic||"General")+(e.subtopic?(" · "+esc(e.subtopic)):"")+'</b>'
       +'<span class="rev-why">Why you are seeing this: '+esc(revReasonText(e.reasons))+'</span>'
       +'<span class="rev-meta">Weakness: '+esc(weak)+' · Last result: '+esc(last)+' · Mastery: '+esc(e.mastery||"")+'</span>'
       +'<small>'+esc(e.next_action||"Practise items")+'</small></span><button class="btn btn-sm btn-secondary" data-rev="'+n+'" type="button">Start revision</button></div>';
-  });
+  }
+  shown.forEach(function(e,k){ html+=revCard(e,k); });
   html+="</div>";
+  if(extra.length){
+    html+='<details class="more"><summary>Show all '+list.length+' revision items</summary><div class="more-body rev-queue">';
+    extra.forEach(function(e,k){ html+=revCard(e,k+perPage); });
+    html+='</div></details>';
+  }
   box.innerHTML=html;
   bindRevModes(box);
   var btns=box.querySelectorAll("[data-rev]");
@@ -1020,6 +1138,13 @@ function renderRevQueue(){
 function bindRevModes(box){
   var btns=box.querySelectorAll("[data-rm]");
   for(var i=0;i<btns.length;i++){ (function(b){ b.onclick=function(){ state.revMode=b.getAttribute("data-rm"); state.revStarted=false; render(); }; })(btns[i]); }
+  var more=box.querySelector("[data-rm-more]");
+  if(more){ more.onclick=function(){
+    var extra=box.querySelectorAll(".rev-extra"), open=more.getAttribute("aria-expanded")==="true";
+    for(var j=0;j<extra.length;j++) extra[j].style.display=open?"none":"";
+    more.setAttribute("aria-expanded",open?"false":"true");
+    more.textContent=open?"More ▾":"Less ▴";
+  }; }
 }
 /* ---------- actions ---------- */
 function selectedOpt(){ var rs=document.getElementsByName("opt"); for(var i=0;i<rs.length;i++) if(rs[i].checked) return rs[i].value; return null; }
