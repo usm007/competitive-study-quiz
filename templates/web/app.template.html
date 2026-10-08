@@ -59,7 +59,7 @@ button{font:inherit}
 .mode-list{display:flex;flex-direction:column;gap:2px}
 .mode-item{display:flex;gap:10px;align-items:baseline;width:100%;text-align:left;background:transparent;border:1px solid transparent;border-radius:var(--radius-s);padding:6px 10px;cursor:pointer;color:var(--ink-2)}
 .mode-item:hover{background:var(--surface)}
-.mode-item.active{background:var(--surface);border-color:var(--line);color:var(--ink);position:relative;font-weight:700}
+.mode-item.active{background:var(--surface-2);border-color:transparent;color:var(--ink);position:relative;font-weight:700}
 .mode-item.active::before{content:"";position:absolute;left:-16px;top:9px;bottom:9px;width:3px;border-radius:99px;background:var(--accent)}
 .mode-dot{width:8px;height:8px;border-radius:99px;flex:none;background:var(--line);align-self:center}
 .mode-item.active .mode-dot{background:var(--accent)}
@@ -100,7 +100,7 @@ body[data-mode="test"] .exam-strip{display:flex}
 /* ============ question: editorial, uncarded ============ */
 .q-context{font-size:12px;color:var(--muted);letter-spacing:.2px;margin:0 2px 6px;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
 .q-context .sep{color:var(--faint)}
-.q-stem{font-size:clamp(21px,2.2vw,26px);line-height:1.38;font-weight:700;letter-spacing:-.01em;margin:0 2px 4px;max-width:64ch}
+.q-stem{font-size:clamp(22px,2.2vw,27px);line-height:1.38;font-weight:700;letter-spacing:-.01em;margin:0 2px 4px;max-width:64ch}
 .q-sub{font-size:13px;color:var(--muted);margin:0 2px 12px}
 /* learn panel: compact study note — key fact, distinction, remember */
 .learn-panel{margin:0 2px 14px;border-left:3px solid var(--accent);padding:2px 0 2px 14px}
@@ -157,9 +157,6 @@ body[data-mode="test"] .exam-strip{display:flex}
 /* action row: sticky so Next is always at hand */
 .actions{position:sticky;bottom:10px;display:flex;gap:10px;align-items:center;margin:14px 2px 0;flex-wrap:wrap;background:linear-gradient(to bottom,rgba(244,242,236,0),var(--bg) 30%);padding:10px 2px 4px;z-index:5}
 .actions .spacer{flex:1}
-.stepper{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface)}
-.stepper button{border:none;background:transparent;padding:9px 14px;cursor:pointer;font-weight:700;color:var(--ink-2);min-height:40px}
-.stepper button:hover{background:var(--surface-3)}
 .hintline{margin:10px 2px 0}
 .hintbox{display:none;background:var(--warn-bg);border:1px solid var(--warn-line);border-left:4px solid var(--warn);border-radius:0 8px 8px 0;padding:10px 14px;font-size:14px;margin-top:8px}
 /* feedback: compact study note, progressive disclosure */
@@ -324,7 +321,6 @@ body[data-mode="rapid"] .q-stem{font-size:20px}
   .rev-meta{font-size:11.5px}
   .conf p{margin-bottom:6px}
   .conf-chip{min-height:44px;padding:6px 11px}
-  .stepper button{min-height:44px}
   .stmt-list li{padding:6px 2px}
   .stmt-closer{font-size:15px}
 }
@@ -337,18 +333,18 @@ body[data-mode="rapid"] .q-stem{font-size:20px}
 @media (min-width:861px) and (max-height:800px){
   .topbar-in{min-height:48px;padding-top:5px;padding-bottom:5px}
   .mode-banner{display:none}
-  .workspace{padding:10px 0 8px}
+  .workspace{padding:10px 0 7px}
   .mode-banner{margin-bottom:6px}
   .q-stem{font-size:21px}
   .q-sub{margin-bottom:8px}
   .opts{gap:7px}
-  .opt{padding:9px 14px;min-height:44px}
+  .opt{padding:7px 14px;min-height:42px}
   .conf{margin-top:12px}
   .stmt-list li{padding:6px 2px}
   .rev-card{padding:11px 14px}
-  .sn-body{padding:8px 16px 10px}
+  .sn-body{padding:6px 16px 8px}
   .appfoot{display:none}
-  .actions{margin-top:10px}
+  .actions{margin-top:8px}
 }
 @media (max-width:430px){.an-grid{grid-template-columns:1fr 1fr}.bar-row{grid-template-columns:120px 1fr 46px}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
@@ -450,10 +446,12 @@ body[data-mode="rapid"] .q-stem{font-size:20px}
         <label class="conf-chip"><input type="radio" name="conf" value="Guessing"> Guessing</label>
       </div></div>
       <div class="actions desktop-actions">
-        <button id="submitbtn" class="btn btn-primary" type="button">Submit answer</button>
+        <button id="prevbtn" class="btn btn-secondary" type="button" aria-label="Previous question">← Previous</button>
         <button id="markbtn" class="btn btn-secondary" type="button">Mark for review</button>
+        <button id="hintbtn2" class="btn btn-secondary" type="button">Hint</button>
         <span class="spacer"></span>
-        <span class="stepper"><button id="prevbtn" type="button" aria-label="Previous question">← Prev</button><button id="nextbtn" type="button" aria-label="Next question">Next →</button></span>
+        <button id="submitbtn" class="btn btn-primary" type="button">Submit answer</button>
+        <button id="nextbtn" class="btn btn-primary" type="button" style="display:none" aria-label="Next question">Next →</button>
       </div>
       <div class="study-note" id="feedback" style="display:none" aria-live="polite"></div>
       </div>
@@ -915,6 +913,8 @@ function renderQ(){
   fb.style.display="none"; fb.innerHTML="";
   document.getElementById("revQueue").innerHTML="";
   document.getElementById("learnPanel").innerHTML="";
+  // question workspace visible except on the revision queue landing
+  document.getElementById("qwork").style.display=(state.mode==="revision"&&!state.revStarted)?"none":"";
   var answeredNow=!!(c&&state.answers[qid(c.q,c.i)]&&state.answers[qid(c.q,c.i)].sel);
   document.querySelector(".mode-banner").style.display=answeredNow?"none":"";
   if(state.mode==="revision"&&!state.revStarted){ renderRevQueue(); }
@@ -1031,10 +1031,14 @@ function renderQ(){
   if(a&&a.sel){ confrow.style.display="none"; }
   else { confrow.style.display=(state.mode==="test"||state.mode==="rapid")?"none":""; }
   if(a&&a.conf){ var rs=document.getElementsByName("conf"); for(var k2=0;k2<rs.length;k2++) if(rs[k2].value===a.conf) rs[k2].checked=true; }
-  // submit enable
+  // submit enable; after answering, Next becomes the primary action
   var canSubmit=!(a&&a.sel);
   document.getElementById("submitbtn").disabled=!canSubmit;
+  document.getElementById("submitbtn").style.display=canSubmit?"":"none";
+  document.getElementById("nextbtn").style.display=canSubmit?"none":"";
   document.getElementById("mSubmit").disabled=!canSubmit;
+  var hb2=document.getElementById("hintbtn2");
+  hb2.style.display=(hasHint&&canSubmit)?"":"none";
   document.getElementById("markbtn").textContent=(a&&a.marked)?"★ Marked":"Mark for review";
   // feedback
   if(showFb||rapidReveal) renderFeedback(q,opts,key,a);
@@ -1050,6 +1054,18 @@ function firstSentence(t){
   t=String(t||"").trim();
   var m=t.match(/^.*?[.!?](\s|$)/);
   return (m?m[0]:t).trim();
+}
+function srcLine(q){
+  var refs=qsrcList(q);
+  if(!refs.length) return "";
+  var s=refs[0];
+  if(typeof s==="string") return s;
+  var sp=s.section_path;
+  if(Object.prototype.toString.call(sp)==="[object Array]") sp=sp.slice(-1)[0]||"";
+  else if(typeof sp==="string"&&sp.indexOf(">")>=0) sp=sp.split(">").pop().trim();
+  var out=sp||"Source reference";
+  if(s.page) out+=" · p."+s.page;
+  return out;
 }
 function renderFeedback(q,opts,key,a){
   var fb=document.getElementById("feedback");
@@ -1067,12 +1083,30 @@ function renderFeedback(q,opts,key,a){
   var chosen=null; wrong.forEach(function(o){ if(a.sel===o.key) chosen=o; });
   var trap=chosen||wrong[0];
   var lesson=q.explanation?firstSentence(q.explanation):"";
+  // rapid recall: quick result now, full note behind "Why?"
+  if(state.mode==="rapid"){
+    var rh='<div class="sn-head"><span class="sn-badge '+(ok?"good":"bad")+'">'+(ok?"✓ Correct":"Not quite")+'</span><span class="sn-key"><b>'+esc(key)+".</b> "+esc(keyText)+"</span></div>";
+    rh+='<div class="sn-body">';
+    if(lesson) rh+="<p>"+esc(lesson)+"</p>";
+    var rrest="";
+    if(q.explanation&&q.explanation.length>lesson.length+20) rrest+="<p>"+esc(q.explanation)+"</p>";
+    if(trap) rrest+='<h4>Why the distractor tempts you</h4><p>Option '+esc(trap.key)+' looks right because it '+(trap.key===a.sel?"matches what you chose":"is close to the truth")+".</p>";
+    if(q.misconception) rrest+='<h4>Common mix-up</h4><p>'+esc(q.misconception)+"</p>";
+    if(qmem(q)) rrest+='<h4>Remember</h4><p>'+esc(qmem(q))+"</p>";
+    if(rrest) rh+='<details class="more"><summary>Why?</summary><div class="more-body">'+rrest+"</div></details>";
+    rh+="</div>";
+    rh+='<details class="tech"><summary>Details: IDs, difficulty, purpose</summary><div class="tech-body">ID '+esc(q.id||"")+" · Type "+esc(qtype(q))+" · Tier "+esc(qtier(q))+" · Purpose "+esc(qpurpose(q))+(q.difficulty_reason?(" · "+esc(q.difficulty_reason)):"")+"</div></details>";
+    fb.innerHTML=rh;
+    var sl2=fb.querySelector("[data-src]");
+    if(sl2) sl2.onclick=function(ev){ ev.preventDefault(); openDrawer("sourceDrawer"); };
+    return;
+  }
   var html='<div class="sn-head"><span class="sn-badge '+(ok?"good":"bad")+'">'+(ok?"✓ Correct":"Not quite")+'</span><span class="sn-key"><b>'+esc(key)+".</b> "+esc(keyText)+"</span></div>";
   html+='<div class="sn-body">';
   if(!ok) html+='<div class="sn-compare one-line"><div><b>Your answer '+esc(yours)+'</b></div><div class="arrow" aria-hidden="true">→</div><div><b>Correct answer '+esc(key)+'</b></div></div>';
   if(lesson) html+='<h4>'+(ok?"Why this is right":"Key distinction")+'</h4><p>'+esc(lesson)+"</p>";
   if(trap) html+='<h4>Trap tested</h4><p>Option '+esc(trap.key)+" tests "+esc(friendlyDistractor(trap))+".</p>";
-  html+='<p style="font-size:13px"><a href="#" data-src="1" style="color:var(--accent-ink)">View source →</a></p>';
+  html+='<h4>Source</h4><p style="color:var(--muted);font-size:13px">'+esc(srcLine(q)||"Source reference on file")+' <a href="#" data-src="1" style="color:var(--accent-ink)">View source →</a></p>';
   // progressive disclosure: the full study note
   var rest="";
   if(q.explanation&&q.explanation.length>lesson.length+20) rest+="<p>"+esc(q.explanation)+"</p>";
@@ -1092,12 +1126,16 @@ function renderSourceBody(q){
   var b=document.getElementById("sourceBody");
   var refs=qsrcList(q);
   var kus=q.knowledge_units||[];
-  var prim=0, supp=0;
-  kus.forEach(function(e){ if(e&&(e.role==="primary")) prim++; else if(e) supp++; });
+  // dedup references resolving to the same underlying source span
+  var seen={}, urefs=[];
+  refs.forEach(function(s){
+    var k=(typeof s==="string")?("t:"+s):("b:"+(s.block_id||"")+"|"+(s.char_start||"")+"|"+(s.char_end||"")+"|"+(s.table_ref||""));
+    if(seen[k]) return; seen[k]=1; urefs.push(s);
+  });
   var nku=kus.length;
   var html='<div class="field"><label>Document</label><p style="font-size:13.5px">'+esc(META.source||"?")+"</p></div>";
   html+='<div class="src-entry"><p><span class="k">Knowledge support</span></p><p>'+nku+(nku===1?" linked knowledge point":" linked knowledge points")+"</p></div>";
-  refs.forEach(function(s,i){
+  urefs.forEach(function(s,i){
     var sp=(s&&s.section_path)||"";
     if(Object.prototype.toString.call(sp)==="[object Array]") sp=sp.join(" > ");
     var bits=[];
@@ -1107,14 +1145,18 @@ function renderSourceBody(q){
     if(pb.length) bits.push("<p>"+esc(pb.join(""))+"</p>");
     html+='<div class="src-entry"><p><span class="k">Reference '+(i+1)+"</span></p>"+bits.join("")+"</div>";
   });
-  if(!refs.length&&!kus.length) html+="<p>(no block reference)</p>";
+  if(!urefs.length&&!kus.length) html+="<p>(no block reference)</p>";
   if(kus.length){
     html+='<div class="src-entry"><p><span class="k">Tested as</span></p>';
     kus.forEach(function(e){
-      html+="<p>"+esc((e.ku_id||"?")+" — "+kuRoleWords(e.role))+"</p>";
+      html+="<p>"+esc(kuRoleWords(e.role))+"</p>";
       if(kuExcerpt(e.ku_id)) html+="<details><summary>Source excerpt</summary><p>"+esc(kuExcerpt(e.ku_id))+"</p></details>";
     });
     html+="</div>";
+    html+='<details class="tech"><summary>Technical references</summary><div class="tech-body">'
+      +esc(kus.map(function(e){return (e.ku_id||"?")+":"+(e.role||"");}).join("; "))
+      +(urefs.length?(" · "+esc(urefs.map(function(s){return (typeof s==="string")?s:(s.block_id||"?");}).join("; "))):"")
+      +"</div></details>";
   }
   html+='<p style="font-size:12.5px;color:var(--muted)">Context shown is limited to recorded references. Excerpts are never fabricated.</p>';
   b.innerHTML=html;
@@ -1146,11 +1188,9 @@ function revReasonText(reasons){ return friendlyReasonText(reasons); }
 function priWord(p){ p=String(p||"").toLowerCase(); if(p==="critical") return "High"; if(p==="high") return "High"; if(p==="medium") return "Medium"; return "Low"; }
 function renderRevQueue(){
   var box=document.getElementById("revQueue");
-  var qw=document.getElementById("qwork");
-  if(state.mode!=="revision"){ box.innerHTML=""; if(qw) qw.style.display=""; return; }
+  if(state.mode!=="revision"){ box.innerHTML=""; return; }
   if(state.revStarted&&state.revSession){
     // slim context: why this item, nothing more
-    if(qw) qw.style.display="";
     var c=curQ(), reason="";
     if(c){ var rid=qid(c.q,c.i); if(state.revReasons&&state.revReasons[rid]) reason=state.revReasons[rid]; }
     box.innerHTML='<div class="rev-notice slim"><span class="rn-pri">Revision</span> '
@@ -1158,7 +1198,6 @@ function renderRevQueue(){
     bindRevModes(box);
     return;
   }
-  if(qw) qw.style.display="none"; // queue first: the question appears after Start
   var d=null;
   try{ d=revQueueData(); }catch(e){ d={queue:[]}; }
   var narrowMode=(window.innerWidth&&window.innerWidth<561)?2:4;
@@ -1370,6 +1409,7 @@ document.getElementById("mPrev").onclick=goPrev;
 document.getElementById("mNext").onclick=goNext;
 document.getElementById("markbtn").onclick=function(){ var c=curQ(); if(!c)return; var id=qid(c.q,c.i); var a=state.answers[id]||{sel:null,conf:null,correct:null,marked:false,primary_ku:primaryKu(c.q)}; a.marked=!a.marked; state.answers[id]=a; saveSession(); render(); };
 document.getElementById("hintbtn").onclick=function(){ var b=document.getElementById("hintbox"); var on=b.style.display==="block"; b.style.display=on?"none":"block"; document.getElementById("hintbtn").textContent=on?"Show hint (H)":"Hide hint"; };
+document.getElementById("hintbtn2").onclick=function(){ document.getElementById("hintbtn").click(); };
 document.getElementById("shortcutsBtn").onclick=function(){
   var r=document.querySelector(".rail");
   if(r&&getComputedStyle(r).display!=="none"){ var d=r.querySelector("details"); if(d){ d.open=!d.open; d.scrollIntoView({block:"nearest"}); } return; }
