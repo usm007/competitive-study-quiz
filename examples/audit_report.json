@@ -1,0 +1,1134 @@
+{
+  "ku_counts": {
+    "1": 56,
+    "2": 52,
+    "3": 8,
+    "total": 116
+  },
+  "coverage_by_tier": {
+    "1": {
+      "total": 56,
+      "covered": 56,
+      "pct_covered": 100.0
+    },
+    "2": {
+      "total": 52,
+      "covered": 52,
+      "pct_covered": 100.0
+    },
+    "3": {
+      "total": 8,
+      "covered": 8,
+      "pct_covered": 100.0
+    }
+  },
+  "status_dist": {
+    "covered": 116
+  },
+  "quality_stats": {
+    "generated": 64,
+    "validated": 64,
+    "quality_accepted": 64,
+    "quality_rejected": 0,
+    "pct_quality_accepted": 100.0,
+    "quality_sample": {
+      "A": 54,
+      "B": 10
+    },
+    "by_purpose": {
+      "confusable_fact": {
+        "accepted": 2,
+        "rejected": 0
+      },
+      "statement_evaluation": {
+        "accepted": 18,
+        "rejected": 0
+      },
+      "exception": {
+        "accepted": 1,
+        "rejected": 0
+      },
+      "direct_recall": {
+        "accepted": 23,
+        "rejected": 0
+      },
+      "association": {
+        "accepted": 6,
+        "rejected": 0
+      },
+      "distinction": {
+        "accepted": 7,
+        "rejected": 0
+      },
+      "conceptual_understanding": {
+        "accepted": 3,
+        "rejected": 0
+      },
+      "elimination": {
+        "accepted": 2,
+        "rejected": 0
+      },
+      "cause_effect": {
+        "accepted": 1,
+        "rejected": 0
+      },
+      "classification": {
+        "accepted": 1,
+        "rejected": 0
+      }
+    },
+    "by_difficulty": {
+      "easy": {
+        "accepted": 19,
+        "rejected": 0
+      },
+      "medium": {
+        "accepted": 37,
+        "rejected": 0
+      },
+      "hard": {
+        "accepted": 8,
+        "rejected": 0
+      }
+    },
+    "by_type": {
+      "factual_mcq": {
+        "accepted": 29,
+        "rejected": 0
+      },
+      "statement_based": {
+        "accepted": 22,
+        "rejected": 0
+      },
+      "match_pairs": {
+        "accepted": 6,
+        "rejected": 0
+      },
+      "elimination_mcq": {
+        "accepted": 2,
+        "rejected": 0
+      },
+      "one_liner_mcq": {
+        "accepted": 4,
+        "rejected": 0
+      },
+      "data_interpretation_mcq": {
+        "accepted": 1,
+        "rejected": 0
+      }
+    },
+    "top_rejection_reasons": []
+  },
+  "uncovered_t1_t2": [],
+  "partial": [],
+  "section_shares": {
+    "Exam Study Notes: Fundamental Rights and the Brahmaputra System": 1.0
+  },
+  "skew_flags": [],
+  "duplicate_flags": [],
+  "weak_type_flags": [
+    "elimination_mcq"
+  ],
+  "anchor_recall": 1.0,
+  "diff_status": "resolved",
+  "density_flags": [],
+  "downgrade_flags": [],
+  "validation_rates": {
+    "total": 64,
+    "validated": 64,
+    "rejected": 0,
+    "pct_validated": 100.0
+  },
+  "type_mix_vs_target": {
+    "actual_pct": {
+      "factual_mcq": 45.3,
+      "statement_based": 34.4,
+      "match_pairs": 9.4,
+      "elimination_mcq": 3.1,
+      "one_liner_mcq": 6.2,
+      "data_interpretation_mcq": 1.6
+    },
+    "target": {
+      "assertion_reason": 5,
+      "elimination_mcq": 20,
+      "factual_mcq": 40,
+      "match_pairs": 10,
+      "statement_based": 25
+    }
+  },
+  "limitations": [],
+  "cognitive_by_tier": {
+    "1": {
+      "total": 56,
+      "cognitively_covered": 0,
+      "pct": 0.0,
+      "missing": [
+        "KU-0001",
+        "KU-0002",
+        "KU-0003",
+        "KU-0004",
+        "KU-0005",
+        "KU-0006",
+        "KU-0007",
+        "KU-0011",
+        "KU-0015",
+        "KU-0018",
+        "KU-0019",
+        "KU-0020",
+        "KU-0021",
+        "KU-0022",
+        "KU-0023",
+        "KU-0024",
+        "KU-0025",
+        "KU-0037",
+        "KU-0038",
+        "KU-0039",
+        "KU-0040",
+        "KU-0041",
+        "KU-0044",
+        "KU-0046",
+        "KU-0047",
+        "KU-0048",
+        "KU-0057",
+        "KU-0058",
+        "KU-0059",
+        "KU-0060",
+        "KU-0064",
+        "KU-0065",
+        "KU-0066",
+        "KU-0067",
+        "KU-0068",
+        "KU-0072",
+        "KU-0073",
+        "KU-0075",
+        "KU-0076",
+        "KU-0078",
+        "KU-0079",
+        "KU-0081",
+        "KU-0082",
+        "KU-0083",
+        "KU-0085",
+        "KU-0086",
+        "KU-0088",
+        "KU-0090",
+        "KU-0091",
+        "KU-0095",
+        "KU-0100",
+        "KU-0101",
+        "KU-0107",
+        "KU-0109",
+        "KU-0113",
+        "KU-0114"
+      ]
+    },
+    "2": {
+      "total": 52,
+      "cognitively_covered": 5,
+      "pct": 9.62,
+      "missing": [
+        "KU-0008",
+        "KU-0009",
+        "KU-0010",
+        "KU-0012",
+        "KU-0014",
+        "KU-0016",
+        "KU-0017",
+        "KU-0026",
+        "KU-0027",
+        "KU-0028",
+        "KU-0029",
+        "KU-0030",
+        "KU-0031",
+        "KU-0032",
+        "KU-0033",
+        "KU-0034",
+        "KU-0035",
+        "KU-0036",
+        "KU-0042",
+        "KU-0043",
+        "KU-0045",
+        "KU-0049",
+        "KU-0050",
+        "KU-0051",
+        "KU-0052",
+        "KU-0053",
+        "KU-0054",
+        "KU-0055",
+        "KU-0056",
+        "KU-0061",
+        "KU-0062",
+        "KU-0063",
+        "KU-0069",
+        "KU-0070",
+        "KU-0071",
+        "KU-0074",
+        "KU-0084",
+        "KU-0093",
+        "KU-0096",
+        "KU-0097",
+        "KU-0103",
+        "KU-0104",
+        "KU-0105",
+        "KU-0106",
+        "KU-0110",
+        "KU-0112",
+        "KU-0116"
+      ]
+    },
+    "3": {
+      "total": 8,
+      "cognitively_covered": 1,
+      "pct": 12.5,
+      "missing": [
+        "KU-0013",
+        "KU-0092",
+        "KU-0094",
+        "KU-0098",
+        "KU-0099",
+        "KU-0102",
+        "KU-0108"
+      ]
+    }
+  },
+  "cognitive_gaps": {
+    "KU-0001": [
+      "statement"
+    ],
+    "KU-0002": [
+      "statement"
+    ],
+    "KU-0003": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0004": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0005": [
+      "recall",
+      "statement"
+    ],
+    "KU-0006": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0007": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0008": [
+      "application",
+      "distinction"
+    ],
+    "KU-0009": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0010": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0011": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0012": [
+      "recall"
+    ],
+    "KU-0014": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0015": [
+      "distinction",
+      "statement"
+    ],
+    "KU-0016": [
+      "recall"
+    ],
+    "KU-0017": [
+      "recall"
+    ],
+    "KU-0018": [
+      "distinction",
+      "statement"
+    ],
+    "KU-0019": [
+      "distinction",
+      "statement"
+    ],
+    "KU-0020": [
+      "recall",
+      "statement"
+    ],
+    "KU-0021": [
+      "recall",
+      "statement"
+    ],
+    "KU-0022": [
+      "recall",
+      "statement"
+    ],
+    "KU-0023": [
+      "recall",
+      "statement"
+    ],
+    "KU-0024": [
+      "recall",
+      "statement"
+    ],
+    "KU-0025": [
+      "recall",
+      "statement"
+    ],
+    "KU-0026": [
+      "recall"
+    ],
+    "KU-0027": [
+      "recall"
+    ],
+    "KU-0028": [
+      "recall"
+    ],
+    "KU-0029": [
+      "recall"
+    ],
+    "KU-0030": [
+      "recall"
+    ],
+    "KU-0031": [
+      "recall"
+    ],
+    "KU-0032": [
+      "recall"
+    ],
+    "KU-0033": [
+      "recall"
+    ],
+    "KU-0034": [
+      "recall"
+    ],
+    "KU-0035": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0036": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0037": [
+      "recall",
+      "statement"
+    ],
+    "KU-0038": [
+      "application",
+      "recall"
+    ],
+    "KU-0039": [
+      "application",
+      "recall"
+    ],
+    "KU-0040": [
+      "application",
+      "distinction",
+      "statement"
+    ],
+    "KU-0041": [
+      "application",
+      "recall"
+    ],
+    "KU-0042": [
+      "application",
+      "recall"
+    ],
+    "KU-0043": [
+      "application",
+      "recall"
+    ],
+    "KU-0044": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0045": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0046": [
+      "distinction",
+      "statement"
+    ],
+    "KU-0047": [
+      "application",
+      "distinction",
+      "statement"
+    ],
+    "KU-0048": [
+      "recall",
+      "statement"
+    ],
+    "KU-0049": [
+      "recall"
+    ],
+    "KU-0050": [
+      "recall"
+    ],
+    "KU-0051": [
+      "recall"
+    ],
+    "KU-0052": [
+      "recall"
+    ],
+    "KU-0053": [
+      "recall"
+    ],
+    "KU-0054": [
+      "distinction"
+    ],
+    "KU-0055": [
+      "application",
+      "recall"
+    ],
+    "KU-0056": [
+      "recall"
+    ],
+    "KU-0057": [
+      "application",
+      "recall",
+      "statement"
+    ],
+    "KU-0058": [
+      "distinction",
+      "statement"
+    ],
+    "KU-0059": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0060": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0061": [
+      "application",
+      "recall"
+    ],
+    "KU-0062": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0063": [
+      "recall"
+    ],
+    "KU-0064": [
+      "distinction",
+      "statement"
+    ],
+    "KU-0065": [
+      "application",
+      "distinction",
+      "statement"
+    ],
+    "KU-0066": [
+      "application",
+      "recall"
+    ],
+    "KU-0067": [
+      "recall",
+      "statement"
+    ],
+    "KU-0068": [
+      "recall",
+      "statement"
+    ],
+    "KU-0069": [
+      "recall"
+    ],
+    "KU-0070": [
+      "recall"
+    ],
+    "KU-0071": [
+      "recall"
+    ],
+    "KU-0072": [
+      "distinction",
+      "statement"
+    ],
+    "KU-0073": [
+      "application",
+      "recall"
+    ],
+    "KU-0074": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0075": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0076": [
+      "distinction",
+      "statement"
+    ],
+    "KU-0078": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0079": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0081": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0082": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0083": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0084": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0085": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0086": [
+      "distinction",
+      "statement"
+    ],
+    "KU-0088": [
+      "distinction",
+      "recall",
+      "statement"
+    ],
+    "KU-0090": [
+      "application",
+      "recall"
+    ],
+    "KU-0091": [
+      "recall",
+      "statement"
+    ],
+    "KU-0093": [
+      "distinction"
+    ],
+    "KU-0095": [
+      "recall",
+      "statement"
+    ],
+    "KU-0096": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0097": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0100": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0101": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0103": [
+      "recall"
+    ],
+    "KU-0104": [
+      "distinction"
+    ],
+    "KU-0105": [
+      "recall"
+    ],
+    "KU-0106": [
+      "recall"
+    ],
+    "KU-0107": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0109": [
+      "distinction",
+      "recall"
+    ],
+    "KU-0110": [
+      "distinction"
+    ],
+    "KU-0112": [
+      "recall"
+    ],
+    "KU-0113": [
+      "distinction",
+      "statement"
+    ],
+    "KU-0114": [
+      "distinction",
+      "statement"
+    ],
+    "KU-0116": [
+      "application"
+    ]
+  },
+  "distinction_gaps": [
+    "KU-0008",
+    "KU-0015",
+    "KU-0018",
+    "KU-0019",
+    "KU-0040",
+    "KU-0046",
+    "KU-0047",
+    "KU-0054",
+    "KU-0058",
+    "KU-0064",
+    "KU-0065",
+    "KU-0072",
+    "KU-0076",
+    "KU-0086",
+    "KU-0093",
+    "KU-0104",
+    "KU-0110",
+    "KU-0113",
+    "KU-0114"
+  ],
+  "purpose_coverage": {
+    "confusable_fact": 2,
+    "statement_evaluation": 18,
+    "exception": 1,
+    "direct_recall": 23,
+    "association": 6,
+    "distinction": 7,
+    "conceptual_understanding": 3,
+    "elimination": 2,
+    "cause_effect": 1,
+    "classification": 1
+  },
+  "missing_purposes": [],
+  "cluster_status": {
+    "CL-0002": {
+      "members": [
+        "KU-0001"
+      ],
+      "addressed": true
+    },
+    "CL-0001": {
+      "members": [
+        "KU-0002"
+      ],
+      "addressed": true
+    },
+    "CL-0073": {
+      "members": [
+        "KU-0004",
+        "KU-0064",
+        "KU-0066"
+      ],
+      "addressed": true
+    },
+    "CL-0006": {
+      "members": [
+        "KU-0005"
+      ],
+      "addressed": true
+    },
+    "CL-0005": {
+      "members": [
+        "KU-0006"
+      ],
+      "addressed": true
+    },
+    "CL-0008": {
+      "members": [
+        "KU-0007"
+      ],
+      "addressed": true
+    },
+    "CL-0007": {
+      "members": [
+        "KU-0008"
+      ],
+      "addressed": true
+    },
+    "CL-0010": {
+      "members": [
+        "KU-0009"
+      ],
+      "addressed": true
+    },
+    "CL-0009": {
+      "members": [
+        "KU-0010",
+        "KU-0011"
+      ],
+      "addressed": true
+    },
+    "CL-0019": {
+      "members": [
+        "KU-0014",
+        "KU-0015"
+      ],
+      "addressed": true
+    },
+    "CL-0059": {
+      "members": [
+        "KU-0018",
+        "KU-0074"
+      ],
+      "addressed": true
+    },
+    "CL-0014": {
+      "members": [
+        "KU-0019"
+      ],
+      "addressed": true
+    },
+    "CL-0021": {
+      "members": [
+        "KU-0020",
+        "KU-0041"
+      ],
+      "addressed": true
+    },
+    "CL-0020": {
+      "members": [
+        "KU-0021",
+        "KU-0022"
+      ],
+      "addressed": true
+    },
+    "CL-0024": {
+      "members": [
+        "KU-0023",
+        "KU-0025"
+      ],
+      "addressed": true
+    },
+    "CL-0023": {
+      "members": [
+        "KU-0024"
+      ],
+      "addressed": true
+    },
+    "CL-0029": {
+      "members": [
+        "KU-0028"
+      ],
+      "addressed": true
+    },
+    "CL-0028": {
+      "members": [
+        "KU-0029"
+      ],
+      "addressed": true
+    },
+    "CL-0034": {
+      "members": [
+        "KU-0033"
+      ],
+      "addressed": true
+    },
+    "CL-0033": {
+      "members": [
+        "KU-0034"
+      ],
+      "addressed": true
+    },
+    "CL-0036": {
+      "members": [
+        "KU-0035"
+      ],
+      "addressed": true
+    },
+    "CL-0035": {
+      "members": [
+        "KU-0036"
+      ],
+      "addressed": true
+    },
+    "CL-0038": {
+      "members": [
+        "KU-0037"
+      ],
+      "addressed": true
+    },
+    "CL-0037": {
+      "members": [
+        "KU-0038"
+      ],
+      "addressed": true
+    },
+    "CL-0057": {
+      "members": [
+        "KU-0039",
+        "KU-0047"
+      ],
+      "addressed": true
+    },
+    "CL-0043": {
+      "members": [
+        "KU-0042"
+      ],
+      "addressed": true
+    },
+    "CL-0042": {
+      "members": [
+        "KU-0043"
+      ],
+      "addressed": true
+    },
+    "CL-0046": {
+      "members": [
+        "KU-0044",
+        "KU-0045"
+      ],
+      "addressed": true
+    },
+    "CL-0044": {
+      "members": [
+        "KU-0046"
+      ],
+      "addressed": true
+    },
+    "CL-0049": {
+      "members": [
+        "KU-0048"
+      ],
+      "addressed": true
+    },
+    "CL-0048": {
+      "members": [
+        "KU-0049",
+        "KU-0050",
+        "KU-0053",
+        "KU-0054"
+      ],
+      "addressed": true
+    },
+    "CL-0052": {
+      "members": [
+        "KU-0051"
+      ],
+      "addressed": true
+    },
+    "CL-0051": {
+      "members": [
+        "KU-0052"
+      ],
+      "addressed": false
+    },
+    "CL-0039": {
+      "members": [
+        "KU-0057"
+      ],
+      "addressed": true
+    },
+    "CL-0060": {
+      "members": [
+        "KU-0058"
+      ],
+      "addressed": true
+    },
+    "CL-0018": {
+      "members": [
+        "KU-0059"
+      ],
+      "addressed": true
+    },
+    "CL-0058": {
+      "members": [
+        "KU-0060"
+      ],
+      "addressed": true
+    },
+    "CL-0031": {
+      "members": [
+        "KU-0062"
+      ],
+      "addressed": true
+    },
+    "CL-0067": {
+      "members": [
+        "KU-0063",
+        "KU-0068",
+        "KU-0069"
+      ],
+      "addressed": true
+    },
+    "CL-0068": {
+      "members": [
+        "KU-0067"
+      ],
+      "addressed": true
+    },
+    "CL-0069": {
+      "members": [
+        "KU-0070"
+      ],
+      "addressed": false
+    },
+    "CL-0070": {
+      "members": [
+        "KU-0071"
+      ],
+      "addressed": false
+    },
+    "CL-0063": {
+      "members": [
+        "KU-0072"
+      ],
+      "addressed": false
+    },
+    "CL-0064": {
+      "members": [
+        "KU-0073"
+      ],
+      "addressed": true
+    },
+    "CL-0011": {
+      "members": [
+        "KU-0075"
+      ],
+      "addressed": true
+    },
+    "CL-0079": {
+      "members": [
+        "KU-0078"
+      ],
+      "addressed": true
+    },
+    "CL-0078": {
+      "members": [
+        "KU-0079"
+      ],
+      "addressed": true
+    },
+    "CL-0091": {
+      "members": [
+        "KU-0081",
+        "KU-0095"
+      ],
+      "addressed": true
+    },
+    "CL-0085": {
+      "members": [
+        "KU-0082"
+      ],
+      "addressed": true
+    },
+    "CL-0084": {
+      "members": [
+        "KU-0083"
+      ],
+      "addressed": true
+    },
+    "CL-0083": {
+      "members": [
+        "KU-0084"
+      ],
+      "addressed": true
+    },
+    "CL-0082": {
+      "members": [
+        "KU-0085"
+      ],
+      "addressed": true
+    },
+    "CL-0092": {
+      "members": [
+        "KU-0090",
+        "KU-0093",
+        "KU-0103"
+      ],
+      "addressed": true
+    },
+    "CL-0095": {
+      "members": [
+        "KU-0091",
+        "KU-0094",
+        "KU-0105"
+      ],
+      "addressed": true
+    },
+    "CL-0093": {
+      "members": [
+        "KU-0092"
+      ],
+      "addressed": true
+    },
+    "CL-0094": {
+      "members": [
+        "KU-0096"
+      ],
+      "addressed": true
+    },
+    "CL-0098": {
+      "members": [
+        "KU-0097",
+        "KU-0099"
+      ],
+      "addressed": true
+    },
+    "CL-0099": {
+      "members": [
+        "KU-0098"
+      ],
+      "addressed": true
+    },
+    "CL-0101": {
+      "members": [
+        "KU-0100",
+        "KU-0102"
+      ],
+      "addressed": true
+    },
+    "CL-0100": {
+      "members": [
+        "KU-0101",
+        "KU-0104"
+      ],
+      "addressed": true
+    },
+    "CL-0080": {
+      "members": [
+        "KU-0107"
+      ],
+      "addressed": true
+    },
+    "CL-0110": {
+      "members": [
+        "KU-0109"
+      ],
+      "addressed": true
+    },
+    "CL-0109": {
+      "members": [
+        "KU-0110"
+      ],
+      "addressed": true
+    },
+    "CL-0088": {
+      "members": [
+        "KU-0113"
+      ],
+      "addressed": true
+    }
+  },
+  "unaddressed_clusters": [
+    "CL-0051",
+    "CL-0063",
+    "CL-0069",
+    "CL-0070"
+  ],
+  "section_coverage": {
+    "Exam Study Notes: Fundamental Rights and the Brahmaputra System": 116
+  },
+  "has_explicit_purposes": true,
+  "coverage_label": "CONTENT COMPLETE",
+  "cognitive_label": "COGNITIVE COVERAGE PARTIAL"
+}

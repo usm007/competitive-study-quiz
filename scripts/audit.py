@@ -20,6 +20,7 @@ def main(argv):
     ap.add_argument("--ignored", default=None)
     ap.add_argument("--diff", default=None)
     ap.add_argument("--bank", default=None)
+    ap.add_argument("--quality", default=None)
     ap.add_argument("--out", required=True)
     a = ap.parse_args(argv)
     for p in (a.inventory, a.coverage, a.validation, a.anchors):
@@ -205,9 +206,37 @@ def main(argv):
     # exam-purpose coverage vs profile required_purposes
     required_purposes = prof.get("required_purposes", []) or []
     missing_purposes = [p for p in required_purposes if not purpose_cov.get(p)]
-    # purpose mix actually exercised
+    # Phase 3 Quality Stats
+    qpath = a.quality
+    if not qpath:
+        for d in [os.path.dirname(os.path.abspath(a.validation)),
+                  os.path.dirname(os.path.abspath(a.coverage)),
+                  os.path.dirname(os.path.abspath(a.out))]:
+            cand = os.path.join(d, "quality_report.json")
+            if os.path.isfile(cand):
+                qpath = cand
+                break
+    quality_stats = {}
+    if qpath and os.path.isfile(qpath):
+        qrep = load_json(qpath)
+        qs_sum = qrep.get("summary", {})
+        tot_gen = qs_sum.get("total", nt)
+        quality_stats = {
+            "generated": tot_gen,
+            "validated": nv,
+            "quality_accepted": qs_sum.get("quality_accepted", 0),
+            "quality_rejected": qs_sum.get("quality_rejected", 0),
+            "pct_quality_accepted": round(100.0 * qs_sum.get("quality_accepted", 0) / max(tot_gen, 1), 2),
+            "quality_sample": qs_sum.get("grades", {}),
+            "by_purpose": qs_sum.get("by_purpose", {}),
+            "by_difficulty": qs_sum.get("by_difficulty", {}),
+            "by_type": qs_sum.get("by_type", {}),
+            "top_rejection_reasons": qs_sum.get("top_rejection_reasons", [])
+        }
+
     # tier cognitive summary
     audit = {"ku_counts": ku_counts, "coverage_by_tier": cov.get("by_tier", {}), "status_dist": cov.get("status_dist", {}),
+             "quality_stats": quality_stats,
              "uncovered_t1_t2": uncov_t1t2, "partial": partial, "section_shares": shares, "skew_flags": skew,
              "duplicate_flags": dup_flags, "weak_type_flags": weak, "anchor_recall": round(recall, 4),
              "diff_status": dstatus, "density_flags": dens,

@@ -116,7 +116,23 @@ def is_md_row(l):
     return l.strip().startswith("|") and "|" in l.strip()[1:]
 
 
+def clean_raw_text(text):
+    if not text:
+        return ""
+    # Strip BOM and zero-width characters
+    for ch in ("\ufeff", "\u200b", "\u200c", "\u200d", "\u200e", "\u200f"):
+        text = text.replace(ch, "")
+    # Normalize non-breaking spaces
+    text = text.replace("\u00a0", " ")
+    # Normalize line endings
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
+    # Form feeds to section breaks
+    text = text.replace("\f", "\n\n")
+    return text
+
+
 def split_text(text):
+    text = clean_raw_text(text)
     out = []
     for ch in re.split(r"\n\s*\n", text):
         lines = [l.strip() for l in ch.strip().splitlines() if l.strip()]
@@ -143,6 +159,9 @@ def split_text(text):
             else:
                 out.append(("para", " ".join(lines)))
     return out
+
+
+import collections
 
 
 def parse_docx(path):
@@ -183,6 +202,10 @@ def parse_docx(path):
                         raw.append(("table", rows))
     except zipfile.BadZipFile:
         return [], ["docx unreadable (not a zip)"]
+    except ET.ParseError as e:
+        return [], ["docx xml parsing error: %s" % e]
+    except Exception as e:
+        return [], ["docx reading error: %s" % e]
     return raw, lims
 
 
@@ -222,6 +245,10 @@ def parse_pptx(path):
                             raw.append(("table", rows, True))
     except zipfile.BadZipFile:
         return [], ["pptx unreadable (not a zip)"]
+    except ET.ParseError as e:
+        return [], ["pptx xml parsing error: %s" % e]
+    except Exception as e:
+        return [], ["pptx reading error: %s" % e]
     return raw, lims
 
 
@@ -231,14 +258,17 @@ def parse_xlsx(path):
     except ImportError:
         return [], ["openpyxl not installed; xlsx content skipped"]
     raw, lims = [], []
-    wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
-    for ws in wb.worksheets:
-        rows = [[("" if c is None else str(c)) for c in r] for r in ws.iter_rows(values_only=True)]
-        rows = [r for r in rows if any(c.strip() for c in r)]
-        if rows:
-            raw.append(("table", rows, ws.title))
-    if not raw:
-        lims.append("xlsx has no non-empty sheets")
+    try:
+        wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
+        for ws in wb.worksheets:
+            rows = [[("" if c is None else str(c)) for c in r] for r in ws.iter_rows(values_only=True)]
+            rows = [r for r in rows if any(c.strip() for c in r)]
+            if rows:
+                raw.append(("table", rows, ws.title))
+        if not raw:
+            lims.append("xlsx has no non-empty sheets")
+    except Exception as e:
+        lims.append("xlsx reading error: %s" % e)
     return raw, lims
 
 
@@ -248,15 +278,43 @@ def parse_pdf(path):
     except ImportError:
         return [], ["pypdf not installed; pdf content skipped"]
     raw, lims = [], []
-    rd = PdfReader(path)
+    try:
+        rd = PdfReader(path)
+    except Exception as e:
+        return [], ["pdf open error: %s" % e]
+    if len(rd.pages) == 0:
+        return [], ["pdf has 0 pages"]
+
+    page_lines_list = []
     for i, pg in enumerate(rd.pages):
         try:
             t = pg.extract_text() or ""
         except Exception:
             t = ""
+        t = clean_raw_text(t)
         if not t.strip():
             lims.append("pdf page %d has no extractable text" % (i + 1))
+            page_lines_list.append([])
             continue
+        page_lines_list.append([l.strip() for l in t.splitlines() if l.strip()])
+
+    # Detect and strip running headers/footers repeated across >= 4 pages
+    if len(page_lines_list) >= 4:
+        top_candidates = collections.Counter(p[0] for p in page_lines_list if p)
+        bot_candidates = collections.Counter(p[-1] for p in page_lines_list if p)
+        min_rep = max(4, int(len(page_lines_list) * 0.35))
+        strip_tops = {s for s, c in top_candidates.items() if c >= min_rep and len(s) < 120}
+        strip_bots = {s for s, c in bot_candidates.items() if c >= min_rep and len(s) < 120}
+        for p in page_lines_list:
+            if p and p[0] in strip_tops:
+                p.pop(0)
+            if p and p[-1] in strip_bots:
+                p.pop()
+
+    for i, lines in enumerate(page_lines_list):
+        if not lines:
+            continue
+        t = "\n".join(lines)
         for kind, txt in split_text(t):
             raw.append((kind, txt, i + 1))
     return raw, lims
@@ -269,11 +327,13 @@ def main(argv):
     ap.add_argument("--run-id", default="run")
     a = ap.parse_args(argv)
     if not os.path.isfile(a.input):
-        fail("input not found: %s" % a.input)
+        fail("input file not found: '%s'. Please specify a valid path to an existing study document." % a.input)
     ext = os.path.splitext(a.input)[1].lower()
     outdir = a.out if os.path.basename(os.path.normpath(a.out)) == a.run_id else os.path.join(a.out, a.run_id)
     ensure_dir(outdir)
     lims = []
+    if os.path.getsize(a.input) == 0:
+        lims.append("input file is empty (0 bytes)")
     raw = []
     if ext in (".txt", ".md"):
         with open(a.input, encoding="utf-8", errors="replace") as f:
@@ -288,17 +348,21 @@ def main(argv):
             else:
                 raw.append(b)
     elif ext == ".docx":
-        raw, lims = parse_docx(a.input)
+        raw, lims_docx = parse_docx(a.input)
+        lims.extend(lims_docx)
     elif ext == ".pptx":
-        raw, lims = parse_pptx(a.input)
+        raw, lims_pptx = parse_pptx(a.input)
+        lims.extend(lims_pptx)
     elif ext == ".xlsx":
-        raw, lims = parse_xlsx(a.input)
+        raw, lims_xlsx = parse_xlsx(a.input)
+        lims.extend(lims_xlsx)
     elif ext == ".pdf":
-        raw, lims = parse_pdf(a.input)
+        raw, lims_pdf = parse_pdf(a.input)
+        lims.extend(lims_pdf)
     elif ext in IMAGE_EXTS:
         lims.append("image input %s: no text extracted" % os.path.basename(a.input))
     else:
-        fail("unsupported extension: %s" % ext)
+        fail("unsupported file extension '%s'. Supported formats: .txt, .md, .html, .htm, .docx, .pptx, .xlsx, .pdf" % ext)
     blocks = []
     stack = []
     chars = 0

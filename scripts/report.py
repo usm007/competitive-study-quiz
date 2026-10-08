@@ -68,6 +68,32 @@ def main(argv):
     L.append("  weak types: %s" % au.get("weak_type_flags"))
     L.append("  duplicates: %s" % au.get("duplicate_flags"))
     L.append("  downgraded tiers: %s" % au.get("downgrade_flags"))
+
+    qs_stat = au.get("quality_stats", {})
+    if qs_stat:
+        L.append("")
+        L.append("QUESTION QUALITY AUDIT (PHASE 3)")
+        L.append("  Generated: %s" % qs_stat.get("generated", "?"))
+        L.append("  Validated: %s" % qs_stat.get("validated", "?"))
+        L.append("  Quality accepted: %s" % qs_stat.get("quality_accepted", "?"))
+        L.append("  Quality rejected: %s" % qs_stat.get("quality_rejected", "?"))
+        L.append("  Quality acceptance rate: %.1f%%" % qs_stat.get("pct_quality_accepted", 0.0))
+        L.append("")
+        L.append("  By purpose: %s" % qs_stat.get("by_purpose", {}))
+        L.append("  By difficulty: %s" % qs_stat.get("by_difficulty", {}))
+        L.append("  By question type: %s" % qs_stat.get("by_type", {}))
+        L.append("")
+        L.append("  Quality sample (Rubric Grades):")
+        for gr in ("A", "B", "C", "D"):
+            L.append("    Grade %s: %s" % (gr, qs_stat.get("quality_sample", {}).get(gr, 0)))
+        L.append("")
+        L.append("  Top rejection reasons:")
+        reasons_list = qs_stat.get("top_rejection_reasons", [])
+        if reasons_list:
+            for r_reason in reasons_list[:5]:
+                L.append("    - %s" % r_reason)
+        else:
+            L.append("    - None (clean quality audit)")
     L.append("")
     L.append("GATE: %s" % g.get("status"))
     for r in g.get("reasons", []):

@@ -1,0 +1,5293 @@
+{
+  "per_ku": {
+    "KU-0001": {
+      "tier": "1",
+      "type": "date",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0001"
+      ],
+      "primary_ids": [
+        "Q-0001"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "distinction",
+          "recall"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0002": {
+      "tier": "1",
+      "type": "date",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0002"
+      ],
+      "primary_ids": [
+        "Q-0002"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "distinction",
+          "recall"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0003": {
+      "tier": "1",
+      "type": "constitutional_provision",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0003"
+      ],
+      "primary_ids": [
+        "Q-0003"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0004": {
+      "tier": "1",
+      "type": "concept",
+      "primary_count": 1,
+      "secondary_count": 1,
+      "question_ids": [
+        "Q-0003",
+        "Q-0004"
+      ],
+      "primary_ids": [
+        "Q-0003"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "application",
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0005": {
+      "tier": "1",
+      "type": "definition",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0004"
+      ],
+      "primary_ids": [
+        "Q-0004"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "recall",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0006": {
+      "tier": "1",
+      "type": "definition",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0005"
+      ],
+      "primary_ids": [
+        "Q-0005"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0007": {
+      "tier": "1",
+      "type": "principle",
+      "primary_count": 1,
+      "secondary_count": 1,
+      "question_ids": [
+        "Q-0005",
+        "Q-0006"
+      ],
+      "primary_ids": [
+        "Q-0005"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "application",
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0008": {
+      "tier": "2",
+      "type": "principle",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0006"
+      ],
+      "primary_ids": [
+        "Q-0006"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "application",
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "application",
+          "distinction"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0009": {
+      "tier": "2",
+      "type": "amendment",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0007"
+      ],
+      "primary_ids": [
+        "Q-0007"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0010": {
+      "tier": "2",
+      "type": "amendment",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0007"
+      ],
+      "primary_ids": [
+        "Q-0007"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0011": {
+      "tier": "1",
+      "type": "amendment",
+      "primary_count": 1,
+      "secondary_count": 1,
+      "question_ids": [
+        "Q-0007",
+        "Q-0026"
+      ],
+      "primary_ids": [
+        "Q-0007"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0012": {
+      "tier": "2",
+      "type": "timeline_entry",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0008"
+      ],
+      "primary_ids": [
+        "Q-0008"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0013": {
+      "tier": "3",
+      "type": "timeline_entry",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0008"
+      ],
+      "primary_ids": [
+        "Q-0008"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "3",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0014": {
+      "tier": "2",
+      "type": "case_study",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0008"
+      ],
+      "primary_ids": [
+        "Q-0008"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0015": {
+      "tier": "1",
+      "type": "amendment",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0009"
+      ],
+      "primary_ids": [
+        "Q-0009"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0016": {
+      "tier": "2",
+      "type": "act_law",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0010"
+      ],
+      "primary_ids": [
+        "Q-0010"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0017": {
+      "tier": "2",
+      "type": "case_study",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0011"
+      ],
+      "primary_ids": [
+        "Q-0011"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0018": {
+      "tier": "1",
+      "type": "case_study",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0012"
+      ],
+      "primary_ids": [
+        "Q-0012"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0019": {
+      "tier": "1",
+      "type": "amendment",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0013"
+      ],
+      "primary_ids": [
+        "Q-0013"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0020": {
+      "tier": "1",
+      "type": "table_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0014"
+      ],
+      "primary_ids": [
+        "Q-0014"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "recall",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0021": {
+      "tier": "1",
+      "type": "table_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0014"
+      ],
+      "primary_ids": [
+        "Q-0014"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "recall",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0022": {
+      "tier": "1",
+      "type": "table_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0014"
+      ],
+      "primary_ids": [
+        "Q-0014"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "recall",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0023": {
+      "tier": "1",
+      "type": "table_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0015"
+      ],
+      "primary_ids": [
+        "Q-0015"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "recall",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0024": {
+      "tier": "1",
+      "type": "table_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0015"
+      ],
+      "primary_ids": [
+        "Q-0015"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "recall",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0025": {
+      "tier": "1",
+      "type": "table_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0016"
+      ],
+      "primary_ids": [
+        "Q-0016"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "recall",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0026": {
+      "tier": "2",
+      "type": "table_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0014"
+      ],
+      "primary_ids": [
+        "Q-0014"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0027": {
+      "tier": "2",
+      "type": "table_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0014"
+      ],
+      "primary_ids": [
+        "Q-0014"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0028": {
+      "tier": "2",
+      "type": "table_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0015"
+      ],
+      "primary_ids": [
+        "Q-0015"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0029": {
+      "tier": "2",
+      "type": "table_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0015"
+      ],
+      "primary_ids": [
+        "Q-0015"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0030": {
+      "tier": "2",
+      "type": "table_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0015"
+      ],
+      "primary_ids": [
+        "Q-0015"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0031": {
+      "tier": "2",
+      "type": "table_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0016"
+      ],
+      "primary_ids": [
+        "Q-0016"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0032": {
+      "tier": "2",
+      "type": "table_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0016"
+      ],
+      "primary_ids": [
+        "Q-0016"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0033": {
+      "tier": "2",
+      "type": "table_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0016"
+      ],
+      "primary_ids": [
+        "Q-0016"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0034": {
+      "tier": "2",
+      "type": "table_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0016"
+      ],
+      "primary_ids": [
+        "Q-0016"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0035": {
+      "tier": "2",
+      "type": "table_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0017"
+      ],
+      "primary_ids": [
+        "Q-0017"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0036": {
+      "tier": "2",
+      "type": "table_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0017"
+      ],
+      "primary_ids": [
+        "Q-0017"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0037": {
+      "tier": "1",
+      "type": "definition",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0018"
+      ],
+      "primary_ids": [
+        "Q-0018"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "recall",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0038": {
+      "tier": "1",
+      "type": "comparison",
+      "primary_count": 1,
+      "secondary_count": 1,
+      "question_ids": [
+        "Q-0019",
+        "Q-0018"
+      ],
+      "primary_ids": [
+        "Q-0019"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "distinction",
+          "statement"
+        ],
+        "required_forms": [
+          "application",
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "application",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0039": {
+      "tier": "1",
+      "type": "concept",
+      "primary_count": 1,
+      "secondary_count": 1,
+      "question_ids": [
+        "Q-0019",
+        "Q-0031"
+      ],
+      "primary_ids": [
+        "Q-0019"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "distinction",
+          "statement"
+        ],
+        "required_forms": [
+          "application",
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "application",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0040": {
+      "tier": "1",
+      "type": "principle",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0020"
+      ],
+      "primary_ids": [
+        "Q-0020"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "application",
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "application",
+          "distinction",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0041": {
+      "tier": "1",
+      "type": "comparison",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0021"
+      ],
+      "primary_ids": [
+        "Q-0021"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "distinction",
+          "statement"
+        ],
+        "required_forms": [
+          "application",
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "application",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0042": {
+      "tier": "2",
+      "type": "concept",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0021"
+      ],
+      "primary_ids": [
+        "Q-0021"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "distinction",
+          "statement"
+        ],
+        "required_forms": [
+          "application",
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "application",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0043": {
+      "tier": "2",
+      "type": "concept",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0021"
+      ],
+      "primary_ids": [
+        "Q-0021"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "distinction",
+          "statement"
+        ],
+        "required_forms": [
+          "application",
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "application",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0044": {
+      "tier": "1",
+      "type": "constitutional_provision",
+      "primary_count": 1,
+      "secondary_count": 1,
+      "question_ids": [
+        "Q-0022",
+        "Q-0023"
+      ],
+      "primary_ids": [
+        "Q-0022"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0045": {
+      "tier": "2",
+      "type": "constitutional_provision",
+      "primary_count": 1,
+      "secondary_count": 1,
+      "question_ids": [
+        "Q-0022",
+        "Q-0013"
+      ],
+      "primary_ids": [
+        "Q-0022"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0046": {
+      "tier": "1",
+      "type": "constitutional_provision",
+      "primary_count": 1,
+      "secondary_count": 1,
+      "question_ids": [
+        "Q-0023",
+        "Q-0013"
+      ],
+      "primary_ids": [
+        "Q-0023"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0047": {
+      "tier": "1",
+      "type": "concept",
+      "primary_count": 1,
+      "secondary_count": 1,
+      "question_ids": [
+        "Q-0024",
+        "Q-0031"
+      ],
+      "primary_ids": [
+        "Q-0024"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "application",
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "application",
+          "distinction",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0048": {
+      "tier": "1",
+      "type": "list_item",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0025"
+      ],
+      "primary_ids": [
+        "Q-0025"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "recall",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0049": {
+      "tier": "2",
+      "type": "list_item",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0025"
+      ],
+      "primary_ids": [
+        "Q-0025"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0050": {
+      "tier": "2",
+      "type": "list_item",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0025"
+      ],
+      "primary_ids": [
+        "Q-0025"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0051": {
+      "tier": "2",
+      "type": "list_item",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0025"
+      ],
+      "primary_ids": [
+        "Q-0025"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0052": {
+      "tier": "2",
+      "type": "list_item",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0025"
+      ],
+      "primary_ids": [
+        "Q-0025"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0053": {
+      "tier": "2",
+      "type": "list_item",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0025"
+      ],
+      "primary_ids": [
+        "Q-0025"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0054": {
+      "tier": "2",
+      "type": "exception",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0026"
+      ],
+      "primary_ids": [
+        "Q-0026"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "distinction"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0055": {
+      "tier": "2",
+      "type": "principle",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0027"
+      ],
+      "primary_ids": [
+        "Q-0027"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "distinction",
+          "statement"
+        ],
+        "required_forms": [
+          "application",
+          "recall"
+        ],
+        "missing_forms": [
+          "application",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0056": {
+      "tier": "2",
+      "type": "case_study",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0011"
+      ],
+      "primary_ids": [
+        "Q-0011"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0057": {
+      "tier": "1",
+      "type": "comparison",
+      "primary_count": 1,
+      "secondary_count": 1,
+      "question_ids": [
+        "Q-0031",
+        "Q-0024"
+      ],
+      "primary_ids": [
+        "Q-0031"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "application",
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "application",
+          "recall",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0058": {
+      "tier": "1",
+      "type": "constitutional_provision",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0028"
+      ],
+      "primary_ids": [
+        "Q-0028"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0059": {
+      "tier": "1",
+      "type": "case_study",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0029"
+      ],
+      "primary_ids": [
+        "Q-0029"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0060": {
+      "tier": "1",
+      "type": "comparison",
+      "primary_count": 1,
+      "secondary_count": 1,
+      "question_ids": [
+        "Q-0029",
+        "Q-0028"
+      ],
+      "primary_ids": [
+        "Q-0029"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "application",
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0061": {
+      "tier": "2",
+      "type": "concept",
+      "primary_count": 1,
+      "secondary_count": 1,
+      "question_ids": [
+        "Q-0030",
+        "Q-0012"
+      ],
+      "primary_ids": [
+        "Q-0030"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "distinction",
+          "statement"
+        ],
+        "required_forms": [
+          "application",
+          "recall"
+        ],
+        "missing_forms": [
+          "application",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0062": {
+      "tier": "2",
+      "type": "amendment",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0010"
+      ],
+      "primary_ids": [
+        "Q-0010"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0063": {
+      "tier": "2",
+      "type": "definition",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0063"
+      ],
+      "primary_ids": [
+        "Q-0063"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0064": {
+      "tier": "1",
+      "type": "constitutional_provision",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0032"
+      ],
+      "primary_ids": [
+        "Q-0032"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0065": {
+      "tier": "1",
+      "type": "concept",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0033"
+      ],
+      "primary_ids": [
+        "Q-0033"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "application",
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "application",
+          "distinction",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0066": {
+      "tier": "1",
+      "type": "principle",
+      "primary_count": 1,
+      "secondary_count": 1,
+      "question_ids": [
+        "Q-0034",
+        "Q-0037"
+      ],
+      "primary_ids": [
+        "Q-0034"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "distinction",
+          "statement"
+        ],
+        "required_forms": [
+          "application",
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "application",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0067": {
+      "tier": "1",
+      "type": "list_item",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0035"
+      ],
+      "primary_ids": [
+        "Q-0035"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "recall",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0068": {
+      "tier": "1",
+      "type": "list_item",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0035"
+      ],
+      "primary_ids": [
+        "Q-0035"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "recall",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0069": {
+      "tier": "2",
+      "type": "list_item",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0035"
+      ],
+      "primary_ids": [
+        "Q-0035"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0070": {
+      "tier": "2",
+      "type": "list_item",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0035"
+      ],
+      "primary_ids": [
+        "Q-0035"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0071": {
+      "tier": "2",
+      "type": "list_item",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0035"
+      ],
+      "primary_ids": [
+        "Q-0035"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0072": {
+      "tier": "1",
+      "type": "definition",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0036"
+      ],
+      "primary_ids": [
+        "Q-0036"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0073": {
+      "tier": "1",
+      "type": "comparison",
+      "primary_count": 1,
+      "secondary_count": 1,
+      "question_ids": [
+        "Q-0034",
+        "Q-0032"
+      ],
+      "primary_ids": [
+        "Q-0034"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "distinction",
+          "statement"
+        ],
+        "required_forms": [
+          "application",
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "application",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0074": {
+      "tier": "2",
+      "type": "case_study",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0037"
+      ],
+      "primary_ids": [
+        "Q-0037"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0075": {
+      "tier": "1",
+      "type": "amendment",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0037"
+      ],
+      "primary_ids": [
+        "Q-0037"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0076": {
+      "tier": "1",
+      "type": "number_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0039"
+      ],
+      "primary_ids": [
+        "Q-0039"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0077": {
+      "tier": "2",
+      "type": "number_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0040"
+      ],
+      "primary_ids": [
+        "Q-0040"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "recall"
+        ],
+        "missing_forms": [],
+        "status": "covered"
+      }
+    },
+    "KU-0078": {
+      "tier": "1",
+      "type": "concept",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0041"
+      ],
+      "primary_ids": [
+        "Q-0041"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "application",
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0079": {
+      "tier": "1",
+      "type": "definition",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0041"
+      ],
+      "primary_ids": [
+        "Q-0041"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0080": {
+      "tier": "2",
+      "type": "definition",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0042"
+      ],
+      "primary_ids": [
+        "Q-0042"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "recall"
+        ],
+        "missing_forms": [],
+        "status": "covered"
+      }
+    },
+    "KU-0081": {
+      "tier": "1",
+      "type": "place",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0043"
+      ],
+      "primary_ids": [
+        "Q-0043"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0082": {
+      "tier": "1",
+      "type": "number_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0044"
+      ],
+      "primary_ids": [
+        "Q-0044"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0083": {
+      "tier": "1",
+      "type": "place",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0043"
+      ],
+      "primary_ids": [
+        "Q-0043"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0084": {
+      "tier": "2",
+      "type": "place",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0043"
+      ],
+      "primary_ids": [
+        "Q-0043"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0085": {
+      "tier": "1",
+      "type": "number_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0044"
+      ],
+      "primary_ids": [
+        "Q-0044"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0086": {
+      "tier": "1",
+      "type": "place",
+      "primary_count": 1,
+      "secondary_count": 2,
+      "question_ids": [
+        "Q-0045",
+        "Q-0046",
+        "Q-0062"
+      ],
+      "primary_ids": [
+        "Q-0045"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0087": {
+      "tier": "2",
+      "type": "number_value",
+      "primary_count": 1,
+      "secondary_count": 1,
+      "question_ids": [
+        "Q-0046",
+        "Q-0045"
+      ],
+      "primary_ids": [
+        "Q-0046"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "recall"
+        ],
+        "missing_forms": [],
+        "status": "covered"
+      }
+    },
+    "KU-0088": {
+      "tier": "1",
+      "type": "event",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0047"
+      ],
+      "primary_ids": [
+        "Q-0047"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "application"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0089": {
+      "tier": "2",
+      "type": "institution",
+      "primary_count": 1,
+      "secondary_count": 1,
+      "question_ids": [
+        "Q-0048",
+        "Q-0047"
+      ],
+      "primary_ids": [
+        "Q-0048"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "recall"
+        ],
+        "missing_forms": [],
+        "status": "covered"
+      }
+    },
+    "KU-0090": {
+      "tier": "1",
+      "type": "comparison",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0049"
+      ],
+      "primary_ids": [
+        "Q-0049"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "distinction",
+          "statement"
+        ],
+        "required_forms": [
+          "application",
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "application",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0091": {
+      "tier": "1",
+      "type": "place",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0050"
+      ],
+      "primary_ids": [
+        "Q-0050"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "recall",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0092": {
+      "tier": "3",
+      "type": "place",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0051"
+      ],
+      "primary_ids": [
+        "Q-0051"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "3",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0093": {
+      "tier": "2",
+      "type": "place",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0064"
+      ],
+      "primary_ids": [
+        "Q-0064"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "distinction"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0094": {
+      "tier": "3",
+      "type": "place",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0051"
+      ],
+      "primary_ids": [
+        "Q-0051"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "3",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0095": {
+      "tier": "1",
+      "type": "place",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0050"
+      ],
+      "primary_ids": [
+        "Q-0050"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "recall",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0096": {
+      "tier": "2",
+      "type": "place",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0051"
+      ],
+      "primary_ids": [
+        "Q-0051"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0097": {
+      "tier": "2",
+      "type": "place",
+      "primary_count": 1,
+      "secondary_count": 1,
+      "question_ids": [
+        "Q-0052",
+        "Q-0054"
+      ],
+      "primary_ids": [
+        "Q-0052"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0098": {
+      "tier": "3",
+      "type": "place",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0052"
+      ],
+      "primary_ids": [
+        "Q-0052"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "3",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0099": {
+      "tier": "3",
+      "type": "place",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0052"
+      ],
+      "primary_ids": [
+        "Q-0052"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "3",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0100": {
+      "tier": "1",
+      "type": "place",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0053"
+      ],
+      "primary_ids": [
+        "Q-0053"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0101": {
+      "tier": "1",
+      "type": "place",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0053"
+      ],
+      "primary_ids": [
+        "Q-0053"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0102": {
+      "tier": "3",
+      "type": "place",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0053"
+      ],
+      "primary_ids": [
+        "Q-0053"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "3",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0103": {
+      "tier": "2",
+      "type": "table_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0050"
+      ],
+      "primary_ids": [
+        "Q-0050"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0104": {
+      "tier": "2",
+      "type": "table_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0054"
+      ],
+      "primary_ids": [
+        "Q-0054"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "distinction"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0105": {
+      "tier": "2",
+      "type": "table_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0050"
+      ],
+      "primary_ids": [
+        "Q-0050"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0106": {
+      "tier": "2",
+      "type": "classification",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0055"
+      ],
+      "primary_ids": [
+        "Q-0055"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "application",
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0107": {
+      "tier": "1",
+      "type": "comparison",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0055"
+      ],
+      "primary_ids": [
+        "Q-0055"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "application",
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0108": {
+      "tier": "3",
+      "type": "concept",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0056"
+      ],
+      "primary_ids": [
+        "Q-0056"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "3",
+        "covered_forms": [
+          "distinction"
+        ],
+        "required_forms": [
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0109": {
+      "tier": "1",
+      "type": "number_value",
+      "primary_count": 1,
+      "secondary_count": 1,
+      "question_ids": [
+        "Q-0057",
+        "Q-0058"
+      ],
+      "primary_ids": [
+        "Q-0057"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0110": {
+      "tier": "2",
+      "type": "number_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0058"
+      ],
+      "primary_ids": [
+        "Q-0058"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall"
+        ],
+        "missing_forms": [
+          "distinction"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0111": {
+      "tier": "2",
+      "type": "number_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0059"
+      ],
+      "primary_ids": [
+        "Q-0059"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "recall"
+        ],
+        "missing_forms": [],
+        "status": "covered"
+      }
+    },
+    "KU-0112": {
+      "tier": "2",
+      "type": "number_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0057"
+      ],
+      "primary_ids": [
+        "Q-0057"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "application",
+          "statement"
+        ],
+        "required_forms": [
+          "recall"
+        ],
+        "missing_forms": [
+          "recall"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0113": {
+      "tier": "1",
+      "type": "event",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0060"
+      ],
+      "primary_ids": [
+        "Q-0060"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0114": {
+      "tier": "1",
+      "type": "number_value",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0061"
+      ],
+      "primary_ids": [
+        "Q-0061"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "1",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "distinction",
+          "recall",
+          "statement"
+        ],
+        "missing_forms": [
+          "distinction",
+          "statement"
+        ],
+        "status": "partial"
+      }
+    },
+    "KU-0115": {
+      "tier": "3",
+      "type": "term",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0062"
+      ],
+      "primary_ids": [
+        "Q-0062"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "3",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "recall"
+        ],
+        "missing_forms": [],
+        "status": "covered"
+      }
+    },
+    "KU-0116": {
+      "tier": "2",
+      "type": "concept",
+      "primary_count": 1,
+      "secondary_count": 0,
+      "question_ids": [
+        "Q-0038"
+      ],
+      "primary_ids": [
+        "Q-0038"
+      ],
+      "status": "covered",
+      "cognitive": {
+        "tier": "2",
+        "covered_forms": [
+          "recall"
+        ],
+        "required_forms": [
+          "application",
+          "recall"
+        ],
+        "missing_forms": [
+          "application"
+        ],
+        "status": "partial"
+      }
+    }
+  },
+  "by_tier": {
+    "1": {
+      "total": 56,
+      "covered": 56,
+      "pct_covered": 100.0
+    },
+    "2": {
+      "total": 52,
+      "covered": 52,
+      "pct_covered": 100.0
+    },
+    "3": {
+      "total": 8,
+      "covered": 8,
+      "pct_covered": 100.0
+    }
+  },
+  "status_dist": {
+    "covered": 116
+  },
+  "per_ku_cap": 3,
+  "over_cap": [],
+  "counted_questions": 64,
+  "cognitive_per_ku": {
+    "KU-0001": {
+      "tier": "1",
+      "covered_forms": [
+        "distinction",
+        "recall"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0002": {
+      "tier": "1",
+      "covered_forms": [
+        "distinction",
+        "recall"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0003": {
+      "tier": "1",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0004": {
+      "tier": "1",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "application",
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0005": {
+      "tier": "1",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "recall",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0006": {
+      "tier": "1",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0007": {
+      "tier": "1",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "application",
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0008": {
+      "tier": "2",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "application",
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "application",
+        "distinction"
+      ],
+      "status": "partial"
+    },
+    "KU-0009": {
+      "tier": "2",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0010": {
+      "tier": "2",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0011": {
+      "tier": "1",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0012": {
+      "tier": "2",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0013": {
+      "tier": "3",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0014": {
+      "tier": "2",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0015": {
+      "tier": "1",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0016": {
+      "tier": "2",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0017": {
+      "tier": "2",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0018": {
+      "tier": "1",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0019": {
+      "tier": "1",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0020": {
+      "tier": "1",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "recall",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0021": {
+      "tier": "1",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "recall",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0022": {
+      "tier": "1",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "recall",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0023": {
+      "tier": "1",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "recall",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0024": {
+      "tier": "1",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "recall",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0025": {
+      "tier": "1",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "recall",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0026": {
+      "tier": "2",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0027": {
+      "tier": "2",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0028": {
+      "tier": "2",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0029": {
+      "tier": "2",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0030": {
+      "tier": "2",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0031": {
+      "tier": "2",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0032": {
+      "tier": "2",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0033": {
+      "tier": "2",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0034": {
+      "tier": "2",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0035": {
+      "tier": "2",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0036": {
+      "tier": "2",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0037": {
+      "tier": "1",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "recall",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0038": {
+      "tier": "1",
+      "covered_forms": [
+        "distinction",
+        "statement"
+      ],
+      "required_forms": [
+        "application",
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "application",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0039": {
+      "tier": "1",
+      "covered_forms": [
+        "distinction",
+        "statement"
+      ],
+      "required_forms": [
+        "application",
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "application",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0040": {
+      "tier": "1",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "application",
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "application",
+        "distinction",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0041": {
+      "tier": "1",
+      "covered_forms": [
+        "distinction",
+        "statement"
+      ],
+      "required_forms": [
+        "application",
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "application",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0042": {
+      "tier": "2",
+      "covered_forms": [
+        "distinction",
+        "statement"
+      ],
+      "required_forms": [
+        "application",
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "application",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0043": {
+      "tier": "2",
+      "covered_forms": [
+        "distinction",
+        "statement"
+      ],
+      "required_forms": [
+        "application",
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "application",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0044": {
+      "tier": "1",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0045": {
+      "tier": "2",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0046": {
+      "tier": "1",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0047": {
+      "tier": "1",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "application",
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "application",
+        "distinction",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0048": {
+      "tier": "1",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "recall",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0049": {
+      "tier": "2",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0050": {
+      "tier": "2",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0051": {
+      "tier": "2",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0052": {
+      "tier": "2",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0053": {
+      "tier": "2",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0054": {
+      "tier": "2",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "distinction"
+      ],
+      "status": "partial"
+    },
+    "KU-0055": {
+      "tier": "2",
+      "covered_forms": [
+        "distinction",
+        "statement"
+      ],
+      "required_forms": [
+        "application",
+        "recall"
+      ],
+      "missing_forms": [
+        "application",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0056": {
+      "tier": "2",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0057": {
+      "tier": "1",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "application",
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "application",
+        "recall",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0058": {
+      "tier": "1",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0059": {
+      "tier": "1",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0060": {
+      "tier": "1",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "application",
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0061": {
+      "tier": "2",
+      "covered_forms": [
+        "distinction",
+        "statement"
+      ],
+      "required_forms": [
+        "application",
+        "recall"
+      ],
+      "missing_forms": [
+        "application",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0062": {
+      "tier": "2",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0063": {
+      "tier": "2",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0064": {
+      "tier": "1",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0065": {
+      "tier": "1",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "application",
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "application",
+        "distinction",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0066": {
+      "tier": "1",
+      "covered_forms": [
+        "distinction",
+        "statement"
+      ],
+      "required_forms": [
+        "application",
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "application",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0067": {
+      "tier": "1",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "recall",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0068": {
+      "tier": "1",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "recall",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0069": {
+      "tier": "2",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0070": {
+      "tier": "2",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0071": {
+      "tier": "2",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0072": {
+      "tier": "1",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0073": {
+      "tier": "1",
+      "covered_forms": [
+        "distinction",
+        "statement"
+      ],
+      "required_forms": [
+        "application",
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "application",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0074": {
+      "tier": "2",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0075": {
+      "tier": "1",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0076": {
+      "tier": "1",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0077": {
+      "tier": "2",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "recall"
+      ],
+      "missing_forms": [],
+      "status": "covered"
+    },
+    "KU-0078": {
+      "tier": "1",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "application",
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0079": {
+      "tier": "1",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0080": {
+      "tier": "2",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "recall"
+      ],
+      "missing_forms": [],
+      "status": "covered"
+    },
+    "KU-0081": {
+      "tier": "1",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0082": {
+      "tier": "1",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0083": {
+      "tier": "1",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0084": {
+      "tier": "2",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0085": {
+      "tier": "1",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0086": {
+      "tier": "1",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0087": {
+      "tier": "2",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "recall"
+      ],
+      "missing_forms": [],
+      "status": "covered"
+    },
+    "KU-0088": {
+      "tier": "1",
+      "covered_forms": [
+        "application"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0089": {
+      "tier": "2",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "recall"
+      ],
+      "missing_forms": [],
+      "status": "covered"
+    },
+    "KU-0090": {
+      "tier": "1",
+      "covered_forms": [
+        "distinction",
+        "statement"
+      ],
+      "required_forms": [
+        "application",
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "application",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0091": {
+      "tier": "1",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "recall",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0092": {
+      "tier": "3",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0093": {
+      "tier": "2",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "distinction"
+      ],
+      "status": "partial"
+    },
+    "KU-0094": {
+      "tier": "3",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0095": {
+      "tier": "1",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "recall",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0096": {
+      "tier": "2",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0097": {
+      "tier": "2",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0098": {
+      "tier": "3",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0099": {
+      "tier": "3",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0100": {
+      "tier": "1",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0101": {
+      "tier": "1",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0102": {
+      "tier": "3",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0103": {
+      "tier": "2",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0104": {
+      "tier": "2",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "distinction"
+      ],
+      "status": "partial"
+    },
+    "KU-0105": {
+      "tier": "2",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0106": {
+      "tier": "2",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "application",
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0107": {
+      "tier": "1",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "application",
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0108": {
+      "tier": "3",
+      "covered_forms": [
+        "distinction"
+      ],
+      "required_forms": [
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0109": {
+      "tier": "1",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0110": {
+      "tier": "2",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall"
+      ],
+      "missing_forms": [
+        "distinction"
+      ],
+      "status": "partial"
+    },
+    "KU-0111": {
+      "tier": "2",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "recall"
+      ],
+      "missing_forms": [],
+      "status": "covered"
+    },
+    "KU-0112": {
+      "tier": "2",
+      "covered_forms": [
+        "application",
+        "statement"
+      ],
+      "required_forms": [
+        "recall"
+      ],
+      "missing_forms": [
+        "recall"
+      ],
+      "status": "partial"
+    },
+    "KU-0113": {
+      "tier": "1",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0114": {
+      "tier": "1",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "distinction",
+        "recall",
+        "statement"
+      ],
+      "missing_forms": [
+        "distinction",
+        "statement"
+      ],
+      "status": "partial"
+    },
+    "KU-0115": {
+      "tier": "3",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "recall"
+      ],
+      "missing_forms": [],
+      "status": "covered"
+    },
+    "KU-0116": {
+      "tier": "2",
+      "covered_forms": [
+        "recall"
+      ],
+      "required_forms": [
+        "application",
+        "recall"
+      ],
+      "missing_forms": [
+        "application"
+      ],
+      "status": "partial"
+    }
+  },
+  "cognitive_by_tier": {
+    "1": {
+      "total": 56,
+      "cognitively_covered": 0,
+      "pct": 0.0,
+      "missing": [
+        "KU-0001",
+        "KU-0002",
+        "KU-0003",
+        "KU-0004",
+        "KU-0005",
+        "KU-0006",
+        "KU-0007",
+        "KU-0011",
+        "KU-0015",
+        "KU-0018",
+        "KU-0019",
+        "KU-0020",
+        "KU-0021",
+        "KU-0022",
+        "KU-0023",
+        "KU-0024",
+        "KU-0025",
+        "KU-0037",
+        "KU-0038",
+        "KU-0039",
+        "KU-0040",
+        "KU-0041",
+        "KU-0044",
+        "KU-0046",
+        "KU-0047",
+        "KU-0048",
+        "KU-0057",
+        "KU-0058",
+        "KU-0059",
+        "KU-0060",
+        "KU-0064",
+        "KU-0065",
+        "KU-0066",
+        "KU-0067",
+        "KU-0068",
+        "KU-0072",
+        "KU-0073",
+        "KU-0075",
+        "KU-0076",
+        "KU-0078",
+        "KU-0079",
+        "KU-0081",
+        "KU-0082",
+        "KU-0083",
+        "KU-0085",
+        "KU-0086",
+        "KU-0088",
+        "KU-0090",
+        "KU-0091",
+        "KU-0095",
+        "KU-0100",
+        "KU-0101",
+        "KU-0107",
+        "KU-0109",
+        "KU-0113",
+        "KU-0114"
+      ]
+    },
+    "2": {
+      "total": 52,
+      "cognitively_covered": 5,
+      "pct": 9.62,
+      "missing": [
+        "KU-0008",
+        "KU-0009",
+        "KU-0010",
+        "KU-0012",
+        "KU-0014",
+        "KU-0016",
+        "KU-0017",
+        "KU-0026",
+        "KU-0027",
+        "KU-0028",
+        "KU-0029",
+        "KU-0030",
+        "KU-0031",
+        "KU-0032",
+        "KU-0033",
+        "KU-0034",
+        "KU-0035",
+        "KU-0036",
+        "KU-0042",
+        "KU-0043",
+        "KU-0045",
+        "KU-0049",
+        "KU-0050",
+        "KU-0051",
+        "KU-0052",
+        "KU-0053",
+        "KU-0054",
+        "KU-0055",
+        "KU-0056",
+        "KU-0061",
+        "KU-0062",
+        "KU-0063",
+        "KU-0069",
+        "KU-0070",
+        "KU-0071",
+        "KU-0074",
+        "KU-0084",
+        "KU-0093",
+        "KU-0096",
+        "KU-0097",
+        "KU-0103",
+        "KU-0104",
+        "KU-0105",
+        "KU-0106",
+        "KU-0110",
+        "KU-0112",
+        "KU-0116"
+      ]
+    },
+    "3": {
+      "total": 8,
+      "cognitively_covered": 1,
+      "pct": 12.5,
+      "missing": [
+        "KU-0013",
+        "KU-0092",
+        "KU-0094",
+        "KU-0098",
+        "KU-0099",
+        "KU-0102",
+        "KU-0108"
+      ]
+    }
+  },
+  "purpose_coverage": {
+    "confusable_fact": 2,
+    "statement_evaluation": 18,
+    "exception": 1,
+    "direct_recall": 23,
+    "association": 6,
+    "distinction": 7,
+    "conceptual_understanding": 3,
+    "elimination": 2,
+    "cause_effect": 1,
+    "classification": 1
+  },
+  "has_explicit_purposes": true,
+  "has_explicit_cognitive": true,
+  "section_coverage": {
+    "Exam Study Notes: Fundamental Rights and the Brahmaputra System": 116
+  },
+  "coverage_label": "CONTENT COMPLETE",
+  "cognitive_label": "COGNITIVE COVERAGE PARTIAL"
+}

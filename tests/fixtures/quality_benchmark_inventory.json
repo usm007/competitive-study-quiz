@@ -1,0 +1,49 @@
+{
+  "units": [
+    {
+      "id": "KU-0003",
+      "statement": "Article 12 defines State to include Government, Parliament, legislatures, and local authorities.",
+      "supporting_excerpt": "The term 'State' under Article 12 includes the Government and Parliament of India, the Government and legislature of each State, all local authorities, and all other authorities within the territory of India or under the control of the Government of India.",
+      "source": {
+        "page": 1,
+        "section_path": ["Polity"],
+        "block_id": "B-0001",
+        "char_start": 0,
+        "char_end": 50,
+        "table_ref": null
+      },
+      "tier": 1,
+      "type": "definition"
+    },
+    {
+      "id": "KU-0004",
+      "statement": "Article 13 defines Law to include ordinances, orders, bye-laws, rules, regulations, and notifications.",
+      "supporting_excerpt": "'Law' under Article 13 includes any ordinance, order, bye-law, rule, regulation, notification, custom or usage having the force of law in the territory of India.",
+      "source": {
+        "page": 1,
+        "section_path": ["Polity"],
+        "block_id": "B-0001",
+        "char_start": 0,
+        "char_end": 50,
+        "table_ref": null
+      },
+      "tier": 1,
+      "type": "definition"
+    },
+    {
+      "id": "KU-0005",
+      "statement": "In 2002 the Eighty-sixth Amendment inserted Article 21A on free and compulsory education.",
+      "supporting_excerpt": "2002: the Eighty-sixth Amendment inserts Article 21A on free and compulsory education for children aged 6 to 14 years.",
+      "source": {
+        "page": 1,
+        "section_path": ["Polity"],
+        "block_id": "B-0001",
+        "char_start": 0,
+        "char_end": 50,
+        "table_ref": null
+      },
+      "tier": 1,
+      "type": "date"
+    }
+  ]
+}

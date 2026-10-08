@@ -7,7 +7,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from lib_common import load_json, save_json, ensure_dir, run_main
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-STAGES = ("ingest", "anchors", "check", "validate", "coverage", "dedupe", "audit", "gate", "report")
+STAGES = ("ingest", "anchors", "check", "validate", "quality", "coverage", "dedupe", "audit", "gate", "report")
 
 
 def mod(name):
@@ -59,6 +59,10 @@ def main(argv):
     ap.add_argument("--bank", default=None)
     ap.add_argument("--ignored", default=None)
     ap.add_argument("--diff", default=None)
+    ap.add_argument("--package", action="store_true", help="Assemble quiz_package.json")
+    ap.add_argument("--web", action="store_true", help="Build standalone HTML quiz (implies --package)")
+    ap.add_argument("--pdf", action="store_true", help="Build print-ready PDFs (implies --package)")
+    ap.add_argument("--full", action="store_true", help="Run full pipeline including package, web, and pdf")
     a = ap.parse_args(argv)
     if not os.path.isfile(a.source):
         print("error: source not found: %s" % a.source, file=sys.stderr)
@@ -81,6 +85,7 @@ def main(argv):
          "anchors": os.path.join(R, "anchors.json"),
          "check": os.path.join(R, "inventory_check.json"),
          "validation": os.path.join(R, "validation_results.json"),
+         "quality": os.path.join(R, "quality_report.json"),
          "coverage": os.path.join(R, "coverage_matrix.json"),
          "dedupe": os.path.join(R, "dedupe_report.json"),
          "audit": os.path.join(R, "audit_report.json"),
@@ -177,6 +182,11 @@ def main(argv):
             return rc
     else:
         mark("schema_bank", "skipped", "no schema file")
+    if skip("quality", [F["quality"]]):
+        mark("quality", "skipped", "output exists")
+    else:
+        rc = run_stage(mod("quality").main, [a.bank, a.inventory, F["struct"], "--profile", a.profile, "--mode", mode, "--config", a.config, "--out", F["quality"]])
+        mark("quality", "ok" if rc == 0 else "flagged")
     if skip("coverage", [F["coverage"]]):
         mark("coverage", "skipped", "output exists")
     else:
@@ -194,7 +204,7 @@ def main(argv):
     if skip("audit", [F["audit"]]):
         mark("audit", "skipped", "output exists")
     else:
-        args = [a.inventory, F["coverage"], F["validation"], F["anchors"], "--profile", a.profile, "--config", a.config, "--struct", F["struct"], "--out", F["audit"]]
+        args = [a.inventory, F["coverage"], F["validation"], F["anchors"], "--profile", a.profile, "--config", a.config, "--struct", F["struct"], "--quality", F["quality"], "--out", F["audit"]]
         if a.bank:
             args += ["--bank", a.bank]
         if a.ignored:
@@ -216,6 +226,54 @@ def main(argv):
     mark("report", "ok" if rc == 0 else "failed")
     if a.count is not None:
         state["requested_count"] = a.count
+
+    do_pkg = a.package or a.web or a.pdf or a.full
+    do_web = a.web or a.full
+    do_pdf = a.pdf or a.full
+
+    if do_pkg and a.bank and a.inventory:
+        pkg_dest = os.path.join(R, "quiz_package.json")
+        rc = run_stage(mod("package").main, [
+            a.bank, F["audit"], F["gate"],
+            "--profile", a.profile,
+            "--inventory", a.inventory,
+            "--quality", F["quality"],
+            "--out", pkg_dest
+        ])
+        mark("package", "ok" if rc == 0 else "failed")
+        if rc:
+            save_json(sp, state)
+            return rc
+
+        if do_web:
+            html_dest = os.path.join(R, "quiz.html")
+            rc = run_stage(mod("build_web").main, [pkg_dest, "--out", html_dest])
+            mark("build_web", "ok" if rc == 0 else "failed")
+            if rc:
+                save_json(sp, state)
+                return rc
+
+        if do_pdf:
+            pdf_dir = os.path.join(R, "pdf")
+            rc = run_stage(mod("build_pdf").main, [pkg_dest, "--out", pdf_dir, "--profile", a.profile])
+            mark("build_pdf", "ok" if rc == 0 else "failed")
+            if rc:
+                save_json(sp, state)
+                return rc
+
+            pdf_check = os.path.join(R, "pdf_check_report.json")
+            rc = run_stage(mod("check_pdf").main, [
+                os.path.join(pdf_dir, "question-paper-A.pdf"),
+                os.path.join(pdf_dir, "answer-key-B.pdf"),
+                os.path.join(pdf_dir, "explanations-C.pdf"),
+                "--package", pkg_dest,
+                "--report", pdf_check
+            ])
+            mark("check_pdf", "ok" if rc == 0 else "failed")
+            if rc:
+                save_json(sp, state)
+                return rc
+
     save_json(sp, state)
     print("pipeline %s: done -> %s" % (a.run_id, R))
     return rc

@@ -78,6 +78,23 @@
         },
         "by_cognitive": {
           "type": "object"
+        },
+        "quality_accepted": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "quality_rejected": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "quality_sample": {
+          "type": "object"
+        },
+        "by_difficulty": {
+          "type": "object"
+        },
+        "top_rejection_reasons": {
+          "type": "array"
         }
       },
       "required": [

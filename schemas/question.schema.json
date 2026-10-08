@@ -178,7 +178,8 @@
               "wrong_entity",
               "wrong_date",
               "scope_error",
-              "causal_reversal"
+              "causal_reversal",
+              null
             ],
             "type": [
               "string",
@@ -360,6 +361,60 @@
       "items": {
         "type": "string"
       }
+    },
+    "quality_status": {
+      "enum": [
+        "accepted",
+        "rejected",
+        null
+      ],
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "quality_grade": {
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D",
+        null
+      ],
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "quality_notes": {
+      "items": {
+        "type": "string"
+      },
+      "type": [
+        "array",
+        "null"
+      ]
+    },
+    "tier": {
+      "maximum": 4,
+      "minimum": 1,
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "revision_priority": {
+      "enum": [
+        "critical",
+        "high",
+        "medium",
+        "low",
+        null
+      ],
+      "type": [
+        "string",
+        "null"
+      ]
     }
   },
   "required": [

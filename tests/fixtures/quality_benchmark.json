@@ -1,0 +1,771 @@
+{
+  "questions": [
+    {
+      "id": "GOOD-01",
+      "type": "factual_mcq",
+      "purpose": "direct_recall",
+      "stem": "Under Article 12 of the Constitution of India, the definition of 'State' includes which of the following authorities?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Government and Parliament of India",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": null
+        },
+        {
+          "key": "B",
+          "text": "Private commercial corporations with no government share",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_category",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "wrong_category"
+        },
+        {
+          "key": "C",
+          "text": "Foreign diplomatic missions in India",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_entity",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "wrong_entity"
+        },
+        {
+          "key": "D",
+          "text": "International courts of justice",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "scope_error",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "scope_error"
+        }
+      ],
+      "answer": "A",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "origin": "source",
+      "statements": null,
+      "knowledge_units": [
+        {
+          "ku_id": "KU-0003",
+          "role": "primary"
+        }
+      ],
+      "source": [
+        {
+          "page": 1,
+          "section_path": "Polity",
+          "block_id": "B-0001",
+          "char_start": 0,
+          "char_end": 50,
+          "table_ref": null
+        }
+      ],
+      "explanation": "Article 12 explicitly includes the Government and Parliament of India, the Government and legislature of each State, and local or other authorities.",
+      "memory_aid": null,
+      "hint": null,
+      "topic": "Polity",
+      "exam_profile": "APSC_PRELIMS",
+      "language": "en",
+      "attempt_count": 0,
+      "correct_count": 0,
+      "last_attempted": null,
+      "last_result": null,
+      "confidence": null,
+      "priority": 1.0
+    },
+    {
+      "id": "BAD-01-TWO-CORRECT",
+      "type": "factual_mcq",
+      "purpose": "direct_recall",
+      "stem": "Which of the following bodies is included in the definition of State under Article 12?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Government of India",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": null
+        },
+        {
+          "key": "B",
+          "text": "Parliament of India",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": null
+        },
+        {
+          "key": "C",
+          "text": "Private societies",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_category",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "wrong_category"
+        },
+        {
+          "key": "D",
+          "text": "Foreign embassies",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "scope_error",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "scope_error"
+        }
+      ],
+      "answer": "A",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "origin": "source",
+      "statements": null,
+      "knowledge_units": [{"ku_id": "KU-0003", "role": "primary"}],
+      "source": [{"page": 1, "section_path": "Polity", "block_id": "B-0001", "char_start": 0, "char_end": 50, "table_ref": null}],
+      "explanation": "Article 12 covers both Government and Parliament.",
+      "memory_aid": null, "hint": null, "topic": "Polity", "exam_profile": "APSC_PRELIMS", "language": "en",
+      "attempt_count": 0, "correct_count": 0, "last_attempted": null, "last_result": null, "confidence": null, "priority": 1.0
+    },
+    {
+      "id": "BAD-02-NO-CORRECT",
+      "type": "factual_mcq",
+      "purpose": "direct_recall",
+      "stem": "Which authority is part of the State under Article 12?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Private commercial shops",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_category",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "wrong_category"
+        },
+        {
+          "key": "B",
+          "text": "International red cross",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "scope_error",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "scope_error"
+        },
+        {
+          "key": "C",
+          "text": "Private sports clubs",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_category",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "wrong_category"
+        },
+        {
+          "key": "D",
+          "text": "Private non-profit trusts",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_category",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "wrong_category"
+        }
+      ],
+      "answer": "A",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "origin": "source",
+      "statements": null,
+      "knowledge_units": [{"ku_id": "KU-0003", "role": "primary"}],
+      "source": [{"page": 1, "section_path": "Polity", "block_id": "B-0001", "char_start": 0, "char_end": 50, "table_ref": null}],
+      "explanation": "None of the options is actually correct under Article 12.",
+      "memory_aid": null, "hint": null, "topic": "Polity", "exam_profile": "APSC_PRELIMS", "language": "en",
+      "attempt_count": 0, "correct_count": 0, "last_attempted": null, "last_result": null, "confidence": null, "priority": 1.0
+    },
+    {
+      "id": "BAD-03-ABSURD-DISTRACTOR",
+      "type": "factual_mcq",
+      "purpose": "direct_recall",
+      "stem": "Which institution exercises legislative power in the Union under the Constitution?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Parliament of India",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": null
+        },
+        {
+          "key": "B",
+          "text": "Mars rover exploration committee",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_entity",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "wrong_entity"
+        },
+        {
+          "key": "C",
+          "text": "Pineapple juice manufacturers guild",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_category",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "wrong_category"
+        },
+        {
+          "key": "D",
+          "text": "Super secret council 99999",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "scope_error",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "scope_error"
+        }
+      ],
+      "answer": "A",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "origin": "source",
+      "statements": null,
+      "knowledge_units": [{"ku_id": "KU-0003", "role": "primary"}],
+      "source": [{"page": 1, "section_path": "Polity", "block_id": "B-0001", "char_start": 0, "char_end": 50, "table_ref": null}],
+      "explanation": "Parliament of India exercises Union legislative power.",
+      "memory_aid": null, "hint": null, "topic": "Polity", "exam_profile": "APSC_PRELIMS", "language": "en",
+      "attempt_count": 0, "correct_count": 0, "last_attempted": null, "last_result": null, "confidence": null, "priority": 1.0
+    },
+    {
+      "id": "BAD-04-ANSWER-LENGTH-CLUE",
+      "type": "factual_mcq",
+      "purpose": "direct_recall",
+      "stem": "Which of the following defines the scope of 'State' under Article 12?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Government and Parliament of India, the Government and legislature of each of the States, all local authorities, and other statutory or non-statutory bodies under government control within Indian territory",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": null
+        },
+        {
+          "key": "B",
+          "text": "Only courts",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_category",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "wrong_category"
+        },
+        {
+          "key": "C",
+          "text": "Only police",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_entity",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "wrong_entity"
+        },
+        {
+          "key": "D",
+          "text": "Only banks",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_category",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "wrong_category"
+        }
+      ],
+      "answer": "A",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "origin": "source",
+      "statements": null,
+      "knowledge_units": [{"ku_id": "KU-0003", "role": "primary"}],
+      "source": [{"page": 1, "section_path": "Polity", "block_id": "B-0001", "char_start": 0, "char_end": 50, "table_ref": null}],
+      "explanation": "Article 12 covers the comprehensive list stated in option A.",
+      "memory_aid": null, "hint": null, "topic": "Polity", "exam_profile": "APSC_PRELIMS", "language": "en",
+      "attempt_count": 0, "correct_count": 0, "last_attempted": null, "last_result": null, "confidence": null, "priority": 1.0
+    },
+    {
+      "id": "BAD-05-TRIVIAL-QUESTION",
+      "type": "factual_mcq",
+      "purpose": "direct_recall",
+      "stem": "What color was the ink used to sign the constitutional notes in the study handbook?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Black ink",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": null
+        },
+        {
+          "key": "B",
+          "text": "Blue ink",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_category",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "wrong_category"
+        },
+        {
+          "key": "C",
+          "text": "Red ink",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_category",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "wrong_category"
+        },
+        {
+          "key": "D",
+          "text": "Green ink",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_category",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "wrong_category"
+        }
+      ],
+      "answer": "A",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "origin": "source",
+      "statements": null,
+      "knowledge_units": [{"ku_id": "KU-0003", "role": "primary"}],
+      "source": [{"page": 1, "section_path": "Polity", "block_id": "B-0001", "char_start": 0, "char_end": 50, "table_ref": null}],
+      "explanation": "Black ink was mentioned.",
+      "memory_aid": null, "hint": null, "topic": "Polity", "exam_profile": "APSC_PRELIMS", "language": "en",
+      "attempt_count": 0, "correct_count": 0, "last_attempted": null, "last_result": null, "confidence": null, "priority": 1.0
+    },
+    {
+      "id": "BAD-06-AMBIGUOUS-STEM",
+      "type": "factual_mcq",
+      "purpose": "direct_recall",
+      "stem": "Which is true?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Article 12 defines State",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": null
+        },
+        {
+          "key": "B",
+          "text": "Article 12 defines Citizenship",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_category",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "wrong_category"
+        },
+        {
+          "key": "C",
+          "text": "Article 12 defines Finance",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_category",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "wrong_category"
+        },
+        {
+          "key": "D",
+          "text": "Article 12 defines Elections",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_category",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "wrong_category"
+        }
+      ],
+      "answer": "A",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "origin": "source",
+      "statements": null,
+      "knowledge_units": [{"ku_id": "KU-0003", "role": "primary"}],
+      "source": [{"page": 1, "section_path": "Polity", "block_id": "B-0001", "char_start": 0, "char_end": 50, "table_ref": null}],
+      "explanation": "Article 12 defines State.",
+      "memory_aid": null, "hint": null, "topic": "Polity", "exam_profile": "APSC_PRELIMS", "language": "en",
+      "attempt_count": 0, "correct_count": 0, "last_attempted": null, "last_result": null, "confidence": null, "priority": 1.0
+    },
+    {
+      "id": "BAD-07-UNSUPPORTED-FACT",
+      "type": "factual_mcq",
+      "purpose": "direct_recall",
+      "stem": "Which French philosopher influenced Article 12?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Montesquieu in 1748",
+          "is_correct": true,
+          "distractor_origin": "external",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-9999",
+          "distractor_purpose": null
+        },
+        {
+          "key": "B",
+          "text": "Rousseau in 1762",
+          "is_correct": false,
+          "distractor_origin": "external",
+          "confusion_type": "wrong_person",
+          "ku_ref": "KU-9999",
+          "distractor_purpose": "wrong_entity"
+        },
+        {
+          "key": "C",
+          "text": "Voltaire in 1750",
+          "is_correct": false,
+          "distractor_origin": "external",
+          "confusion_type": "wrong_person",
+          "ku_ref": "KU-9999",
+          "distractor_purpose": "wrong_entity"
+        },
+        {
+          "key": "D",
+          "text": "Diderot in 1755",
+          "is_correct": false,
+          "distractor_origin": "external",
+          "confusion_type": "wrong_person",
+          "ku_ref": "KU-9999",
+          "distractor_purpose": "wrong_entity"
+        }
+      ],
+      "answer": "A",
+      "difficulty": "medium",
+      "cognitive_level": "recall",
+      "origin": "external",
+      "statements": null,
+      "knowledge_units": [{"ku_id": "KU-9999", "role": "primary"}],
+      "source": [{"page": 99, "section_path": "Outside", "block_id": "B-9999", "char_start": 0, "char_end": 50, "table_ref": null}],
+      "explanation": "External European philosophy trivia not in source.",
+      "memory_aid": null, "hint": null, "topic": "Polity", "exam_profile": "APSC_PRELIMS", "language": "en",
+      "attempt_count": 0, "correct_count": 0, "last_attempted": null, "last_result": null, "confidence": null, "priority": 1.0
+    },
+    {
+      "id": "BAD-08-MISLEADING-STATEMENT",
+      "type": "statement_based",
+      "purpose": "statement_evaluation",
+      "stem": "Consider the following statements regarding Article 12:\n1. It defines State.\nWhich of the statements given above is/are correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1 only",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": null,
+          "covers": [1]
+        },
+        {
+          "key": "B",
+          "text": "Neither 1 nor 2",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "partial_truth",
+          "covers": []
+        }
+      ],
+      "answer": "A",
+      "difficulty": "medium",
+      "cognitive_level": "understanding",
+      "origin": "source",
+      "statements": [
+        {
+          "text": "It defines State."
+        }
+      ],
+      "knowledge_units": [{"ku_id": "KU-0003", "role": "primary"}],
+      "source": [{"page": 1, "section_path": "Polity", "block_id": "B-0001", "char_start": 0, "char_end": 50, "table_ref": null}],
+      "explanation": "Only one statement provided, with missing truth value and alteration metadata.",
+      "memory_aid": null, "hint": null, "topic": "Polity", "exam_profile": "APSC_PRELIMS", "language": "en",
+      "attempt_count": 0, "correct_count": 0, "last_attempted": null, "last_result": null, "confidence": null, "priority": 1.0
+    },
+    {
+      "id": "BAD-09-DUPLICATE-A",
+      "type": "factual_mcq",
+      "purpose": "direct_recall",
+      "stem": "Which Article of the Constitution of India provides the definition of State for Part III?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Article 12",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": null
+        },
+        {
+          "key": "B",
+          "text": "Article 13",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_article",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "adjacent_value"
+        },
+        {
+          "key": "C",
+          "text": "Article 14",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_article",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "adjacent_value"
+        },
+        {
+          "key": "D",
+          "text": "Article 15",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_article",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "adjacent_value"
+        }
+      ],
+      "answer": "A",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "origin": "source",
+      "statements": null,
+      "knowledge_units": [{"ku_id": "KU-0003", "role": "primary"}],
+      "source": [{"page": 1, "section_path": "Polity", "block_id": "B-0001", "char_start": 0, "char_end": 50, "table_ref": null}],
+      "explanation": "Article 12 provides the definition of State.",
+      "memory_aid": null, "hint": null, "topic": "Polity", "exam_profile": "APSC_PRELIMS", "language": "en",
+      "attempt_count": 0, "correct_count": 0, "last_attempted": null, "last_result": null, "confidence": null, "priority": 1.0
+    },
+    {
+      "id": "BAD-09-DUPLICATE-B",
+      "type": "factual_mcq",
+      "purpose": "direct_recall",
+      "stem": "Which Article of the Constitution of India provides the definition of State for Part III?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Article 12",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": null
+        },
+        {
+          "key": "B",
+          "text": "Article 13",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_article",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "adjacent_value"
+        },
+        {
+          "key": "C",
+          "text": "Article 14",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_article",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "adjacent_value"
+        },
+        {
+          "key": "D",
+          "text": "Article 15",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_article",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "adjacent_value"
+        }
+      ],
+      "answer": "A",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "origin": "source",
+      "statements": null,
+      "knowledge_units": [{"ku_id": "KU-0003", "role": "primary"}],
+      "source": [{"page": 1, "section_path": "Polity", "block_id": "B-0001", "char_start": 0, "char_end": 50, "table_ref": null}],
+      "explanation": "Exact identical clone of BAD-09-DUPLICATE-A.",
+      "memory_aid": null, "hint": null, "topic": "Polity", "exam_profile": "APSC_PRELIMS", "language": "en",
+      "attempt_count": 0, "correct_count": 0, "last_attempted": null, "last_result": null, "confidence": null, "priority": 1.0
+    },
+    {
+      "id": "BAD-10-FAKE-DIFFICULTY",
+      "type": "factual_mcq",
+      "purpose": "direct_recall",
+      "stem": "Which among the following, in the context of the aforementioned discussion, can be considered to be the Article defining State?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Article 12",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": null
+        },
+        {
+          "key": "B",
+          "text": "Article 13",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_article",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "adjacent_value"
+        },
+        {
+          "key": "C",
+          "text": "Article 14",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_article",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "adjacent_value"
+        },
+        {
+          "key": "D",
+          "text": "Article 15",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_article",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "adjacent_value"
+        }
+      ],
+      "answer": "A",
+      "difficulty": "hard",
+      "cognitive_level": "recall",
+      "origin": "source",
+      "statements": null,
+      "knowledge_units": [{"ku_id": "KU-0003", "role": "primary"}],
+      "source": [{"page": 1, "section_path": "Polity", "block_id": "B-0001", "char_start": 0, "char_end": 50, "table_ref": null}],
+      "explanation": "Article 12.",
+      "memory_aid": null, "hint": null, "topic": "Polity", "exam_profile": "APSC_PRELIMS", "language": "en",
+      "attempt_count": 0, "correct_count": 0, "last_attempted": null, "last_result": null, "confidence": null, "priority": 1.0
+    },
+    {
+      "id": "BAD-11-WEAK-EXPLANATION",
+      "type": "factual_mcq",
+      "purpose": "direct_recall",
+      "stem": "Which Article provides the definition of Law?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Article 13",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0004",
+          "distractor_purpose": null
+        },
+        {
+          "key": "B",
+          "text": "Article 12",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_article",
+          "ku_ref": "KU-0003",
+          "distractor_purpose": "adjacent_value"
+        },
+        {
+          "key": "C",
+          "text": "Article 14",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_article",
+          "ku_ref": "KU-0004",
+          "distractor_purpose": "adjacent_value"
+        },
+        {
+          "key": "D",
+          "text": "Article 15",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_article",
+          "ku_ref": "KU-0004",
+          "distractor_purpose": "adjacent_value"
+        }
+      ],
+      "answer": "A",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "origin": "source",
+      "statements": null,
+      "knowledge_units": [{"ku_id": "KU-0004", "role": "primary"}],
+      "source": [{"page": 1, "section_path": "Polity", "block_id": "B-0001", "char_start": 0, "char_end": 50, "table_ref": null}],
+      "explanation": "Option A is correct because it is given in the document.",
+      "memory_aid": null, "hint": null, "topic": "Polity", "exam_profile": "APSC_PRELIMS", "language": "en",
+      "attempt_count": 0, "correct_count": 0, "last_attempted": null, "last_result": null, "confidence": null, "priority": 1.0
+    },
+    {
+      "id": "BAD-12-PURPOSE-MISMATCH",
+      "type": "factual_mcq",
+      "purpose": "distinction",
+      "stem": "In which year was the Eighty-sixth Amendment enacted?",
+      "options": [
+        {
+          "key": "A",
+          "text": "2002",
+          "is_correct": true,
+          "distractor_origin": "source_ku",
+          "confusion_type": "near_synonym",
+          "ku_ref": "KU-0005",
+          "distractor_purpose": null
+        },
+        {
+          "key": "B",
+          "text": "2000",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_date",
+          "ku_ref": "KU-0005",
+          "distractor_purpose": "adjacent_value"
+        },
+        {
+          "key": "C",
+          "text": "2004",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_date",
+          "ku_ref": "KU-0005",
+          "distractor_purpose": "adjacent_value"
+        },
+        {
+          "key": "D",
+          "text": "2006",
+          "is_correct": false,
+          "distractor_origin": "source_ku",
+          "confusion_type": "wrong_date",
+          "ku_ref": "KU-0005",
+          "distractor_purpose": "adjacent_value"
+        }
+      ],
+      "answer": "A",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "origin": "source",
+      "statements": null,
+      "knowledge_units": [{"ku_id": "KU-0005", "role": "primary"}],
+      "source": [{"page": 1, "section_path": "Polity", "block_id": "B-0001", "char_start": 0, "char_end": 50, "table_ref": null}],
+      "explanation": "The Eighty-sixth Amendment was enacted in 2002, inserting Article 21A.",
+      "memory_aid": null, "hint": null, "topic": "Polity", "exam_profile": "APSC_PRELIMS", "language": "en",
+      "attempt_count": 0, "correct_count": 0, "last_attempted": null, "last_result": null, "confidence": null, "priority": 1.0
+    }
+  ]
+}

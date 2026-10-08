@@ -45,9 +45,9 @@ def check(node, sch, path, errs):
             errs.append("%s: expected type %s, got %s" % (path, t, jtype(node)))
             return
     if "enum" in sch and node not in sch["enum"]:
-        errs.append("%s: value not in enum" % path)
+        errs.append("%s: value %r not in allowed enum %s" % (path, node, sch["enum"]))
     if "const" in sch and node != sch["const"]:
-        errs.append("%s: value != const %r" % (path, sch["const"]))
+        errs.append("%s: value %r != const %r" % (path, node, sch["const"]))
     if isinstance(node, dict):
         for r in sch.get("required", []) or []:
             if r not in node:
@@ -65,24 +65,24 @@ def check(node, sch, path, errs):
                     matched = True
                     break
             if not matched and sch.get("additionalProperties") is False:
-                errs.append("%s: additional property '%s' not allowed" % (path, k))
+                errs.append("%s: additional property '%s' not allowed by schema" % (path, k))
     if isinstance(node, (int, float)) and not isinstance(node, bool):
         if "minimum" in sch and node < sch["minimum"]:
-            errs.append("%s: %s < minimum %s" % (path, node, sch["minimum"]))
+            errs.append("%s: value %s < minimum %s" % (path, node, sch["minimum"]))
         if "maximum" in sch and node > sch["maximum"]:
-            errs.append("%s: %s > maximum %s" % (path, node, sch["maximum"]))
+            errs.append("%s: value %s > maximum %s" % (path, node, sch["maximum"]))
     if isinstance(node, str):
         if "minLength" in sch and len(node) < sch["minLength"]:
-            errs.append("%s: shorter than minLength %s" % (path, sch["minLength"]))
+            errs.append("%s: length %d < minLength %s" % (path, len(node), sch["minLength"]))
         if "maxLength" in sch and len(node) > sch["maxLength"]:
-            errs.append("%s: longer than maxLength %s" % (path, sch["maxLength"]))
+            errs.append("%s: length %d > maxLength %s" % (path, len(node), sch["maxLength"]))
         if "pattern" in sch and not re.search(sch["pattern"], node):
-            errs.append("%s: does not match pattern %s" % (path, sch["pattern"]))
+            errs.append("%s: value %r does not match pattern %s" % (path, node, sch["pattern"]))
     if isinstance(node, list):
         if "minItems" in sch and len(node) < sch["minItems"]:
-            errs.append("%s: fewer than minItems %s" % (path, sch["minItems"]))
+            errs.append("%s: count %d < minItems %s" % (path, len(node), sch["minItems"]))
         if "maxItems" in sch and len(node) > sch["maxItems"]:
-            errs.append("%s: more than maxItems %s" % (path, sch["maxItems"]))
+            errs.append("%s: count %d > maxItems %s" % (path, len(node), sch["maxItems"]))
         if "items" in sch:
             for i, v in enumerate(node):
                 check(v, sch["items"], "%s[%d]" % (path, i), errs)

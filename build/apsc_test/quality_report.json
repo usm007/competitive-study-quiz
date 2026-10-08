@@ -1,0 +1,3615 @@
+{
+  "summary": {
+    "total": 64,
+    "quality_accepted": 64,
+    "quality_rejected": 0,
+    "grades": {
+      "A": 54,
+      "B": 10
+    },
+    "by_purpose": {
+      "confusable_fact": {
+        "accepted": 2,
+        "rejected": 0
+      },
+      "statement_evaluation": {
+        "accepted": 18,
+        "rejected": 0
+      },
+      "exception": {
+        "accepted": 1,
+        "rejected": 0
+      },
+      "direct_recall": {
+        "accepted": 23,
+        "rejected": 0
+      },
+      "association": {
+        "accepted": 6,
+        "rejected": 0
+      },
+      "distinction": {
+        "accepted": 7,
+        "rejected": 0
+      },
+      "conceptual_understanding": {
+        "accepted": 3,
+        "rejected": 0
+      },
+      "elimination": {
+        "accepted": 2,
+        "rejected": 0
+      },
+      "cause_effect": {
+        "accepted": 1,
+        "rejected": 0
+      },
+      "classification": {
+        "accepted": 1,
+        "rejected": 0
+      }
+    },
+    "by_difficulty": {
+      "easy": {
+        "accepted": 19,
+        "rejected": 0
+      },
+      "medium": {
+        "accepted": 37,
+        "rejected": 0
+      },
+      "hard": {
+        "accepted": 8,
+        "rejected": 0
+      }
+    },
+    "by_type": {
+      "factual_mcq": {
+        "accepted": 29,
+        "rejected": 0
+      },
+      "statement_based": {
+        "accepted": 22,
+        "rejected": 0
+      },
+      "match_pairs": {
+        "accepted": 6,
+        "rejected": 0
+      },
+      "elimination_mcq": {
+        "accepted": 2,
+        "rejected": 0
+      },
+      "one_liner_mcq": {
+        "accepted": 4,
+        "rejected": 0
+      },
+      "data_interpretation_mcq": {
+        "accepted": 1,
+        "rejected": 0
+      }
+    },
+    "top_rejection_reasons": []
+  },
+  "results": [
+    {
+      "id": "Q-0001",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0002",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0003",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0004",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0005",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0006",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0007",
+      "quality_status": "accepted",
+      "grade": "B",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "WARNING",
+          "notes": [
+            "warning: all statements are true"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": [
+        "[statement_quality] warning: all statements are true"
+      ]
+    },
+    {
+      "id": "Q-0008",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0009",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0010",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0011",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0012",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0013",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0014",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0015",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0016",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0017",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0018",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0019",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0020",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0021",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0022",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0023",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0024",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0025",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0026",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0027",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0028",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0029",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0030",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0031",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0032",
+      "quality_status": "accepted",
+      "grade": "B",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "WARNING",
+          "notes": [
+            "answer leak warning: key option is noticeably longer (len=56 vs avg=40.0)"
+          ]
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": [
+        "[leak_prevention] answer leak warning: key option is noticeably longer (len=56 vs avg=40.0)"
+      ]
+    },
+    {
+      "id": "Q-0033",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0034",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0035",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0036",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0037",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0038",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0039",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0040",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0041",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0042",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0043",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0044",
+      "quality_status": "accepted",
+      "grade": "B",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "WARNING",
+          "notes": [
+            "easy difficulty assigned to 3+ statement question"
+          ]
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": [
+        "[difficulty_fit] easy difficulty assigned to 3+ statement question"
+      ]
+    },
+    {
+      "id": "Q-0045",
+      "quality_status": "accepted",
+      "grade": "B",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "WARNING",
+          "notes": [
+            "answer leak warning: key option is noticeably longer (len=54 vs avg=38.3)"
+          ]
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": [
+        "[leak_prevention] answer leak warning: key option is noticeably longer (len=54 vs avg=38.3)"
+      ]
+    },
+    {
+      "id": "Q-0046",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0047",
+      "quality_status": "accepted",
+      "grade": "B",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "WARNING",
+          "notes": [
+            "cause_effect question lacks explicit causal wording"
+          ]
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": [
+        "[purpose_fit] cause_effect question lacks explicit causal wording"
+      ]
+    },
+    {
+      "id": "Q-0048",
+      "quality_status": "accepted",
+      "grade": "B",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "WARNING",
+          "notes": [
+            "answer leak warning: key option is noticeably longer (len=70 vs avg=52.7)"
+          ]
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": [
+        "[leak_prevention] answer leak warning: key option is noticeably longer (len=70 vs avg=52.7)"
+      ]
+    },
+    {
+      "id": "Q-0049",
+      "quality_status": "accepted",
+      "grade": "B",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "WARNING",
+          "notes": [
+            "distinction question lacks explicit comparative cues or multiple KUs"
+          ]
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "WARNING",
+          "notes": [
+            "false statement 3 has non-standard alteration_type 'reversed_causality'"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": [
+        "[purpose_fit] distinction question lacks explicit comparative cues or multiple KUs",
+        "[statement_quality] false statement 3 has non-standard alteration_type 'reversed_causality'"
+      ]
+    },
+    {
+      "id": "Q-0050",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0051",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0052",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0053",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0054",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0055",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0056",
+      "quality_status": "accepted",
+      "grade": "B",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "WARNING",
+          "notes": [
+            "classification question lacks explicit classification cues"
+          ]
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": [
+        "[purpose_fit] classification question lacks explicit classification cues"
+      ]
+    },
+    {
+      "id": "Q-0057",
+      "quality_status": "accepted",
+      "grade": "B",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "WARNING",
+          "notes": [
+            "easy difficulty assigned to 3+ statement question"
+          ]
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": [
+        "[difficulty_fit] easy difficulty assigned to 3+ statement question"
+      ]
+    },
+    {
+      "id": "Q-0058",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0059",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0060",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0061",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0062",
+      "quality_status": "accepted",
+      "grade": "B",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "WARNING",
+          "notes": [
+            "answer leak warning: key option is noticeably longer (len=47 vs avg=28.0)"
+          ]
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": [
+        "[leak_prevention] answer leak warning: key option is noticeably longer (len=47 vs avg=28.0)"
+      ]
+    },
+    {
+      "id": "Q-0063",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    },
+    {
+      "id": "Q-0064",
+      "quality_status": "accepted",
+      "grade": "A",
+      "checks": {
+        "accuracy": {
+          "status": "PASS",
+          "notes": []
+        },
+        "source_support": {
+          "status": "PASS",
+          "notes": []
+        },
+        "uniqueness": {
+          "status": "PASS",
+          "notes": []
+        },
+        "distractor_quality": {
+          "status": "PASS",
+          "notes": []
+        },
+        "exam_value": {
+          "status": "PASS",
+          "notes": []
+        },
+        "difficulty_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "clarity": {
+          "status": "PASS",
+          "notes": []
+        },
+        "purpose_fit": {
+          "status": "PASS",
+          "notes": []
+        },
+        "leak_prevention": {
+          "status": "PASS",
+          "notes": []
+        },
+        "statement_quality": {
+          "status": "PASS",
+          "notes": [
+            "no statements (n/a)"
+          ]
+        },
+        "explanation_quality": {
+          "status": "PASS",
+          "notes": []
+        }
+      },
+      "rejection_reasons": [],
+      "warnings": []
+    }
+  ]
+}

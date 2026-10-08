@@ -1,0 +1,73 @@
+{
+  "run_id": "apsc_test",
+  "stages": {
+    "ingest": {
+      "status": "skipped",
+      "detail": "output exists"
+    },
+    "anchors": {
+      "status": "skipped",
+      "detail": "output exists"
+    },
+    "validate_struct": {
+      "status": "skipped",
+      "detail": "no schema file"
+    },
+    "check": {
+      "status": "skipped",
+      "detail": "output exists"
+    },
+    "schema_inventory": {
+      "status": "ok",
+      "detail": ""
+    },
+    "validate": {
+      "status": "skipped",
+      "detail": "output exists"
+    },
+    "schema_bank": {
+      "status": "ok",
+      "detail": ""
+    },
+    "quality": {
+      "status": "flagged",
+      "detail": ""
+    },
+    "coverage": {
+      "status": "ok",
+      "detail": ""
+    },
+    "dedupe": {
+      "status": "ok",
+      "detail": ""
+    },
+    "audit": {
+      "status": "ok",
+      "detail": ""
+    },
+    "gate": {
+      "status": "ok",
+      "detail": ""
+    },
+    "report": {
+      "status": "ok",
+      "detail": ""
+    },
+    "package": {
+      "status": "ok",
+      "detail": ""
+    },
+    "build_web": {
+      "status": "ok",
+      "detail": ""
+    },
+    "build_pdf": {
+      "status": "ok",
+      "detail": ""
+    },
+    "check_pdf": {
+      "status": "ok",
+      "detail": ""
+    }
+  }
+}

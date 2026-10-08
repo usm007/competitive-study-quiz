@@ -68,6 +68,11 @@ def decide(audit, thr):
     missing_p = audit.get("missing_purposes", None)
     if isinstance(missing_p, list) and missing_p:
         reasons.append("required exam purpose(s) missing: %s" % missing_p)
+    # Phase 3 Question Quality gate (enforced when explicit purposes are present)
+    if new_engine:
+        qstats = audit.get("quality_stats") or {}
+        if qstats and qstats.get("quality_rejected", 0) > 0:
+            reasons.append("%d question(s) rejected by quality evaluation" % qstats["quality_rejected"])
     if not reasons:
         return "COMPREHENSIVE", reasons
     # LIMITED iff an extraction limitation makes completeness uncertifiable (E5);

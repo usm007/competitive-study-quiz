@@ -9,6 +9,8 @@ ROOT = HERE.parent
 SCRIPTS = ROOT / "scripts"
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
+if str(HERE) not in sys.path:
+    sys.path.insert(0, str(HERE))
 
 import coverage as covmod
 import gate as gatemod

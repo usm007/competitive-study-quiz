@@ -70,7 +70,8 @@
         "wrong_entity",
         "wrong_date",
         "scope_error",
-        "causal_reversal"
+        "causal_reversal",
+        null
       ],
       "type": [
         "string",

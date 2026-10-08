@@ -27,7 +27,7 @@ def main(argv):
         j = ntext.find(exc) if exc else -1
         src = u.get("source") or {}
         if j < 0:
-            bad.append(u.get("id"))
+            bad.append((u.get("id"), exc))
             continue
         src["char_start"], src["char_end"] = j, j + len(exc)
         blk = blocks.get(src.get("block_id"))
@@ -38,7 +38,9 @@ def main(argv):
                 u["language"] = blk.get("language") or "en"
         u["source"] = src
     if bad:
-        print("unlocatable excerpts (not verbatim in source): %s" % bad)
+        print("unlocatable excerpts (not verbatim in source): %s" % [b[0] for b in bad])
+        for uid, snippet in bad[:5]:
+            print("  %s: excerpt %r not found verbatim in source" % (uid, snippet[:80]))
         fail("%d excerpts not verbatim; fix inventory" % len(bad))
     dest = a.out or a.inventory
     if isinstance(inv, dict):

@@ -21,6 +21,7 @@ for PDF, pypdf for PDF ingest/check, openpyxl for XLSX, pymupdf optional).
 - R10 Every question teaches, discriminates, or diagnoses (explanation + confusion tag).
 - R11 Quote real command output for every pass/fail claim.
 - R12 Percentages/status only from `report.py`/`gate.py` output, never by hand.
+- R13 QUALITY ACCEPTANCE != VALIDATION: Questions must pass 11-dimension deterministic quality evaluation (factual accuracy, source fidelity, single unambiguous answer, plausible distractors, meaningful discrimination, exam value, difficulty alignment, no clues, no artificial filler, substantive statement alterations). Only quality-accepted (Rubric A/B) questions enter final package. C/D questions are rejected/repaired.
 
 ## Pipeline (prompts/ → scripts/, artifacts in build/<run_id>/)
 
@@ -86,3 +87,14 @@ enforce agreement. Sessions persist as v2 (`study_session_version: 2`;
 legacy formats migrate via `migrate_session`). New revision questions come
 only from validated banks or via the `revision_request` hook + 
 `validate_revision_question` — unvalidated output never reaches learners.
+
+## Question Quality Engine (Phase 3)
+
+Questions must satisfy competitive-exam quality beyond MCQ validity:
+- **11 Evaluation Dimensions:** accuracy, source_support, uniqueness, distractor_quality, exam_value, difficulty_fit, clarity, purpose_fit, leak_prevention, statement_quality, explanation_quality (`scripts/quality.py`).
+- **Deterministic Purpose Mismatch:** Every question has an explicit purpose matching its actual cognitive mechanism (`direct_recall`, `conceptual_understanding`, `distinction`, `confusable_fact`, `statement_evaluation`, `elimination`, `chronology`, `classification`, `association`, `exception`, `cause_effect`, `application`, `integrated_concept`). Flag and reject questions with mismatched purposes (e.g. asking a date under `distinction`).
+- **Distractor Quality:** Distractors must be domain-relevant, plausible, based on genuine confusion, and differ along a meaningful dimension. Absurd/impossible options, duplicate options, and accidental giveaways are rejected.
+- **Statement Construction:** Statement questions must alter substantive properties (date, entity, place, function, classification, relationship, scope, causality, exception, quantitative value), not trivial syntactic tricks.
+- **Elimination & Difficulty:** Difficulty arises from knowledge and reasoning demand (easy = direct recall, medium = distinction/classification/association, hard = statement evaluation/elimination/integration), never artificial filler or convoluting language.
+- **Human Rubric:** A (Excellent), B (Good), C (Needs improvement), D (Reject). Package gate permits only A/B questions (`scripts/package.py`). C/D questions are rejected or repaired.
+- **Separate Statuses:** `validation_status` ("validated" | "rejected") tracks syntactic/semantic validity; `quality_status` ("accepted" | "rejected") tracks competitive-exam quality standards.
