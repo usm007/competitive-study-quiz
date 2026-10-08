@@ -1,21 +1,46 @@
-# DESIGN.md (transcribed from the as-built Study Desk UI, 2026-10-08)
+# DESIGN.md (Study Desk editorial identity, 2026-10-08)
 
-Direction source for antislop R-37. Transcribed from what the app already is, not a new proposal.
+Direction source for antislop R-37. Identity: an editorial study workstation
+(premium workbook + examination paper + digital reading interface), not a
+mock-test website.
 
-- Identity: focused exam study desk. Warm paper background, navy primary, restrained green/red/amber reserved for correct/incorrect/priority.
-- Palette: paper `#f4f2ec`, surface `#fffefa`, ink `#16202e`, secondary `#3c4654`, muted `#5d6673` (darkened for WCAG AA), accent navy `#1e3a5f`, good `#1c6b3d`, bad `#a4262c`, warn `#8a6d00`.
-- Typography: system-ui stack (offline exam file, no webfont dependency). Question 22-26px weight 750 is the single anchor. Uppercase wide-track labels mark metadata only.
-- Layout: top desk bar, quiet study rail, centered 840px work column, desk control-strip action bar. No permanent right panel.
-- Radius: 8px cards/options/buttons, 6px small badges, full-pill chips/tabs only.
-- Motion: none beyond hover and transitions. No loops.
+- Metaphor (structural, never literal decoration): question = study sheet,
+  shell = study desk, rail = study organizer/index, action row = desk control
+  strip, feedback = study note, source = reference evidence, analytics = study
+  plan.
+- Palette: warm desk canvas `#e9e4d4`, crisp study surface `#fffdf7`,
+  navy-black ink `#101c2e`, academic navy `#1e3a5f`. Green/red/amber reserved
+  for correct/incorrect/priority. No gradients, glass, neon, pastels.
+- Typography carries identity: system-ui stack (offline file, no webfont).
+  Workbook number 34px/800, question 22-26px/750, uppercase wide-track labels
+  (1-2px tracking) mark structure only. Body never uppercase, never all-bold.
+- Grammar: typography + ink rules + spacing + surfaces. Cards are not the
+  default; options are ruled ledger rows; statements, revision queue, and plan
+  items are separated by thin rules.
+- Option marker: 30px square, 4px radius, bordered, subordinate to answer
+  text. States: quiet / navy inset (selected) / green inset (correct) / red
+  inset (incorrect). Never color alone: verdict text + marker fill + rule.
+- Mode identities: Practice = active work; Learn = annotated sheet with
+  KEY FACT / IMPORTANT DISTINCTION / REMEMBER over a TEST YOURSELF rule;
+  Test = inverted exam strip, aids suppressed; Revision = diagnostic board
+  (why + weakness + action); Rapid = dense flash; Analytics = numbered study
+  plan first, metrics second.
+- Radius: 6px sheets/panels/buttons, 4px markers/small controls, 99px
+  metadata pills only.
+- Motion: hover/selection/drawer/focus transitions only. No loops.
 
-Dial: ENERGY 1 / RHYTHM 1 / MOTION 1.
+Dial: ENERGY 2 / RHYTHM 2 / MOTION 1.
 
 Reason log (R-31):
-- Navy only for primary focus actions and active mode. Reason: one accent marks the one thing to do next.
-- Green/red only for correct/incorrect states. Reason: exam-result semantics.
-- Amber only for priority/warning edges. Reason: warning semantics.
-- Left-edge stripes mark state (learn note, priority, warning), never decoration. Reason: edge position signals state class.
-- Arrows mark forward movement only. Reason: direction cue for advance affordances.
-- Shimmer exists only as the boot loading placeholder mirroring question layout. Reason: loading-state shape match.
-- Centered single column. Reason: one study sheet on the desk; focus over density.
+- Navy only for primary actions, active mode, and structural rules. Reason:
+  one accent marks action and structure.
+- Ink (near-black) top rules on sheet, banner, drawers, plan sections.
+  Reason: the rule is the desk's authority signal.
+- Green/red only for correctness; amber only for priority/warning edges.
+  Reason: exam-result semantics.
+- Sheet number + topic/difficulty/tier margin on every question. Reason:
+  workbook identity without engine IDs.
+- Arrows mark forward movement only. Reason: direction cue for advance
+  affordances.
+- Shimmer only as boot loading placeholder mirroring question layout.
+  Reason: loading-state shape match.

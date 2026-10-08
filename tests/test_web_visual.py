@@ -301,5 +301,33 @@ class TestRevisionUI(unittest.TestCase):
             self.assertNotIn(phrase, t, phrase)
 
 
+class TestEditorialIdentity(unittest.TestCase):
+    """Study-desk identity: sheet marker, ledger options, study-note states."""
+
+    def test_sheet_identity_block(self):
+        t = tpl_text()
+        for s in ['id="sheetHead"', 'id="qnum"', 'id="qmode"',
+                  'id="qmargin"', ".sheet-num", ".sheet-head"]:
+            self.assertIn(s, t, s)
+
+    def test_option_ledger_not_cards(self):
+        t = tpl_text()
+        self.assertIn("box-shadow:inset 3px 0 0 var(--accent)", t)
+        m = re.search(r"\.opt\{([^}]*)\}", t)
+        self.assertIsNotNone(m, ".opt rule missing")
+        self.assertIn("border-bottom", m.group(1))
+        self.assertNotIn("border-radius:var(--radius)", m.group(1))
+
+    def test_study_note_state_rule(self):
+        t = tpl_text()
+        self.assertIn(".study-note.is-ok", t)
+        self.assertIn(".study-note.is-bad", t)
+        self.assertIn("border-top:3px solid var(--ink)", t)
+
+    def test_study_plan_numbering(self):
+        t = tpl_text()
+        self.assertIn("decimal-leading-zero", t)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
