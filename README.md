@@ -1,4 +1,4 @@
-# competitive-study-quiz — V1.0 Release Documentation
+# DocToQuiz — V1.0 Release Documentation
 
 Converts complex reference and study documents into rigorous, competitive-exam question banks, interactive web study applications, and print-ready A4 PDF test papers (for UPSC, APSC, State PSC, SSC, Banking, Railways, Teaching, and other objective examinations).
 

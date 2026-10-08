@@ -1,4 +1,4 @@
-# competitive-study-quiz — operating instructions
+# DocToQuiz — operating instructions
 
 Serious exam-prep skill (UPSC/APSC/PSC/SSC/Banking/Teaching/etc.). You are the
 reasoner (extract, atomize, judge importance, write questions, blind re-solve);

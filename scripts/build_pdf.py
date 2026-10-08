@@ -136,7 +136,7 @@ def doc_template(path: Path, cfg: dict, title: str) -> SimpleDocTemplate:
         str(path), pagesize=A4,
         leftMargin=float(pg.get("left_margin_pt", 54)), rightMargin=float(pg.get("right_margin_pt", 54)),
         topMargin=float(pg.get("top_margin_pt", 54)), bottomMargin=float(pg.get("bottom_margin_pt", 54)),
-        title=title, author="competitive-study-quiz",
+        title=title, author="DocToQuiz",
     )
 
 

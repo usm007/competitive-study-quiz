@@ -4,7 +4,7 @@ from pathlib import Path
 
 from playwright.sync_api import sync_playwright
 
-ROOT = Path("E:/competitive-study-quiz-main")
+ROOT = Path(__file__).resolve().parents[2]
 HTML = (ROOT / "build" / "web-redesign" / "quiz.html").resolve()
 OUT = ROOT / "build" / "web-redesign" / "shots"
 OUT.mkdir(parents=True, exist_ok=True)

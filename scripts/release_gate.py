@@ -1,4 +1,4 @@
-"""Authoritative V1 Release Gate Verification for competitive-study-quiz.
+"""Authoritative V1 Release Gate Verification for DocToQuiz.
 
 Verifies:
 1. Full test suite (all unittest test_*.py pass with 0 failures and 0 errors)

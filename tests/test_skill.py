@@ -29,7 +29,7 @@ from collections import Counter
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-ROOT = HERE.parent  # competitive-study-quiz/
+ROOT = HERE.parent  # DocToQuiz/
 SCRIPTS = ROOT / "scripts"
 FIX = HERE / "fixtures"
 STRUCT_FILE = ROOT / "examples" / "sample_structure.json"
