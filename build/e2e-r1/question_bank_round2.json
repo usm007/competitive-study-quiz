@@ -1360,7 +1360,7 @@
   {
    "id": "Q-0014",
    "type": "match_pairs",
-   "stem": "Match List-I (Article) with List-II (subject): 1. Article 12 2. Article 13 3. Article 14. 4. Article 15 5. Article 16. List-II: (a) Equality before law and equal protection (b) No discrimination on listed grounds (c) Equality in public employment (d) Definition of State (e) Laws inconsistent with Fundamental Rights. Correct code 1-2-3-4-5:",
+   "stem": "Match List-I (Article) with List-II (subject): 1. Article 12 2. Article 13 3. Article 14; 4. Article 15 5. Article 16. List-II: (a) Equality before law and equal protection (b) No discrimination on listed grounds (c) Equality in public employment (d) Definition of State (e) Laws inconsistent with Fundamental Rights. Correct code 1-2-3-4-5:",
    "options": [
     {
      "key": "A",

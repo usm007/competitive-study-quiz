@@ -28,6 +28,10 @@ with sync_playwright() as p:
     pg.evaluate("() => { setMode('learn'); state.idx=5; render(); }")
     pg.wait_for_timeout(300)
     shot(pg, "d1440-05b-learn-fresh.png")
+    # match-the-following list rendering (Q-0014)
+    pg.evaluate("() => { setMode('practice'); for (var i=0;i<QUESTIONS.length;i++){ var qq=QUESTIONS[i]; if(qq.type==='match_pairs'){ state.idx=view.indexOf(i); break; } } render(); }")
+    pg.wait_for_timeout(300)
+    shot(pg, "d1440-04b-match.png")
     pg.close()
     # 1280x720 acceptance: practice unanswered/answered, statement, test
     pg = b.new_page(viewport={"width": 1280, "height": 720})

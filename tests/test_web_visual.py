@@ -113,6 +113,12 @@ class TestQuestionUX(unittest.TestCase):
         self.assertIn("stmt-n", t)
         self.assertIn("Consider the following statements", t)
 
+    def test_match_styling(self):
+        t = tpl_text()
+        self.assertIn("match-cols", t)
+        self.assertIn("Match the following", t)
+        self.assertIn("parseMatchLists", t)
+
     def test_feedback_teaches(self):
         t = tpl_text()
         for s in ["Key distinction", "Why the distractor tempts you",

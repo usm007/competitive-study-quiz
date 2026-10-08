@@ -122,6 +122,12 @@ body[data-mode="test"] .exam-strip{display:flex}
 .stmt-list li:last-child{border-bottom:none}
 .stmt-n{flex:none;width:24px;height:24px;border-radius:99px;background:var(--surface-3);color:var(--ink-2);font-size:12.5px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:2px;border:1px solid var(--line)}
 .stmt-closer{font-size:16px;font-weight:650;margin:6px 2px 0}
+/* match-the-following: exam-paper two-column lists */
+.match-cols{display:grid;grid-template-columns:1fr 1fr;gap:4px 20px;margin:2px;max-width:72ch}
+.match-cols .stmt-list li{padding:5px 2px}
+.match-col h5{font-size:11px;font-weight:800;letter-spacing:.8px;text-transform:uppercase;color:var(--accent-ink);margin:0 0 2px}
+.match-col ol{list-style:none;margin:0;padding:0}
+.match-kicker{font-size:11.5px;font-weight:800;letter-spacing:1px;color:var(--accent-ink);text-transform:uppercase;margin:0 2px 8px}
 /* options stay interactive rows */
 .opts{margin:12px 0 4px;display:flex;flex-direction:column;gap:8px}
 .opt{position:relative;display:flex;gap:12px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:12px 15px;cursor:pointer;transition:border-color .12s ease,background .12s ease;min-height:52px}
@@ -324,6 +330,10 @@ body[data-mode="rapid"] .q-stem{font-size:20px}
 }
 @media (min-width:861px){.drawer.sheet-only{width:min(400px,94vw)}}
 /* viewport-height-aware compaction: fit the study task without shrinking text */
+@media (min-width:861px) and (max-height:950px){
+  .appfoot{display:none}
+  .workspace{padding-bottom:12px}
+}
 @media (min-width:861px) and (max-height:800px){
   .topbar-in{min-height:48px;padding-top:5px;padding-bottom:5px}
   .mode-banner{display:none}
@@ -1634,6 +1644,43 @@ function renderNav(){
   if(!g.children.length){ g.innerHTML='<p style="grid-column:1/-1;color:var(--muted);font-size:13px">No questions match.</p>'; }
 }
 /* ---------- statement helpers: never repeat stem + list ---------- */
+/* ---------- match parser: "Match A with B: 1.. 2.. | (a).. (b).. | closer" */
+function parseMatchLists(stem){
+  try{
+    var s=String(stem||"");
+    // split at the colon that introduces the "(a) (b) ..." options
+    var m=s.search(/:\s*\([a-z]\)/i);
+    if(m<0) return null;
+    var head=s.slice(0,m+1), body=s.slice(m+1).trim();
+    var intro=head.split(":")[0].trim();
+    if(!/match/i.test(intro)) return null;
+    var itemsPart=head.slice(head.indexOf(":")+1);
+    itemsPart=itemsPart.replace(/\s*(list-ii|clauses|functions|lengths|subjects)\s*:?\s*$/i,"");
+    var list1=[], re=/(\d+)\.\s+([\s\S]*?)(?=\s+\d+\.\s+|$)/g, mm;
+    while((mm=re.exec(itemsPart))!==null){
+      list1.push({n:parseInt(mm[1],10),t:mm[2].trim().replace(/[.,;:]\s*$/,"")});
+    }
+    if(list1.length<2) return null;
+    for(var i=0;i<list1.length;i++) if(list1[i].n!==i+1) return null;
+    // separate trailing closer ("Correct code ...:") from the letter items
+    var cm2=body.match(/((?:correct|select)[^.?!]*[:?])\s*$/i);
+    var closer=cm2?cm2[1].trim():"Select the correct option.";
+    var itemsBody=cm2?body.slice(0,cm2.index).trim():body;
+    var list2=[], re2=/(?:^|\s+)\(([a-z])\)\s*([\s\S]*?)(?=\s+\([a-z]\)\s*|$)/gi, m3;
+    while((m3=re2.exec(itemsBody))!==null){
+      list2.push({k:m3[1].toLowerCase(),t:m3[2].trim().replace(/[.,;:]\s*$/,"")});
+    }
+    if(list2.length<2) return null;
+    for(var j=0;j<list2.length;j++) if(list2[j].k!==String.fromCharCode(97+j)) return null;
+    var parts=intro.split(/\s+with\s+/i);
+    function cap(x){ x=String(x||"").trim().replace(/^match\s+/i,""); return x.charAt(0).toUpperCase()+x.slice(1); }
+    var marker=(head.match(/\b(list-ii|subjects|clauses|functions|lengths)\b/i)||[])[1]||"";
+    function capMarker(){ return marker.charAt(0).toUpperCase()+marker.slice(1).toLowerCase(); }
+    return {intro:intro,colA:cap(parts[0]||"List-I")||"List-I",
+            colB:(parts.length>1?cap(parts[1]):(marker?capMarker():"List-II"))||"List-II",
+            list1:list1,list2:list2,closer:closer};
+  }catch(e){ return null; }
+}
 function splitStatements(q){
   var stmts=Array.isArray(q.statements)?q.statements.map(function(s){return (s&&typeof s==="object")?(s.text||""):String(s);}).filter(Boolean):[];
   if(!stmts.length) return {stmts:[],closer:null};
@@ -1691,13 +1738,38 @@ function renderQ(){
   if(!(a&&a.sel)) state.qShownAt=Date.now();
   var hideFb=(state.mode==="test"&&!state.testFinished);
   var showFb=!!(a&&a.sel)&&(state.mode!=="test"||state.testFinished);
-  // subtle context only: no duplicated counts
+  // subtle context only: no duplicated counts. Match kickers already carry
+  // topic and difficulty, so the topic line steps aside for them.
+  var mp=(qtype(q)==="match_pairs")?parseMatchLists(q.stem||q.question||""):null;
   var meta=document.getElementById("qmeta");
-  meta.innerHTML="<span>"+esc(qtopic(q))+"</span>"+(qsubtopic(q)?'<span class="sep">·</span><span>'+esc(qsubtopic(q))+"</span>":"")+'<span class="sep">·</span><span>'+esc(qdiff(q))+"</span>";
+  meta.style.display=((a&&a.sel)||!!mp)?"none":"";
+  if(!mp){
+    meta.innerHTML="<span>"+esc(qtopic(q))+"</span>"+(qsubtopic(q)?'<span class="sep">·</span><span>'+esc(qsubtopic(q))+"</span>":"")+'<span class="sep">·</span><span>'+esc(qdiff(q))+"</span>";
+  }
   renderLearnPanel(q);
   // statements: structured list, stem never duplicated
   var sp=splitStatements(q), st=document.getElementById("qstatements"); st.innerHTML="";
-  if(sp.stmts.length){
+  if(mp){
+    document.getElementById("qstem").textContent="";
+    document.getElementById("qstem").style.display="none";
+    var kick=document.createElement("p"); kick.className="match-kicker";
+    kick.innerHTML='Match the following <span style="text-transform:none;letter-spacing:.2px;color:var(--muted);font-weight:600">· '+esc(qtopic(q))+" · "+esc(qdiff(q))+"</span>";
+    st.appendChild(kick);
+    var cols=document.createElement("div"); cols.className="match-cols";
+    [["colA","list1","n"],["colB","list2","k"]].forEach(function(cfg){
+      var col=document.createElement("div"); col.className="match-col";
+      var h=document.createElement("h5"); h.textContent=mp[cfg[0]]; col.appendChild(h);
+      var ol=document.createElement("ol"); ol.className="stmt-list";
+      mp[cfg[1]].forEach(function(it){ var li=document.createElement("li");
+        li.innerHTML='<span class="stmt-n" aria-hidden="true">'+esc(String(it[cfg[2]]))+'</span><span>'+esc(it.t)+"</span>";
+        ol.appendChild(li); });
+      col.appendChild(ol); cols.appendChild(col);
+    });
+    st.appendChild(cols);
+    var closer=document.createElement("p"); closer.className="stmt-closer"; closer.textContent=mp.closer;
+    st.appendChild(closer);
+  }
+  else if(sp.stmts.length){
     document.getElementById("qstem").textContent="";
     document.getElementById("qstem").style.display="none";
     var kick=document.createElement("p"); kick.className="stmt-kicker"; kick.textContent="Consider the following statements";
@@ -1717,9 +1789,9 @@ function renderQ(){
   }
   // post-answer: hide instruction, hint and topic rows to keep result in view.
   // learn mode hides the instruction too (the panel already frames the task).
-  var hideSub=!!(a&&a.sel)||sp.stmts.length>0||state.mode==="learn";
+  // match/statement questions hide it always (their closers already instruct).
+  var hideSub=!!(a&&a.sel)||sp.stmts.length>0||!!mp||state.mode==="learn";
   document.getElementById("qsub").style.display=hideSub?"none":"";
-  document.getElementById("qmeta").style.display=(a&&a.sel)?"none":"";
   var hb=document.getElementById("hintbox"); hb.style.display="none"; hb.textContent="";
   var hintAllowed=(state.mode!=="test"||state.testFinished);
   var hasHint=hintAllowed&&!(a&&a.sel)&&!!q.hint;
