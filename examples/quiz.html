@@ -4,23 +4,23 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="data:,">
-<title>Exam Quiz</title>
+<title>Study Quiz</title>
 <style>
 /* ============ design tokens ============ */
 :root{
-  --bg:#f4f5f6; --surface:#ffffff; --surface-2:#fafbfc; --surface-3:#eef1f4;
-  --ink:#161b22; --ink-2:#3d4753; --muted:#66707d; --faint:#98a1ad;
-  --line:#e3e7ec; --line-soft:#eef1f4;
-  --accent:#1e3a5f; --accent-ink:#16304f; --accent-soft:#e8eef5;
+  --bg:#f3f4f6; --surface:#ffffff; --surface-2:#f8f9fb; --surface-3:#eceff3;
+  --ink:#141a22; --ink-2:#3c4654; --muted:#68727f; --faint:#9aa3ae;
+  --line:#dfe3e9; --line-soft:#edf0f4;
+  --accent:#1e3a5f; --accent-ink:#16294a; --accent-soft:#e9eff6;
   --good:#1c6b3d; --good-bg:#e9f4ec; --good-line:#bfe0c9;
   --bad:#a4262c; --bad-bg:#fbeeee; --bad-line:#f0c7c9;
   --warn:#8a6d00; --warn-bg:#fff7dd; --warn-line:#e8d48a;
   --focus:#2f6fed;
-  --radius:10px; --radius-s:7px;
-  --shadow:0 1px 2px rgba(16,24,40,.06),0 1px 3px rgba(16,24,40,.05);
-  --shadow-lg:0 12px 32px rgba(16,24,40,.18);
+  --radius:8px; --radius-s:6px;
+  --shadow:0 1px 2px rgba(16,24,40,.05);
+  --shadow-lg:0 12px 32px rgba(16,24,40,.16);
   --font-ui:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,"Noto Sans","Helvetica Neue",Arial,sans-serif;
-  --max:1240px;
+  --max:1240px; --measure:800px;
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
@@ -31,52 +31,59 @@ body{font-family:var(--font-ui);color:var(--ink);background:var(--bg);margin:0;l
 button{font:inherit}
 .skip{position:absolute;left:-9999px;top:0;background:var(--accent);color:#fff;padding:8px 14px;z-index:200;border-radius:0 0 8px 0}
 .skip:focus{left:0}
-/* ============ top bar ============ */
+/* ============ top bar: brand | Q n/N | answered summary ============ */
 .topbar{position:sticky;top:0;z-index:60;background:var(--surface);border-bottom:1px solid var(--line)}
-.topbar-in{max-width:var(--max);margin:0 auto;display:flex;align-items:center;gap:12px;padding:10px 18px}
-.brand{display:flex;align-items:center;gap:10px;min-width:0}
-.brand-mark{width:32px;height:32px;border-radius:8px;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:15px;letter-spacing:.5px;flex:none}
-.brand-name{font-weight:800;font-size:15px;letter-spacing:.2px;white-space:nowrap}
-.brand-sub{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.topbar-in{max-width:var(--max);margin:0 auto;display:flex;align-items:center;gap:14px;padding:9px 18px;min-height:56px}
+.brand{display:flex;align-items:center;gap:10px;min-width:0;flex:1}
+.brand-mark{width:32px;height:32px;border-radius:7px;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:15px;letter-spacing:.5px;flex:none}
+.brand-name{font-weight:800;font-size:15px;letter-spacing:.1px;white-space:nowrap;line-height:1.2}
+.brand-sub{font-size:11.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .set-title{min-width:0;flex:1;text-align:center}
-.set-title b{display:block;font-size:13.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.set-title span{font-size:12px;color:var(--muted)}
-.progress-wrap{display:flex;align-items:center;gap:10px;flex:none}
-.progress-num{font-size:13px;font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap}
-.progress-bar{width:120px;height:6px;border-radius:99px;background:var(--surface-3);overflow:hidden}
+.set-title b{display:block;font-size:14px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.set-title span{font-size:11.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+.progress-wrap{display:flex;align-items:center;gap:10px;flex:none;min-width:0}
+.progress-num{font-size:12.5px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.progress-bar{width:110px;height:6px;border-radius:99px;background:var(--surface-3);overflow:hidden;flex:none}
 .progress-bar i{display:block;height:100%;background:var(--accent);border-radius:99px;transition:width .25s ease}
-.progress-pct{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;min-width:36px}
+.progress-pct{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;min-width:34px}
 .iconbtn{display:inline-flex;align-items:center;justify-content:center;min-width:36px;height:36px;padding:0 8px;border:1px solid transparent;background:transparent;border-radius:8px;color:var(--ink-2);cursor:pointer;font-size:13px;font-weight:600}
 .iconbtn:hover{background:var(--surface-3)}
 .iconbtn[aria-expanded="true"]{background:var(--accent-soft);color:var(--accent-ink)}
 .iconbtn svg{width:18px;height:18px;flex:none}
-/* ============ shell ============ */
-.shell{max-width:var(--max);margin:0 auto;display:grid;grid-template-columns:232px minmax(0,1fr);gap:0;padding:0 18px;align-items:start}
-.shell.rail-collapsed{grid-template-columns:64px minmax(0,1fr)}
-/* ============ study nav ============ */
-.rail{position:sticky;top:57px;padding:18px 14px 18px 0;max-height:calc(100vh - 57px);overflow:auto}
-.rail-head{display:flex;align-items:center;justify-content:space-between;margin:2px 2px 8px}
+/* ============ shell: rail + centered measure ============ */
+.shell{max-width:var(--max);margin:0 auto;display:grid;grid-template-columns:216px minmax(0,1fr);gap:0;padding:0 18px;align-items:start}
+.shell.rail-collapsed{grid-template-columns:60px minmax(0,1fr)}
+.rail{position:sticky;top:57px;padding:20px 16px 20px 0;max-height:calc(100vh - 57px);overflow:auto}
+.rail-head{margin:0 2px 6px}
 .rail-head span{font-size:11px;font-weight:700;letter-spacing:.8px;color:var(--faint);text-transform:uppercase}
 .mode-list{display:flex;flex-direction:column;gap:2px}
-.mode-item{display:flex;gap:10px;align-items:flex-start;width:100%;text-align:left;background:transparent;border:1px solid transparent;border-radius:var(--radius-s);padding:9px 10px;cursor:pointer;color:var(--ink-2)}
-.mode-item:hover{background:var(--surface);border-color:var(--line-soft)}
-.mode-item.active{background:var(--surface);border-color:var(--line);box-shadow:var(--shadow);color:var(--ink);position:relative}
-.mode-item.active::before{content:"";position:absolute;left:-14px;top:8px;bottom:8px;width:3px;border-radius:99px;background:var(--accent)}
-.mode-dot{width:9px;height:9px;border-radius:99px;margin-top:6px;flex:none;background:var(--line)}
+.mode-item{display:flex;gap:10px;align-items:baseline;width:100%;text-align:left;background:transparent;border:1px solid transparent;border-radius:var(--radius-s);padding:8px 10px;cursor:pointer;color:var(--ink-2)}
+.mode-item:hover{background:var(--surface)}
+.mode-item.active{background:var(--surface);border-color:var(--line);color:var(--ink);position:relative;font-weight:700}
+.mode-item.active::before{content:"";position:absolute;left:-16px;top:9px;bottom:9px;width:3px;border-radius:99px;background:var(--accent)}
+.mode-dot{width:8px;height:8px;border-radius:99px;flex:none;background:var(--line);align-self:center}
 .mode-item.active .mode-dot{background:var(--accent)}
-.mode-item b{display:block;font-size:13.5px}
-.mode-item small{display:block;font-size:12px;color:var(--muted);line-height:1.4}
+.mode-item b{display:block;font-size:13.5px;font-weight:600}
+.mode-item.active b{font-weight:750}
+.mode-item small{display:block;font-size:12px;color:var(--muted);line-height:1.35}
 .shell.rail-collapsed .mode-item small,.shell.rail-collapsed .rail-head span,.shell.rail-collapsed .mode-item b{display:none}
 .shell.rail-collapsed .mode-item{justify-content:center}
-.rail-foot{margin-top:14px;font-size:12px;color:var(--muted);padding:0 4px}
-.rail-foot kbd{font-family:inherit}
-/* ============ workspace ============ */
-.workspace{padding:18px 0 90px;min-width:0}
-.mode-banner{display:flex;align-items:baseline;gap:10px;margin:2px 2px 12px}
-.mode-banner h2{font-size:13px;margin:0;letter-spacing:.9px;text-transform:uppercase;color:var(--muted)}
-.mode-banner p{font-size:13px;color:var(--muted);margin:0}
+.rail-sec{margin-top:14px}
+.rail-foot{margin-top:12px;font-size:12px;color:var(--muted);padding:0 4px}
+.rail-foot details{font-size:12.5px}
+.rail-foot summary{cursor:pointer;color:var(--ink-2);font-weight:600;list-style:none}
+.rail-foot summary::before{content:"⌨ ";color:var(--faint)}
+.rail-foot table{border-collapse:collapse;margin-top:6px}
+.rail-foot td{padding:2px 6px 2px 0;color:var(--muted)}
+.rail-foot kbd{font-family:inherit;background:var(--surface-3);border:1px solid var(--line);border-radius:4px;padding:0 5px;font-size:11px}
+/* ============ workspace: centered editorial column ============ */
+.workspace{padding:22px 0 90px;min-width:0;display:flex;justify-content:center}
+.workcol{width:100%;max-width:var(--measure)}
+.mode-banner{display:flex;align-items:baseline;gap:10px;margin:0 2px 14px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.mode-banner h2{font-size:12px;margin:0;letter-spacing:1px;text-transform:uppercase;color:var(--muted)}
+.mode-banner p{font-size:12.5px;color:var(--muted);margin:0}
 body[data-mode="test"] .mode-banner h2{color:var(--bad)}
-.exam-strip{display:none;gap:8px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:10px 14px;margin-bottom:12px;box-shadow:var(--shadow);font-size:13px}
+.exam-strip{display:none;gap:8px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:10px 14px;margin-bottom:12px;font-size:13px}
 body[data-mode="test"] .exam-strip{display:flex}
 .exam-strip .t{font-variant-numeric:tabular-nums;font-weight:800}
 .exam-strip .sep{color:var(--faint)}
@@ -90,22 +97,31 @@ body[data-mode="test"] .exam-strip{display:flex}
 .btn-tertiary:hover{background:var(--surface-3)}
 .btn-danger{background:var(--bad);border-color:var(--bad);color:#fff}
 .btn-sm{min-height:34px;padding:6px 12px;font-size:13px}
-/* ============ question ============ */
-.q-context{font-size:12.5px;color:var(--muted);letter-spacing:.2px;margin:0 2px 6px;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+/* ============ question: editorial, uncarded ============ */
+.q-context{font-size:12.5px;color:var(--muted);letter-spacing:.2px;margin:0 2px 8px;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
 .q-context .sep{color:var(--faint)}
-.q-count{font-size:12.5px;color:var(--faint);margin-left:auto;font-variant-numeric:tabular-nums}
-.q-stem{font-size:clamp(19px,2.4vw,24px);line-height:1.42;font-weight:700;letter-spacing:-.01em;margin:0 2px 4px;max-width:62ch}
-.q-sub{font-size:13px;color:var(--muted);margin:0 2px 14px}
-.stmt-block{margin:6px 2px 4px;max-width:70ch}
-.stmt-kicker{font-size:11.5px;font-weight:800;letter-spacing:1px;color:var(--accent-ink);text-transform:uppercase;margin:0 0 8px}
-.stmt-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
-.stmt-list li{display:flex;gap:12px;background:var(--surface);border:1px solid var(--line-soft);border-radius:var(--radius-s);padding:11px 14px;line-height:1.6;box-shadow:var(--shadow)}
-.stmt-n{flex:none;width:26px;height:26px;border-radius:99px;background:var(--surface-3);color:var(--ink-2);font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:1px}
-.opts{margin:16px 0 6px;display:flex;flex-direction:column;gap:9px;max-width:720px}
+.q-stem{font-size:clamp(20px,2.4vw,25px);line-height:1.4;font-weight:700;letter-spacing:-.01em;margin:0 2px 6px;max-width:64ch}
+.q-sub{font-size:13.5px;color:var(--muted);margin:0 2px 16px}
+/* learn panel: concept first, MCQ second */
+.learn-panel{margin:0 2px 18px;border-left:3px solid var(--accent);padding:2px 0 2px 16px}
+.learn-panel h3{font-size:11.5px;letter-spacing:1px;text-transform:uppercase;color:var(--accent-ink);margin:0 0 8px}
+.learn-panel .lp-topic{font-size:16px;font-weight:750;margin:0 0 8px}
+.learn-panel ul{margin:0 0 6px;padding-left:20px;font-size:14.5px;line-height:1.65}
+.learn-panel .lp-test{font-size:12px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--muted);margin:12px 0 0}
+/* statements: signature exam-paper block */
+.stmt-block{margin:8px 2px 6px;max-width:72ch}
+.stmt-kicker{font-size:11.5px;font-weight:800;letter-spacing:1px;color:var(--accent-ink);text-transform:uppercase;margin:0 0 10px}
+.stmt-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.stmt-list li{display:flex;gap:12px;padding:10px 2px;line-height:1.62;border-bottom:1px solid var(--line-soft)}
+.stmt-list li:last-child{border-bottom:none}
+.stmt-n{flex:none;width:26px;height:26px;border-radius:99px;background:var(--surface-3);color:var(--ink-2);font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-top:2px;border:1px solid var(--line)}
+.stmt-closer{font-size:16px;font-weight:650;margin:12px 2px 0}
+/* options stay interactive rows */
+.opts{margin:14px 0 6px;display:flex;flex-direction:column;gap:9px}
 .opt{position:relative;display:flex;gap:12px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:13px 15px;cursor:pointer;transition:border-color .12s ease,background .12s ease;min-height:54px}
 .opt:hover{border-color:#b9c4d1}
 .opt input{position:absolute;opacity:0;pointer-events:none}
-.opt .k{flex:none;width:30px;height:30px;border-radius:8px;background:var(--surface-3);color:var(--ink-2);font-weight:800;font-size:14px;display:flex;align-items:center;justify-content:center;margin-top:1px}
+.opt .k{flex:none;width:28px;height:28px;border-radius:7px;background:var(--surface-3);color:var(--ink-2);font-weight:800;font-size:13.5px;display:flex;align-items:center;justify-content:center;margin-top:1px}
 .opt .t{font-size:15px;line-height:1.55}
 .opt.selected{border-color:var(--accent);background:var(--accent-soft)}
 .opt.selected .k{background:var(--accent);color:#fff}
@@ -118,32 +134,32 @@ body[data-mode="test"] .exam-strip{display:flex}
 .opt.incorrect .verdict{color:var(--bad)}
 .opt.disabled{cursor:default}
 .opt.disabled:not(.selected):not(.correct):not(.incorrect){opacity:.85}
-/* confidence */
-.conf{margin:16px 2px 4px;max-width:720px}
-.conf p{font-size:12px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+/* confidence: compact, secondary, never preselected */
+.conf{margin:18px 2px 4px}
+.conf p{font-size:11.5px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;color:var(--faint);margin:0 0 8px}
 .conf-row{display:flex;flex-wrap:wrap;gap:8px}
-.conf-chip{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:8px 14px;font-size:13.5px;cursor:pointer;color:var(--ink-2);min-height:40px}
+.conf-chip{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:7px 13px;font-size:13px;cursor:pointer;color:var(--ink-2);min-height:38px}
 .conf-chip input{accent-color:var(--accent)}
 .conf-chip:has(input:checked){border-color:var(--accent);background:var(--accent-soft);color:var(--accent-ink);font-weight:700}
 /* action row */
-.actions{display:flex;gap:10px;align-items:center;margin:16px 2px 0;flex-wrap:wrap;max-width:720px}
+.actions{display:flex;gap:10px;align-items:center;margin:16px 2px 0;flex-wrap:wrap}
 .actions .spacer{flex:1}
 .stepper{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface)}
 .stepper button{border:none;background:transparent;padding:9px 14px;cursor:pointer;font-weight:700;color:var(--ink-2);min-height:40px}
 .stepper button:hover{background:var(--surface-3)}
-.hintline{margin:10px 2px 0;max-width:720px}
+.hintline{margin:10px 2px 0}
 .hintbox{display:none;background:var(--warn-bg);border:1px solid var(--warn-line);border-left:4px solid var(--warn);border-radius:0 8px 8px 0;padding:10px 14px;font-size:14px;margin-top:8px}
-/* feedback = study note */
-.study-note{margin:18px 2px 0;max-width:720px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
-.study-note .sn-head{padding:14px 18px 12px;display:flex;gap:12px;align-items:center;border-bottom:1px solid var(--line-soft)}
+/* feedback: compact study note, progressive disclosure */
+.study-note{margin:20px 2px 0;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.study-note .sn-head{padding:13px 18px 11px;display:flex;gap:12px;align-items:baseline;border-bottom:1px solid var(--line-soft);flex-wrap:wrap}
 .sn-badge{flex:none;font-size:12px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;border-radius:99px;padding:5px 12px}
 .sn-badge.good{background:var(--good-bg);color:var(--good);border:1px solid var(--good-line)}
 .sn-badge.bad{background:var(--bad-bg);color:var(--bad);border:1px solid var(--bad-line)}
 .sn-key{font-size:15px}
-.sn-body{padding:14px 18px}
-.sn-body h4{font-size:11.5px;letter-spacing:.9px;text-transform:uppercase;color:var(--muted);margin:14px 0 6px}
+.sn-body{padding:12px 18px 14px}
+.sn-body h4{font-size:11px;letter-spacing:.9px;text-transform:uppercase;color:var(--muted);margin:12px 0 5px}
 .sn-body h4:first-child{margin-top:0}
-.sn-body p{margin:0 0 8px;font-size:14.5px}
+.sn-body p{margin:0 0 6px;font-size:14.5px}
 .sn-compare{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0}
 .sn-compare div{background:var(--surface-2);border:1px solid var(--line-soft);border-radius:8px;padding:9px 12px;font-size:13.5px}
 .sn-compare b{display:block;font-size:11px;letter-spacing:.7px;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
@@ -152,28 +168,35 @@ details.tech summary{cursor:pointer;font-size:12.5px;color:var(--muted);padding:
 details.tech summary::before{content:"+ ";font-weight:800}
 details.tech[open] summary::before{content:"– "}
 details.tech .tech-body{padding:0 18px 14px;font-size:12.5px;color:var(--muted)}
+details.more{margin:10px 0 0}
+details.more summary{cursor:pointer;font-size:13px;font-weight:650;color:var(--accent-ink)}
+details.more .more-body{padding-top:6px}
 /* revision queue */
-.rev-queue{display:flex;flex-direction:column;gap:10px;max-width:720px;margin:4px 2px 0}
-.rev-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:14px 16px;display:flex;gap:12px;align-items:center}
+.rev-notice{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--warn);border-radius:var(--radius);padding:13px 16px;margin:0 2px 12px}
+.rev-notice .rn-pri{font-size:11px;font-weight:800;letter-spacing:.8px;text-transform:uppercase;color:#6d5600}
+.rev-notice b{font-size:14.5px}
+.rev-notice p{margin:4px 0 10px;font-size:13.5px;color:var(--ink-2)}
+.rev-queue{display:flex;flex-direction:column;gap:10px;margin:4px 2px 0}
+.rev-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;display:flex;gap:12px;align-items:center}
 .rev-card .pri{flex:none;font-size:11px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;border-radius:99px;padding:4px 10px}
 .pri-critical{background:var(--bad-bg);color:var(--bad);border:1px solid var(--bad-line)}
 .pri-high{background:var(--warn-bg);color:#6d5600;border:1px solid var(--warn-line)}
 .pri-medium{background:var(--surface-3);color:var(--ink-2)}
 .rev-card b{font-size:14px}
 .rev-card small{display:block;color:var(--muted);font-size:12.5px}
-.revmodes{display:flex;flex-wrap:wrap;gap:6px;margin:0 2px 10px;max-width:720px}
+.revmodes{display:flex;flex-wrap:wrap;gap:6px;margin:0 2px 10px}
 .revmodes button{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:6px 12px;font-size:12.5px;cursor:pointer;font-weight:600;color:var(--ink-2)}
 .revmodes button.active{background:var(--accent);border-color:var(--accent);color:#fff}
 .rev-why{display:block;color:var(--muted);font-size:12.5px;margin-top:4px}
 .rev-meta{display:block;color:var(--faint);font-size:12px;margin-top:2px}
-/* rapid */
-.rapid{max-width:720px;margin:4px 2px 0}
-.rapid .flash{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:22px;text-align:center}
-.rapid .flash p{font-size:18px;font-weight:650}
-/* analytics */
-.an-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:4px 2px 14px;max-width:860px}
-.stat{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:14px 16px}
-.stat small{font-size:11.5px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--muted)}
+/* rapid: dense */
+body[data-mode="rapid"] .opts{gap:6px}
+body[data-mode="rapid"] .opt{padding:10px 13px;min-height:48px}
+body[data-mode="rapid"] .q-stem{font-size:20px}
+/* analytics: decision first */
+.an-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:4px 2px 14px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px}
+.stat small{font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--muted)}
 .stat .v{font-size:30px;font-weight:800;letter-spacing:-.02em;font-variant-numeric:tabular-nums;line-height:1.15}
 .stat .s{font-size:12.5px;color:var(--muted)}
 .bar-row{display:grid;grid-template-columns:170px 1fr 52px;gap:10px;align-items:center;padding:7px 0;font-size:13.5px}
@@ -181,9 +204,13 @@ details.tech .tech-body{padding:0 18px 14px;font-size:12.5px;color:var(--muted)}
 .bar i{display:block;height:100%;background:var(--accent);border-radius:99px}
 .bar.low i{background:var(--bad)}
 .bar.mid i{background:#b7791f}
-.an-section{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px 18px;margin:0 2px 12px;max-width:860px}
+.an-section{margin:0 2px 16px}
+.an-section.actionable{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px}
+.an-section.plain h3{margin:0 0 8px;font-size:14px}
 .an-section h3{margin:0 0 4px;font-size:15px}
 .an-section .sub{margin:0 0 10px;font-size:13px;color:var(--muted)}
+.an-section ol.reclist{margin:6px 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px}
+.an-section ol.reclist li{display:flex;gap:10px;align-items:baseline}
 /* drawers */
 .scrim{position:fixed;inset:0;background:rgba(16,24,40,.38);opacity:0;pointer-events:none;transition:opacity .18s ease;z-index:80}
 .scrim.open{opacity:1;pointer-events:auto}
@@ -192,6 +219,12 @@ details.tech .tech-body{padding:0 18px 14px;font-size:12.5px;color:var(--muted)}
 .drawer header{display:flex;align-items:center;gap:8px;padding:14px 16px;border-bottom:1px solid var(--line)}
 .drawer header b{font-size:14px;flex:1}
 .drawer .drawer-body{padding:14px 16px;overflow:auto;flex:1}
+.drawer .drawer-body h5{font-size:11px;letter-spacing:.8px;text-transform:uppercase;color:var(--muted);margin:14px 0 8px}
+.drawer .drawer-body h5:first-child{margin-top:0}
+.src-entry{border-bottom:1px solid var(--line-soft);padding:10px 0}
+.src-entry:last-child{border-bottom:none}
+.src-entry p{margin:3px 0;font-size:13.5px}
+.src-entry .k{font-size:11px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--faint)}
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
 .chip{display:inline-flex;align-items:center;gap:6px;background:var(--surface-3);border:1px solid var(--line);border-radius:99px;padding:5px 6px 5px 12px;font-size:12.5px}
 .chip button{border:none;background:var(--surface);border-radius:99px;width:22px;height:22px;cursor:pointer;line-height:1;color:var(--muted)}
@@ -208,34 +241,35 @@ details.tech .tech-body{padding:0 18px 14px;font-size:12.5px;color:var(--muted)}
 #navgrid button.cur{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent-soft)}
 #navgrid button.is-right{background:var(--good-bg);border-color:var(--good-line);color:var(--good)}
 #navgrid button.is-wrong{background:var(--bad-bg);border-color:var(--bad-line);color:var(--bad)}
-#navgrid button.is-marked::after{content:"";position:absolute;top:5px;right:5px;width:8px;height:8px;border-radius:99px;background:var(--warn)}
+#navgrid button.is-marked::after{content:"★";position:absolute;top:3px;right:6px;font-size:10px;color:var(--warn)}
 #navgrid button.is-hipri{border-bottom:3px solid #c9a227}
 #navgrid button.is-revneed{border-style:dashed}
 .nlegend{font-size:12px;color:var(--muted);margin-top:10px;line-height:1.9}
+.nlegend .sw{display:inline-block;width:11px;height:11px;border-radius:3px;border:1px solid var(--line);margin-right:5px;vertical-align:baseline}
 /* search */
 .searchrow{display:flex;gap:8px;margin-bottom:12px}
 .searchrow input{flex:1;padding:9px 12px;border:1px solid var(--line);border-radius:8px;font:inherit;min-height:40px}
 /* bottom mobile bar */
 .mobilebar{display:none;position:fixed;left:0;right:0;bottom:0;z-index:70;background:var(--surface);border-top:1px solid var(--line);padding:8px 10px calc(8px + env(safe-area-inset-bottom));gap:8px}
 .mobilebar .btn{flex:1;min-height:48px;padding:10px 6px;font-size:14px}
-/* footer */
-.appfoot{max-width:var(--max);margin:0 auto;padding:14px 18px 30px;color:var(--faint);font-size:12px}
-.appfoot kbd{font-family:inherit;background:var(--surface-3);border:1px solid var(--line);border-radius:4px;padding:0 5px}
+/* footer: minimal */
+.appfoot{max-width:var(--max);margin:0 auto;padding:12px 18px 28px;color:var(--faint);font-size:12px}
+.appfoot button{background:none;border:none;color:var(--muted);cursor:pointer;font-size:12px;text-decoration:underline;padding:0}
 /* empty + loading */
-.empty{background:var(--surface);border:1px dashed var(--line);border-radius:var(--radius);padding:34px 22px;text-align:center;color:var(--muted);max-width:720px;margin:10px 2px}
+.empty{border:1px dashed var(--line);border-radius:var(--radius);padding:34px 22px;text-align:center;color:var(--muted);margin:10px 2px;background:var(--surface)}
 .empty b{display:block;color:var(--ink);font-size:15px;margin-bottom:4px}
 .skeleton{border-radius:8px;background:linear-gradient(90deg,var(--surface-3) 25%,#f7f9fb 50%,var(--surface-3) 75%);background-size:200% 100%;animation:sh 1.2s infinite}
 @keyframes sh{to{background-position:-200% 0}}
 /* responsive */
-@media (max-width:1020px){.shell{grid-template-columns:200px minmax(0,1fr)}}
+@media (max-width:1020px){.shell{grid-template-columns:196px minmax(0,1fr)}}
 @media (max-width:860px){
-  .shell,.shell.rail-collapsed{grid-template-columns:minmax(0,1fr);padding:0 12px}
+  .shell,.shell.rail-collapsed{grid-template-columns:minmax(0,1fr);padding:0 14px}
   .rail{display:none}
-  .workspace{padding:12px 0 110px}
-  .progress-bar{width:74px}
+  .workspace{padding:14px 0 110px}
+  .progress-bar{width:64px}
   .set-title span{display:none}
   .brand-sub{display:none}
-  .topbar-in{gap:8px;padding:10px 12px}
+  .topbar-in{gap:8px;padding:9px 12px}
   .mobilebar{display:flex}
   .desktop-actions{display:none!important}
   .an-grid{grid-template-columns:1fr 1fr}
@@ -254,6 +288,9 @@ details.tech .tech-body{padding:0 18px 14px;font-size:12.5px;color:var(--muted)}
   .progress-num{font-size:12px}
   .progress-bar,.progress-pct,#searchBtn{display:none}
   .iconbtn{min-width:32px;height:34px}
+  .q-context{font-size:12px}
+  .conf-chip{min-height:44px}
+  .stepper button{min-height:44px}
 }
 @media (min-width:861px){.drawer.sheet-only{width:min(400px,94vw)}}
 @media (max-width:430px){.an-grid{grid-template-columns:1fr 1fr}.bar-row{grid-template-columns:120px 1fr 46px}}
@@ -264,6 +301,7 @@ details.tech .tech-body{padding:0 18px 14px;font-size:12.5px;color:var(--muted)}
   body{background:#fff}
   .shell{display:block;padding:0}
   .workspace{padding:0}
+  .workcol{max-width:none}
   .opt,.study-note,.an-section,.stat{box-shadow:none;break-inside:avoid}
   .q-stem{font-size:18pt}
 }
@@ -278,11 +316,11 @@ details.tech .tech-body{padding:0 18px 14px;font-size:12.5px;color:var(--muted)}
     </button>
     <div class="brand">
       <span class="brand-mark" aria-hidden="true">CQ</span>
-      <div><div class="brand-name" id="apptitle">Exam Quiz</div><div class="brand-sub" id="statusline"></div></div>
+      <div><div class="brand-name" id="apptitle">Competitive Quiz</div><div class="brand-sub" id="statusline">Source-grounded competitive-exam study</div></div>
     </div>
-    <div class="set-title" aria-live="polite"><b id="setTitle">Study set</b><span id="progress"></span></div>
+    <div class="set-title" aria-live="polite"><b id="setTitle">Q 0 / 0</b><span id="progress"></span></div>
     <div class="progress-wrap" role="status" aria-label="Study progress">
-      <span class="progress-num" id="progressNum">0 / 0</span>
+      <span class="progress-num" id="progressNum"></span>
       <span class="progress-bar" aria-hidden="true"><i id="progressFill" style="width:0%"></i></span>
       <span class="progress-pct" id="progressPct">0%</span>
     </div>
@@ -290,7 +328,7 @@ details.tech .tech-body{padding:0 18px 14px;font-size:12.5px;color:var(--muted)}
       <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="9" cy="9" r="5.5" stroke="currentColor" stroke-width="1.8"/><path d="M13.5 13.5 17 17" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
     </button>
     <button class="iconbtn" id="navToggle" aria-label="Open question navigator (N)" aria-expanded="false">
-      <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="3" y="3" width="5.5" height="5.5" rx="1.5" stroke="currentColor" stroke-width="1.6"/><rect x="11.5" y="3" width="5.5" height="5.5" rx="1.5" stroke="currentColor" stroke-width="1.6"/><rect x="3" y="11.5" width="5.5" height="5.5" rx="1.5" stroke="currentColor" stroke-width="1.6"/><rect x="11.5" y="11.5" width="5.5" height="5.5" rx="1.5" stroke="currentColor" stroke-width="1.6"/></svg>
+      <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="3" y="3" width="5.5" height="5.5" rx="1.5" stroke="currentColor" stroke-width="1.6"/><rect x="11.5" y="3" width="5.5" height="5.5" rx="1.6"/><rect x="3" y="11.5" width="5.5" height="5.5" rx="1.5" stroke="currentColor" stroke-width="1.6"/><rect x="11.5" y="11.5" width="5.5" height="5.5" rx="1.6"/></svg>
     </button>
     <button class="iconbtn" id="filterToggle" aria-label="Open filters" aria-expanded="false">
       <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 5.5h14M5.5 10h9M8 14.5h4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
@@ -299,7 +337,7 @@ details.tech .tech-body{padding:0 18px 14px;font-size:12.5px;color:var(--muted)}
   </div>
   <div id="timerrow" style="display:none">
     <div style="max-width:1240px;margin:0 auto;padding:0 18px 10px;font-size:13px;display:flex;gap:10px;align-items:center">
-      <span>Time left: <b id="timer" class="t">—</b></span><span class="sep" style="color:var(--faint)">·</span>
+      <span id="timerLabel">Time left: <b id="timer" class="t">UNTIMED</b></span><span class="sep" style="color:var(--faint)">·</span>
       <span id="testCounts" style="color:var(--muted)"></span><span style="flex:1"></span>
       <button id="finishtest" class="btn btn-sm btn-danger" type="button">Submit test</button>
     </div>
@@ -309,23 +347,40 @@ details.tech .tech-body{padding:0 18px 14px;font-size:12.5px;color:var(--muted)}
   <nav class="rail" aria-label="Study modes">
     <div class="rail-head"><span>Study</span></div>
     <div class="mode-list" id="modebar" role="tablist" aria-label="Modes">
-      <button class="mode-item" data-mode="learn" role="tab" aria-selected="false"><span class="mode-dot" aria-hidden="true"></span><span><b>Learn</b><small>Study each concept with guidance</small></span></button>
-      <button class="mode-item" data-mode="practice" role="tab" aria-selected="true"><span class="mode-dot" aria-hidden="true"></span><span><b>Practice</b><small>Answer first, review after</small></span></button>
-      <button class="mode-item" data-mode="test" role="tab" aria-selected="false"><span class="mode-dot" aria-hidden="true"></span><span><b>Test</b><small>Timed exam, no hints</small></span></button>
-      <button class="mode-item" data-mode="revision" role="tab" aria-selected="false"><span class="mode-dot" aria-hidden="true"></span><span><b>Revision</b><small>Weak areas and missed concepts</small></span></button>
-      <button class="mode-item" data-mode="rapid" role="tab" aria-selected="false"><span class="mode-dot" aria-hidden="true"></span><span><b>Rapid Recall</b><small>High-density factual revision</small></span></button>
-      <button class="mode-item" id="analyticsBtn" role="tab" aria-selected="false"><span class="mode-dot" aria-hidden="true"></span><span><b>Analytics</b><small>How you are doing</small></span></button>
+      <button class="mode-item" data-mode="learn" role="tab" aria-selected="false"><span class="mode-dot" aria-hidden="true"></span><span><b>Learn</b><small>Study concepts</small></span></button>
+      <button class="mode-item" data-mode="practice" role="tab" aria-selected="true"><span class="mode-dot" aria-hidden="true"></span><span><b>Practice</b><small>Answer and review</small></span></button>
+      <button class="mode-item" data-mode="test" role="tab" aria-selected="false"><span class="mode-dot" aria-hidden="true"></span><span><b>Test</b><small>Exam conditions</small></span></button>
+      <button class="mode-item" data-mode="revision" role="tab" aria-selected="false"><span class="mode-dot" aria-hidden="true"></span><span><b>Revision</b><small>Weak areas</small></span></button>
+      <button class="mode-item" data-mode="rapid" role="tab" aria-selected="false"><span class="mode-dot" aria-hidden="true"></span><span><b>Rapid Recall</b><small>High-density factual recall</small></span></button>
     </div>
-    <div class="rail-foot">Keys: <kbd>1</kbd>–<kbd>4</kbd> answer · <kbd>Enter</kbd> submit · <kbd>M</kbd> mark · <kbd>H</kbd> hint · <kbd>N</kbd> navigator<br><br><button id="quizBtn" class="btn btn-tertiary btn-sm" type="button" style="display:none">← Back to quiz</button><br><a href="#" id="printlink" onclick="window.print();return false;" style="font-size:12px">Print question sheet</a></div>
+    <div class="rail-head rail-sec"><span>Insights</span></div>
+    <div class="mode-list">
+      <button class="mode-item" id="analyticsBtn" role="tab" aria-selected="false"><span class="mode-dot" aria-hidden="true"></span><span><b>Analytics</b><small>Performance</small></span></button>
+    </div>
+    <div class="rail-foot">
+      <button id="quizBtn" class="btn btn-tertiary btn-sm" type="button" style="display:none">← Back to quiz</button>
+      <a href="#" id="printlink" onclick="window.print();return false;" style="font-size:12px">Print question sheet</a>
+      <details style="margin-top:10px"><summary>⌨ Shortcuts</summary>
+      <table>
+        <tr><td><kbd>1</kbd>–<kbd>4</kbd></td><td>answer</td></tr>
+        <tr><td><kbd>Enter</kbd></td><td>submit</td></tr>
+        <tr><td><kbd>←</kbd> <kbd>→</kbd></td><td>move</td></tr>
+        <tr><td><kbd>M</kbd></td><td>mark</td></tr>
+        <tr><td><kbd>H</kbd></td><td>hint</td></tr>
+        <tr><td><kbd>N</kbd></td><td>navigator</td></tr>
+      </table></details>
+    </div>
   </nav>
   <main class="workspace" id="main">
+  <div class="workcol">
     <div id="quizview">
       <div class="exam-strip" id="examStrip" aria-live="polite"></div>
       <div class="mode-banner"><h2 id="modeKicker">Practice</h2><p id="modeDesc">Answer first, review after.</p></div>
       <div id="chips" class="chips" aria-label="Active filters"></div>
+      <div id="learnPanel"></div>
       <div id="revQueue"></div>
       <p class="q-context" id="qmeta"></p>
-      <h2 id="qstem" tabindex="-1"></h2>
+      <h2 class="q-stem" id="qstem" tabindex="-1"></h2>
       <p class="q-sub" id="qsub"></p>
       <div id="qstatements" class="stmt-block"></div>
       <div class="hintline" id="qhint"><button class="btn btn-tertiary btn-sm" id="hintbtn" type="button">Show hint (H)</button><div class="hintbox" id="hintbox" role="note"></div></div>
@@ -334,7 +389,7 @@ details.tech .tech-body{padding:0 18px 14px;font-size:12.5px;color:var(--muted)}
         <label class="conf-chip"><input type="radio" name="conf" value="Certain"> Certain</label>
         <label class="conf-chip"><input type="radio" name="conf" value="Fairly confident"> Fairly confident</label>
         <label class="conf-chip"><input type="radio" name="conf" value="Unsure"> Unsure</label>
-        <label class="conf-chip"><input type="radio" name="conf" value="Guessing" checked> Guessing</label>
+        <label class="conf-chip"><input type="radio" name="conf" value="Guessing"> Guessing</label>
       </div></div>
       <div class="actions desktop-actions">
         <button id="submitbtn" class="btn btn-primary" type="button">Submit answer</button>
@@ -345,6 +400,7 @@ details.tech .tech-body{padding:0 18px 14px;font-size:12.5px;color:var(--muted)}
       <div class="study-note" id="feedback" style="display:none" aria-live="polite"></div>
     </div>
     <div id="analyticsview" style="display:none"><div id="analytics"></div></div>
+  </div>
   </main>
 </div>
 <div class="mobilebar" role="toolbar" aria-label="Question actions">
@@ -364,18 +420,20 @@ details.tech .tech-body{padding:0 18px 14px;font-size:12.5px;color:var(--muted)}
       <button data-nf="marked" type="button">Marked</button>
     </div>
     <div id="navgrid" role="list"></div>
-    <p class="nlegend">■ answered · □ unanswered · dashed = needs revision · gold underline = high priority · dot = marked</p>
+    <p class="nlegend"><span class="sw" style="background:var(--surface-2)"></span>unanswered <span class="sw" style="background:var(--good-bg);border-color:var(--good-line)"></span>correct <span class="sw" style="background:var(--bad-bg);border-color:var(--bad-line)"></span>incorrect ★ marked · dashed needs revision · gold underline high priority</p>
   </div>
 </aside>
 <aside class="drawer" id="filterDrawer" aria-label="Filters" aria-hidden="true">
   <header><b>Filters</b><button class="btn btn-tertiary btn-sm" id="clearFilters" type="button">Clear all</button><button class="iconbtn" data-close aria-label="Close filters">✕</button></header>
   <div class="drawer-body">
+    <h5>Filter by</h5>
     <div class="field"><label for="f_topic">Topic</label><select id="f_topic"><option value="">All</option></select></div>
     <div class="field"><label for="f_diff">Difficulty</label><select id="f_diff"><option value="">All</option></select></div>
     <div class="field"><label for="f_tier">Tier</label><select id="f_tier"><option value="">All</option></select></div>
     <div class="field"><label for="f_type">Question type</label><select id="f_type"><option value="">All</option></select></div>
     <div class="field"><label for="f_purpose">Purpose</label><select id="f_purpose"><option value="">All</option></select></div>
     <div class="field"><label for="f_rev">Revision priority</label><select id="f_rev"><option value="">All</option></select></div>
+    <h5>Quick filters</h5>
     <label class="checkrow"><input type="checkbox" id="f_incorrect"> Incorrect only</label>
     <label class="checkrow"><input type="checkbox" id="f_marked"> Marked only</label>
     <label class="checkrow"><input type="checkbox" id="f_weak"> Weak areas only</label>
@@ -395,7 +453,7 @@ details.tech .tech-body{padding:0 18px 14px;font-size:12.5px;color:var(--muted)}
     <input type="file" id="importfile" accept="application/json" style="display:none">
   </div>
 </aside>
-<footer class="appfoot"><span>Offline study file — all data embedded. Keys: <kbd>1</kbd>–<kbd>4</kbd> select · <kbd>Enter</kbd> submit · <kbd>←</kbd><kbd>→</kbd> move · <kbd>M</kbd> mark · <kbd>H</kbd> hint · <kbd>N</kbd> navigator.</span></footer>
+<footer class="appfoot"><span>Competitive Quiz · source-grounded study · offline file.</span> <button id="shortcutsBtn" type="button">Keyboard shortcuts (?)</button></footer>
 <script>
 "use strict";
 /* Deterministic KU-level revision engine (Phase 2) — browser mirror.
@@ -1208,6 +1266,7 @@ window.__PACKAGE__ = /*__PACKAGE__*/{"meta":{"title":"Study Quiz","source":"","p
 window.__STATUS__ = /*__STATUS__*/"PARTIAL";
 var PKG = window.__PACKAGE__ || {};
 var STATUS = window.__STATUS__ || "";
+var KU_EXCERPTS = (PKG.ku_excerpts && typeof PKG.ku_excerpts === "object") ? PKG.ku_excerpts : {};
 var QUESTIONS = Array.isArray(PKG.questions) ? PKG.questions : [];
 var RAWMETA = (PKG.meta && typeof PKG.meta === "object") ? PKG.meta : {};
 var META = {
@@ -1223,11 +1282,11 @@ var NEG = (PROFILE && PROFILE.negative_marking) || {};
 var PENALTY = (NEG.enabled === false) ? 0 : (typeof NEG.penalty_fraction === "number" ? NEG.penalty_fraction : 0.25);
 var MARKS_CORRECT = (typeof PROFILE.marks_correct === "number") ? PROFILE.marks_correct : 1;
 var MODE_INFO = {
-  learn:{k:"Learn",d:"Study each concept with guidance."},
+  learn:{k:"Learn",d:"Concept first, then test."},
   practice:{k:"Practice",d:"Answer first, review after."},
-  test:{k:"Test",d:"Timed exam conditions. No feedback until you submit."},
+  test:{k:"Test",d:"Exam conditions. No feedback until you submit."},
   revision:{k:"Revision",d:"Weak areas and recently missed concepts."},
-  rapid:{k:"Rapid Recall",d:"High-density factual revision."}
+  rapid:{k:"Rapid Recall",d:"Fast factual recall. No confidence, quick feedback."}
 };
 /* ---------- normalizers ---------- */
 function normOptions(q){
@@ -1254,12 +1313,14 @@ function qrev(q){ return q.revision_priority || ""; }
 function fmtSrcRef(s){ if(!s) return ""; if(typeof s==="string") return s;
   var sp=s.section_path; if(Object.prototype.toString.call(sp)==="[object Array]") sp=sp.join(" > ");
   return [sp,s.block_id,(s.page?("p."+s.page):""),s.table_ref].filter(Boolean).join(" · "); }
-function qsrc(q){ var s=q.source||q.source_ref||""; if(!s) return "";
-  if(Object.prototype.toString.call(s)==="[object Array]") return s.map(fmtSrcRef).filter(Boolean).join(" | ");
-  return fmtSrcRef(s); }
+function qsrcList(q){ var s=q.source||q.source_ref||""; if(!s) return [];
+  if(Object.prototype.toString.call(s)==="[object Array]") return s;
+  return [s]; }
+function qsrc(q){ return qsrcList(q).map(fmtSrcRef).filter(Boolean).join(" | "); }
 function qkus(q){ return (q.knowledge_units||[]).map(function(e){return e.ku_id+":"+e.role;}).join(", "); }
 function qmem(q){ return q.memory_aid || q.memoryAid || q.mnemonic || ""; }
 function primaryKu(q){ var kus=q.knowledge_units||[]; for(var i=0;i<kus.length;i++) if(kus[i].role==="primary") return kus[i].ku_id; return ""; }
+function kuExcerpt(ku){ return KU_EXCERPTS[ku] || ""; }
 function esc(s){ return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
 /* ---------- state ---------- */
 var state = { idx:0, mode:"practice", answers:{}, testEndsAt:null, testFinished:false, srcMode:false, navFilter:"all", revStarted:false, revMode:"targeted", revActive:false, revSession:null, revReasons:{}, revState:{queue:[],sessions:[]}, qShownAt:0 };
@@ -1412,6 +1473,7 @@ function curQ(){ if(!view.length) return null; return {q:QUESTIONS[view[state.id
 /* ---------- drawers ---------- */
 var openDrawerId = null;
 function openDrawer(id){
+  if(id==="sourceDrawer"&&state.mode==="test"&&!state.testFinished) return; // exam: no source
   closeDrawers();
   openDrawerId = id;
   document.getElementById(id).classList.add("open");
@@ -1439,13 +1501,14 @@ function counts(){
 function renderHeader(){
   document.getElementById("apptitle").textContent = "Competitive Quiz";
   var lbl=(META.coverageLabel?(" · "+META.coverageLabel):"");
-  document.getElementById("statusline").textContent=(PROFILE.name||"Study set")+" · "+(STATUS||META.status||"")+" · "+(META.source||"")+lbl;
-  document.getElementById("setTitle").textContent = META.title || "Study set";
-  var k=counts(), total=view.length||0, n=total?state.idx+1:0;
-  document.getElementById("progress").textContent = total?("Question "+n+" of "+total):"No questions match filters";
-  var done=Object.keys(state.answers).filter(function(id){return state.answers[id]&&state.answers[id].sel;}).length;
-  var pct=QUESTIONS.length?Math.round(100*done/QUESTIONS.length):0;
-  document.getElementById("progressNum").textContent=done+" / "+QUESTIONS.length;
+  var profName=(PROFILE&&PROFILE.name)||"General PSC";
+  document.getElementById("statusline").textContent=profName+" · "+(STATUS||META.status||"")+lbl;
+  var total=view.length||0, n=total?state.idx+1:0;
+  document.getElementById("setTitle").textContent = total?("Q "+n+" / "+QUESTIONS.length):"Q 0 / "+QUESTIONS.length;
+  var k=counts();
+  document.getElementById("progress").textContent = total? (total+" in view · "+profName) : "No questions match filters";
+  document.getElementById("progressNum").textContent=k.answered+" answered · "+k.correct+" correct · "+k.wrong+" wrong";
+  var pct=QUESTIONS.length?Math.round(100*Object.keys(state.answers).filter(function(id){return state.answers[id]&&state.answers[id].sel;}).length/QUESTIONS.length):0;
   document.getElementById("progressFill").style.width=pct+"%";
   document.getElementById("progressPct").textContent=pct+"%";
   var mi=MODE_INFO[state.mode];
@@ -1461,9 +1524,10 @@ function renderHeader(){
   if(state.mode==="test"&&!state.testFinished){ tb.style.display=""; } else { tb.style.display="none"; }
   if(state.mode==="test"){
     var un=view.length-Object.keys(state.answers).filter(function(id){return state.answers[id]&&state.answers[id].sel;}).length;
-    document.getElementById("testCounts").textContent=k.correct+" correct · "+k.wrong+" wrong · "+k.marked+" marked · "+un+" unanswered";
+    document.getElementById("testCounts").textContent=k.answered+" answered · "+k.marked+" marked · "+un+" unanswered";
     var ex=document.getElementById("examStrip");
-    ex.innerHTML="<span><b>Exam mode.</b> No feedback until you submit.</span><span style='flex:1'></span><span>"+esc(String(k.answered))+" answered · "+esc(String(un))+" left</span>";
+    ex.innerHTML="<span><b>TEST MODE.</b> No feedback until you submit.</span><span style='flex:1'></span><span>"+esc(String(k.answered))+" answered · "+esc(String(un))+" left</span>";
+    if(!state.testEndsAt) document.getElementById("timer").textContent="UNTIMED";
   }
   renderChips();
 }
@@ -1517,12 +1581,39 @@ function renderNav(){
   });
   if(!g.children.length){ g.innerHTML='<p style="grid-column:1/-1;color:var(--muted);font-size:13px">No questions match.</p>'; }
 }
+/* ---------- statement helpers: never repeat stem + list ---------- */
+function splitStatements(q){
+  var stmts=Array.isArray(q.statements)?q.statements.map(function(s){return (s&&typeof s==="object")?(s.text||""):String(s);}).filter(Boolean):[];
+  if(!stmts.length) return {stmts:[],closer:null};
+  var stem=q.stem||q.question||"";
+  var closer=null, m=stem.match(/[^.?!]*\?\s*$/);
+  if(m) closer=m[0].trim();
+  if(!closer) closer="Which of the above is/are correct?";
+  return {stmts:stmts,closer:closer};
+}
+/* ---------- learn panel: concept first, from package data only ---------- */
+function renderLearnPanel(q){
+  var box=document.getElementById("learnPanel"); box.innerHTML="";
+  if(state.mode!=="learn"||!q) return;
+  var kus=q.knowledge_units||[], facts=[];
+  kus.forEach(function(e){
+    if(e&&e.role==="primary"&&e.ku_id&&kuExcerpt(e.ku_id)) facts.push(kuExcerpt(e.ku_id));
+  });
+  var html='<div class="learn-panel"><h3>Learn</h3><p class="lp-topic">'+esc(qtopic(q))+(qsubtopic(q)?" · "+esc(qsubtopic(q)):"")+"</p>";
+  if(facts.length){
+    html+="<ul>"+facts.slice(0,3).map(function(f){return "<li>"+esc(f)+"</li>";}).join("")+"</ul>";
+  } else {
+    html+="<ul><li>Study the concept in the stem, then test yourself below.</li></ul>";
+  }
+  html+='<p class="lp-test">Test yourself</p></div>';
+  box.innerHTML=html;
+}
 /* ---------- question ---------- */
 function renderQ(){
   var c=curQ(), fb=document.getElementById("feedback");
   fb.style.display="none"; fb.innerHTML="";
   document.getElementById("revQueue").innerHTML="";
-  var quizview=document.getElementById("quizview");
+  document.getElementById("learnPanel").innerHTML="";
   if(state.mode==="revision"&&!state.revStarted){ renderRevQueue(); }
   if(!c){
     document.getElementById("qstem").textContent="Nothing to show";
@@ -1531,6 +1622,7 @@ function renderQ(){
     document.getElementById("qstatements").innerHTML="";
     document.getElementById("opts").innerHTML='<div class="empty"><b>No questions match these filters.</b>Clear a filter to continue studying.</div>';
     document.getElementById("confrow").style.display="none";
+    document.getElementById("qhint").style.display="none";
     return;
   }
   var q=c.q, i=c.i, id=qid(q,i), opts=normOptions(q), key=normKey(q,opts);
@@ -1538,27 +1630,35 @@ function renderQ(){
   if(!(a&&a.sel)) state.qShownAt=Date.now();
   var hideFb=(state.mode==="test"&&!state.testFinished);
   var showFb=!!(a&&a.sel)&&(state.mode!=="test"||state.testFinished);
-  // subtle context
-  var ctx=qtopic(q)+(qsubtopic(q)?" · "+qsubtopic(q):"")+" · "+qdiff(q);
+  // subtle context only: no duplicated counts
   var meta=document.getElementById("qmeta");
-  meta.innerHTML="<span>"+esc(qtopic(q))+"</span>"+(qsubtopic(q)?'<span class="sep">·</span><span>'+esc(qsubtopic(q))+"</span>":"")+'<span class="sep">·</span><span>'+esc(qdiff(q))+"</span>"+'<span class="q-count">Question '+(state.idx+1)+" of "+view.length+"</span>";
-  document.getElementById("qstem").textContent=q.stem||q.question||"(no stem)";
-  document.getElementById("qsub").textContent=(state.mode==="learn"?"Study this concept carefully.":(qtype(q)==="statement_based"?"Evaluate each statement against the source.":"Choose the single best answer."));
-  // statements
-  var st=document.getElementById("qstatements"); st.innerHTML="";
-  var stmts=Array.isArray(q.statements)?q.statements.map(function(s){return (s&&typeof s==="object")?(s.text||""):String(s);}).filter(Boolean):[];
-  if(stmts.length){
+  meta.innerHTML="<span>"+esc(qtopic(q))+"</span>"+(qsubtopic(q)?'<span class="sep">·</span><span>'+esc(qsubtopic(q))+"</span>":"")+'<span class="sep">·</span><span>'+esc(qdiff(q))+"</span>";
+  renderLearnPanel(q);
+  // statements: structured list, stem never duplicated
+  var sp=splitStatements(q), st=document.getElementById("qstatements"); st.innerHTML="";
+  if(sp.stmts.length){
+    document.getElementById("qstem").textContent="";
+    document.getElementById("qstem").style.display="none";
     var kick=document.createElement("p"); kick.className="stmt-kicker"; kick.textContent="Consider the following statements";
     st.appendChild(kick);
     var ol=document.createElement("ol"); ol.className="stmt-list";
-    stmts.forEach(function(s,n){ var li=document.createElement("li");
+    sp.stmts.forEach(function(s,n){ var li=document.createElement("li");
       li.innerHTML='<span class="stmt-n" aria-hidden="true">'+(n+1)+'</span><span>'+esc(s)+"</span>";
       ol.appendChild(li); });
     st.appendChild(ol);
+    var closer=document.createElement("p"); closer.className="stmt-closer"; closer.textContent=sp.closer;
+    st.appendChild(closer);
+    document.getElementById("qsub").textContent="Evaluate each statement against the source.";
+  } else {
+    document.getElementById("qstem").style.display="";
+    document.getElementById("qstem").textContent=q.stem||q.question||"(no stem)";
+    document.getElementById("qsub").textContent=(state.mode==="learn"?"Study this concept carefully.":"Choose the single best answer.");
   }
-  // hint
+  // hint: hidden in test mode
   var hb=document.getElementById("hintbox"); hb.style.display="none"; hb.textContent="";
-  var hasHint=!!(q.hint||state.mode==="learn");
+  var hintAllowed=(state.mode!=="test"||state.testFinished);
+  var hasHint=hintAllowed&&!!(q.hint||state.mode==="learn");
+  document.getElementById("qhint").style.display=hasHint?"":"none";
   document.getElementById("hintbtn").style.display=hasHint?"":"none";
   if(state.mode==="learn"&&!a){ hb.textContent=q.hint||"Eliminate the closest wrong option first, then commit."; hb.style.display="block"; }
   // options
@@ -1573,7 +1673,6 @@ function renderQ(){
     var r=document.createElement("input");
     r.type="radio"; r.name="opt"; r.value=o.key;
     if(a&&a.sel===o.key) r.checked=true;
-    if((a&&a.sel)||state.mode==="rapid"&&false) r.disabled=true;
     if(a&&a.sel) r.disabled=true;
     r.setAttribute("aria-label","Option "+o.key+": "+o.text);
     lab.appendChild(r);
@@ -1596,7 +1695,7 @@ function renderQ(){
     });
     form.appendChild(lab);
   });
-  // confidence
+  // confidence: never preselected; hidden in test/rapid and after answering
   var confrow=document.getElementById("confrow");
   if(a&&a.sel){ confrow.style.display="none"; }
   else { confrow.style.display=(state.mode==="test"||state.mode==="rapid")?"none":""; }
@@ -1628,17 +1727,24 @@ function renderFeedback(q,opts,key,a){
       break;
     }
   }catch(e){}
-  var html='<div class="sn-head"><span class="sn-badge '+(ok?"good":"bad")+'">'+(ok?"Correct":"Not quite")+'</span><span class="sn-key"><b>'+esc(key)+".</b> "+esc(keyText)+"</span></div>";
+  var html='<div class="sn-head"><span class="sn-badge '+(ok?"good":"bad")+'">'+(ok?"✓ Correct":"Not quite")+'</span><span class="sn-key"><b>'+esc(key)+".</b> "+esc(keyText)+"</span></div>";
   html+='<div class="sn-body">';
   if(!ok) html+='<div class="sn-compare"><div><b>Your answer</b>'+esc(yours)+'</div><div><b>Correct answer</b>'+esc(key)+'</div></div>';
-  if(q.explanation) html+='<h4>'+(ok?"Why this is right":"Key distinction")+'</h4><p>'+esc(q.explanation)+"</p>";
+  if(q.explanation){
+    if(ok) html+='<h4>Why this is right</h4><p>'+esc(q.explanation)+"</p>";
+    else html+='<h4>Key distinction</h4><p>'+esc(q.explanation)+"</p>";
+  }
   var wrong=opts.filter(function(o){return o.key!==key;});
   var chosen=null; wrong.forEach(function(o){ if(a.sel===o.key) chosen=o; });
   var trap=chosen||wrong[0];
-  if(trap) html+='<h4>Why the distractor tempts you</h4><p>Option '+esc(trap.key)+" tests "+esc(friendlyDistractor(trap))+"; re-read the stem and eliminate it deliberately next time.</p>";
+  if(trap) html+='<h4>Trap tested</h4><p>Option '+esc(trap.key)+" tests "+esc(friendlyDistractor(trap))+"; eliminate it deliberately next time.</p>";
+  if(trap) html+='<h4>Why the distractor tempts you</h4><p>Option '+esc(trap.key)+' looks right because it '+(trap.key===a.sel?"matches what you chose":"is close to the truth")+" — check it against the source excerpt before committing.</p>";
   if(q.misconception) html+='<h4>Common mix-up</h4><p>'+esc(q.misconception)+"</p>";
   if(qmem(q)) html+='<h4>Remember</h4><p>'+esc(qmem(q))+"</p>";
   if(why) html+='<h4>Why this question</h4><p>'+esc(why)+"</p>";
+  if(q.explanation&&q.explanation.length>280){
+    html+='<details class="more"><summary>Full explanation</summary><div class="more-body"><p>'+esc(q.explanation)+"</p></div></details>";
+  }
   html+='<h4>Source</h4><p style="color:var(--muted);font-size:13px">'+esc(qsrc(q)||"Source reference on file")+" · "+esc(qkus(q))+"</p>";
   html+="</div>";
   html+='<details class="tech"><summary>Details: IDs, difficulty, purpose</summary><div class="tech-body">ID '+esc(q.id||"")+" · Type "+esc(qtype(q))+" · Tier "+esc(qtier(q))+" · Purpose "+esc(qpurpose(q))+(q.difficulty_reason?(" · "+esc(q.difficulty_reason)):"")+"</div></details>";
@@ -1647,17 +1753,34 @@ function renderFeedback(q,opts,key,a){
 }
 function renderSourceBody(q){
   var b=document.getElementById("sourceBody");
-  var refs=qsrc(q)||"(no block reference)";
-  b.innerHTML='<div class="field"><label>Document</label><p style="font-size:13.5px">'+esc(META.source||"?")+"</p></div>"
-    +'<div class="field"><label>Page / section / block</label><p style="font-size:13.5px">'+esc(refs)+"</p></div>"
-    +'<div class="field"><label>Knowledge units</label><p style="font-size:13.5px">'+esc(qkus(q)||"—")+"</p></div>"
-    +'<p style="font-size:12.5px;color:var(--muted)">Context shown is limited to recorded references. Excerpts are never fabricated.</p>';
+  var refs=qsrcList(q);
+  var kus=q.knowledge_units||[];
+  var html='<div class="field"><label>Document</label><p style="font-size:13.5px">'+esc(META.source||"?")+"</p></div>";
+  html+='<div class="field"><label>Trust note</label><p style="font-size:12.5px;color:var(--muted)">Context shown is limited to recorded references. Excerpts are never fabricated.</p></div>';
+  if(!refs.length&&!kus.length){
+    html+="<p>(no block reference)</p>";
+  } else {
+    refs.forEach(function(s,i){
+      html+='<div class="src-entry"><p><span class="k">Reference '+(i+1)+"</span></p><p>"+esc(fmtSrcRef(s))+"</p></div>";
+    });
+    if(kus.length){
+      html+='<div class="src-entry"><p><span class="k">Knowledge units</span></p>';
+      kus.forEach(function(e){
+        var x=e.ku_id+": "+(e.role||"");
+        html+="<p>"+esc(x)+"</p>";
+        if(kuExcerpt(e.ku_id)) html+="<details><summary>Source excerpt</summary><p>"+esc(kuExcerpt(e.ku_id))+"</p></details>";
+      });
+      html+="</div>";
+    }
+  }
+  b.innerHTML=html;
 }
 /* ---------- revision queue ---------- */
 /* ---------- revision queue (KU-level engine) ---------- */
 function revReasonText(reasons){
   return (reasons||[]).map(function(x){ return RevisionEngine.REASON_LABELS[x]||x; }).join("; ");
 }
+function priWord(p){ p=String(p||"").toLowerCase(); if(p==="critical") return "High"; if(p==="high") return "High"; if(p==="medium") return "Medium"; return "Low"; }
 function renderRevQueue(){
   var box=document.getElementById("revQueue");
   if(state.mode!=="revision"||state.revStarted){ box.innerHTML=""; return; }
@@ -1677,7 +1800,11 @@ function renderRevQueue(){
     box.innerHTML=modesHtml+'<div class="empty"><b>Nothing in this view.</b>Try another revision view above.</div>';
     bindRevModes(box); return;
   }
-  var html=modesHtml+'<div class="rev-queue">';
+  var top=list[0];
+  var notice='<div class="rev-notice"><span class="rn-pri">'+esc(priWord(top.priority))+' priority</span><br><b>'+esc(top.topic||"General")+(top.subtopic?(" · "+esc(top.subtopic)):"")+"</b>"
+    +"<p>"+esc(revReasonText(top.reasons))+" · "+esc(((top.weak_forms||[]).join(", ")||"recall"))+" needs work · 1 question · new form, not a repeat.</p>"
+    +'<button class="btn btn-sm btn-secondary" data-rev="0" type="button">Practise</button></div>';
+  var html=modesHtml+notice+'<div class="rev-queue">';
   list.slice(0,12).forEach(function(e,n){
     var weak=(e.weak_forms||[]).join(", ")||"—";
     var last=e.last_result?(e.last_result+(e.confidence_signal?(" · "+e.confidence_signal):"")):"not attempted";
@@ -1701,7 +1828,7 @@ function bindRevModes(box){
 }
 /* ---------- actions ---------- */
 function selectedOpt(){ var rs=document.getElementsByName("opt"); for(var i=0;i<rs.length;i++) if(rs[i].checked) return rs[i].value; return null; }
-function selectedConf(){ var rs=document.getElementsByName("conf"); for(var i=0;i<rs.length;i++) if(rs[i].checked) return rs[i].value; return "Guessing"; }
+function selectedConf(){ var rs=document.getElementsByName("conf"); for(var i=0;i<rs.length;i++) if(rs[i].checked) return rs[i].value; return null; }
 function submit(){
   if(state.mode==="analytics") return;
   var c=curQ(); if(!c) return; var q=c.q,i=c.i,id=qid(q,i);
@@ -1779,9 +1906,10 @@ function showAnalytics(){
   var ans=state.answers;
   var att=Object.keys(ans).filter(function(id){return ans[id]&&ans[id].sel;});
   var nC=att.filter(function(id){return ans[id].correct;}).length, nW=att.length-nC;
-  var score=nC*MARKS_CORRECT-nW*PENALTY, max=(QUESTIONS.length||1)*MARKS_CORRECT;
+  var gained=nC*MARKS_CORRECT, lost=nW*PENALTY;
+  var score=gained-lost, max=(QUESTIONS.length||1)*MARKS_CORRECT;
   var acc=att.length?Math.round(100*nC/att.length):0;
-  var cal={}; att.forEach(function(id){ var a=ans[id]; var k=(a.conf||"Guessing"); cal[k]=cal[k]||{n:0,c:0}; cal[k].n++; if(a.correct)cal[k].c++; });
+  var cal={}; att.forEach(function(id){ var a=ans[id]; var k=(a.conf||"Unstated"); cal[k]=cal[k]||{n:0,c:0}; cal[k].n++; if(a.correct)cal[k].c++; });
   var certainWrong=att.filter(function(id){return ans[id].conf==="Certain"&&!ans[id].correct;}).length;
   var certainTot=att.filter(function(id){return ans[id].conf==="Certain";}).length;
   var kuMiss={}; att.forEach(function(id){ var a=ans[id]; if(a.correct)return; var k=a.primary_ku||"unknown"; kuMiss[k]=(kuMiss[k]||0)+1; });
@@ -1792,31 +1920,31 @@ function showAnalytics(){
   var topConf=Object.keys(cg).sort(function(a,b){return cg[b]-cg[a];}).slice(0,3);
   var unansHi=QUESTIONS.filter(function(q,i){ var id=qid(q,i); return !(ans[id]&&ans[id].sel)&&(q.revision_priority==="critical"||q.revision_priority==="high"); }).slice(0,5);
   var h='<div class="an-grid">'
-    +'<div class="stat"><small>Overall</small><div class="v">'+acc+'%</div><div class="s">'+nC+' of '+att.length+' attempted</div></div>'
-    +'<div class="stat"><small>Accuracy</small><div class="v">'+acc+'%</div><div class="s">'+QUESTIONS.length+' in set</div></div>'
+    +'<div class="stat"><small>Accuracy</small><div class="v">'+acc+'%</div><div class="s">'+nC+' correct / '+att.length+' attempted</div></div>'
+    +'<div class="stat"><small>Net score</small><div class="v">'+score.toFixed(2)+'</div><div class="s">of '+max.toFixed(0)+' · +'+MARKS_CORRECT.toFixed(2)+' correct · −'+PENALTY.toFixed(2)+' wrong</div></div>'
     +'<div class="stat"><small>Neg.-marking score</small><div class="v">'+score.toFixed(1)+'</div><div class="s">of '+max.toFixed(0)+' · −'+PENALTY+' per wrong</div></div></div>';
-  h+='<div class="an-section"><h3>What should I study next?</h3><p class="sub">Ordered by impact.</p>';
+  h+='<div class="an-section actionable"><h3>What should I study next?</h3><p class="sub">Ordered by impact.</p><ol class="reclist">';
   var n=1;
-  if(weakTopics.length){ h+='<p><b>'+(n++)+". Revise "+esc(weakTopics[0])+'</b> — lowest topic accuracy. <button class="btn btn-sm btn-secondary" data-act="rev-topic" data-v="'+esc(weakTopics[0])+'" type="button">Revise now</button></p>'; }
-  if(topConf.length){ h+='<p><b>'+(n++)+". Practise distinctions:</b> "+esc(topConf.join(", "))+' <button class="btn btn-sm btn-secondary" data-act="rev-weak" type="button">Practise distinctions</button></p>'; }
-  if(nW){ h+='<p><b>'+(n++)+". Review "+nW+' mistake'+(nW>1?"s":"")+'</b> in context. <button class="btn btn-sm btn-secondary" data-act="rev-incorrect" type="button">Review mistakes</button></p>'; }
-  if(unansHi.length){ h+='<p><b>'+(n++)+". "+unansHi.length+' high-priority unanswered.</b> <button class="btn btn-sm btn-secondary" data-act="rev-high" type="button">Start them</button></p>'; }
-  if(n===1) h+='<p>No clear gap yet — attempt more questions across purposes.</p>';
-  h+="</div>";
-  h+='<div class="an-section"><h3>Weak areas</h3><p class="sub">Accuracy by topic.</p>'+barRows(topicG)+"</div>";
-  h+='<div class="an-section"><h3>Confidence problem</h3><p class="sub">Certain on '+certainTot+', missed '+certainWrong+'. Unsure-but-right suggests guessing luck; Certain-but-wrong needs revision.</p>'+barRows((function(){var o={};Object.keys(cal).forEach(function(k){o[k]=cal[k];});return o;})())+"</div>";
-  h+='<div class="an-section"><h3>Revision priority</h3><p class="sub">Most-missed knowledge units.</p>'
+  if(weakTopics.length){ h+='<li><span><b>'+(n++)+". Revise "+esc(weakTopics[0])+'</b> — lowest topic accuracy.</span> <button class="btn btn-sm btn-secondary" data-act="rev-topic" data-v="'+esc(weakTopics[0])+'" type="button">Revise now</button></li>'; }
+  if(topConf.length){ h+='<li><span><b>'+(n++)+". Practise distinctions:</b> "+esc(topConf.join(", "))+'</span> <button class="btn btn-sm btn-secondary" data-act="rev-weak" type="button">Practise distinctions</button></li>'; }
+  if(nW){ h+='<li><span><b>'+(n++)+". Review "+nW+' mistake'+(nW>1?"s":"")+'</b> in context.</span> <button class="btn btn-sm btn-secondary" data-act="rev-incorrect" type="button">Review mistakes</button></li>'; }
+  if(unansHi.length){ h+='<li><span><b>'+(n++)+". "+unansHi.length+' high-priority unanswered.</b></span> <button class="btn btn-sm btn-secondary" data-act="rev-high" type="button">Start them</button></li>'; }
+  if(n===1) h+='<li>No clear gap yet — attempt more questions across purposes.</li>';
+  h+="</ol></div>";
+  h+='<div class="an-section plain"><h3>Weak areas</h3><p class="sub">Accuracy by topic.</p>'+barRows(topicG)+"</div>";
+  h+='<div class="an-section plain"><h3>Confidence problem</h3><p class="sub">Certain on '+certainTot+', missed '+certainWrong+'. Unsure-but-right suggests guessing luck; Certain-but-wrong needs revision.</p>'+barRows((function(){var o={};Object.keys(cal).forEach(function(k){o[k]=cal[k];});return o;})())+"</div>";
+  h+='<div class="an-section plain"><h3>Revision priority</h3><p class="sub">Most-missed knowledge units.</p>'
     +(kuRows.length?("<ol style='margin:0;padding-left:20px'>"+kuRows.map(function(k,i){return "<li><b>"+esc(k)+"</b> — "+kuMiss[k]+" miss(es)</li>";}).join("")+"</ol><p style='margin-top:10px'><button class='btn btn-sm btn-secondary' data-act='rev-weak' type='button'>Open revision queue</button></p>"):"<p class='sub'>No misses yet.</p>")+"</div>";
-  h+='<div class="an-section"><h3>By purpose &amp; difficulty</h3><p class="sub">Where reasoning breaks down.</p>'+barRows(grp(function(q){return qpurpose(q);}))+"</div>";
+  h+='<div class="an-section plain"><h3>By purpose &amp; difficulty</h3><p class="sub">Where reasoning breaks down.</p>'+barRows(grp(function(q){return qpurpose(q);}))+"</div>";
   try{
     var rd=revQueueData();
     var weakTop=rd.queue.slice(0,5);
-    h+='<div class="an-section"><h3>Revision</h3><p class="sub">Weak knowledge units, confidence signals and mastery.</p>';
+    h+='<div class="an-section plain rev-cog"><h3>Revision</h3><p class="sub">Weak knowledge units, confidence signals and mastery.</p>';
     if(weakTop.length){
       h+="<ol style='margin:0;padding-left:20px'>"+weakTop.map(function(e){
         return "<li><b>"+esc(e.ku_id)+"</b> — "+esc(e.priority)+", "+esc((e.weak_forms||[]).join(", ")||"recall")+", mastery "+esc(e.mastery||"")+"</li>";
       }).join("")+"</ol>";
-      h+="<p class='sub'>High-confidence errors: "+certainWrong+" of "+certainTot+" certain answers need revision.</p>";
+      h+="<p class='sub rev-hce'>High-confidence errors: "+certainWrong+" of "+certainTot+" certain answers need revision.</p>";
       h+="<p><button class='btn btn-sm btn-secondary' data-act='rev-hce' type='button'>Review high-confidence errors</button> <button class='btn btn-sm btn-secondary' data-act='rev-cog' type='button'>Review cognitive gaps</button></p>";
     } else {
       h+="<p class='sub'>No revision items — nothing attempted yet, or recent accuracy is strong.</p>";
@@ -1850,6 +1978,11 @@ document.getElementById("mPrev").onclick=goPrev;
 document.getElementById("mNext").onclick=goNext;
 document.getElementById("markbtn").onclick=function(){ var c=curQ(); if(!c)return; var id=qid(c.q,c.i); var a=state.answers[id]||{sel:null,conf:null,correct:null,marked:false,primary_ku:primaryKu(c.q)}; a.marked=!a.marked; state.answers[id]=a; saveSession(); render(); };
 document.getElementById("hintbtn").onclick=function(){ var b=document.getElementById("hintbox"); var on=b.style.display==="block"; b.style.display=on?"none":"block"; document.getElementById("hintbtn").textContent=on?"Show hint (H)":"Hide hint"; };
+document.getElementById("shortcutsBtn").onclick=function(){
+  var r=document.querySelector(".rail");
+  if(r&&getComputedStyle(r).display!=="none"){ var d=r.querySelector("details"); if(d){ d.open=!d.open; d.scrollIntoView({block:"nearest"}); } return; }
+  openDrawer("sessionDrawer");
+};
 ["f_topic","f_diff","f_tier","f_type","f_purpose","f_rev","f_incorrect","f_marked","f_weak"].forEach(function(id){ document.getElementById(id).onchange=onFilterChange; });
 document.getElementById("clearFilters").onclick=function(){ ["f_topic","f_diff","f_tier","f_type","f_purpose","f_rev"].forEach(function(id){document.getElementById(id).value="";}); ["f_incorrect","f_marked","f_weak"].forEach(function(id){document.getElementById(id).checked=false;}); onFilterChange(); };
 document.querySelectorAll("#modebar .mode-item[data-mode]").forEach(function(b){ b.onclick=function(){ setMode(b.getAttribute("data-mode")); }; });
@@ -1878,6 +2011,7 @@ document.getElementById("importfile").onchange=function(e){
 };
 document.addEventListener("keydown",function(e){
   if(e.key==="Escape"){ closeDrawers(); return; }
+  if(e.key==="?"){ document.getElementById("shortcutsBtn").click(); return; }
   var tag=e.target&&(e.target.tagName||"");
   if(tag==="SELECT"||tag==="TEXTAREA"||(tag==="INPUT"&&(e.target.type==="text"||e.target.type==="search"))) return;
   if(document.getElementById("quizview").style.display==="none") return;
@@ -1887,7 +2021,7 @@ document.addEventListener("keydown",function(e){
   else if(e.key==="ArrowLeft"){ goPrev(); }
   else if(e.key==="Enter"){ e.preventDefault(); submit(); }
   else if(e.key==="m"||e.key==="M"){ document.getElementById("markbtn").click(); }
-  else if(e.key==="h"||e.key==="H"){ document.getElementById("hintbtn").click(); }
+  else if(e.key==="h"||e.key==="H"){ if(document.getElementById("qhint").style.display!=="none") document.getElementById("hintbtn").click(); }
   else if(e.key==="n"||e.key==="N"){ openDrawer("navDrawer"); }
 });
 loadSession();

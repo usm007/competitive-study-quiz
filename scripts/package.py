@@ -78,6 +78,7 @@ def main(argv):
 
     tiers = {}
     revpri = {}
+    ku_excerpts = {}
     if a.inventory and os.path.isfile(a.inventory):
         inv = load_json(a.inventory)
         units = inv.get("units") if isinstance(inv, dict) else inv
@@ -86,6 +87,8 @@ def main(argv):
             rp = (u.get("dimensions") or {}).get("revision_priority")
             if rp:
                 revpri[u.get("id")] = rp
+            if u.get("supporting_excerpt"):
+                ku_excerpts[u.get("id")] = u["supporting_excerpt"]
 
     for x in kept:
         prims = [e.get("ku_id") for e in x.get("knowledge_units") or []
@@ -133,7 +136,7 @@ def main(argv):
             "excluded": excluded,
             "external_count": ext
         },
-        "questions": kept
+        "questions": kept, "ku_excerpts": ku_excerpts
     }
 
     dest = a.out or os.path.join(bank_dir, "quiz_package.json")
