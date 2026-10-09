@@ -8,12 +8,15 @@ mock-test website.
   shell = study desk, rail = study organizer/index, action row = desk control
   strip, feedback = study note, source = reference evidence, analytics = study
   plan.
-- Palette: warm desk canvas `#e9e4d4`, crisp study surface `#fffdf7`,
-  navy-black ink `#101c2e`, academic navy `#1e3a5f`. Green/red/amber reserved
-  for correct/incorrect/priority. No gradients, glass, neon, pastels.
-- Typography carries identity: system-ui stack (offline file, no webfont).
-  Workbook number 34px/800, question 22-26px/750, uppercase wide-track labels
-  (1-2px tracking) mark structure only. Body never uppercase, never all-bold.
+- Palette: warm desk canvas `#e6dcc4`, warm cream study surface `#fdf9ee`,
+  deep espresso ink `#231a10`, academic navy `#1e3a5f` (single accent).
+  Green/red/amber reserved for correct/incorrect/priority. No gradients
+  (shimmer placeholder excepted), glass, neon, pastels. Editorial Luxury
+  reskin applied 2026-10-09 per `new_design_plan.md`; all text pairs AA.
+- Typography carries identity: system-ui body (offline file, no webfont);
+  system serif display (`Iowan Old Style`, Palatino, Georgia) for sheet
+  number, question stem, brand name only. Uppercase wide-track labels
+  mark structure only. Body never uppercase, never all-bold.
 - Grammar: typography + ink rules + spacing + surfaces. Cards are not the
   default; options are ruled ledger rows; statements, revision queue, and plan
   items are separated by thin rules.
@@ -42,3 +45,17 @@ Reason log (R-31):
   affordances.
 - Shimmer only as boot loading placeholder mirroring question layout.
   Reason: loading-state shape match.
+- Paper grain is a static data-URI noise overlay, pointer-events none.
+  Reason: tactile paper feel with zero motion cost; hidden in print.
+- Display serif confined to sheet number, stem, brand. Reason: editorial
+  voice where authority lives; body stays system-ui for scan speed.
+- Analytics lead metric spans two rows beside a stacked pair. Reason:
+  accuracy-first hierarchy without touching markup or strings.
+- Nested circular arrows live inside Submit/Next only, never Mark. Reason:
+  Mark's label is JS-owned textContent; children would be wiped.
+- Waivers vs the Editorial Luxury skill (new_design_plan.md §4): 1px-rule
+  ban waived (ledger grammar needs thin rules); double-bezel cards waived
+  (6px product radius, options stay non-card); floating pill nav waived
+  (persistent desk chrome required); springs/staggers/reveals waived
+  (motion dial 1); webfont serif waived (offline file, system serif);
+  marketing-hero rules N/A (no hero).

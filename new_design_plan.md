@@ -1,7 +1,9 @@
 # New Design Plan: Editorial Luxury Reskin of the Study Template
 
-Status: PROPOSED — not applied. The template (`templates/web/app.template.html`)
-is unchanged; this document records the approved direction for future work.
+Status: APPLIED 2026-10-09. All §3 changes implemented in
+`templates/web/app.template.html` (tokens, display serif, grain, motion
+ease, analytics split, Submit/Next arrow spans, eyebrow tracking); waivers
+appended to the DESIGN.md reason log; verification per §5 below.
 
 ## 1. Direction
 
