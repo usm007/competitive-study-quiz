@@ -8,14 +8,14 @@
 <style>
 /* ============ design tokens: modern digital study workspace ============ */
 :root{
-  --bg:#f0f2f5; --surface:#ffffff; --surface-2:#f7f8fa; --surface-3:#edf0f4;
-  --ink:#101828; --ink-2:#344054; --muted:#667085; --faint:#98a2b3;
-  --line:#d0d5dd; --line-soft:#dce1e8; --line-strong:#98a2b3;
-  --accent:#1d4ed8; --accent-ink:#1e3a8a; --accent-soft:#eff6ff;
+  --bg:#e9e4d4; --surface:#fffdf7; --surface-2:#f5f0e2; --surface-3:#e0d9c4;
+  --ink:#101c2e; --ink-2:#2d486d; --muted:#515b6b; --faint:#8a8578;
+  --line:#d8d2c0; --line-soft:#e6e0cf; --line-strong:#9a937f;
+  --accent:#1e3a5f; --accent-ink:#022448; --accent-soft:#e4e9f1;
   --good:#15803d; --good-bg:#f0fdf4; --good-line:#bbf7d0;
   --bad:#b91c1c; --bad-bg:#fff1f2; --bad-line:#fecdd3;
   --warn:#b45309; --warn-bg:#fffbeb; --warn-line:#fde68a;
-  --focus:#2563eb;
+  --focus:#1e3a5f;
   --radius:6px; --radius-s:4px;
   --shadow-sm:0 1px 2px rgba(16,24,40,.05);
   --shadow:0 1px 3px rgba(16,24,40,.08), 0 1px 2px rgba(16,24,40,.04);
@@ -26,7 +26,7 @@
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;height:100%}
 body{font-family:var(--font-ui);color:var(--ink);background:var(--bg);margin:0;line-height:1.55;font-size:15px;height:100%;height:100dvh;display:flex;flex-direction:column;overflow:hidden}
-::selection{background:#dbeafe}
+::selection{background:#dae2fd}
 :focus{outline:none}
 :focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:4px}
 button{font:inherit}
@@ -39,8 +39,10 @@ button{font:inherit}
 .brand-mark{width:28px;height:28px;border-radius:6px;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:12.5px;letter-spacing:.5px;flex:none}
 .brand-name{font-weight:700;font-size:14.5px;color:var(--ink);letter-spacing:-.01em;white-space:nowrap;line-height:1.2}
 .brand-sub{font-size:11px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;letter-spacing:.2px}
+.workstation-pill{flex:none;font-size:10px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:2px 8px;background:var(--surface-2);white-space:nowrap}
+@media (max-width:560px){.workstation-pill{display:none}}
 .set-title{min-width:0;flex:1;text-align:center}
-.set-title b{display:block;font-size:14px;font-weight:700;color:var(--ink);font-variant-numeric:tabular-nums;white-space:nowrap;letter-spacing:.3px}
+.set-title b{display:inline-block;font-size:13.5px;font-weight:700;color:var(--accent-ink);font-variant-numeric:tabular-nums;white-space:nowrap;letter-spacing:.3px;background:var(--surface-2);border:1px solid var(--line);border-radius:6px;padding:2px 12px}
 .set-title span{font-size:11px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
 .progress-wrap{display:flex;align-items:center;gap:10px;flex:none;min-width:0}
 .progress-num{font-size:11.5px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
@@ -99,7 +101,7 @@ body[data-mode="test"] .mode-banner h2{color:var(--ink)}
 #quizview{flex:1;display:flex;flex-direction:column;min-height:0}
 body[data-mode="test"] #qwork{border:none;box-shadow:none}
 .sheet-head{display:flex;gap:16px;align-items:flex-start;margin:0 0 12px;padding-bottom:10px;border-bottom:1px solid var(--line-soft)}
-.sheet-num{font-size:32px;font-weight:800;letter-spacing:-.03em;line-height:1;color:var(--accent);font-variant-numeric:tabular-nums;flex:none;min-width:42px}
+.sheet-num{font-size:34px;font-weight:800;letter-spacing:-.03em;line-height:1;color:var(--accent);font-variant-numeric:tabular-nums;flex:none;min-width:42px}
 .sheet-id{display:flex;flex-direction:column;gap:3px;min-width:0;padding-top:4px}
 .sheet-mode{font-size:10px;font-weight:800;letter-spacing:1.6px;text-transform:uppercase;color:var(--accent-ink);opacity:.9}
 .sheet-ctx{font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--muted)}
@@ -142,7 +144,7 @@ body[data-mode="test"] .sheet-mode{color:var(--bad)}
 .opt{position:relative;display:flex;gap:14px;align-items:center;background:transparent;border:none;border-bottom:1px solid var(--line-soft);padding:11px 4px;cursor:pointer;transition:background .1s;min-height:46px}
 .opt:hover{background:var(--surface)}
 .opt input{position:absolute;opacity:0;pointer-events:none}
-.opt .k{flex:none;width:28px;height:28px;border-radius:var(--radius-s);background:var(--surface-3);border:1px solid var(--line-strong);color:var(--ink-2);font-weight:700;font-size:12.5px;display:flex;align-items:center;justify-content:center;transition:background .1s,border-color .1s,color .1s}
+.opt .k{flex:none;width:30px;height:30px;border-radius:var(--radius-s);background:var(--surface-3);border:1px solid var(--line-strong);color:var(--ink-2);font-weight:700;font-size:12.5px;display:flex;align-items:center;justify-content:center;transition:background .1s,border-color .1s,color .1s}
 .opt .t{flex:1;min-width:0;font-size:15.5px;line-height:1.45;color:var(--ink)}
 .opt.selected{background:var(--accent-soft);box-shadow:inset 3px 0 0 var(--accent)}
 .opt.selected .k{background:var(--accent);border-color:var(--accent);color:#fff}
@@ -264,7 +266,7 @@ details.more .more-body{padding-top:6px}
 .chip button{border:none;background:var(--surface);border-radius:99px;width:20px;height:20px;cursor:pointer;line-height:1;color:var(--muted)}
 .field{margin-bottom:14px}
 .field label{display:block;font-size:10px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;margin-bottom:5px;color:var(--ink-2)}
-.field select,.field input[type="text"],.field input[type="search"]{width:100%;padding:8px 12px;border:1px solid var(--line-strong);border-radius:var(--radius);font:inherit;background:#fff;min-height:40px}
+.field select,.field input[type="text"],.field input[type="search"]{width:100%;padding:8px 12px;border:1px solid var(--line-strong);border-radius:var(--radius);font:inherit;background:var(--surface);min-height:40px}
 .checkrow{display:flex;align-items:center;gap:8px;padding:8px 0;font-size:14px;border-bottom:1px solid var(--line-soft)}
 .checkrow input{width:16px;height:16px;accent-color:var(--accent)}
 .navfilter{display:flex;gap:4px;margin-bottom:10px;border-bottom:1px solid var(--line);padding-bottom:6px}
@@ -293,7 +295,7 @@ details.more .more-body{padding-top:6px}
 /* empty and loading */
 .empty{border:1px dashed var(--line-strong);border-radius:var(--radius);padding:32px 22px;text-align:center;color:var(--muted);margin:10px 0}
 .empty b{display:block;color:var(--ink);font-size:15px;margin-bottom:4px}
-.skeleton{border-radius:var(--radius);background:linear-gradient(90deg,var(--surface-3) 25%,#f1f5f9 50%,var(--surface-3) 75%);background-size:200% 100%;animation:sh 1.2s infinite}
+.skeleton{border-radius:var(--radius);background:linear-gradient(90deg,var(--surface-3) 25%,#f7f2e4 50%,var(--surface-3) 75%);background-size:200% 100%;animation:sh 1.2s infinite}
 @keyframes sh{to{background-position:-200% 0}}
 .loadwrap{margin:8px 0 0;display:flex;flex-direction:column;gap:8px}
 .loadwrap .sk-h{height:16px;width:40%}
@@ -409,6 +411,7 @@ details.more .more-body{padding-top:6px}
     <div class="brand">
       <span class="brand-mark" aria-hidden="true">SS</span>
       <div><div class="brand-name" id="apptitle">StudySynth</div><div class="brand-sub" id="statusline">General PSC · Comprehensive</div></div>
+      <span class="workstation-pill" aria-hidden="true">Workstation</span>
     </div>
     <div class="set-title" aria-live="polite"><b id="setTitle">Q 0 / 0</b><span id="progress"></span></div>
     <div class="progress-wrap" role="status" aria-label="Study progress">
