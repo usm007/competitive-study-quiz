@@ -68,14 +68,28 @@ class TestShellLayout(unittest.TestCase):
 
 
 class TestModes(unittest.TestCase):
-    MODES = ["learn", "practice", "test", "revision", "rapid"]
+    MODES = ["practice", "test", "revision"]
 
     def test_all_modes_present_with_descriptions(self):
         t = tpl_text()
         for m in self.MODES:
             self.assertIn('data-mode="%s"' % m, t)
         self.assertIn("Weak areas", t)
-        self.assertIn("High-density", t)
+        self.assertIn("Answer and review", t)
+
+    def test_removed_modes_absent(self):
+        t = tpl_text()
+        for m in ["learn", "rapid"]:
+            self.assertNotIn('data-mode="%s"' % m, t)
+        for s in ["learnPanel", "renderLearnPanel", "confusableExcerpt",
+                  "Rapid Recall", "High-density", "rapidReveal"]:
+            self.assertNotIn(s, t, s)
+
+    def test_confidence_meter_present(self):
+        t = tpl_text()
+        for eid in ["confMeter", "cmPct", "cmFill", "cmSub"]:
+            self.assertIn('id="%s"' % eid, t, eid)
+        self.assertIn("renderConfMeter", t)
 
     def test_active_mode_unmistakable(self):
         t = tpl_text()

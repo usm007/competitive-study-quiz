@@ -889,6 +889,8 @@ def migrate_session(raw):
         s.setdefault("events", [])
         s.setdefault("revision_state", {"queue": [], "sessions": []})
         s.setdefault("mode", "practice")
+        if s.get("mode") not in ("practice", "test", "revision", "analytics"):
+            s["mode"] = "practice"
         # forward-fill any missing answer keys (never overwrite)
         for qid, a in s["answers"].items():
             if isinstance(a, dict):
@@ -899,6 +901,9 @@ def migrate_session(raw):
         return s, False, ["already v2"]
     answers = {}
     mode = raw.get("mode", "practice") or "practice"
+    if mode not in ("practice", "test", "revision", "analytics"):
+        mode = "practice"
+        notes.append("unknown mode remapped to practice")
     if isinstance(raw.get("answers"), dict):
         for qid, a in raw["answers"].items():
             if not isinstance(a, dict):

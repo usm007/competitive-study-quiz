@@ -38,7 +38,7 @@ The ingestion engine (`scripts/ingest.py`) parses, normalizes, and extracts stru
 
 ### Interactive Study Desk UI
 - Pure standalone offline HTML file (`file://` compatible).
-- Features **Practice Deck**, **Test**, **Revision Engine**, and **Rapid Recall** modes.
+- Features **Practice Deck**, **Test**, **Revision Engine**, **Analytics** modes plus a sidebar **Confidence** meter.
 - Purged of generic "Quiz" terminology in favor of pedagogical study module workflows.
 
 ---

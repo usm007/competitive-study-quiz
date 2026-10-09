@@ -85,7 +85,7 @@ DOCUMENT → EXTRACTION → STRUCTURE + ANCHORS → KNOWLEDGE INVENTORY → EXAM
 
 The learner works with the resulting package.
 
-LEARN → PRACTICE → TEST → REVISION → RAPID RECALL → ANALYTICS
+PRACTICE → TEST → REVISION → ANALYTICS
 
 The study workspace is the **delivery layer for the compiled knowledge package**.
 
@@ -378,21 +378,14 @@ The learner should always know:
 
 ## 18. Study modes
 
-### Learn
-
-Purpose:
-**Read → Understand → Retrieve**
-
-Learn should surface source-grounded teaching context such as key fact, important distinction, remember point, and test yourself.
-
-It should use the recorded source material and KU excerpts where available.
-
-### Practice
+### Practice (Practice Deck)
 
 Purpose:
 **Think → Answer → Review**
 
 Practice permits answer selection, confidence, hints where supported, immediate feedback, explanations, source inspection, marking, and navigation.
+
+A sidebar Confidence meter shows overall accuracy (`correct / answered`) so the learner always sees how they are doing.
 
 ### Test
 
@@ -411,13 +404,6 @@ Purpose:
 Revision uses learner performance signals and the existing revision engine to surface weak areas and high-priority work.
 
 The system should explain why an item is appearing.
-
-### Rapid Recall
-
-Purpose:
-**Fast retrieval**
-
-Rapid Recall emphasizes quick factual retrieval with minimal ceremony.
 
 ### Analytics
 

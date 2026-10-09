@@ -20,11 +20,9 @@ mock-test website.
 - Option marker: 30px square, 4px radius, bordered, subordinate to answer
   text. States: quiet / navy inset (selected) / green inset (correct) / red
   inset (incorrect). Never color alone: verdict text + marker fill + rule.
-- Mode identities: Practice = active work; Learn = annotated sheet with
-  KEY FACT / IMPORTANT DISTINCTION / REMEMBER over a TEST YOURSELF rule;
-  Test = inverted exam strip, aids suppressed; Revision = diagnostic board
-  (why + weakness + action); Rapid = dense flash; Analytics = numbered study
-  plan first, metrics second.
+- Mode identities: Practice = active work; Test = inverted exam strip, aids suppressed; Revision = diagnostic board
+  (why + weakness + action); Analytics = numbered study plan first, metrics second.
+- Confidence meter: overall accuracy in the rail (percent + thin bar + correct/answered text, never color alone).
 - Radius: 6px sheets/panels/buttons, 4px markers/small controls, 99px
   metadata pills only.
 - Motion: hover/selection/drawer/focus transitions only. No loops.

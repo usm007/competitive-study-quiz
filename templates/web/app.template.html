@@ -21,7 +21,7 @@
   --shadow:0 1px 3px rgba(16,24,40,.08), 0 1px 2px rgba(16,24,40,.04);
   --shadow-lg:0 12px 32px rgba(16,24,40,.14), 0 4px 8px rgba(16,24,40,.08);
   --font-ui:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,"Noto Sans","Helvetica Neue",Arial,sans-serif;
-  --max:1240px; --measure:840px;
+  --max:1240px; --measure:1024px;
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;height:100%}
@@ -34,9 +34,9 @@ button{font:inherit}
 .skip:focus{left:0}
 /* ============ top bar: focused digital desk header ============ */
 .topbar{flex:none;position:relative;z-index:60;background:var(--surface);border-bottom:1px solid var(--line)}
-.topbar-in{max-width:var(--max);margin:0 auto;display:flex;align-items:center;gap:14px;padding:7px 20px;min-height:52px}
+.topbar-in{max-width:var(--max);margin:0 auto;display:flex;align-items:center;gap:14px;padding:6px 20px;min-height:48px}
 .brand{display:flex;align-items:center;gap:10px;min-width:0;flex:1}
-.brand-mark{width:30px;height:30px;border-radius:6px;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;letter-spacing:.5px;flex:none}
+.brand-mark{width:28px;height:28px;border-radius:6px;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:12.5px;letter-spacing:.5px;flex:none}
 .brand-name{font-weight:700;font-size:14.5px;color:var(--ink);letter-spacing:-.01em;white-space:nowrap;line-height:1.2}
 .brand-sub{font-size:11px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;letter-spacing:.2px}
 .set-title{min-width:0;flex:1;text-align:center}
@@ -54,11 +54,11 @@ button{font:inherit}
 /* ============ study index: organized workspace navigation ============ */
 .shell{max-width:var(--max);margin:0 auto;display:grid;grid-template-columns:210px minmax(0,1fr);gap:0;padding:0;align-items:stretch;flex:1;min-height:0;width:100%;overflow:hidden}
 .shell.rail-collapsed{grid-template-columns:52px minmax(0,1fr)}
-.rail{padding:14px 0 10px;height:100%;max-height:none;overflow-y:auto;overflow-x:hidden;position:static;border-right:1px solid var(--line);background:var(--surface)}
+.rail{padding:10px 0 8px;height:100%;max-height:none;overflow-y:auto;overflow-x:hidden;position:static;border-right:1px solid var(--line);background:var(--surface)}
 .rail-head{margin:0 12px 6px;padding-bottom:6px}
 .rail-head span{font-size:10px;font-weight:800;letter-spacing:1.6px;color:var(--faint);text-transform:uppercase}
 .mode-list{display:flex;flex-direction:column;gap:1px}
-.mode-item{display:flex;gap:10px;align-items:center;width:100%;text-align:left;background:transparent;border:none;border-radius:0;padding:8px 16px 8px 12px;cursor:pointer;color:var(--ink-2);transition:background .12s,color .12s;position:relative}
+.mode-item{display:flex;gap:10px;align-items:center;width:100%;text-align:left;background:transparent;border:none;border-radius:0;padding:7px 16px 7px 12px;cursor:pointer;color:var(--ink-2);transition:background .12s,color .12s;position:relative}
 .mode-item:hover{background:var(--surface-3);color:var(--ink)}
 .mode-item.active{background:var(--accent-soft);color:var(--accent-ink)}
 .mode-item.active::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--accent);border-radius:0 2px 2px 0}
@@ -71,26 +71,34 @@ button{font:inherit}
 .shell.rail-collapsed .mode-item{justify-content:center;padding:14px 0}
 .shell.rail-collapsed .mode-dot{display:block;width:18px;height:2px;flex:none;background:var(--line-strong);align-self:center}
 .shell.rail-collapsed .mode-item.active .mode-dot{background:var(--accent)}
-.rail-sec{margin-top:20px}
-.rail-foot{margin-top:18px;font-size:12px;color:var(--muted);padding:0 12px}
+.rail-sec{margin-top:14px}
+.rail-foot{margin-top:12px;font-size:12px;color:var(--muted);padding:0 12px}
 .rail-foot details{font-size:12px}
 .rail-foot summary{cursor:pointer;color:var(--ink-2);font-weight:600;list-style:none}
 .rail-foot summary::before{content:"⌨ ";color:var(--faint)}
 .rail-foot table{border-collapse:collapse;margin-top:6px}
 .rail-foot td{padding:2px 6px 2px 0;color:var(--muted)}
 .rail-foot kbd{font-family:inherit;background:var(--surface-3);border:1px solid var(--line);border-radius:4px;padding:0 5px;font-size:11px}
+/* ============ confidence meter: overall progress in rail ============ */
+.conf-meter{margin:0 12px;padding:2px 0 0}
+.conf-meter .cm-pct{font-size:20px;font-weight:800;letter-spacing:-.02em;color:var(--ink);font-variant-numeric:tabular-nums;line-height:1.1}
+.conf-meter .cm-bar{height:6px;border-radius:99px;background:var(--surface-3);overflow:hidden;margin:6px 0}
+.conf-meter .cm-bar i{display:block;height:100%;background:var(--accent);border-radius:99px;transition:width .25s ease}
+.conf-meter .cm-sub{font-size:11.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+.shell.rail-collapsed .conf-meter{display:none}
 /* ============ workspace: open digital study area ============ */
 .workspace{padding:0;min-width:0;min-height:0;height:100%;overflow-y:auto;overflow-x:hidden;display:flex;flex-direction:column;scrollbar-gutter:stable}
-.workcol{width:100%;max-width:var(--measure);margin:0 auto;padding:18px 28px 20px;flex:1;display:flex;flex-direction:column}
-.mode-banner{display:flex;align-items:baseline;gap:10px;margin:0 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+.workcol{width:100%;max-width:var(--measure);margin:0 auto;padding:14px 24px 12px;flex:1;display:flex;flex-direction:column}
+.mode-banner{display:flex;align-items:baseline;gap:10px;margin:0 0 10px;padding-bottom:8px;border-bottom:1px solid var(--line)}
 .mode-banner h2{font-size:10.5px;margin:0;letter-spacing:1.8px;text-transform:uppercase;color:var(--ink);font-weight:800}
 .mode-banner p{font-size:12px;color:var(--muted);margin:0}
 body[data-mode="test"] .mode-banner{border-bottom-color:var(--ink)}
 body[data-mode="test"] .mode-banner h2{color:var(--ink)}
 /* active study surface: open work area — no giant outer card */
-#qwork{background:transparent;border:none;padding:0;box-shadow:none}
+#qwork{background:transparent;border:none;padding:0;box-shadow:none;flex:1;display:flex;flex-direction:column;min-height:0}
+#quizview{flex:1;display:flex;flex-direction:column;min-height:0}
 body[data-mode="test"] #qwork{border:none;box-shadow:none}
-.sheet-head{display:flex;gap:16px;align-items:flex-start;margin:0 0 18px;padding-bottom:14px;border-bottom:1px solid var(--line-soft)}
+.sheet-head{display:flex;gap:16px;align-items:flex-start;margin:0 0 12px;padding-bottom:10px;border-bottom:1px solid var(--line-soft)}
 .sheet-num{font-size:32px;font-weight:800;letter-spacing:-.03em;line-height:1;color:var(--accent);font-variant-numeric:tabular-nums;flex:none;min-width:42px}
 .sheet-id{display:flex;flex-direction:column;gap:3px;min-width:0;padding-top:4px}
 .sheet-mode{font-size:10px;font-weight:800;letter-spacing:1.6px;text-transform:uppercase;color:var(--accent-ink);opacity:.9}
@@ -114,19 +122,7 @@ body[data-mode="test"] .sheet-mode{color:var(--bad)}
 .q-context{font-size:11px;font-weight:700;letter-spacing:.9px;text-transform:uppercase;color:var(--muted);margin:0 0 5px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
 .q-context .sep{color:var(--line-strong)}
 .q-stem{font-size:clamp(20px,2vw,24px);line-height:1.42;font-weight:700;letter-spacing:-.015em;color:var(--ink);margin:0 0 5px;max-width:68ch}
-.q-sub{font-size:13px;color:var(--muted);margin:0 0 14px}
-/* ============ learn: integrated open study area ============ */
-.learn-panel{margin:0 0 20px;border-bottom:2px solid var(--ink);padding-bottom:16px}
-.learn-panel h3{font-size:10px;font-weight:800;letter-spacing:1.8px;text-transform:uppercase;color:var(--faint);margin:0 0 4px}
-.learn-panel .lp-topic{font-size:18px;font-weight:800;letter-spacing:-.02em;margin:0 0 14px;color:var(--ink);line-height:1.2}
-.learn-panel dl{margin:0;font-size:14.5px;line-height:1.6}
-.learn-panel dt{font-size:10px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:var(--accent-ink);margin:12px 0 3px;padding-top:10px;border-top:1px solid var(--line-soft)}
-.learn-panel dl dt:first-of-type{border-top:none;padding-top:0;margin-top:0}
-.learn-panel dd{margin:0 0 2px;color:var(--ink-2)}
-.learn-panel .lp-contrast{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:6px}
-.learn-panel .lp-contrast div{border-top:1px solid var(--line-soft);padding-top:6px}
-.learn-panel .lp-contrast b{display:block;font-size:10px;letter-spacing:.8px;text-transform:uppercase;color:var(--muted)}
-.learn-panel .lp-test{font-size:10px;font-weight:800;letter-spacing:1.8px;text-transform:uppercase;color:var(--muted);margin:16px 0 0;padding-top:12px;border-top:2px solid var(--ink)}
+.q-sub{font-size:13px;color:var(--muted);margin:0 0 10px}
 /* statements: structured exam items */
 .stmt-block{margin:8px 0 12px;max-width:72ch}
 .stmt-kicker{font-size:11.5px;font-weight:800;letter-spacing:1.2px;color:var(--accent);text-transform:uppercase;margin:0 0 6px}
@@ -142,8 +138,8 @@ body[data-mode="test"] .sheet-mode{color:var(--bad)}
 .match-col ol{list-style:none;margin:0;padding:0}
 .match-kicker{font-size:11.5px;font-weight:800;letter-spacing:1.2px;color:var(--accent);text-transform:uppercase;margin:0 0 8px}
 /* ============ options: clean examination rows — no individual cards ============ */
-.opts{margin:14px 0 0;display:flex;flex-direction:column;border-top:1px solid var(--line-soft)}
-.opt{position:relative;display:flex;gap:14px;align-items:center;background:transparent;border:none;border-bottom:1px solid var(--line-soft);padding:13px 4px;cursor:pointer;transition:background .1s;min-height:50px}
+.opts{margin:10px 0 0;display:flex;flex-direction:column;border-top:1px solid var(--line-soft);flex:1 0 auto;justify-content:space-evenly}
+.opt{position:relative;display:flex;gap:14px;align-items:center;background:transparent;border:none;border-bottom:1px solid var(--line-soft);padding:11px 4px;cursor:pointer;transition:background .1s;min-height:46px}
 .opt:hover{background:var(--surface)}
 .opt input{position:absolute;opacity:0;pointer-events:none}
 .opt .k{flex:none;width:28px;height:28px;border-radius:var(--radius-s);background:var(--surface-3);border:1px solid var(--line-strong);color:var(--ink-2);font-weight:700;font-size:12.5px;display:flex;align-items:center;justify-content:center;transition:background .1s,border-color .1s,color .1s}
@@ -160,7 +156,7 @@ body[data-mode="test"] .sheet-mode{color:var(--bad)}
 .opt.disabled{cursor:default}
 .opt.disabled:not(.selected):not(.correct):not(.incorrect) .t{opacity:.7}
 /* ============ confidence: study signal ============ */
-.conf{margin:16px 0 6px;padding-top:12px;border-top:1px solid var(--line-soft)}
+.conf{margin:12px 0 6px;padding-top:10px;border-top:1px solid var(--line-soft)}
 .conf p{font-size:10px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
 .conf-row{display:flex;flex-wrap:wrap;gap:6px}
 .conf-chip{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line-strong);background:var(--surface);border-radius:var(--radius);padding:7px 14px;font-size:13px;cursor:pointer;color:var(--ink-2);min-height:36px;line-height:1.2;transition:background .1s,border-color .1s}
@@ -168,7 +164,7 @@ body[data-mode="test"] .sheet-mode{color:var(--bad)}
 .conf-chip input{accent-color:var(--accent)}
 .conf-chip:has(input:checked){border-color:var(--accent);background:var(--accent-soft);color:var(--accent-ink);font-weight:650}
 /* ============ actions: workspace controls ============ */
-.actions{position:sticky;bottom:0;display:flex;gap:8px;align-items:center;margin:18px 0 0;flex-wrap:wrap;background:var(--bg);border-top:1px solid var(--line);padding:12px 0 4px;z-index:5}
+.actions{position:sticky;bottom:0;display:flex;gap:8px;align-items:center;margin:auto 0 0;flex-wrap:wrap;background:var(--bg);border-top:1px solid var(--line);padding:12px 0 4px;z-index:5}
 .actions .spacer{flex:1;min-width:8px}
 .actions .btn{min-height:40px;padding:8px 16px;border-radius:var(--radius)}
 .actions .btn-primary{min-width:148px;font-weight:700}
@@ -176,7 +172,7 @@ body[data-mode="test"] .sheet-mode{color:var(--bad)}
 .hintline{margin:8px 0 0}
 .hintbox{display:none;background:var(--warn-bg);border:1px solid var(--warn-line);border-left:3px solid var(--warn);border-radius:0 var(--radius) var(--radius) 0;padding:10px 14px;font-size:14px;margin-top:8px}
 /* feedback: diagnostic study note */
-.study-note{margin:20px 0 0;background:var(--surface-2);border:1px solid var(--line);border-top:3px solid var(--ink);border-radius:var(--radius);overflow:hidden}
+.study-note{margin:14px 0 0;background:var(--surface-2);border:1px solid var(--line);border-top:3px solid var(--ink);border-radius:var(--radius);overflow:hidden}
 .study-note.is-ok{border-top-color:var(--good);border-color:var(--good-line);background:#f0fdf4}
 .study-note.is-bad{border-top-color:var(--bad);border-color:var(--bad-line);background:#fef2f2}
 .study-note .sn-head{padding:12px 18px 10px;display:flex;gap:12px;align-items:center;border-bottom:1px solid var(--line-soft);flex-wrap:wrap}
@@ -184,8 +180,8 @@ body[data-mode="test"] .sheet-mode{color:var(--bad)}
 .sn-badge.good{background:var(--good-bg);color:var(--good);border:1px solid var(--good-line)}
 .sn-badge.bad{background:var(--bad-bg);color:var(--bad);border:1px solid var(--bad-line)}
 .sn-key{font-size:15px;font-weight:650;color:var(--ink)}
-.sn-body{padding:14px 18px 16px}
-.sn-body h4{font-size:11px;font-weight:800;letter-spacing:1px;text-transform:uppercase;color:var(--accent-ink);margin:12px 0 4px}
+.sn-body{padding:12px 16px 12px}
+.sn-body h4{font-size:11px;font-weight:800;letter-spacing:1px;text-transform:uppercase;color:var(--accent-ink);margin:10px 0 3px}
 .sn-body h4:first-child{margin-top:0}
 .sn-body p{margin:0 0 4px;font-size:14px;line-height:1.55;color:var(--ink)}
 .sn-compare{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0}
@@ -225,12 +221,6 @@ details.more .more-body{padding-top:6px}
 .revmodes button.more-toggle{border-style:none;color:var(--accent)}
 .rev-why{display:block;color:var(--muted);font-size:12px;margin-top:2px}
 .rev-meta{display:block;color:var(--muted);font-size:11.5px;margin-top:1px}
-/* ============ rapid: fast factual recall ============ */
-body[data-mode="rapid"] .opts{margin-top:8px}
-body[data-mode="rapid"] .opt{padding:10px 4px;min-height:44px}
-body[data-mode="rapid"] .opt .t{font-size:14.5px}
-body[data-mode="rapid"] .q-stem{font-size:20px}
-body[data-mode="rapid"] .sheet-num{font-size:28px}
 /* ============ analytics: study planning first ============ */
 .an-section.actionable{background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:var(--radius);padding:16px 20px;box-shadow:var(--shadow-sm)}
 .an-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:6px 0 16px}
@@ -386,7 +376,7 @@ body[data-mode="rapid"] .sheet-num{font-size:28px}
   .stmt-closer{font-size:14.5px}
   .rev-card{padding:7px 0}
   .sn-body{padding:8px 14px}
-  .actions{margin-top:10px;padding-top:8px}
+  .actions{margin-top:auto;padding-top:8px}
 }
 @media (min-width:861px) and (min-height:801px) and (max-height:950px){
   .appfoot{display:none}
@@ -407,7 +397,7 @@ body[data-mode="rapid"] .sheet-num{font-size:28px}
   .opt,.study-note,.an-section,.stat{box-shadow:none;break-inside:avoid}
   .q-stem{font-size:18pt}
 }
-</style></style>
+</style>
 </head>
 <body data-mode="practice">
 <a class="skip" href="#qstem">Skip to question</a>
@@ -449,16 +439,16 @@ body[data-mode="rapid"] .sheet-num{font-size:28px}
   <nav class="rail" aria-label="Study modes">
     <div class="rail-head"><span>Study</span></div>
     <div class="mode-list" id="modebar" role="tablist" aria-label="Modes">
-      <button class="mode-item" data-mode="learn" role="tab" aria-selected="false"><span class="mode-dot" aria-hidden="true"></span><span><b>Learn</b><small>Study concepts</small></span></button>
       <button class="mode-item" data-mode="practice" role="tab" aria-selected="true"><span class="mode-dot" aria-hidden="true"></span><span><b>Practice Deck</b><small>Answer and review</small></span></button>
       <button class="mode-item" data-mode="test" role="tab" aria-selected="false"><span class="mode-dot" aria-hidden="true"></span><span><b>Test</b><small>Exam conditions</small></span></button>
       <button class="mode-item" data-mode="revision" role="tab" aria-selected="false"><span class="mode-dot" aria-hidden="true"></span><span><b>Revision Engine</b><small>Weak areas</small></span></button>
-      <button class="mode-item" data-mode="rapid" role="tab" aria-selected="false"><span class="mode-dot" aria-hidden="true"></span><span><b>Rapid Recall</b><small>High-density factual recall</small></span></button>
     </div>
     <div class="rail-head rail-sec"><span>Insights</span></div>
     <div class="mode-list">
       <button class="mode-item" id="analyticsBtn" role="tab" aria-selected="false"><span class="mode-dot" aria-hidden="true"></span><span><b>Analytics</b><small>Performance</small></span></button>
     </div>
+    <div class="rail-head rail-sec"><span>Confidence</span></div>
+    <div class="conf-meter" id="confMeter" role="status" aria-label="Overall confidence" aria-live="polite"><div class="cm-pct" id="cmPct">—</div><div class="cm-bar" aria-hidden="true"><i id="cmFill" style="width:0%"></i></div><div class="cm-sub" id="cmSub">Not started yet</div></div>
     <div class="rail-foot">
       <button id="quizBtn" class="btn btn-tertiary btn-sm" type="button" style="display:none">← Back to Study Module</button>
       <a href="#" id="printlink" onclick="window.print();return false;" style="font-size:12px">Print question sheet</a>
@@ -479,7 +469,6 @@ body[data-mode="rapid"] .sheet-num{font-size:28px}
       <div class="exam-strip" id="examStrip" aria-live="polite"></div>
       <div class="mode-banner"><h2 id="modeKicker">Practice</h2><p id="modeDesc">Answer first, review after.</p></div>
       <div id="chips" class="chips" aria-label="Active filters"></div>
-      <div id="learnPanel"></div>
       <div id="revQueue"></div>
       <div id="qwork">
       <div class="loadwrap" id="loading" role="status" aria-label="Loading study material"><div class="skeleton sk-h"></div><div class="skeleton sk-q"></div><div class="skeleton sk-o"></div><div class="skeleton sk-o"></div></div>
@@ -586,12 +575,12 @@ var NEG = (PROFILE && PROFILE.negative_marking) || {};
 var PENALTY = (NEG.enabled === false) ? 0 : (typeof NEG.penalty_fraction === "number" ? NEG.penalty_fraction : 0.25);
 var MARKS_CORRECT = (typeof PROFILE.marks_correct === "number") ? PROFILE.marks_correct : 1;
 var MODE_INFO = {
-  learn:{k:"Learn",d:"Read, understand, recall."},
   practice:{k:"Practice Deck",d:"Answer and review."},
   test:{k:"Test",d:"Exam conditions. No feedback until you submit."},
-  revision:{k:"Revision Engine",d:"Why this item, then practise."},
-  rapid:{k:"Rapid Recall",d:"Fast factual recall. No confidence, quick result."}
+  revision:{k:"Revision Engine",d:"Why this item, then practise."}
 };
+var VALID_MODES = {practice:1, test:1, revision:1, analytics:1};
+function validMode(m){ return VALID_MODES[m] ? m : "practice"; }
 /* ---------- normalizers ---------- */
 function normOptions(q){
   var o = q.options || q.choices || [];
@@ -637,7 +626,16 @@ var storageOK = true;
 try { localStorage.setItem("__t","1"); localStorage.removeItem("__t"); }
 catch(e){ storageOK = false; }
 function saveSession(){ try { session.study_session_version=2; session.answers = state.answers; session.mode = state.mode; session.revision_state = state.revState||{queue:[],sessions:[]}; localStorage.setItem(storeKey, JSON.stringify(session)); } catch(e){ storageOK=false; } }
-function loadSession(){ try { var raw = localStorage.getItem(storeKey); if(!raw) return; var parsed=null; try{ parsed=JSON.parse(raw); }catch(e){ storageOK=false; return; } var res=RevisionEngine.migrateSession(parsed); state.answers=(res[0]&&res[0].answers)||{}; state.mode=(res[0]&&res[0].mode)||"practice"; state.revState=(res[0]&&res[0].revision_state)||{queue:[],sessions:[]}; } catch(e){ storageOK=false; } }
+function loadSession(){ try { var raw = localStorage.getItem(storeKey); if(!raw) return; var parsed=null; try{ parsed=JSON.parse(raw); }catch(e){ storageOK=false; return; } var res=RevisionEngine.migrateSession(parsed); state.answers=(res[0]&&res[0].answers)||{}; state.mode=validMode((res[0]&&res[0].mode)||"practice"); state.revState=(res[0]&&res[0].revision_state)||{queue:[],sessions:[]}; } catch(e){ storageOK=false; } }
+function renderConfMeter(k){
+  var pct=document.getElementById("cmPct"), fill=document.getElementById("cmFill"), sub=document.getElementById("cmSub");
+  if(!pct||!fill||!sub) return;
+  if(!k.answered){ pct.textContent="—"; fill.style.width="0%"; sub.textContent="Not started yet"; return; }
+  var acc=Math.round(100*k.correct/k.answered);
+  pct.textContent=acc+"%";
+  fill.style.width=acc+"%";
+  sub.textContent=k.correct+" of "+k.answered+" correct";
+}
 /* ---------- filters ---------- */
 function weakSet(){
   var w={};
@@ -825,8 +823,9 @@ function renderHeader(){
   document.getElementById("progressFill").style.width=pct+"%";
   document.getElementById("progressPct").textContent=pct+"%";
   var mi=MODE_INFO[state.mode];
-  document.getElementById("modeKicker").textContent = state.mode==="rapid"?"Rapid Recall":(mi?mi.k:state.mode);
+  document.getElementById("modeKicker").textContent = mi?mi.k:state.mode;
   document.getElementById("modeDesc").textContent = mi?mi.d:"";
+  renderConfMeter(k);
   document.body.setAttribute("data-mode",state.mode);
   var items=document.querySelectorAll("#modebar .mode-item[data-mode]");
   for(var i=0;i<items.length;i++){ var on=items[i].getAttribute("data-mode")===state.mode;
@@ -941,36 +940,11 @@ function splitStatements(q){
   if(!closer) closer="Which of the above is/are correct?";
   return {stmts:stmts,closer:closer};
 }
-/* ---------- learn panel: compact study note from package data only ---------- */
-function confusableExcerpt(q, primaryKu){
-  // Only a KU actually attached to this question may illustrate the
-  // distinction. Never borrow an unrelated excerpt (would mislead).
-  var out=null;
-  (q.knowledge_units||[]).forEach(function(e){
-    if(e&&e.ku_id&&e.ku_id!==primaryKu&&kuExcerpt(e.ku_id)&&!out) out=kuExcerpt(e.ku_id);
-  });
-  return out||"";
-}
-function renderLearnPanel(q){
-  var box=document.getElementById("learnPanel"); box.innerHTML="";
-  if(state.mode!=="learn"||!q) return;
-  var kus=q.knowledge_units||[], prim=null;
-  for(var i=0;i<kus.length;i++) if(kus[i]&&kus[i].role==="primary"){ prim=kus[i].ku_id; break; }
-  var fact=prim?kuExcerpt(prim):"";
-  var contrast=prim?confusableExcerpt(q,prim):"";
-  var html='<div class="learn-panel"><h3>Learn</h3><p class="lp-topic">'+esc(qtopic(q))+(qsubtopic(q)?" · "+esc(qsubtopic(q)):"")+"</p><dl>";
-  html+="<dt>Key fact</dt><dd>"+esc(fact||"Study the concept in the stem carefully.")+"</dd>";
-  if(contrast) html+="<dt>Important distinction</dt><dd>"+esc(contrast)+"</dd>";
-  if(qmem(q)) html+="<dt>Remember</dt><dd>"+esc(qmem(q))+"</dd>";
-  html+="</dl>"+'<p class="lp-test">Test yourself</p></div>';
-  box.innerHTML=html;
-}
 /* ---------- question ---------- */
 function renderQ(){
   var c=curQ(), fb=document.getElementById("feedback");
   fb.style.display="none"; fb.innerHTML="";
   document.getElementById("revQueue").innerHTML="";
-  document.getElementById("learnPanel").innerHTML="";
   // question workspace visible except on the revision queue landing
   document.getElementById("qwork").style.display=(state.mode==="revision"&&!state.revStarted)?"none":"";
   var answeredNow=!!(c&&state.answers[qid(c.q,c.i)]&&state.answers[qid(c.q,c.i)].sel);
@@ -993,7 +967,7 @@ function renderQ(){
   var mi0=MODE_INFO[state.mode];
   document.getElementById("sheetHead").style.display="";
   document.getElementById("qnum").textContent=String(view.length?(state.idx+1):0).padStart(2,"0");
-  document.getElementById("qmode").textContent=state.mode==="rapid"?"Rapid Recall":(mi0?mi0.k:state.mode);
+  document.getElementById("qmode").textContent=mi0?mi0.k:state.mode;
   document.getElementById("qmargin").textContent=(qtopic(q)+(qsubtopic(q)?(" · "+qsubtopic(q)):"")+" · "+qdiff(q)+" · Tier "+qtier(q)).toUpperCase();
   if(!(a&&a.sel)) state.qShownAt=Date.now();
   var hideFb=(state.mode==="test"&&!state.testFinished);
@@ -1002,7 +976,6 @@ function renderQ(){
   var meta=document.getElementById("qmeta");
   meta.style.display="none";
   meta.innerHTML="";
-  renderLearnPanel(q);
   // statements: structured list, stem never duplicated
   var sp=splitStatements(q), st=document.getElementById("qstatements"); st.innerHTML="";
   if(mp){
@@ -1044,9 +1017,8 @@ function renderQ(){
     document.getElementById("qsub").textContent="Choose the single best answer.";
   }
   // post-answer: hide instruction, hint and topic rows to keep result in view.
-  // learn mode hides the instruction too (the panel already frames the task).
   // match/statement questions hide it always (their closers already instruct).
-  var hideSub=!!(a&&a.sel)||sp.stmts.length>0||!!mp||state.mode==="learn";
+  var hideSub=!!(a&&a.sel)||sp.stmts.length>0||!!mp;
   document.getElementById("qsub").style.display=hideSub?"none":"";
   var hb=document.getElementById("hintbox"); hb.style.display="none"; hb.textContent="";
   var hintAllowed=(state.mode!=="test"||state.testFinished);
@@ -1055,12 +1027,11 @@ function renderQ(){
   document.getElementById("hintbtn").style.display=hasHint?"":"none";
   // options
   var form=document.getElementById("opts"); form.innerHTML="";
-  var rapidReveal=(state.mode==="rapid"&&a&&a.sel);
   opts.forEach(function(o,n){
     var lab=document.createElement("label");
     var cls="opt";
     if(a&&a.sel===o.key) cls+=" selected";
-    if(showFb||rapidReveal){ if(o.key===key) cls+=" correct"; else if(a&&a.sel===o.key) cls+=" incorrect"; cls+=" disabled"; }
+    if(showFb){ if(o.key===key) cls+=" correct"; else if(a&&a.sel===o.key) cls+=" incorrect"; cls+=" disabled"; }
     lab.className=cls;
     var r=document.createElement("input");
     r.type="radio"; r.name="opt"; r.value=o.key;
@@ -1072,7 +1043,7 @@ function renderQ(){
     lab.appendChild(k);
     var t=document.createElement("span"); t.className="t"; t.textContent=o.text;
     lab.appendChild(t);
-    if((showFb||rapidReveal)&&(o.key===key||(a&&a.sel===o.key))){
+    if(showFb&&(o.key===key||(a&&a.sel===o.key))){
       var v=document.createElement("span"); v.className="verdict";
       v.textContent=o.key===key?"✓ Correct":"✕ Yours";
       lab.appendChild(v);
@@ -1087,10 +1058,10 @@ function renderQ(){
     });
     form.appendChild(lab);
   });
-  // confidence: never preselected; hidden in test/rapid and after answering
+  // confidence: never preselected; hidden in test and after answering
   var confrow=document.getElementById("confrow");
   if(a&&a.sel){ confrow.style.display="none"; }
-  else { confrow.style.display=(state.mode==="test"||state.mode==="rapid")?"none":""; }
+  else { confrow.style.display=(state.mode==="test")?"none":""; }
   if(a&&a.conf){ var rs=document.getElementsByName("conf"); for(var k2=0;k2<rs.length;k2++) if(rs[k2].value===a.conf) rs[k2].checked=true; }
   // submit enable; after answering, Next becomes the primary action
   var canSubmit=!(a&&a.sel);
@@ -1102,7 +1073,7 @@ function renderQ(){
   hb2.style.display=(hasHint&&canSubmit)?"":"none";
   document.getElementById("markbtn").textContent=(a&&a.marked)?"★ Marked":"Mark for review";
   // feedback
-  if(showFb||rapidReveal) renderFeedback(q,opts,key,a);
+  if(showFb) renderFeedback(q,opts,key,a);
   else if(a&&a.sel&&hideFb){ fb.style.display="block"; fb.innerHTML='<div class="sn-body"><p>Recorded. Feedback is hidden until you submit the test.</p></div>'; }
   renderSourceBody(q);
 }
@@ -1145,24 +1116,6 @@ function renderFeedback(q,opts,key,a){
   var chosen=null; wrong.forEach(function(o){ if(a.sel===o.key) chosen=o; });
   var trap=chosen||wrong[0];
   var lesson=q.explanation?firstSentence(q.explanation):"";
-  // rapid recall: quick result now, full note behind "Why?"
-  if(state.mode==="rapid"){
-    var rh='<div class="sn-head"><span class="sn-badge '+(ok?"good":"bad")+'">'+(ok?"✓ Correct":"Not quite")+'</span><span class="sn-key"><b>'+esc(key)+".</b> "+esc(keyText)+"</span></div>";
-    rh+='<div class="sn-body">';
-    if(lesson) rh+="<p>"+esc(lesson)+"</p>";
-    var rrest="";
-    if(q.explanation&&q.explanation.length>lesson.length+20) rrest+="<p>"+esc(q.explanation)+"</p>";
-    if(trap) rrest+='<h4>Why the distractor tempts you</h4><p>Option '+esc(trap.key)+' looks right because it '+(trap.key===a.sel?"matches what you chose":"is close to the truth")+".</p>";
-    if(q.misconception) rrest+='<h4>Common mix-up</h4><p>'+esc(q.misconception)+"</p>";
-    if(qmem(q)) rrest+='<h4>Remember</h4><p>'+esc(qmem(q))+"</p>";
-    if(rrest) rh+='<details class="more"><summary>Why?</summary><div class="more-body">'+rrest+"</div></details>";
-    rh+="</div>";
-    rh+='<details class="tech"><summary>Details: IDs, difficulty, purpose</summary><div class="tech-body">ID '+esc(q.id||"")+" · Type "+esc(qtype(q))+" · Tier "+esc(qtier(q))+" · Purpose "+esc(qpurpose(q))+(q.difficulty_reason?(" · "+esc(q.difficulty_reason)):"")+"</div></details>";
-    fb.innerHTML=rh;
-    var sl2=fb.querySelector("[data-src]");
-    if(sl2) sl2.onclick=function(ev){ ev.preventDefault(); openDrawer("sourceDrawer"); };
-    return;
-  }
   var html='<div class="sn-head"><span class="sn-badge '+(ok?"good":"bad")+'">'+(ok?"✓ Correct":"Not quite")+'</span><span class="sn-key"><b>'+esc(key)+".</b> "+esc(keyText)+"</span></div>";
   html+='<div class="sn-body">';
   if(!ok) html+='<div class="sn-compare one-line"><div><b>Your answer '+esc(yours)+'</b></div><div class="arrow" aria-hidden="true">→</div><div><b>Correct answer '+esc(key)+'</b></div></div>';
@@ -1331,10 +1284,6 @@ function submit(){
   var ex=state.answers[id];
   if(ex&&ex.sel) { goNext(); return; }
   var sel=selectedOpt();
-  if(state.mode==="rapid"&&!sel){
-    // rapid: reveal answer without recording? record as skipped view
-    return;
-  }
   if(!sel){ hb2(); return; }
   var opts=normOptions(q), key=normKey(q,opts), chosen=null;
   for(var k=0;k<opts.length;k++) if(opts[k].key===sel) chosen=opts[k];
@@ -1350,7 +1299,6 @@ function submit(){
       render();
     }
   }
-  if(state.mode==="rapid"){ setTimeout(function(){ goNext(); },450); }
 }
 function hb2(){
   var hb=document.getElementById("hintbox");
@@ -1363,7 +1311,7 @@ function goPrev(){ if(state.idx>0){state.idx--;render();} }
 function render(){ renderHeader(); renderNav(); renderQ(); }
 function setMode(m){
   if(m==="analytics"){ showAnalytics(); return; }
-  state.mode=m; state.idx=0; state.revStarted=false;
+  state.mode=validMode(m); state.idx=0; state.revStarted=false;
   endRevisionSession();
   document.querySelector(".mobilebar").style.display="";
   saveSession(); refreshView(); render();
@@ -1503,7 +1451,7 @@ document.getElementById("exportbtn").onclick=function(){
 document.getElementById("importbtn").onclick=function(){ document.getElementById("importfile").click(); };
 document.getElementById("importfile").onchange=function(e){
   var f=e.target.files[0]; if(!f) return; var r=new FileReader();
-  r.onload=function(){ try{ var s=JSON.parse(r.result); var res=RevisionEngine.migrateSession(s); state.answers=(res[0]&&res[0].answers)||{}; state.revState=(res[0]&&res[0].revision_state)||{queue:[],sessions:[]}; if(res[0]&&res[0].mode) state.mode=res[0].mode; saveSession(); refreshView(); render(); closeDrawers(); }catch(err){ alert("Invalid session file: "+err.message); } };
+  r.onload=function(){ try{ var s=JSON.parse(r.result); var res=RevisionEngine.migrateSession(s); state.answers=(res[0]&&res[0].answers)||{}; state.revState=(res[0]&&res[0].revision_state)||{queue:[],sessions:[]}; if(res[0]&&res[0].mode) state.mode=validMode(res[0].mode); saveSession(); refreshView(); render(); closeDrawers(); }catch(err){ alert("Invalid session file: "+err.message); } };
   r.readAsText(f); e.target.value="";
 };
 document.addEventListener("keydown",function(e){
