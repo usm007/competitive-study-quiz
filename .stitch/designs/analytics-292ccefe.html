@@ -1,0 +1,369 @@
+<!DOCTYPE html><html class="h-full bg-background text-on-surface" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>EXAMINA WORKSTATION - Performance Analytics</title>
+<!-- Google Fonts: Space Grotesk & Hanken Grotesk -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "background": "#faf8ff",
+            "error-container": "#ffdad6",
+            "on-tertiary-fixed-variant": "#930009",
+            "on-background": "#131b2e",
+            "on-tertiary-fixed": "#410002",
+            "inverse-on-surface": "#eef0ff",
+            "primary-container": "#1e3a5f",
+            "surface-container-high": "#e2e7ff",
+            "surface-container-low": "#f2f3ff",
+            "on-secondary-fixed-variant": "#005225",
+            "secondary-fixed": "#95f8aa",
+            "primary-fixed": "#d5e3ff",
+            "inverse-surface": "#283044",
+            "surface-container-highest": "#dae2fd",
+            "on-primary-fixed-variant": "#2d486d",
+            "tertiary": "#510002",
+            "on-surface": "#131b2e",
+            "surface-dim": "#d2d9f4",
+            "surface": "#faf8ff",
+            "outline-variant": "#c4c6cf",
+            "surface-bright": "#faf8ff",
+            "surface-tint": "#455f87",
+            "on-primary-fixed": "#001c3b",
+            "on-secondary-container": "#007236",
+            "on-error": "#ffffff",
+            "on-primary-container": "#8aa4cf",
+            "secondary-fixed-dim": "#79db90",
+            "on-secondary": "#ffffff",
+            "inverse-primary": "#adc8f5",
+            "tertiary-fixed": "#ffdad5",
+            "on-surface-variant": "#43474e",
+            "primary": "#022448",
+            "outline": "#74777f",
+            "primary-fixed-dim": "#adc8f5",
+            "secondary-container": "#92f5a7",
+            "surface-variant": "#dae2fd",
+            "tertiary-container": "#7a0006",
+            "on-tertiary": "#ffffff",
+            "on-tertiary-container": "#ff7c6e",
+            "secondary": "#006d33",
+            "surface-container": "#eaedff",
+            "on-error-container": "#93000a",
+            "tertiary-fixed-dim": "#ffb4aa",
+            "surface-container-lowest": "#ffffff",
+            "on-primary": "#ffffff",
+            "on-secondary-fixed": "#00210b",
+            "error": "#ba1a1a"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "spacing": {
+            "gutter-desktop": "2rem",
+            "space-md": "1rem",
+            "space-lg": "1.5rem",
+            "space-sm": "0.5rem",
+            "margin": "1rem",
+            "space-xs": "0.25rem",
+            "margin-desktop": "2.5rem",
+            "space-xl": "2.5rem",
+            "gutter": "1.5rem"
+          },
+          "fontFamily": {
+            "stat-metric": [
+              "Hanken Grotesk"
+            ],
+            "meta-header": [
+              "Space Grotesk"
+            ],
+            "option-letter": [
+              "Space Grotesk"
+            ],
+            "sheet-id": [
+              "Hanken Grotesk"
+            ],
+            "headline-md": [
+              "Hanken Grotesk"
+            ],
+            "headline-lg-mobile": [
+              "Hanken Grotesk"
+            ],
+            "meta-mono": [
+              "Space Grotesk"
+            ],
+            "body-lg": [
+              "Hanken Grotesk"
+            ],
+            "body-md": [
+              "Hanken Grotesk"
+            ],
+            "headline-lg": [
+              "Hanken Grotesk"
+            ]
+          },
+          "fontSize": {
+            "stat-metric": [
+              "32px",
+              {
+                "lineHeight": "36px",
+                "letterSpacing": "-0.02em",
+                "fontWeight": "800"
+              }
+            ],
+            "meta-header": [
+              "11px",
+              {
+                "lineHeight": "16px",
+                "letterSpacing": "0.12em",
+                "fontWeight": "700"
+              }
+            ],
+            "option-letter": [
+              "14px",
+              {
+                "lineHeight": "14px",
+                "fontWeight": "700"
+              }
+            ],
+            "sheet-id": [
+              "34px",
+              {
+                "lineHeight": "40px",
+                "letterSpacing": "-0.03em",
+                "fontWeight": "800"
+              }
+            ],
+            "headline-md": [
+              "18px",
+              {
+                "lineHeight": "26px",
+                "letterSpacing": "-0.01em",
+                "fontWeight": "700"
+              }
+            ],
+            "headline-lg-mobile": [
+              "20px",
+              {
+                "lineHeight": "28px",
+                "letterSpacing": "-0.01em",
+                "fontWeight": "700"
+              }
+            ],
+            "meta-mono": [
+              "12px",
+              {
+                "lineHeight": "16px",
+                "letterSpacing": "0.04em",
+                "fontWeight": "600"
+              }
+            ],
+            "body-lg": [
+              "16px",
+              {
+                "lineHeight": "26px",
+                "fontWeight": "500"
+              }
+            ],
+            "body-md": [
+              "14px",
+              {
+                "lineHeight": "22px",
+                "fontWeight": "400"
+              }
+            ],
+            "headline-lg": [
+              "24px",
+              {
+                "lineHeight": "34px",
+                "letterSpacing": "-0.015em",
+                "fontWeight": "700"
+              }
+            ]
+          }
+        },
+      },
+    }
+  </script>
+</head>
+<body class="h-screen overflow-hidden bg-background text-on-surface antialiased flex flex-col font-body-md text-body-md selection:bg-surface-container-highest">
+<!-- TOP APP BAR -->
+<header class="flex justify-between items-center w-full px-space-lg h-16 border-b border-outline-variant dark:border-outline bg-surface-container-lowest dark:bg-inverse-surface sticky top-0 z-50">
+<!-- Left Logo & Session Meta -->
+<div class="flex items-center gap-space-md">
+<button aria-label="Toggle menu" class="p-1.5 rounded-lg text-primary hover:bg-surface-container transition-colors duration-150">
+<span class="material-symbols-outlined text-[22px]">menu</span>
+</button>
+<div class="flex items-center gap-2.5">
+<div class="w-8 h-8 rounded bg-primary text-on-primary flex items-center justify-center font-meta-mono text-meta-mono font-bold tracking-tight">
+          CQ
+        </div>
+<div class="flex flex-col">
+<span class="text-headline-md font-headline-md font-bold tracking-tight text-primary dark:text-inverse-primary leading-tight">
+            EXAMINA WORKSTATION
+          </span>
+<span class="text-meta-header font-meta-header text-outline tracking-wider">
+            APSC_PRELIMS · PARTIAL · CONTENT COMPLETE
+          </span>
+</div>
+</div>
+</div>
+<!-- Center Navigation Links & Exam Progress Status -->
+<div class="hidden lg:flex items-center gap-space-lg">
+<nav class="flex items-center gap-6">
+<a class="text-on-surface-variant dark:text-surface-variant font-medium pb-1 transition-colors duration-150 ease-in-out hover:text-primary" href="#">
+          Diagnostic Mode
+        </a>
+<a class="text-on-surface-variant dark:text-surface-variant font-medium pb-1 transition-colors duration-150 ease-in-out hover:text-primary" href="#">
+          Practice Sheets
+        </a>
+<a class="border-b-2 border-primary dark:border-inverse-primary text-primary dark:text-inverse-primary font-bold pb-1" href="#">
+          Analytics
+        </a>
+</nav>
+<div class="h-6 w-px bg-outline-variant mx-1"></div>
+<!-- Real-time Exam Tally Ledger -->
+<div class="flex items-center gap-3 bg-surface-container-low px-3 py-1.5 rounded border border-outline-variant">
+<span class="font-meta-mono text-meta-mono text-primary font-bold">Q 1 / 64</span>
+<span class="text-xs text-outline">•</span>
+<span class="font-meta-mono text-meta-mono text-on-surface-variant">2 answered · 1 correct · 1 wrong</span>
+<div class="w-20 bg-surface-container-high h-1.5 rounded-full overflow-hidden ml-1">
+<div class="bg-primary h-full w-[3%] rounded-full"></div>
+</div>
+<span class="font-meta-mono text-meta-mono text-outline font-bold">3%</span>
+</div>
+</div>
+<!-- Trailing Actions & Diagnostic Tools -->
+<div class="flex items-center gap-space-sm">
+<div class="hidden xl:flex items-center gap-1 text-on-surface-variant mr-2">
+<button class="p-1.5 rounded hover:bg-surface-container text-primary transition-colors duration-150" title="Examination Timer">
+<span class="material-symbols-outlined text-[20px]">timer</span>
+</button>
+<button class="p-1.5 rounded hover:bg-surface-container text-primary transition-colors duration-150" title="Question Reference Guidelines">
+<span class="material-symbols-outlined text-[20px]">help_outline</span>
+</button>
+<button class="p-1.5 rounded hover:bg-surface-container text-primary transition-colors duration-150" title="Session Parameters">
+<span class="material-symbols-outlined text-[20px]">tune</span>
+</button>
+</div>
+<button class="hidden sm:inline-flex items-center text-xs font-meta-header uppercase tracking-wider px-3 py-1.5 rounded border border-outline-variant text-on-surface font-semibold hover:bg-surface-container transition-colors duration-150">
+        Review Flagged (04)
+      </button>
+<button class="inline-flex items-center text-xs font-meta-header uppercase tracking-wider px-3.5 py-1.5 rounded bg-primary text-on-primary font-bold hover:bg-primary-container transition-colors duration-150 shadow-sm">
+        Submit Examination
+      </button>
+<img alt="Candidate profile avatar portrait" class="w-8 h-8 rounded-full border border-outline-variant ml-1 object-cover" data-alt="A distinguished academic scholar candidate portrait in clean architectural studio lighting, wearing a sharp minimal navy blazer against a neutral light slate background. Professional, disciplined, high-key editorial clarity reflecting intense medical or civil service examination preparation." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsP4APxxswOrqhZYvMCJIHf2h_D32f_6IXXMhPeB87eMQ3_pQKlOpl2wtMDZwM8729EVtpGjzLroM5O_zoSgsqtcjELIdRFCIEAf8GMQQZocqqZehNMLgY72qsclJDsv4i_X1H_BU9LGClLEJmfM3zYzpVtu0ouDCm5XpyfEAC18aUy7A9uCkmh6W0EoMBGEYTuiSWVQmr4Z4S0KGEA2bOdxVatlkoy9wF9vh1VByxmvtu_lMfUPVrwg">
+</div>
+</header>
+<!-- WORKSPACE BODY WITH DOCKED ASYMMETRIC RAIL -->
+<div class="flex flex-1 w-full max-w-[1440px] mx-auto overflow-hidden h-[calc(100vh-4rem)]">
+<!-- LEFT SIDEBAR NAV RAIL -->
+<aside class="hidden md:flex flex-col justify-between w-60 min-w-[240px] h-[calc(100vh-4rem)] p-space-md border-r border-outline-variant dark:border-outline bg-surface-container-low dark:bg-inverse-surface shrink-0 sticky top-16 select-none overflow-y-auto">
+<div class="flex flex-col gap-6">
+<!-- Batch Header Info -->
+<div class="pb-3 border-b border-outline-variant">
+<div class="flex items-center gap-2 mb-1">
+<span class="material-symbols-outlined text-primary text-[20px]">school</span>
+<span class="font-headline-md text-headline-md font-bold text-primary dark:text-inverse-primary leading-none">
+              USMLE Step 1
+            </span>
+</div>
+<p class="font-meta-mono text-meta-mono text-on-surface-variant">
+            Batch 2025 · Timed Session
+          </p>
+</div>
+<!-- Section: Study -->
+<div class="flex flex-col gap-1.5">
+<span class="font-meta-header text-meta-header text-outline uppercase tracking-wider px-3">
+            STUDY
+          </span>
+<nav class="flex flex-col space-y-0.5">
+<a class="flex flex-col text-on-surface-variant dark:text-surface-variant pl-4 py-2 rounded-sm font-medium hover:bg-surface-container-highest transition-all duration-150" href="#">
+<span class="text-body-md font-body-md font-semibold text-on-surface">Learn</span>
+<span class="text-[11px] text-outline leading-tight">Study concepts</span>
+</a>
+<a class="flex flex-col text-on-surface-variant dark:text-surface-variant pl-4 py-2 rounded-sm font-medium hover:bg-surface-container-highest transition-all duration-150" href="#">
+<span class="text-body-md font-body-md font-semibold text-on-surface">Practice</span>
+<span class="text-[11px] text-outline leading-tight">Answer and review</span>
+</a>
+<a class="flex flex-col text-on-surface-variant dark:text-surface-variant pl-4 py-2 rounded-sm font-medium hover:bg-surface-container-highest transition-all duration-150" href="#">
+<span class="text-body-md font-body-md font-semibold text-on-surface">Test</span>
+<span class="text-[11px] text-outline leading-tight">Exam conditions</span>
+</a>
+<a class="flex flex-col text-on-surface-variant dark:text-surface-variant pl-4 py-2 rounded-sm font-medium hover:bg-surface-container-highest transition-all duration-150" href="#">
+<span class="text-body-md font-body-md font-semibold text-on-surface">Revision</span>
+<span class="text-[11px] text-outline leading-tight">Weak areas</span>
+</a>
+<a class="flex flex-col text-on-surface-variant dark:text-surface-variant pl-4 py-2 rounded-sm font-medium hover:bg-surface-container-highest transition-all duration-150" href="#">
+<span class="text-body-md font-body-md font-semibold text-on-surface">Rapid Recall</span>
+<span class="text-[11px] text-outline leading-tight">High-density factual recall</span>
+</a>
+</nav>
+</div>
+<!-- Section: Insights (Active Group) -->
+<div class="flex flex-col gap-1.5">
+<span class="font-meta-header text-meta-header text-outline uppercase tracking-wider px-3">
+            INSIGHTS
+          </span>
+<nav class="flex flex-col space-y-0.5">
+<!-- Active item mapping: Performance Metrics / Analytics -->
+<a class="border-l-4 border-primary dark:border-inverse-primary bg-surface-container-highest dark:bg-primary-container text-primary dark:text-inverse-primary font-bold pl-3 py-2 rounded-sm flex flex-col transition-all duration-150" href="#">
+<span class="text-body-md font-body-md font-bold text-primary">Analytics</span>
+<span class="text-[11px] text-on-primary-fixed-variant leading-tight">Performance</span>
+</a>
+<a class="text-on-surface-variant dark:text-surface-variant pl-4 py-2 rounded-sm font-medium hover:bg-surface-container-highest transition-all duration-150 flex flex-col" href="#">
+<span class="text-body-md font-body-md font-semibold text-on-surface">Mistake Journal</span>
+<span class="text-[11px] text-outline leading-tight">Pattern classification</span>
+</a>
+</nav>
+</div>
+</div>
+<!-- Left Rail Bottom Utilities -->
+<div class="pt-4 border-t border-outline-variant flex flex-col gap-3">
+<div class="flex items-center justify-between text-xs px-2 text-on-surface-variant">
+<a class="hover:underline flex items-center gap-1 font-medium" href="#">
+<span class="text-outline">←</span> Back to quiz
+          </a>
+<button class="hover:underline text-primary font-semibold">Print</button>
+</div>
+<a class="text-xs text-primary font-medium px-2 hover:underline" href="#">
+          question sheet
+        </a>
+<button class="flex items-center gap-2 text-xs font-meta-mono text-outline hover:text-on-surface px-2 py-1 rounded hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-[16px]">grid_view</span>
+          Shortcuts
+        </button>
+</div>
+</aside>
+<!-- MAIN STUDY CANVAS & DIAGNOSTIC LEDGER -->
+<main class="flex-1 px-4 py-2 md:px-6 md:py-2.5 overflow-hidden max-w-[1040px] flex flex-col justify-between h-full">
+<!-- HERO RECOMMENDATION SHEET (Workbook Anchor with Top Ruled Accent Line) -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-lg shadow-sm overflow-hidden relative shrink-0"><div class="h-[3px] bg-primary w-full"></div><div class="px-4 py-2.5"><div class="mb-2 flex items-baseline justify-between"><h1 class="text-[18px] font-bold text-primary tracking-tight">What should I study next?</h1><p class="font-meta-mono text-meta-mono text-outline">Ordered by impact.</p></div><div class="flex flex-col divide-y divide-outline-variant"><div class="py-1.5 flex items-center justify-between gap-3 group hover:bg-surface-container-low transition-colors px-2 rounded-sm -mx-2"><div class="flex items-center gap-3"><span class="font-sheet-id text-[18px] leading-tight text-primary font-extrabold w-7 shrink-0">01</span><p class="text-body-md text-on-surface font-medium"><span class="font-bold text-on-surface">1. Revise Polity</span>, lowest topic accuracy.</p></div><button class="shrink-0 px-3 py-1 border border-outline text-on-surface font-semibold text-[11px] font-meta-header uppercase tracking-wider rounded hover:bg-primary hover:text-on-primary hover:border-primary transition-all duration-150">Revise now</button></div><div class="py-1.5 flex items-center justify-between gap-3 group hover:bg-surface-container-low transition-colors px-2 rounded-sm -mx-2"><div class="flex items-center gap-3"><span class="font-sheet-id text-[18px] leading-tight text-primary font-extrabold w-7 shrink-0">02</span><p class="text-body-md text-on-surface font-medium"><span class="font-bold text-on-surface">2. Practise distinctions:</span> wrong_date</p></div><button class="shrink-0 px-3 py-1 border border-outline text-on-surface font-semibold text-[11px] font-meta-header uppercase tracking-wider rounded hover:bg-primary hover:text-on-primary hover:border-primary transition-all duration-150">Practise distinctions</button></div><div class="py-1.5 flex items-center justify-between gap-3 group hover:bg-surface-container-low transition-colors px-2 rounded-sm -mx-2"><div class="flex items-center gap-3"><span class="font-sheet-id text-[18px] leading-tight text-primary font-extrabold w-7 shrink-0">03</span><p class="text-body-md text-on-surface font-medium"><span class="font-bold text-on-surface">3. Review 1 mistake</span> in context.</p></div><button class="shrink-0 px-3 py-1 border border-outline text-on-surface font-semibold text-[11px] font-meta-header uppercase tracking-wider rounded hover:bg-primary hover:text-on-primary hover:border-primary transition-all duration-150">Review mistakes</button></div><div class="py-1.5 flex items-center justify-between gap-3 group hover:bg-surface-container-low transition-colors px-2 rounded-sm -mx-2"><div class="flex items-center gap-3"><span class="font-sheet-id text-[18px] leading-tight text-primary font-extrabold w-7 shrink-0">04</span><p class="text-body-md text-on-surface font-medium"><span class="font-bold text-on-surface">4. 5 high-priority unanswered.</span></p></div><button class="shrink-0 px-3 py-1 border border-outline text-on-surface font-semibold text-[11px] font-meta-header uppercase tracking-wider rounded hover:bg-primary hover:text-on-primary hover:border-primary transition-all duration-150">Start them</button></div></div></div></div>
+<!-- THREE STAT METRIC CARDS ROW -->
+<div class="grid grid-cols-3 gap-3 shrink-0"><div class="bg-surface-container-lowest border border-outline-variant px-4 py-2.5 rounded-lg shadow-sm flex flex-col justify-between"><span class="font-meta-header text-[11px] text-outline uppercase tracking-wider">ACCURACY</span><div class="my-0.5"><span class="text-[24px] font-bold text-primary leading-none">50%</span></div><span class="font-meta-mono text-[11px] text-on-surface-variant">1 correct / 2 attempted</span></div><div class="bg-surface-container-lowest border border-outline-variant px-4 py-2.5 rounded-lg shadow-sm flex flex-col justify-between"><span class="font-meta-header text-[11px] text-outline uppercase tracking-wider">NET SCORE</span><div class="my-0.5"><span class="text-[24px] font-bold text-primary leading-none">0.75</span></div><span class="font-meta-mono text-[11px] text-on-surface-variant">of 64 · +1.00 correct · -0.25 wrong</span></div><div class="bg-surface-container-lowest border border-outline-variant px-4 py-2.5 rounded-lg shadow-sm flex flex-col justify-between"><span class="font-meta-header text-[11px] text-outline uppercase tracking-wider">NEG.-MARKING SCORE</span><div class="my-0.5"><span class="text-[24px] font-bold text-primary leading-none">0.8</span></div><span class="font-meta-mono text-[11px] text-on-surface-variant">of 64 · -0.25 per wrong</span></div></div>
+<!-- DETAILED SECTION: WEAK AREAS -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-lg px-4 py-2.5 shadow-sm shrink-0"><div class="mb-1.5 flex items-baseline justify-between"><h2 class="font-meta-header text-[11px] text-outline uppercase tracking-wider font-bold">WEAK AREAS</h2><p class="font-meta-mono text-[11px] text-outline">Accuracy by topic.</p></div><div class="flex items-center justify-between gap-4 py-1"><span class="text-body-md font-semibold text-on-surface w-20 shrink-0">Polity</span><div class="flex-1 bg-surface-container-high h-2 rounded-full overflow-hidden relative"><div class="bg-tertiary-container h-full w-1/2 rounded-full transition-all duration-500"></div></div><span class="font-meta-mono text-meta-mono font-bold text-on-surface text-right w-12 shrink-0">50%</span></div></div>
+<!-- DETAILED SECTION: CONFIDENCE CALIBRATION & DISTINCTIONS -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-lg px-4 py-2.5 shadow-sm shrink-0"><div class="mb-1.5 flex items-baseline justify-between"><h2 class="font-meta-header text-[11px] text-outline uppercase tracking-wider font-bold">CONFIDENCE PROBLEM</h2><p class="text-[11px] text-on-surface-variant">Certain on 1, missed 1. Unsure-but-right suggests guessing luck; Certain-but-wrong needs revision.</p></div><div class="flex flex-col gap-1.5 pt-1.5 border-t border-outline-variant"><div class="flex items-center justify-between gap-4"><div class="w-28 shrink-0 flex items-baseline gap-1.5"><span class="text-body-md font-semibold text-on-surface">Certain</span><span class="text-[11px] font-meta-mono text-outline">High conviction</span></div><div class="flex-1 bg-surface-container-high h-2 rounded-full overflow-hidden"><div class="bg-error h-full w-[50%] rounded-full"></div></div><span class="font-meta-mono text-meta-mono font-bold text-on-surface text-right w-12 shrink-0">0%</span></div><div class="flex items-center justify-between gap-4"><div class="w-28 shrink-0 flex items-baseline gap-1.5"><span class="text-body-md font-semibold text-on-surface">Fairly confident</span><span class="text-[11px] font-meta-mono text-outline">Moderate</span></div><div class="flex-1 bg-surface-container-high h-2 rounded-full overflow-hidden"><div class="bg-surface-tint h-full w-[0%] rounded-full"></div></div><span class="font-meta-mono text-meta-mono font-bold text-outline text-right w-12 shrink-0">—</span></div><div class="flex items-center justify-between gap-4"><div class="w-28 shrink-0 flex items-baseline gap-1.5"><span class="text-body-md font-semibold text-on-surface">Unsure</span><span class="text-[11px] font-meta-mono text-outline">Low conviction</span></div><div class="flex-1 bg-surface-container-high h-2 rounded-full overflow-hidden"><div class="bg-secondary h-full w-[100%] rounded-full"></div></div><span class="font-meta-mono text-meta-mono font-bold text-secondary text-right w-12 shrink-0">100%</span></div></div><div class="mt-2 bg-surface-container-low border border-outline-variant rounded p-2 flex items-start gap-2.5"><span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">psychology_alt</span><div class="flex flex-col text-xs"><span class="font-meta-header text-[11px] text-primary font-bold uppercase tracking-wider">KEY DISTINCTION FOR NEXT SITTING</span><p class="text-on-surface mt-0.5 leading-snug">Overconfidence detected in constitutional chronological sequence (<span class="font-meta-mono text-meta-mono text-error font-semibold">wrong_date</span>). Questions tagged with amendment timelines should be tagged for deliberate hesitation drills.</p></div></div></div>
+<!-- FOOTER NOTE -->
+<footer class="mt-1 pb-1 flex justify-between items-center text-[11px] text-outline border-t border-outline-variant pt-1.5 shrink-0">
+<span class="">EXAMINA WORKSTATION V4.2 · ACADEMIC PREPARATION LEDGER</span>
+<span class="font-meta-mono text-meta-mono">ID: 884-APSC-A09</span>
+</footer>
+</main>
+</div>
+
+
+</body></html>

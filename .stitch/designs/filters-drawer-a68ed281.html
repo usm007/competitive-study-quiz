@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Competitive Quiz - Filters</title>
+<!-- Google Fonts: Hanken Grotesk -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@500;700&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS CDN with Forms & Container Queries -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Configuration for Study Desk Editorial Design System -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Hanken Grotesk"', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+          colors: {
+            brand: {
+              50: '#f0f5fa',
+              100: '#e1ecf5',
+              200: '#c3d9eb',
+              700: '#1d426a',
+              800: '#1e3a5f',
+              900: '#142944',
+            },
+            surface: {
+              DEFAULT: '#faf8ff',
+              dim: '#d2d9f4',
+              bright: '#faf8ff',
+              lowest: '#ffffff',
+              low: '#f2f3ff',
+            }
+          },
+          borderRadius: {
+            'DEFAULT': '4px',
+            'sm': '2px',
+            'md': '4px',
+            'lg': '6px',
+          }
+        }
+      }
+    }
+  </script>
+<style data-purpose="base-styling">
+    body {
+      font-family: 'Hanken Grotesk', sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    /* Custom scrollbar styling for the drawer */
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #f8fafc;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 3px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+      background: #94a3b8;
+    }
+  </style>
+</head>
+<body class="h-full bg-slate-100 text-slate-800 antialiased overflow-hidden flex flex-col">
+<!-- BEGIN: TopNavigationBar -->
+<header class="h-14 bg-white border-b border-slate-200 px-4 flex items-center justify-between shrink-0 z-20" data-purpose="top-navigation">
+<div class="flex items-center space-x-3">
+<!-- Menu Button -->
+<button aria-label="Open sidebar menu" class="p-1.5 rounded hover:bg-slate-100 text-slate-600 transition-colors" type="button">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+<!-- App Logo & Badge -->
+<div class="flex items-center space-x-2.5">
+<div class="w-7 h-7 bg-brand-800 text-white rounded flex items-center justify-center font-bold text-xs tracking-wider font-mono shadow-sm">
+          CQ
+        </div>
+<div>
+<h1 class="text-sm font-bold text-slate-900 leading-tight">Competitive Quiz</h1>
+<p class="text-[10px] text-slate-500 font-medium tracking-wide uppercase">APSC_PRELIMS · PARTIAL · CONTENT COMPLETE</p>
+</div>
+</div>
+</div>
+<!-- Center Progress Indicator -->
+<div class="text-sm font-bold text-slate-800 tracking-tight">
+      Q 1 <span class="text-slate-400 font-normal">/ 64</span>
+</div>
+<!-- Top Right Stats & Actions -->
+<div class="flex items-center space-x-4">
+<div class="text-xs text-slate-500 font-medium hidden sm:flex items-center space-x-2">
+<span>2 answered</span>
+<span>·</span>
+<span class="text-emerald-700">1 correct</span>
+<span>·</span>
+<span class="text-rose-700">1 wrong</span>
+</div>
+<button aria-label="More options" class="p-1.5 text-slate-400 hover:text-slate-600 rounded hover:bg-slate-100" type="button">
+<svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+<path d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"></path>
+</svg>
+</button>
+</div>
+</header>
+<!-- END: TopNavigationBar -->
+<!-- BEGIN: MainLayoutContainer -->
+<div class="flex flex-1 overflow-hidden relative">
+<!-- BEGIN: LeftSidebar -->
+<aside class="w-56 bg-slate-50 border-r border-slate-200 flex flex-col justify-between py-4 px-3 shrink-0 select-none hidden md:flex" data-purpose="primary-sidebar">
+<div class="space-y-6">
+<!-- Section: Study -->
+<div>
+<span class="text-[11px] font-bold text-slate-400 tracking-wider uppercase px-2">Study</span>
+<nav class="mt-2 space-y-0.5">
+<a class="block px-2.5 py-1.5 rounded text-xs text-slate-700 hover:bg-slate-200/60 font-medium transition-colors" href="#">
+<div>Learn</div>
+<div class="text-[10px] text-slate-400 font-normal">Study concepts</div>
+</a>
+<a class="block px-2.5 py-1.5 rounded text-xs text-slate-700 hover:bg-slate-200/60 font-medium transition-colors" href="#">
+<div>Practice</div>
+<div class="text-[10px] text-slate-400 font-normal">Answer and review</div>
+</a>
+<a class="block px-2.5 py-1.5 rounded text-xs text-slate-700 hover:bg-slate-200/60 font-medium transition-colors" href="#">
+<div>Test</div>
+<div class="text-[10px] text-slate-400 font-normal">Exam conditions</div>
+</a>
+<a class="block px-2.5 py-1.5 rounded text-xs text-slate-700 hover:bg-slate-200/60 font-medium transition-colors" href="#">
+<div>Revision</div>
+<div class="text-[10px] text-slate-400 font-normal">Weak areas</div>
+</a>
+<a class="block px-2.5 py-1.5 rounded text-xs text-brand-800 bg-blue-100/60 font-semibold border-l-2 border-brand-800 transition-colors" href="#">
+<div>Rapid Recall</div>
+<div class="text-[10px] text-brand-700/70 font-normal">High-density factual recall</div>
+</a>
+</nav>
+</div>
+<!-- Section: Insights -->
+<div>
+<span class="text-[11px] font-bold text-slate-400 tracking-wider uppercase px-2">Insights</span>
+<nav class="mt-2 space-y-0.5">
+<a class="block px-2.5 py-1.5 rounded text-xs text-slate-700 hover:bg-slate-200/60 font-medium transition-colors" href="#">
+<div>Analytics</div>
+<div class="text-[10px] text-slate-400 font-normal">Performance</div>
+</a>
+</nav>
+</div>
+</div>
+<!-- Footer Actions -->
+<div class="pt-4 border-t border-slate-200 space-y-2 px-1">
+<a class="text-xs text-brand-800 hover:underline flex items-center font-medium" href="#">
+          Print question sheet
+        </a>
+<div class="text-xs text-slate-500 flex items-center space-x-1.5">
+<svg class="w-3.5 h-3.5 text-slate-400" fill="currentColor" viewbox="0 0 20 20">
+<path d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm2 3h2v2H6V6zm4 0h2v2h-2V6zm4 0h2v2h-2V6zM6 10h2v2H6v-2zm4 0h2v2h-2v-2zm4 0h2v2h-2v-2zm-8 4h8v2H6v-2z"></path>
+</svg>
+<span class="text-slate-400">Shortcuts</span>
+</div>
+</div>
+</aside>
+<!-- END: LeftSidebar -->
+<!-- BEGIN: MainQuizContent (Dimmed Background View) -->
+<main class="flex-1 bg-white overflow-y-auto px-8 py-7 relative select-none" data-purpose="quiz-workstation">
+<!-- Background Question Content -->
+<div class="max-w-3xl">
+<!-- Question Header Meta -->
+<div class="flex items-baseline space-x-4 mb-3">
+<span class="text-3xl font-extrabold text-blue-700 tracking-tight font-mono">01</span>
+<div>
+<span class="text-xs font-bold text-brand-800 tracking-wider uppercase">Rapid Recall</span>
+<div class="text-[11px] text-slate-400 font-semibold tracking-wider uppercase">Polity · Easy · Tier 1</div>
+</div>
+</div>
+<!-- Question Prompt -->
+<h2 class="text-xl font-bold text-slate-900 mb-6 leading-snug">
+          The Constitution of India was adopted on:
+        </h2>
+<!-- Answer Options -->
+<div class="space-y-3 mb-6 max-w-2xl">
+<!-- Option A (Correct Answer) -->
+<div class="flex items-center border border-emerald-300 bg-emerald-50/50 rounded p-2 text-sm text-slate-800 shadow-sm">
+<span class="w-6 h-6 rounded bg-emerald-700 text-white font-bold text-xs flex items-center justify-center mr-3 shrink-0">A</span>
+<span class="font-medium">26 November 1949</span>
+</div>
+<!-- Option B (Selected Wrong) -->
+<div class="flex items-center border border-rose-200 bg-rose-50/40 rounded p-2 text-sm text-slate-800">
+<span class="w-6 h-6 rounded bg-rose-800 text-white font-bold text-xs flex items-center justify-center mr-3 shrink-0">B</span>
+<span class="font-medium">26 January 1950</span>
+</div>
+<!-- Option C -->
+<div class="flex items-center border border-slate-200 hover:bg-slate-50 rounded p-2 text-sm text-slate-700">
+<span class="w-6 h-6 rounded bg-slate-100 text-slate-600 font-bold text-xs flex items-center justify-center mr-3 border border-slate-200 shrink-0">C</span>
+<span>15 August 1947</span>
+</div>
+<!-- Option D -->
+<div class="flex items-center border border-slate-200 hover:bg-slate-50 rounded p-2 text-sm text-slate-700">
+<span class="w-6 h-6 rounded bg-slate-100 text-slate-600 font-bold text-xs flex items-center justify-center mr-3 border border-slate-200 shrink-0">D</span>
+<span>26 November 1950</span>
+</div>
+</div>
+<!-- Navigation Buttons -->
+<div class="flex items-center space-x-3 mb-6">
+<button class="px-4 py-1.5 border border-slate-300 rounded text-xs font-semibold text-slate-700 bg-white hover:bg-slate-50 shadow-sm" type="button">
+            ← Previous
+          </button>
+<button class="px-4 py-1.5 border border-slate-300 rounded text-xs font-semibold text-slate-700 bg-white hover:bg-slate-50 shadow-sm" type="button">
+            Mark for review
+          </button>
+</div>
+<!-- Explanatory Feedback Box -->
+<div class="border border-rose-200 bg-rose-50/20 rounded p-4 max-w-2xl text-xs">
+<div class="flex items-center space-x-2.5 mb-2">
+<span class="px-2 py-0.5 rounded text-[11px] font-bold bg-rose-100 text-rose-800 tracking-wider uppercase">Not Quite</span>
+<span class="font-bold text-slate-800 text-sm">A. 26 November 1949</span>
+</div>
+<p class="text-slate-600 leading-relaxed">
+            Adoption (26 November 1949) is distinct from commencement of Fundamental Rights and full operation on 26 January 1950.
+          </p>
+<button class="text-brand-800 font-bold mt-2 hover:underline inline-flex items-center space-x-1" type="button">
+<span>▶ Why?</span>
+</button>
+<div class="mt-3 text-[11px] text-slate-400">
+            + Details: IDs, difficulty, purpose
+          </div>
+</div>
+</div>
+<!-- Backdrop Overlay -->
+<div aria-hidden="true" class="absolute inset-0 bg-slate-900/25 backdrop-blur-[0.5px] transition-opacity z-30"></div>
+</main>
+<!-- END: MainQuizContent -->
+<!-- BEGIN: FiltersDrawerPanel -->
+<aside aria-label="Filter panel" class="w-80 md:w-96 bg-white border-l border-slate-200 shadow-2xl flex flex-col h-full z-40 shrink-0" data-purpose="filters-drawer">
+<!-- Drawer Header -->
+<div class="h-14 px-5 border-b border-slate-200 flex items-center justify-between shrink-0 bg-white">
+<h2 class="text-xs font-extrabold text-slate-800 uppercase tracking-widest">
+          Filters
+        </h2>
+<div class="flex items-center space-x-2">
+<!-- Clear all button -->
+<button class="px-3 py-1 text-xs font-semibold text-slate-700 bg-white border border-slate-300 rounded hover:bg-slate-50 active:bg-slate-100 transition-colors shadow-sm" type="button">
+            Clear all
+          </button>
+<!-- Close button -->
+<button aria-label="Close filters drawer" class="p-1 rounded text-slate-400 hover:text-slate-600 hover:bg-slate-100 transition-colors" type="button">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+</div>
+</div>
+<!-- Drawer Scrollable Content -->
+<div class="flex-1 overflow-y-auto p-5 space-y-6 custom-scrollbar text-xs">
+<!-- SECTION: Filter By Dropdowns -->
+<div>
+<div class="text-[11px] font-bold text-slate-900 tracking-wider uppercase mb-3 pb-1 border-b border-slate-100">
+            Filter by
+          </div>
+<form class="space-y-3.5" data-purpose="dropdown-filters-form">
+<!-- Topic Select -->
+<div>
+<label class="block text-[11px] font-bold text-slate-700 uppercase tracking-wider mb-1" for="filter-topic">
+                Topic
+              </label>
+<div class="relative">
+<select class="w-full h-9 rounded border-slate-300 bg-white text-xs text-slate-800 font-medium focus:border-brand-800 focus:ring-1 focus:ring-brand-800 pr-8 shadow-sm transition-colors cursor-pointer" id="filter-topic" name="topic">
+<option selected="" value="">All</option>
+<option value="polity">Polity &amp; Constitution</option>
+<option value="history">Indian History</option>
+<option value="geography">Geography</option>
+<option value="economy">Economy &amp; Development</option>
+<option value="environment">Ecology &amp; Environment</option>
+</select>
+</div>
+</div>
+<!-- Difficulty Select -->
+<div>
+<label class="block text-[11px] font-bold text-slate-700 uppercase tracking-wider mb-1" for="filter-difficulty">
+                Difficulty
+              </label>
+<div class="relative">
+<select class="w-full h-9 rounded border-slate-300 bg-white text-xs text-slate-800 font-medium focus:border-brand-800 focus:ring-1 focus:ring-brand-800 pr-8 shadow-sm transition-colors cursor-pointer" id="filter-difficulty" name="difficulty">
+<option selected="" value="">All</option>
+<option value="easy">Easy</option>
+<option value="medium">Medium</option>
+<option value="hard">Hard</option>
+</select>
+</div>
+</div>
+<!-- Tier Select -->
+<div>
+<label class="block text-[11px] font-bold text-slate-700 uppercase tracking-wider mb-1" for="filter-tier">
+                Tier
+              </label>
+<div class="relative">
+<select class="w-full h-9 rounded border-slate-300 bg-white text-xs text-slate-800 font-medium focus:border-brand-800 focus:ring-1 focus:ring-brand-800 pr-8 shadow-sm transition-colors cursor-pointer" id="filter-tier" name="tier">
+<option selected="" value="">All</option>
+<option value="1">Tier 1 (Fundamental Recall)</option>
+<option value="2">Tier 2 (Analytical / Multi-statement)</option>
+<option value="3">Tier 3 (Advanced Precision)</option>
+</select>
+</div>
+</div>
+<!-- Question Type Select -->
+<div>
+<label class="block text-[11px] font-bold text-slate-700 uppercase tracking-wider mb-1" for="filter-type">
+                Question Type
+              </label>
+<div class="relative">
+<select class="w-full h-9 rounded border-slate-300 bg-white text-xs text-slate-800 font-medium focus:border-brand-800 focus:ring-1 focus:ring-brand-800 pr-8 shadow-sm transition-colors cursor-pointer" id="filter-type" name="question_type">
+<option selected="" value="">All</option>
+<option value="single">Single Choice</option>
+<option value="multiple">Multiple Choice / Match the Column</option>
+<option value="assertion">Assertion &amp; Reason</option>
+</select>
+</div>
+</div>
+<!-- Purpose Select -->
+<div>
+<label class="block text-[11px] font-bold text-slate-700 uppercase tracking-wider mb-1" for="filter-purpose">
+                Purpose
+              </label>
+<div class="relative">
+<select class="w-full h-9 rounded border-slate-300 bg-white text-xs text-slate-800 font-medium focus:border-brand-800 focus:ring-1 focus:ring-brand-800 pr-8 shadow-sm transition-colors cursor-pointer" id="filter-purpose" name="purpose">
+<option selected="" value="">All</option>
+<option value="core-recall">Core Fact Recall</option>
+<option value="conceptual">Conceptual Clarity</option>
+<option value="speed-drill">High-Speed Drill</option>
+</select>
+</div>
+</div>
+<!-- Revision Priority Select -->
+<div>
+<label class="block text-[11px] font-bold text-slate-700 uppercase tracking-wider mb-1" for="filter-priority">
+                Revision Priority
+              </label>
+<div class="relative">
+<select class="w-full h-9 rounded border-slate-300 bg-white text-xs text-slate-800 font-medium focus:border-brand-800 focus:ring-1 focus:ring-brand-800 pr-8 shadow-sm transition-colors cursor-pointer" id="filter-priority" name="revision_priority">
+<option selected="" value="">All</option>
+<option value="high">High Priority</option>
+<option value="medium">Medium Priority</option>
+<option value="low">Low Priority</option>
+</select>
+</div>
+</div>
+</form>
+</div>
+<!-- SECTION: Quick Filters Checkboxes -->
+<div class="pt-2">
+<div class="text-[11px] font-bold text-slate-900 tracking-wider uppercase mb-3 pb-1 border-b border-slate-100">
+            Quick Filters
+          </div>
+<div class="space-y-3" data-purpose="quick-filter-options">
+<!-- Incorrect Only Checkbox -->
+<label class="flex items-center space-x-3 cursor-pointer group select-none">
+<input class="w-4 h-4 rounded border-slate-300 text-brand-800 focus:ring-brand-800 focus:ring-offset-0 transition" type="checkbox"/>
+<span class="text-xs text-slate-700 group-hover:text-slate-900 font-medium">
+                Incorrect only
+              </span>
+</label>
+<!-- Marked Only Checkbox -->
+<label class="flex items-center space-x-3 cursor-pointer group select-none">
+<input class="w-4 h-4 rounded border-slate-300 text-brand-800 focus:ring-brand-800 focus:ring-offset-0 transition" type="checkbox"/>
+<span class="text-xs text-slate-700 group-hover:text-slate-900 font-medium">
+                Marked only
+              </span>
+</label>
+<!-- Weak Areas Only Checkbox -->
+<label class="flex items-center space-x-3 cursor-pointer group select-none">
+<input class="w-4 h-4 rounded border-slate-300 text-brand-800 focus:ring-brand-800 focus:ring-offset-0 transition" type="checkbox"/>
+<span class="text-xs text-slate-700 group-hover:text-slate-900 font-medium">
+                Weak areas only
+              </span>
+</label>
+</div>
+</div>
+</div>
+<!-- Drawer Footer with Sticky Apply Button -->
+<div class="p-4 border-t border-slate-200 bg-slate-50 flex items-center space-x-3">
+<button class="flex-1 py-2 px-4 bg-brand-800 hover:bg-brand-900 text-white rounded text-xs font-bold tracking-wide transition shadow-sm" type="button">
+          Apply Filters
+        </button>
+<button class="py-2 px-3 border border-slate-300 bg-white hover:bg-slate-100 text-slate-700 rounded text-xs font-semibold transition shadow-sm" type="button">
+          Reset
+        </button>
+</div>
+</aside>
+<!-- END: FiltersDrawerPanel -->
+</div>
+<!-- END: MainLayoutContainer -->
+</body></html>

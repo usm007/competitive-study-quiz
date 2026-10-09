@@ -1,0 +1,328 @@
+<!DOCTYPE html><html class="h-full bg-background text-on-surface" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Competitive Quiz - Practice Mode</title>
+<!-- Material Symbols & Typography -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Theme Configuration -->
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "background": "#faf8ff",
+            "error-container": "#ffdad6",
+            "on-tertiary-fixed-variant": "#930009",
+            "on-background": "#131b2e",
+            "on-tertiary-fixed": "#410002",
+            "inverse-on-surface": "#eef0ff",
+            "primary-container": "#1e3a5f",
+            "surface-container-high": "#e2e7ff",
+            "surface-container-low": "#f2f3ff",
+            "on-secondary-fixed-variant": "#005225",
+            "secondary-fixed": "#95f8aa",
+            "primary-fixed": "#d5e3ff",
+            "inverse-surface": "#283044",
+            "surface-container-highest": "#dae2fd",
+            "on-primary-fixed-variant": "#2d486d",
+            "tertiary": "#510002",
+            "on-surface": "#131b2e",
+            "surface-dim": "#d2d9f4",
+            "surface": "#faf8ff",
+            "outline-variant": "#c4c6cf",
+            "surface-bright": "#faf8ff",
+            "surface-tint": "#455f87",
+            "on-primary-fixed": "#001c3b",
+            "on-secondary-container": "#007236",
+            "on-error": "#ffffff",
+            "on-primary-container": "#8aa4cf",
+            "secondary-fixed-dim": "#79db90",
+            "on-secondary": "#ffffff",
+            "inverse-primary": "#adc8f5",
+            "tertiary-fixed": "#ffdad5",
+            "on-surface-variant": "#43474e",
+            "primary": "#022448",
+            "outline": "#74777f",
+            "primary-fixed-dim": "#adc8f5",
+            "secondary-container": "#92f5a7",
+            "surface-variant": "#dae2fd",
+            "tertiary-container": "#7a0006",
+            "on-tertiary": "#ffffff",
+            "on-tertiary-container": "#ff7c6e",
+            "secondary": "#006d33",
+            "surface-container": "#eaedff",
+            "on-error-container": "#93000a",
+            "tertiary-fixed-dim": "#ffb4aa",
+            "surface-container-lowest": "#ffffff",
+            "on-primary": "#ffffff",
+            "on-secondary-fixed": "#00210b",
+            "error": "#ba1a1a"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "spacing": {
+            "gutter-desktop": "2rem",
+            "space-md": "1rem",
+            "space-lg": "1.5rem",
+            "space-sm": "0.5rem",
+            "margin": "1rem",
+            "space-xs": "0.25rem",
+            "margin-desktop": "2.5rem",
+            "space-xl": "2.5rem",
+            "gutter": "1.5rem"
+          },
+          "fontFamily": {
+            "stat-metric": ["Hanken Grotesk"],
+            "meta-header": ["Space Grotesk"],
+            "option-letter": ["Space Grotesk"],
+            "sheet-id": ["Hanken Grotesk"],
+            "headline-md": ["Hanken Grotesk"],
+            "headline-lg-mobile": ["Hanken Grotesk"],
+            "meta-mono": ["Space Grotesk"],
+            "body-lg": ["Hanken Grotesk"],
+            "body-md": ["Hanken Grotesk"],
+            "headline-lg": ["Hanken Grotesk"]
+          },
+          "fontSize": {
+            "stat-metric": ["32px", { lineHeight: "36px", letterSpacing: "-0.02em", fontWeight: "800" }],
+            "meta-header": ["11px", { lineHeight: "16px", letterSpacing: "0.12em", fontWeight: "700" }],
+            "option-letter": ["14px", { lineHeight: "14px", fontWeight: "700" }],
+            "sheet-id": ["34px", { lineHeight: "40px", letterSpacing: "-0.03em", fontWeight: "800" }],
+            "headline-md": ["18px", { lineHeight: "26px", letterSpacing: "-0.01em", fontWeight: "700" }],
+            "headline-lg-mobile": ["20px", { lineHeight: "28px", letterSpacing: "-0.01em", fontWeight: "700" }],
+            "meta-mono": ["12px", { lineHeight: "16px", letterSpacing: "0.04em", fontWeight: "600" }],
+            "body-lg": ["16px", { lineHeight: "26px", fontWeight: "500" }],
+            "body-md": ["14px", { lineHeight: "22px", fontWeight: "400" }],
+            "headline-lg": ["24px", { lineHeight: "34px", letterSpacing: "-0.015em", fontWeight: "700" }]
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="h-full flex flex-col font-body-md text-body-md antialiased overflow-hidden selection:bg-surface-container-highest selection:text-primary">
+<!-- TOP APP / DESK HEADER (Derived from TopNavBar Shared Blueprint & Screen Spec) -->
+<header class="flex justify-between items-center w-full px-space-lg h-16 bg-surface-container-lowest border-b border-outline-variant z-20 shrink-0">
+<!-- Brand Anchor & Subtitle -->
+<div class="flex items-center gap-space-md">
+<button class="p-1 rounded-sm text-on-surface-variant hover:bg-surface-container-low transition-colors duration-150 flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">menu</span>
+</button>
+<div class="flex items-center gap-2.5">
+<div class="w-8 h-8 rounded bg-primary text-surface-container-lowest flex items-center justify-center font-meta-header text-[12px] font-bold tracking-wider">
+          CQ
+        </div>
+<div>
+<div class="flex items-baseline gap-2">
+<span class="font-headline-md text-headline-md font-bold tracking-tight text-primary">Competitive Quiz</span>
+<span class="hidden sm:inline font-meta-header text-[10px] uppercase text-outline px-1.5 py-0.5 rounded bg-surface-container-low border border-outline-variant">Workstation</span>
+</div>
+<p class="font-meta-mono text-[11px] text-on-surface-variant leading-none mt-0.5 tracking-tight">
+            APSC_PRELIMS · PARTIAL · CONTENT COMPLETE
+          </p>
+</div>
+</div>
+</div>
+<!-- Center Session Counter -->
+<div class="flex items-center">
+<div class="px-3 py-1 rounded bg-surface-container-low border border-outline-variant text-center">
+<span class="font-meta-mono text-meta-mono font-bold text-primary tracking-wide">Q 1 / 64</span>
+</div>
+</div>
+<!-- Trailing Metrics & System Controls -->
+<div class="flex items-center gap-space-lg">
+<div class="hidden lg:flex items-center gap-3 text-on-surface-variant font-meta-mono text-meta-mono">
+<span class="text-on-surface-variant">0 answered · 0 correct · 0 wrong</span>
+<!-- Progress Bar (0%) -->
+<div class="w-24 h-1.5 rounded-full bg-surface-container-high overflow-hidden">
+<div class="h-full bg-primary-container w-0"></div>
+</div>
+<span class="font-bold text-on-surface">0%</span>
+</div>
+<div class="h-5 w-[1px] bg-outline-variant hidden md:block"></div>
+<!-- Icon Actions -->
+<div class="flex items-center gap-1 text-on-surface-variant">
+<button class="p-1.5 rounded hover:bg-surface-container-low hover:text-primary transition-colors duration-150" title="Search">
+<span class="material-symbols-outlined text-[20px]">search</span>
+</button>
+<button class="p-1.5 rounded hover:bg-surface-container-low hover:text-primary transition-colors duration-150" title="Account">
+<span class="material-symbols-outlined text-[20px]">account_circle</span>
+</button>
+<button class="p-1.5 rounded hover:bg-surface-container-low hover:text-primary transition-colors duration-150" title="Filter Modes">
+<span class="material-symbols-outlined text-[20px]">tune</span>
+</button>
+<button class="p-1.5 rounded hover:bg-surface-container-low hover:text-primary transition-colors duration-150" title="Session Options">
+<span class="material-symbols-outlined text-[20px]">more_vert</span>
+</button>
+</div>
+</div>
+</header>
+<!-- MAIN WORKBENCH VIEWPORT (Asymmetrical Ledger Split) -->
+<div class="flex flex-1 h-[calc(100vh-4rem)] overflow-hidden">
+<!-- LEFT NAVIGATION RAIL (SideNavBar Blueprint) -->
+<aside class="flex flex-col justify-between w-60 h-full p-space-md border-r border-outline-variant bg-surface-container-low shrink-0 select-none overflow-y-auto">
+<div class="space-y-6">
+<!-- STUDY SECTION -->
+<div>
+<div class="px-3 pb-2">
+<span class="font-meta-header text-meta-header text-outline tracking-widest uppercase">STUDY</span>
+</div>
+<nav class="space-y-1">
+<!-- Learn -->
+<a class="group flex flex-col pl-4 py-2 rounded-sm font-medium text-on-surface-variant hover:bg-surface-container-highest transition-all duration-150 ease-in-out" href="#">
+<span class="font-body-md text-[13px] font-semibold text-on-surface group-hover:text-primary">Learn</span>
+<span class="font-meta-mono text-[11px] text-outline">Study concepts</span>
+</a>
+<!-- Practice (ACTIVE TAB) -->
+<a class="flex flex-col border-l-4 border-primary bg-surface-container-highest text-primary font-bold pl-3 py-2 rounded-sm shadow-none" href="#">
+<span class="font-body-md text-[13px] font-bold text-primary">Practice</span>
+<span class="font-meta-mono text-[11px] text-primary/70 font-medium">Answer and review</span>
+</a>
+<!-- Test -->
+<a class="group flex flex-col pl-4 py-2 rounded-sm font-medium text-on-surface-variant hover:bg-surface-container-highest transition-all duration-150 ease-in-out" href="#">
+<span class="font-body-md text-[13px] font-semibold text-on-surface group-hover:text-primary">Test</span>
+<span class="font-meta-mono text-[11px] text-outline">Exam conditions</span>
+</a>
+<!-- Revision -->
+<a class="group flex flex-col pl-4 py-2 rounded-sm font-medium text-on-surface-variant hover:bg-surface-container-highest transition-all duration-150 ease-in-out" href="#">
+<span class="font-body-md text-[13px] font-semibold text-on-surface group-hover:text-primary">Revision</span>
+<span class="font-meta-mono text-[11px] text-outline">Weak areas</span>
+</a>
+<!-- Rapid Recall -->
+<a class="group flex flex-col pl-4 py-2 rounded-sm font-medium text-on-surface-variant hover:bg-surface-container-highest transition-all duration-150 ease-in-out" href="#">
+<span class="font-body-md text-[13px] font-semibold text-on-surface group-hover:text-primary">Rapid Recall</span>
+<span class="font-meta-mono text-[11px] text-outline">High-density factual recall</span>
+</a>
+</nav>
+</div>
+<!-- INSIGHTS SECTION -->
+<div>
+<div class="px-3 pb-2">
+<span class="font-meta-header text-meta-header text-outline tracking-widest uppercase">INSIGHTS</span>
+</div>
+<nav class="space-y-1">
+<a class="group flex flex-col pl-4 py-2 rounded-sm font-medium text-on-surface-variant hover:bg-surface-container-highest transition-all duration-150 ease-in-out" href="#">
+<span class="font-body-md text-[13px] font-semibold text-on-surface group-hover:text-primary">Analytics</span>
+<span class="font-meta-mono text-[11px] text-outline">Performance</span>
+</a>
+</nav>
+</div>
+</div>
+<!-- FOOTER RAIL UTILITIES -->
+<div class="pt-4 border-t border-outline-variant/60 space-y-2">
+<button class="w-full text-left pl-3 py-1.5 text-primary text-[12px] font-meta-mono hover:underline flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px]">print</span>
+          Print question sheet
+        </button>
+<button class="w-full text-left pl-3 py-1.5 text-on-surface-variant hover:text-primary text-[12px] font-meta-mono flex items-center gap-1.5 rounded hover:bg-surface-container-highest transition-colors">
+<span class="material-symbols-outlined text-[16px]">keyboard</span>
+          Shortcuts
+        </button>
+</div>
+</aside>
+<!-- CENTER STUDY CANVAS SHEET -->
+<main class="flex-1 bg-background overflow-hidden px-4 md:px-6 py-2 flex justify-center items-stretch h-full"><div class="w-full max-w-[960px] flex flex-col justify-between h-full"><!-- UPPER STUDY LEDGER --><div class="bg-surface-container-lowest rounded-sm border border-outline-variant shadow-sm relative flex flex-col flex-1 overflow-hidden"><!-- Top Accent Rule --><div class="h-[3px] bg-primary-container w-full rounded-t-sm shrink-0"></div><div class="p-4 md:px-6 md:py-3.5 space-y-3 flex-1 flex flex-col justify-between"><!-- Breadcrumb Mode Stamp --><div class="flex items-center gap-2 font-meta-header text-meta-header text-on-surface-variant border-b border-outline-variant/40 pb-2"><span class="text-primary font-bold">PRACTICE</span><span class="text-outline">·</span><span class="text-on-surface-variant font-medium">Answer and review.</span></div><!-- Question Metadata & Index Header --><div class="flex items-start gap-3"><div class="font-sheet-id text-[26px] leading-none text-primary font-extrabold select-none tracking-tight">01</div><div class="pt-0.5 space-y-0.5"><div class="font-meta-header text-[10px] text-primary font-bold uppercase tracking-widest">PRACTICE</div><div class="font-meta-mono text-[10px] text-outline font-semibold tracking-wider uppercase">POLITY · EASY · TIER 1</div></div></div><!-- Question Prompt Stem --><div class="space-y-0.5"><h1 class="font-headline-md text-[18px] md:text-[20px] font-bold text-on-surface text-balance leading-snug">The Constitution of India was adopted on:</h1><p class="font-body-md text-[12px] text-on-surface-variant italic">Choose the single best answer.</p></div><!-- Multiple Choice Options Ledger Rows --><div aria-label="Multiple Choice Options" class="space-y-2" id="mcq-options-container" role="radiogroup"><!-- Option A --><label class="mcq-option group flex items-center justify-between p-2.5 md:px-4 border border-outline-variant rounded-sm bg-surface-container-lowest hover:bg-surface-container-low hover:border-primary/40 cursor-pointer transition-all duration-150"><div class="flex items-center gap-3"><div class="option-marker w-[26px] h-[26px] rounded-sm border border-outline-variant bg-surface-container-low text-on-surface-variant font-option-letter text-[12px] flex items-center justify-center transition-colors">A</div><span class="font-body-md text-[14px] text-on-surface font-semibold">26 November 1949</span></div><input class="sr-only" name="mcq" type="radio" value="A"><span class="status-indicator hidden font-meta-header text-meta-header"></span></label><!-- Option B --><label class="mcq-option group flex items-center justify-between p-2.5 md:px-4 border border-outline-variant rounded-sm bg-surface-container-lowest hover:bg-surface-container-low hover:border-primary/40 cursor-pointer transition-all duration-150"><div class="flex items-center gap-3"><div class="option-marker w-[26px] h-[26px] rounded-sm border border-outline-variant bg-surface-container-low text-on-surface-variant font-option-letter text-[12px] flex items-center justify-center transition-colors">B</div><span class="font-body-md text-[14px] text-on-surface font-semibold">26 January 1950</span></div><input class="sr-only" name="mcq" type="radio" value="B"><span class="status-indicator hidden font-meta-header text-meta-header"></span></label><!-- Option C --><label class="mcq-option group flex items-center justify-between p-2.5 md:px-4 border border-outline-variant rounded-sm bg-surface-container-lowest hover:bg-surface-container-low hover:border-primary/40 cursor-pointer transition-all duration-150"><div class="flex items-center gap-3"><div class="option-marker w-[26px] h-[26px] rounded-sm border border-outline-variant bg-surface-container-low text-on-surface-variant font-option-letter text-[12px] flex items-center justify-center transition-colors">C</div><span class="font-body-md text-[14px] text-on-surface font-semibold">15 August 1947</span></div><input class="sr-only" name="mcq" type="radio" value="C"><span class="status-indicator hidden font-meta-header text-meta-header"></span></label><!-- Option D --><label class="mcq-option group flex items-center justify-between p-2.5 md:px-4 border border-outline-variant rounded-sm bg-surface-container-lowest hover:bg-surface-container-low hover:border-primary/40 cursor-pointer transition-all duration-150"><div class="flex items-center gap-3"><div class="option-marker w-[26px] h-[26px] rounded-sm border border-outline-variant bg-surface-container-low text-on-surface-variant font-option-letter text-[12px] flex items-center justify-center transition-colors">D</div><span class="font-body-md text-[14px] text-on-surface font-semibold">26 November 1950</span></div><input class="sr-only" name="mcq" type="radio" value="D"><span class="status-indicator hidden font-meta-header text-meta-header"></span></label></div><!-- CONFIDENCE ASSESSMENT SELECTORS --><div class="pt-2 border-t border-outline-variant/40 space-y-1.5"><label class="block font-meta-header text-[10px] font-bold tracking-widest text-on-surface-variant uppercase">HOW SURE ARE YOU?</label><div aria-label="Confidence Level" class="flex flex-wrap gap-2" role="radiogroup"><label class="confidence-pill cursor-pointer flex items-center gap-1.5 px-3 py-1 border border-outline-variant rounded-full bg-surface-container-lowest hover:bg-surface-container-low transition-colors text-body-md text-on-surface"><input class="w-3.5 h-3.5 text-primary border-outline focus:ring-0" name="confidence" type="radio" value="certain"><span class="font-meta-mono text-[11px]">Certain</span></label><label class="confidence-pill cursor-pointer flex items-center gap-1.5 px-3 py-1 border border-outline-variant rounded-full bg-surface-container-lowest hover:bg-surface-container-low transition-colors text-body-md text-on-surface"><input class="w-3.5 h-3.5 text-primary border-outline focus:ring-0" name="confidence" type="radio" value="fairly-confident"><span class="font-meta-mono text-[11px]">Fairly confident</span></label><label class="confidence-pill cursor-pointer flex items-center gap-1.5 px-3 py-1 border border-outline-variant rounded-full bg-surface-container-lowest hover:bg-surface-container-low transition-colors text-body-md text-on-surface"><input class="w-3.5 h-3.5 text-primary border-outline focus:ring-0" name="confidence" type="radio" value="unsure"><span class="font-meta-mono text-[11px]">Unsure</span></label><label class="confidence-pill cursor-pointer flex items-center gap-1.5 px-3 py-1 border border-outline-variant rounded-full bg-surface-container-lowest hover:bg-surface-container-low transition-colors text-body-md text-on-surface"><input class="w-3.5 h-3.5 text-primary border-outline focus:ring-0" name="confidence" type="radio" value="guessing"><span class="font-meta-mono text-[11px]">Guessing</span></label></div></div><!-- Study Note & Diagnostic Feedback Container --><div class="hidden mt-2 pt-2 border-t-2 border-secondary space-y-1.5 bg-surface-container-low/40 p-2.5 rounded-sm overflow-hidden" id="diagnostic-feedback-sheet"><div class="flex items-center justify-between"><span class="font-meta-header text-[10px] text-secondary font-bold uppercase tracking-wider flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">verified</span> Diagnostic Verification</span><span class="font-meta-mono text-[10px] text-outline">Ref: Constitution Assembly Debates</span></div><div class="space-y-1 font-body-md text-[12px] text-on-surface"><div><h4 class="font-meta-header text-[10px] font-bold text-primary uppercase tracking-wider">WHY THIS IS RIGHT</h4><p class="text-on-surface-variant leading-tight">The Constituent Assembly of India formally adopted the Constitution on <strong>26 November 1949</strong>.</p></div></div></div></div><!-- FOOTER ACTION BAR CONTROLS --><div class="p-3 md:px-6 bg-surface-container-lowest border-t border-outline-variant flex items-center justify-between shrink-0"><div class="flex items-center gap-2"><button class="px-3.5 py-1.5 bg-surface-container-lowest border border-outline-variant hover:bg-surface-container-low text-on-surface-variant hover:text-on-surface text-[13px] font-medium rounded-sm transition-colors duration-150 flex items-center gap-1.5" type="button"><span class="">← Previous</span></button><button class="px-3.5 py-1.5 bg-surface-container-lowest border border-outline-variant hover:bg-surface-container-low text-on-surface-variant hover:text-on-surface text-[13px] font-medium rounded-sm transition-colors duration-150 flex items-center gap-1.5" type="button"><span class="">Mark for review</span></button></div><div><button class="px-5 py-1.5 bg-primary-container text-surface-container-lowest hover:bg-primary font-headline-md text-[13px] font-semibold rounded-sm transition-all duration-150 shadow-sm active:translate-y-px" id="submit-answer-btn" type="button">Submit answer</button></div></div></div><!-- WORKBOOK FOOTER CITATION STAMP --><footer class="py-1 text-center shrink-0"><p class="font-meta-mono text-[10px] text-outline">EXAMINA WORKSTATION · APSC CIVIL SERVICES PRELIMINARY SERIES · PAPER 1 (GENERAL STUDIES)</p></footer></div></main>
+</div>
+<!-- INTERACTIVITY & STATE LOGIC -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const options = document.querySelectorAll('.mcq-option');
+      const submitBtn = document.getElementById('submit-answer-btn');
+      const feedbackSheet = document.getElementById('diagnostic-feedback-sheet');
+      let selectedOption = null;
+      let submitted = false;
+
+      // Handle Option Selection
+      options.forEach(opt => {
+        opt.addEventListener('click', () => {
+          if (submitted) return;
+
+          options.forEach(o => {
+            o.classList.remove('border-primary-container', 'bg-surface-container-low');
+            o.classList.add('border-outline-variant', 'bg-surface-container-lowest');
+            const marker = o.querySelector('.option-marker');
+            marker.classList.remove('bg-primary-container', 'text-surface-container-lowest', 'border-primary-container');
+            marker.classList.add('bg-surface-container-low', 'text-on-surface-variant', 'border-outline-variant');
+          });
+
+          opt.classList.remove('border-outline-variant', 'bg-surface-container-lowest');
+          opt.classList.add('border-primary-container', 'bg-surface-container-low');
+
+          const marker = opt.querySelector('.option-marker');
+          marker.classList.remove('bg-surface-container-low', 'text-on-surface-variant', 'border-outline-variant');
+          marker.classList.add('bg-primary-container', 'text-surface-container-lowest', 'border-primary-container');
+
+          selectedOption = opt.querySelector('input').value;
+        });
+      });
+
+      // Handle Confidence Selection Highlighting
+      const confidencePills = document.querySelectorAll('.confidence-pill');
+      confidencePills.forEach(pill => {
+        pill.addEventListener('click', () => {
+          confidencePills.forEach(p => {
+            p.classList.remove('border-primary', 'bg-surface-container-high', 'font-bold');
+            p.classList.add('border-outline-variant', 'bg-surface-container-lowest');
+          });
+          pill.classList.remove('border-outline-variant', 'bg-surface-container-lowest');
+          pill.classList.add('border-primary', 'bg-surface-container-high', 'font-bold');
+        });
+      });
+
+      // Submit and Diagnostic Verification
+      submitBtn.addEventListener('click', () => {
+        if (!selectedOption) {
+          alert('Please select an option before submitting.');
+          return;
+        }
+
+        submitted = true;
+        submitBtn.disabled = true;
+        submitBtn.classList.add('opacity-50', 'cursor-not-allowed');
+
+        // Apply Examina Diagnostic Ledger Visuals
+        options.forEach(opt => {
+          const val = opt.querySelector('input').value;
+          const marker = opt.querySelector('.option-marker');
+          const indicator = opt.querySelector('.status-indicator');
+
+          if (val === 'A') { // Correct answer
+            opt.classList.remove('border-outline-variant', 'bg-surface-container-low', 'bg-surface-container-lowest');
+            opt.classList.add('border-secondary', 'bg-[#edf7ed]');
+            marker.classList.remove('bg-surface-container-low', 'bg-primary-container', 'text-on-surface-variant', 'text-surface-container-lowest');
+            marker.classList.add('bg-secondary', 'text-surface-container-lowest', 'border-secondary');
+            
+            indicator.textContent = '✓ CORRECT';
+            indicator.classList.remove('hidden');
+            indicator.classList.add('text-secondary', 'font-bold');
+          } else if (val === selectedOption && selectedOption !== 'A') { // Wrong chosen answer
+            opt.classList.remove('border-outline-variant', 'bg-surface-container-low', 'bg-surface-container-lowest');
+            opt.classList.add('border-tertiary-container', 'bg-[#fdf2f2]');
+            marker.classList.remove('bg-surface-container-low', 'bg-primary-container', 'text-on-surface-variant', 'text-surface-container-lowest');
+            marker.classList.add('bg-tertiary-container', 'text-surface-container-lowest', 'border-tertiary-container');
+
+            indicator.textContent = '✕ YOURS';
+            indicator.classList.remove('hidden');
+            indicator.classList.add('text-tertiary-container', 'font-bold');
+          }
+        });
+
+        // Reveal Rationalization Sheet
+        feedbackSheet.classList.remove('hidden');
+      });
+    });
+  </script>
+
+
+</body></html>

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Competitive Quiz - Source &amp; Knowledge Support Overlay</title>
+<!-- Tailwind CSS CDN with forms and container queries plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts: Hanken Grotesk -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&amp;family=JetBrains+Mono:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Hanken Grotesk"', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+          colors: {
+            brand: {
+              50: '#f0f5fa',
+              100: '#e1ecf5',
+              700: '#1e3a5f',
+              800: '#162e4c',
+              900: '#0f2036',
+            },
+            surface: {
+              DEFAULT: '#faf8ff',
+              dim: '#d2d9f4',
+              bright: '#faf8ff',
+              lowest: '#ffffff',
+              low: '#f2f3ff',
+              container: '#ebeeff',
+              high: '#e2e6fa'
+            }
+          }
+        }
+      }
+    }
+  </script>
+<style data-purpose="custom-scrollbar">
+    /* Subtle custom scrollbar for drawer content */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f8fafc;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 3px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #94a3b8;
+    }
+  </style>
+</head>
+<body class="h-full bg-slate-100 text-slate-800 font-sans antialiased overflow-hidden select-none">
+<!-- BEGIN: ApplicationLayout -->
+<div class="relative h-screen flex flex-col overflow-hidden bg-slate-50">
+<!-- BEGIN: TopNavigationBar -->
+<header class="h-14 bg-white border-b border-slate-200 px-4 flex items-center justify-between shrink-0 z-10" data-purpose="app-header">
+<!-- Left Branding & Subtitle -->
+<div class="flex items-center space-x-3.5">
+<button aria-label="Open navigation menu" class="p-1.5 rounded text-slate-600 hover:bg-slate-100 transition-colors" type="button">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+<div class="flex items-center space-x-2.5">
+<div class="w-7 h-7 bg-brand-700 text-white font-bold flex items-center justify-center rounded text-xs tracking-wider font-mono">
+            CQ
+          </div>
+<div class="leading-tight">
+<h1 class="text-sm font-bold text-slate-900 tracking-tight">Competitive Quiz</h1>
+<p class="text-[11px] font-mono text-slate-400 uppercase tracking-wider">APSC_PRELIMS · PARTIAL · CONTENT COMPLETE</p>
+</div>
+</div>
+</div>
+<!-- Center Progress / Question Indicator -->
+<div class="flex items-center font-mono text-sm tracking-tight">
+<span class="font-bold text-slate-900 text-base">Q 1</span>
+<span class="text-slate-400 mx-1.5 font-normal">/</span>
+<span class="text-slate-500 font-semibold">64</span>
+</div>
+<!-- Right Stat Metrics -->
+<div class="flex items-center space-x-4 text-xs font-mono text-slate-500">
+<div class="hidden md:flex items-center space-x-2">
+<span><span class="font-semibold text-slate-700">2</span> answered</span>
+<span>·</span>
+<span class="text-emerald-700 font-medium"><span class="font-bold">1</span> correct</span>
+<span>·</span>
+<span class="text-rose-700 font-medium"><span class="font-bold">1</span> wrong</span>
+</div>
+<div class="h-4 w-px bg-slate-200 hidden md:block"></div>
+<button class="text-xs px-2.5 py-1 rounded bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium transition-colors" type="button">
+          Session overview
+        </button>
+</div>
+</header>
+<!-- END: TopNavigationBar -->
+<!-- BEGIN: WorkspaceBody -->
+<div class="flex-1 flex overflow-hidden relative">
+<!-- BEGIN: LeftSidebar -->
+<aside class="w-60 bg-white border-r border-slate-200 flex flex-col shrink-0 select-none" data-purpose="module-navigation">
+<div class="p-3 text-[11px] font-bold tracking-wider text-slate-400 uppercase font-mono">Study</div>
+<nav class="space-y-0.5 px-2">
+<a class="group flex flex-col px-3 py-2 rounded text-slate-600 hover:bg-slate-50 transition-colors" href="#">
+<span class="text-xs font-bold group-hover:text-slate-900">Learn</span>
+<span class="text-[11px] text-slate-400 font-normal">Study concepts</span>
+</a>
+<a class="group flex flex-col px-3 py-2 rounded text-slate-600 hover:bg-slate-50 transition-colors" href="#">
+<span class="text-xs font-bold group-hover:text-slate-900">Practice</span>
+<span class="text-[11px] text-slate-400 font-normal">Answer and review</span>
+</a>
+<a class="group flex flex-col px-3 py-2 rounded text-slate-600 hover:bg-slate-50 transition-colors" href="#">
+<span class="text-xs font-bold group-hover:text-slate-900">Test</span>
+<span class="text-[11px] text-slate-400 font-normal">Exam conditions</span>
+</a>
+<a class="group flex flex-col px-3 py-2 rounded text-slate-600 hover:bg-slate-50 transition-colors" href="#">
+<span class="text-xs font-bold group-hover:text-slate-900">Revision</span>
+<span class="text-[11px] text-slate-400 font-normal">Weak areas</span>
+</a>
+<a class="relative flex flex-col px-3 py-2 rounded bg-brand-50 text-brand-900 font-medium border-l-4 border-brand-700 -ml-2 pl-4" href="#">
+<span class="text-xs font-bold text-brand-900">Rapid Recall</span>
+<span class="text-[11px] text-brand-700 font-normal">High-density factual recall</span>
+</a>
+</nav>
+<div class="mt-6 p-3 text-[11px] font-bold tracking-wider text-slate-400 uppercase font-mono">Insights</div>
+<nav class="space-y-0.5 px-2 flex-1">
+<a class="group flex flex-col px-3 py-2 rounded text-slate-600 hover:bg-slate-50 transition-colors" href="#">
+<span class="text-xs font-bold group-hover:text-slate-900">Analytics</span>
+<span class="text-[11px] text-slate-400 font-normal">Performance</span>
+</a>
+</nav>
+<!-- Bottom Sidebar Utilities -->
+<div class="p-3 border-t border-slate-200 text-xs text-slate-500 space-y-2">
+<a class="block text-brand-700 hover:underline text-xs" href="#">Print question sheet</a>
+<div class="flex items-center space-x-1.5 text-slate-400 hover:text-slate-600 cursor-pointer text-xs">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+<span>Shortcuts</span>
+</div>
+</div>
+</aside>
+<!-- END: LeftSidebar -->
+<!-- BEGIN: MainQuestionWorkspace -->
+<!-- The underlying view is slightly dimmed by an overlay backdrop when the source drawer is open -->
+<main class="flex-1 overflow-y-auto bg-slate-50 p-8 flex justify-center relative" data-purpose="question-screen">
+<div class="w-full max-w-3xl space-y-6 opacity-75 pointer-events-none filter blur-[0.3px]">
+<!-- Question Meta Header -->
+<div class="flex items-start space-x-4">
+<span class="font-mono text-3xl font-extrabold text-brand-700 tracking-tight leading-none">01</span>
+<div class="space-y-1">
+<span class="text-xs font-bold font-mono tracking-wider text-brand-700 uppercase">RAPID RECALL</span>
+<p class="text-xs font-mono text-slate-400 tracking-wide uppercase">POLITY · EASY · TIER 1</p>
+</div>
+</div>
+<!-- Question Prompt -->
+<h2 class="text-2xl font-bold text-slate-900 tracking-tight pt-1">
+            The Constitution of India was adopted on:
+          </h2>
+<!-- Options Grid / List -->
+<div class="space-y-2.5 pt-2">
+<!-- Option A (Correct Answer Highlighted) -->
+<div class="flex items-center p-3 rounded-lg border-2 border-emerald-500 bg-emerald-50/70 text-slate-900 shadow-sm">
+<span class="w-8 h-8 rounded bg-emerald-600 text-white font-bold flex items-center justify-center font-mono text-sm mr-3.5">
+                A
+              </span>
+<span class="text-base font-semibold text-slate-900">26 November 1949</span>
+</div>
+<!-- Option B (User Selected Incorrect) -->
+<div class="flex items-center p-3 rounded-lg border-2 border-rose-400 bg-rose-50/60 text-slate-900 shadow-sm">
+<span class="w-8 h-8 rounded bg-rose-700 text-white font-bold flex items-center justify-center font-mono text-sm mr-3.5">
+                B
+              </span>
+<span class="text-base font-medium text-slate-900">26 January 1950</span>
+</div>
+<!-- Option C -->
+<div class="flex items-center p-3 rounded-lg border border-slate-200 bg-white text-slate-700">
+<span class="w-8 h-8 rounded bg-slate-100 text-slate-700 font-bold flex items-center justify-center font-mono text-sm mr-3.5">
+                C
+              </span>
+<span class="text-base font-normal">15 August 1947</span>
+</div>
+<!-- Option D -->
+<div class="flex items-center p-3 rounded-lg border border-slate-200 bg-white text-slate-700">
+<span class="w-8 h-8 rounded bg-slate-100 text-slate-700 font-bold flex items-center justify-center font-mono text-sm mr-3.5">
+                D
+              </span>
+<span class="text-base font-normal">26 November 1950</span>
+</div>
+</div>
+<!-- Question Navigation Buttons -->
+<div class="flex items-center space-x-3 pt-3">
+<button class="px-4 py-2 border border-slate-300 rounded text-xs font-semibold text-slate-700 bg-white">
+              ← Previous
+            </button>
+<button class="px-4 py-2 border border-slate-300 rounded text-xs font-semibold text-slate-700 bg-white">
+              Mark for review
+            </button>
+</div>
+<!-- Solution Explanation Card -->
+<div class="p-4 rounded-lg bg-red-50/40 border border-red-200 space-y-3">
+<div class="flex items-center space-x-2">
+<span class="text-[11px] font-mono font-bold uppercase bg-rose-100 text-rose-800 px-2 py-0.5 rounded">NOT QUITE</span>
+<span class="text-sm font-bold text-slate-900">A. 26 November 1949</span>
+</div>
+<p class="text-xs text-slate-700 leading-relaxed">
+              Adoption (26 November 1949) is distinct from commencement of Fundamental Rights and the Constitution in entirety (26 January 1950).
+            </p>
+<div class="text-xs font-bold text-brand-700 flex items-center space-x-1">
+<span>▶ Why?</span>
+</div>
+</div>
+</div>
+<!-- Dim Backdrop Overlay covering main content -->
+<div aria-hidden="true" class="absolute inset-0 bg-slate-900/10 pointer-events-auto"></div>
+</main>
+<!-- END: MainQuestionWorkspace -->
+<!-- BEGIN: SourceKnowledgeDrawer -->
+<aside class="w-full sm:w-[460px] lg:w-[480px] bg-white border-l border-slate-300 shadow-2xl flex flex-col z-30 transition-transform duration-300 ease-in-out h-full select-text" data-purpose="source-support-overlay" id="source-drawer">
+<!-- Drawer Header -->
+<div class="h-14 px-6 border-b border-slate-200 flex items-center justify-between bg-white shrink-0">
+<div class="flex items-center space-x-2.5">
+<div class="w-2.5 h-2.5 bg-brand-700 rounded-sm"></div>
+<h2 class="text-sm font-extrabold tracking-wider text-slate-900 uppercase font-mono">
+              Source &amp; Knowledge Support
+            </h2>
+</div>
+<button aria-label="Close source drawer" class="w-8 h-8 flex items-center justify-center rounded-md border border-slate-300 text-slate-500 hover:text-slate-800 hover:bg-slate-50 transition-colors" id="close-drawer-btn" type="button">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+</svg>
+</button>
+</div>
+<!-- Drawer Scrollable Content Area -->
+<div class="flex-1 overflow-y-auto px-6 py-5 space-y-6 divide-y divide-slate-100">
+<!-- Section: DOCUMENT -->
+<section class="space-y-2" data-purpose="document-source">
+<div class="flex items-center justify-between">
+<span class="text-[11px] font-mono font-bold tracking-wider uppercase text-brand-700">DOCUMENT</span>
+<span class="text-[10px] font-mono text-slate-400 bg-slate-100 px-1.5 py-0.5 rounded">SYLLABUS REF</span>
+</div>
+<!-- Document Source Badge / Name -->
+<div class="p-3 bg-slate-50 rounded border border-slate-200">
+<p class="text-xs font-semibold text-slate-900 leading-snug">
+                Indian Polity &amp; Governance Module (APSC Foundation Ledger)
+              </p>
+<p class="text-[11px] text-slate-500 mt-0.5 font-mono">
+                Document Code: <span class="text-slate-700 font-medium">APSC-POL-VOL-I (2024 Revision)</span>
+</p>
+</div>
+</section>
+<!-- Section: KNOWLEDGE SUPPORT -->
+<section class="pt-5 space-y-2.5" data-purpose="knowledge-support">
+<div class="flex items-center justify-between">
+<span class="text-[11px] font-mono font-bold tracking-wider uppercase text-brand-700">KNOWLEDGE SUPPORT</span>
+<span class="inline-flex items-center px-2 py-0.5 rounded-full text-[11px] font-medium bg-emerald-50 text-emerald-700 border border-emerald-200">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-500 mr-1.5"></span>
+                Verified Match
+              </span>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="text-xs font-bold text-slate-900">2 linked knowledge points</span>
+<span class="text-[11px] font-mono text-slate-400">Index: #KP-8842</span>
+</div>
+</section>
+<!-- Section: REFERENCE 1 -->
+<section class="pt-5 space-y-3" data-purpose="reference-detail">
+<div class="flex items-center justify-between">
+<span class="text-[11px] font-mono font-bold tracking-wider uppercase text-brand-700">REFERENCE 1</span>
+<span class="text-xs font-mono font-semibold text-slate-600 bg-slate-100 px-2 py-0.5 rounded border border-slate-200">
+                p.1 · B-0005
+              </span>
+</div>
+<!-- Reference Hierarchy and Breadcrumbs -->
+<div class="bg-slate-50 border border-slate-200 rounded-md p-3.5 space-y-2.5">
+<div class="text-xs font-semibold text-slate-900 leading-snug flex items-start space-x-1.5">
+<span class="text-brand-700 mt-0.5">§</span>
+<span>How to use these notes &gt; 1. Fundamental Rights: Articles 12 to 35, an overview</span>
+</div>
+<!-- Verbatim Excerpt Callout -->
+<div class="bg-white border-l-2 border-brand-700 p-2.5 text-xs text-slate-600 leading-relaxed font-sans shadow-sm rounded-r">
+<p class="italic text-slate-700">
+                  “The Constitution of India was adopted by the Constituent Assembly on <strong class="text-slate-900 font-semibold not-italic">26 November 1949</strong>, and came into full effect on <strong class="text-slate-900 font-semibold not-italic">26 January 1950</strong>.”
+                </p>
+<div class="mt-2 text-[10px] font-mono text-slate-400 flex items-center justify-between pt-1 border-t border-slate-100">
+<span>Source chunk: SEC-1.1-NOTE</span>
+<span class="text-emerald-600 font-medium">100% confidence excerpt</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Section: TESTED AS -->
+<section class="pt-5 space-y-3" data-purpose="tested-as-classification">
+<span class="text-[11px] font-mono font-bold tracking-wider uppercase text-brand-700 block">TESTED AS</span>
+<div class="space-y-2">
+<!-- Classification Item 1 -->
+<div class="flex items-start space-x-2.5 p-2 rounded bg-slate-50 border border-slate-200">
+<div class="w-1.5 h-1.5 rounded-full bg-brand-700 mt-1.5 shrink-0"></div>
+<div class="text-xs">
+<span class="font-bold text-slate-900">primary knowledge point</span>
+<p class="text-[11px] text-slate-500 mt-0.5">The exact date of adoption vs commencement in constitutional jurisprudence.</p>
+</div>
+</div>
+<!-- Classification Item 2 -->
+<div class="flex items-start space-x-2.5 p-2 rounded bg-slate-50 border border-slate-200">
+<div class="w-1.5 h-1.5 rounded-full bg-amber-600 mt-1.5 shrink-0"></div>
+<div class="text-xs">
+<span class="font-bold text-slate-900">wrong-option material (not tested as fact)</span>
+<p class="text-[11px] text-slate-500 mt-0.5">Distractor options (1947, 1950 variants) tested for chronological precision.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section: Technical References Accordion -->
+<section class="pt-5" data-purpose="technical-metadata">
+<details class="group cursor-pointer">
+<summary class="flex items-center justify-between text-xs font-semibold text-slate-700 hover:text-brand-700 list-none">
+<span class="flex items-center space-x-1.5">
+<span class="text-slate-400 font-mono group-open:rotate-90 transition-transform inline-block">▸</span>
+<span>Technical references</span>
+</span>
+<span class="text-[10px] font-mono text-slate-400">Node ID: c9e02</span>
+</summary>
+<div class="mt-2.5 p-3 rounded bg-slate-50 border border-slate-200 text-xs font-mono text-slate-600 space-y-1.5">
+<div class="flex justify-between">
+<span class="text-slate-400">Entity UID:</span>
+<span class="text-slate-800">ENT_POL_CONST_001</span>
+</div>
+<div class="flex justify-between">
+<span class="text-slate-400">Vector match:</span>
+<span class="text-emerald-700 font-semibold">0.942 Cosine</span>
+</div>
+<div class="flex justify-between">
+<span class="text-slate-400">Curator:</span>
+<span class="text-slate-800">Gov. Review Board (Tier 1)</span>
+</div>
+</div>
+</details>
+</section>
+</div>
+<!-- Drawer Footer Microcopy -->
+<footer class="p-4 bg-slate-50 border-t border-slate-200 shrink-0" data-purpose="audit-guarantee">
+<div class="flex items-start space-x-2">
+<svg class="w-4 h-4 text-slate-400 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+<p class="text-[11px] text-slate-500 leading-snug font-sans">
+              Context shown is limited to recorded references. Excerpts are never fabricated.
+            </p>
+</div>
+</footer>
+</aside>
+<!-- END: SourceKnowledgeDrawer -->
+</div>
+<!-- END: WorkspaceBody -->
+</div>
+<!-- END: ApplicationLayout -->
+<!-- BEGIN: InteractiveScripts -->
+<script data-purpose="drawer-toggle">
+    // Simple script to toggle or close the drawer overlay for preview functionality
+    document.addEventListener('DOMContentLoaded', () => {
+      const closeBtn = document.getElementById('close-drawer-btn');
+      const drawer = document.getElementById('source-drawer');
+
+      if (closeBtn && drawer) {
+        closeBtn.addEventListener('click', () => {
+          drawer.classList.add('hidden');
+        });
+      }
+    });
+  </script>
+<!-- END: InteractiveScripts -->
+</body></html>

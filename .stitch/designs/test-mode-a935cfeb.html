@@ -1,0 +1,336 @@
+<!DOCTYPE html><html class="h-full" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Competitive Quiz - Test Mode</title>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Google Fonts: Space Grotesk & Hanken Grotesk -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300..900;1,300..900&amp;family=Space+Grotesk:wght@300..700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "background": "#faf8ff",
+            "error-container": "#ffdad6",
+            "on-tertiary-fixed-variant": "#930009",
+            "on-background": "#131b2e",
+            "on-tertiary-fixed": "#410002",
+            "inverse-on-surface": "#eef0ff",
+            "primary-container": "#1e3a5f",
+            "surface-container-high": "#e2e7ff",
+            "surface-container-low": "#f2f3ff",
+            "on-secondary-fixed-variant": "#005225",
+            "secondary-fixed": "#95f8aa",
+            "primary-fixed": "#d5e3ff",
+            "inverse-surface": "#283044",
+            "surface-container-highest": "#dae2fd",
+            "on-primary-fixed-variant": "#2d486d",
+            "tertiary": "#510002",
+            "on-surface": "#131b2e",
+            "surface-dim": "#d2d9f4",
+            "surface": "#faf8ff",
+            "outline-variant": "#c4c6cf",
+            "surface-bright": "#faf8ff",
+            "surface-tint": "#455f87",
+            "on-primary-fixed": "#001c3b",
+            "on-secondary-container": "#007236",
+            "on-error": "#ffffff",
+            "on-primary-container": "#8aa4cf",
+            "secondary-fixed-dim": "#79db90",
+            "on-secondary": "#ffffff",
+            "inverse-primary": "#adc8f5",
+            "tertiary-fixed": "#ffdad5",
+            "on-surface-variant": "#43474e",
+            "primary": "#022448",
+            "outline": "#74777f",
+            "primary-fixed-dim": "#adc8f5",
+            "secondary-container": "#92f5a7",
+            "surface-variant": "#dae2fd",
+            "tertiary-container": "#7a0006",
+            "on-tertiary": "#ffffff",
+            "on-tertiary-container": "#ff7c6e",
+            "secondary": "#006d33",
+            "surface-container": "#eaedff",
+            "on-error-container": "#93000a",
+            "tertiary-fixed-dim": "#ffb4aa",
+            "surface-container-lowest": "#ffffff",
+            "on-primary": "#ffffff",
+            "on-secondary-fixed": "#00210b",
+            "error": "#ba1a1a"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "spacing": {
+            "gutter-desktop": "2rem",
+            "space-md": "1rem",
+            "space-lg": "1.5rem",
+            "space-sm": "0.5rem",
+            "margin": "1rem",
+            "space-xs": "0.25rem",
+            "margin-desktop": "2.5rem",
+            "space-xl": "2.5rem",
+            "gutter": "1.5rem"
+          },
+          "fontFamily": {
+            "stat-metric": ["Hanken Grotesk"],
+            "meta-header": ["Space Grotesk"],
+            "option-letter": ["Space Grotesk"],
+            "sheet-id": ["Hanken Grotesk"],
+            "headline-md": ["Hanken Grotesk"],
+            "headline-lg-mobile": ["Hanken Grotesk"],
+            "meta-mono": ["Space Grotesk"],
+            "body-lg": ["Hanken Grotesk"],
+            "body-md": ["Hanken Grotesk"],
+            "headline-lg": ["Hanken Grotesk"]
+          },
+          "fontSize": {
+            "stat-metric": ["32px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "800" }],
+            "meta-header": ["11px", { "lineHeight": "16px", "letterSpacing": "0.12em", "fontWeight": "700" }],
+            "option-letter": ["14px", { "lineHeight": "14px", "fontWeight": "700" }],
+            "sheet-id": ["34px", { "lineHeight": "40px", "letterSpacing": "-0.03em", "fontWeight": "800" }],
+            "headline-md": ["18px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+            "headline-lg-mobile": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+            "meta-mono": ["12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "600" }],
+            "body-lg": ["16px", { "lineHeight": "26px", "fontWeight": "500" }],
+            "body-md": ["14px", { "lineHeight": "22px", "fontWeight": "400" }],
+            "headline-lg": ["24px", { "lineHeight": "34px", "letterSpacing": "-0.015em", "fontWeight": "700" }]
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-background text-on-surface h-full flex flex-col antialiased selection:bg-surface-container-highest selection:text-primary">
+<!-- TOP APP BAR -->
+<header class="bg-surface-container-lowest text-primary flex justify-between items-center w-full px-space-lg h-16 border-b border-outline-variant shrink-0 z-30">
+<div class="flex items-center gap-space-md">
+<button class="p-1 rounded text-on-surface-variant hover:text-primary transition-colors flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">menu</span>
+</button>
+<div class="flex items-center gap-2.5">
+<div class="w-8 h-8 rounded bg-primary-container text-on-primary font-meta-mono text-meta-mono flex items-center justify-center font-bold tracking-tight shadow-sm">
+          CQ
+        </div>
+<div>
+<div class="text-headline-md font-headline-md font-bold tracking-tight text-primary leading-tight">
+            Competitive Quiz
+          </div>
+<div class="text-meta-header font-meta-header text-on-surface-variant tracking-wider uppercase text-[10px]">
+            APSC_PRELIMS · PARTIAL · CONTENT COMPLETE
+          </div>
+</div>
+</div>
+</div>
+<!-- Center Progress Indicator -->
+<div class="hidden md:flex items-center gap-6">
+<div class="text-body-lg font-body-lg font-bold text-primary tracking-tight">
+        Q 1 <span class="text-on-surface-variant font-normal">/ 64</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="text-meta-mono font-meta-mono text-on-surface-variant text-[11px]">
+          2 answered · 1 correct · 1 wrong
+        </span>
+<div class="w-24 h-1.5 bg-surface-container-high rounded-full overflow-hidden flex">
+<div class="bg-primary-container h-full w-[3%] rounded-full"></div>
+</div>
+<span class="text-meta-mono font-meta-mono text-primary font-bold text-[11px]">3%</span>
+</div>
+</div>
+<!-- Trailing Action Cluster -->
+<div class="flex items-center gap-space-sm text-on-surface-variant">
+<button class="p-2 hover:bg-surface-container-low rounded text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">search</span>
+</button>
+<button class="p-2 hover:bg-surface-container-low rounded text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">person</span>
+</button>
+<button class="p-2 hover:bg-surface-container-low rounded text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">filter_list</span>
+</button>
+<button class="p-2 hover:bg-surface-container-low rounded text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">more_vert</span>
+</button>
+</div>
+</header>
+<!-- SUB-HEADER EXAM TOOLBAR BANNER -->
+<div class="bg-surface-container-lowest border-b border-outline-variant px-space-lg py-2.5 flex items-center justify-between shrink-0 shadow-[0_1px_2px_rgba(15,23,42,0.02)]">
+<div class="flex items-center gap-2 text-on-surface-variant">
+<span class="text-meta-mono font-meta-mono text-primary font-bold">Time left: UNTIMED</span>
+<span class="text-outline-variant">·</span>
+<span class="text-meta-mono font-meta-mono">2 answered</span>
+<span class="text-outline-variant">·</span>
+<span class="text-meta-mono font-meta-mono">0 marked</span>
+<span class="text-outline-variant">·</span>
+<span class="text-meta-mono font-meta-mono">62 unanswered</span>
+</div>
+<div>
+<button class="bg-error hover:bg-tertiary-container active:bg-tertiary text-on-error font-body-md font-headline-md px-5 py-1.5 rounded transition-colors text-[13px] tracking-wide font-bold shadow-sm">
+        Submit test
+      </button>
+</div>
+</div>
+<!-- WORKSPACE BODY WITH SIDE RAIL & MAIN CANVAS -->
+<div class="flex flex-1 overflow-hidden">
+<!-- LEFT SIDEBAR DESK RAIL -->
+<aside class="w-60 bg-surface-container-low border-r border-outline-variant flex flex-col justify-between p-space-md shrink-0 select-none overflow-y-auto">
+<div class="space-y-6">
+<!-- STUDY SECTION -->
+<div>
+<div class="text-meta-header font-meta-header text-outline text-[10px] tracking-widest uppercase mb-2 px-3">
+            STUDY
+          </div>
+<nav class="space-y-0.5">
+<a class="block text-on-surface-variant pl-4 py-2 rounded-sm font-medium hover:bg-surface-container-highest transition-colors" href="#">
+<div class="text-body-md font-body-md text-on-surface leading-tight font-semibold">Learn</div>
+<div class="text-meta-mono font-meta-mono text-[11px] text-outline font-normal">Study concepts</div>
+</a>
+<a class="block text-on-surface-variant pl-4 py-2 rounded-sm font-medium hover:bg-surface-container-highest transition-colors" href="#">
+<div class="text-body-md font-body-md text-on-surface leading-tight font-semibold">Practice</div>
+<div class="text-meta-mono font-meta-mono text-[11px] text-outline font-normal">Answer and review</div>
+</a>
+<!-- Active State: Test (Exam conditions) -->
+<a class="block border-l-4 border-primary bg-surface-container-highest text-primary font-bold pl-3 py-2 rounded-sm transition-all shadow-[inset_0_1px_0_rgba(255,255,255,0.4)]" href="#">
+<div class="text-body-md font-body-md text-primary leading-tight font-bold">Test</div>
+<div class="text-meta-mono font-meta-mono text-[11px] text-primary-container font-medium">Exam conditions</div>
+</a>
+<a class="block text-on-surface-variant pl-4 py-2 rounded-sm font-medium hover:bg-surface-container-highest transition-colors" href="#">
+<div class="text-body-md font-body-md text-on-surface leading-tight font-semibold">Revision</div>
+<div class="text-meta-mono font-meta-mono text-[11px] text-outline font-normal">Weak areas</div>
+</a>
+<a class="block text-on-surface-variant pl-4 py-2 rounded-sm font-medium hover:bg-surface-container-highest transition-colors" href="#">
+<div class="text-body-md font-body-md text-on-surface leading-tight font-semibold">Rapid Recall</div>
+<div class="text-meta-mono font-meta-mono text-[11px] text-outline font-normal">High-density factual recall</div>
+</a>
+</nav>
+</div>
+<!-- INSIGHTS SECTION -->
+<div>
+<div class="text-meta-header font-meta-header text-outline text-[10px] tracking-widest uppercase mb-2 px-3">
+            INSIGHTS
+          </div>
+<nav class="space-y-0.5">
+<a class="block text-on-surface-variant pl-4 py-2 rounded-sm font-medium hover:bg-surface-container-highest transition-colors" href="#">
+<div class="text-body-md font-body-md text-on-surface leading-tight font-semibold">Analytics</div>
+<div class="text-meta-mono font-meta-mono text-[11px] text-outline font-normal">Performance</div>
+</a>
+</nav>
+</div>
+</div>
+<!-- FOOTER UTILITY SHORTCUTS -->
+<div class="pt-4 border-t border-outline-variant/60 space-y-2">
+<a class="flex items-center text-meta-mono font-meta-mono text-[12px] text-primary hover:underline px-1 font-semibold" href="#">
+          Print question sheet
+        </a>
+<button class="flex items-center gap-1.5 text-meta-mono font-meta-mono text-[12px] text-on-surface-variant hover:text-primary px-1">
+<span class="material-symbols-outlined text-[16px]">keyboard</span>
+<span class="">Shortcuts</span>
+</button>
+</div>
+</aside>
+<!-- MAIN EXAM CANVAS -->
+<main class="flex-1 px-space-lg py-3 overflow-hidden flex flex-col justify-between h-full bg-background items-center">
+<div class="w-full max-w-[960px] flex flex-col gap-6">
+<!-- TEST MODE BANNER (DARK ARCHITECTURAL BAR) -->
+<div class="bg-on-background text-inverse-on-surface px-5 py-3 rounded-lg flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-2 font-meta-mono text-meta-mono text-xs">
+<span class="font-bold tracking-wider text-surface-container-lowest">TEST MODE.</span>
+<span class="text-surface-variant/80">No feedback until you submit.</span>
+</div>
+<div class="font-meta-mono text-meta-mono text-xs text-surface-variant/80">
+            2 answered · 62 left
+          </div>
+</div>
+<!-- STUDY SHEET / QUESTION CARD -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded-lg p-4 md:p-6 shadow-[0_1px_3px_rgba(15,23,42,0.04)] relative">
+<!-- Top Accent Rule -->
+<div class="absolute top-0 left-0 right-0 h-[3px] bg-primary-container rounded-t"></div>
+<!-- Header Tags & Question Number -->
+<div class="flex items-baseline gap-4 mb-3">
+<span class="text-sheet-id font-sheet-id text-primary leading-none">01</span>
+<div class="flex items-center gap-2 text-meta-header font-meta-header tracking-wider">
+<span class="text-error font-bold">TEST</span>
+<span class="text-outline-variant">·</span>
+<span class="text-on-surface-variant">POLITY</span>
+<span class="text-outline-variant">·</span>
+<span class="text-on-surface-variant">EASY</span>
+<span class="text-outline-variant">·</span>
+<span class="text-on-surface-variant">TIER 1</span>
+</div>
+</div>
+<!-- Question Stem -->
+<h2 class="text-headline-lg font-headline-lg text-on-background font-bold mb-4">
+            The Constitution of India was adopted on:
+          </h2>
+<!-- Options Ledger Stack -->
+<div class="space-y-2 mb-4">
+<!-- Option A -->
+<label class="group flex items-center gap-4 py-2 px-3.5 border border-outline-variant/70 rounded bg-surface-container-lowest hover:bg-surface-container-low transition-colors cursor-pointer select-none">
+<input class="sr-only" name="quiz_opt" type="radio">
+<div class="w-[30px] h-[30px] shrink-0 border border-outline rounded bg-surface-container-low text-on-surface-variant flex items-center justify-center font-option-letter text-option-letter group-hover:border-primary">
+                A
+              </div>
+<span class="text-body-lg font-body-lg text-on-surface">26 November 1949</span>
+</label>
+<!-- Option B (Selected State) -->
+<label class="flex items-center gap-4 py-2 px-3.5 border-2 border-primary-container rounded bg-surface-container-high/40 transition-colors cursor-pointer select-none">
+<input checked="" class="sr-only" name="quiz_opt" type="radio">
+<div class="w-[30px] h-[30px] shrink-0 border-2 border-primary-container rounded bg-primary-container text-on-primary flex items-center justify-center font-option-letter text-option-letter shadow-sm">
+                B
+              </div>
+<span class="text-body-lg font-body-lg text-on-surface font-semibold">26 January 1950</span>
+</label>
+<!-- Option C -->
+<label class="group flex items-center gap-4 py-2 px-3.5 border border-outline-variant/70 rounded bg-surface-container-lowest hover:bg-surface-container-low transition-colors cursor-pointer select-none">
+<input class="sr-only" name="quiz_opt" type="radio">
+<div class="w-[30px] h-[30px] shrink-0 border border-outline rounded bg-surface-container-low text-on-surface-variant flex items-center justify-center font-option-letter text-option-letter group-hover:border-primary">
+                C
+              </div>
+<span class="text-body-lg font-body-lg text-on-surface">15 August 1947</span>
+</label>
+<!-- Option D -->
+<label class="group flex items-center gap-4 py-2 px-3.5 border border-outline-variant/70 rounded bg-surface-container-lowest hover:bg-surface-container-low transition-colors cursor-pointer select-none">
+<input class="sr-only" name="quiz_opt" type="radio">
+<div class="w-[30px] h-[30px] shrink-0 border border-outline rounded bg-surface-container-low text-on-surface-variant flex items-center justify-center font-option-letter text-option-letter group-hover:border-primary">
+                D
+              </div>
+<span class="text-body-lg font-body-lg text-on-surface">26 November 1950</span>
+</label>
+</div>
+<!-- Desk Control Strip (Action Buttons Row) -->
+<div class="flex items-center justify-between pt-4 border-t border-outline-variant/40">
+<div class="flex items-center gap-3">
+<button class="bg-surface-container-lowest hover:bg-surface-container-low active:bg-surface-container border border-outline-variant px-4 py-2.5 rounded font-body-md font-headline-md text-on-surface-variant text-[14px] font-semibold transition-colors flex items-center gap-1.5 shadow-sm">
+<span class="">← Previous</span>
+</button>
+<button class="bg-surface-container-lowest hover:bg-surface-container-low active:bg-surface-container border border-outline-variant px-4 py-2.5 rounded font-body-md font-headline-md text-on-surface-variant text-[14px] font-semibold transition-colors shadow-sm">
+                Mark for review
+              </button>
+</div>
+<div>
+<button class="bg-primary-container hover:bg-primary active:bg-on-background text-on-primary px-8 py-2.5 rounded font-body-md font-headline-md text-[14px] font-bold transition-all shadow-sm flex items-center gap-1.5">
+<span class="">Next →</span>
+</button>
+</div>
+</div>
+</div>
+<!-- NOTICE CALLOUT (SOFT DELICATE PASTEL BOX) -->
+<div class="bg-error-container/30 border border-on-tertiary-container/20 rounded-md px-5 py-3 text-body-md font-body-md text-tertiary flex items-center gap-2 text-[13px]">
+<span class="font-normal text-on-surface-variant">Recorded. Feedback is hidden until you submit the test.</span>
+</div>
+</div>
+</main>
+</div>
+
+
+</body></html>

@@ -325,12 +325,16 @@ class TestEditorialIdentity(unittest.TestCase):
             self.assertIn(s, t, s)
 
     def test_option_ledger_not_cards(self):
+        # Stitch contract: bordered rows (1px line, 2px marker-scale radius),
+        # never dashboard cards. State travels in border color + marker fill.
         t = tpl_text()
-        self.assertIn("box-shadow:inset 3px 0 0 var(--accent)", t)
         m = re.search(r"\.opt\{([^}]*)\}", t)
         self.assertIsNotNone(m, ".opt rule missing")
+        self.assertIn("border:1px solid var(--line)", m.group(1))
         self.assertIn("border-bottom", m.group(1))
         self.assertNotIn("border-radius:var(--radius)", m.group(1))
+        for cls in [".opt.selected", ".opt.correct", ".opt.incorrect"]:
+            self.assertIn(cls, t, cls)
 
     def test_study_note_state_rule(self):
         t = tpl_text()

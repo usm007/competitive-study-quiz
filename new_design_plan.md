@@ -1,9 +1,9 @@
 # New Design Plan: Editorial Luxury Reskin of the Study Template
 
-Status: APPLIED 2026-10-09. All §3 changes implemented in
-`templates/web/app.template.html` (tokens, display serif, grain, motion
-ease, analytics split, Submit/Next arrow spans, eyebrow tracking); waivers
-appended to the DESIGN.md reason log; verification per §5 below.
+Status: SUPERSEDED 2026-10-09 by the Stitch "Study Desk Editorial" language
+(screens + code in `.stitch/designs/`, applied as visual language only).
+Luxury tokens/type/grain removed; `--ease` and Submit/Next arrow decisions
+carried over only where Stitch agrees (plain Submit, text-arrow Next).
 
 ## 1. Direction
 
