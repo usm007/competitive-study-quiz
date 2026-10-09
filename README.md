@@ -1,8 +1,8 @@
-# DocToQuiz — V1.0 Release Documentation
+# StudySynth — Local-First Study Application & Revision Engine
 
-Converts complex reference and study documents into rigorous, competitive-exam question banks, interactive web study applications, and print-ready A4 PDF test papers (for UPSC, APSC, State PSC, SSC, Banking, Railways, Teaching, and other objective examinations).
+StudySynth converts complex reference and study documents into interactive, standalone HTML study modules, master study libraries, and print-ready A4 PDF test papers (for UPSC, APSC, State PSC, SSC, Banking, Railways, Teaching, and other competitive objective examinations).
 
-Deterministic Python stdlib scripts (+ `pypdf`, `reportlab`, `openpyxl`) enforce mathematical coverage, structural validation, 11-dimension question quality, deduplication, audit gates, and rendering without external cloud dependencies.
+Deterministic Python stdlib scripts (+ `pypdf`, `reportlab`, `openpyxl`) enforce mathematical coverage, structural validation, 11-dimension question quality, deduplication, audit gates, dynamic metadata extraction, and rendering without external cloud dependencies.
 
 ---
 
@@ -19,14 +19,38 @@ The ingestion engine (`scripts/ingest.py`) parses, normalizes, and extracts stru
 
 ---
 
-## 2. Pipeline Sequence
+## 2. Key Architecture & Features
+
+### Dynamic Metadata & Clean Naming Convention (`scripts/naming.py`)
+- Automatically parses raw source filenames (e.g. `assam_geography_v2.pdf`) into clean, human-readable titles (e.g. `Assam Geography v2`).
+- Dynamically injects clean titles into `<title>` tags and UI header branding (`#apptitle`).
+- Generates clean, URL-friendly output file slugs (e.g. `assam-geography-module.html`).
+
+### Master Dashboard (`index.html` Library) (`scripts/dashboard.py`)
+- Automatically generates and updates a master `index.html` library dashboard in the root output folder.
+- Responsive CSS grid layout featuring search filtering, module count, metadata badges, and direct launch links.
+
+### Desktop Shortcut Automation (`scripts/desktop_shortcut.py`)
+- Cross-platform utility that generates OS-level shortcuts pointing to `index.html`:
+  - **Windows**: `.lnk` shell shortcut (with `.url` fallback)
+  - **macOS**: `.webloc` bookmark
+  - **Linux**: `.desktop` desktop entry
+
+### Interactive Study Desk UI
+- Pure standalone offline HTML file (`file://` compatible).
+- Features **Practice Deck**, **Test**, **Revision Engine**, and **Rapid Recall** modes.
+- Purged of generic "Quiz" terminology in favor of pedagogical study module workflows.
+
+---
+
+## 3. Pipeline Sequence
 
 The pipeline transforms source documents into verified study packages through sequential checkpoints:
 
 ```
 DOCUMENT
-  ↓ [ingest.py]
-DOCUMENT STRUCTURE & ANCHORS (Dates, numbers, articles, entities, tables)
+  ↓ [ingest.py + naming.py]
+DOCUMENT STRUCTURE & CLEAN METADATA (Dates, numbers, articles, entities, tables)
   ↓ [extract.md + locate_excerpts.py]
 EXHAUSTIVE KNOWLEDGE INVENTORY (KUs, Tiers 1-4, confusion clusters, verbatim excerpts)
   ↓ [inventory_check.py]
@@ -42,14 +66,14 @@ COVERAGE & REDUNDANCY AUDIT (Tier 1/2 content coverage, cognitive coverage, sema
   ↓ [audit.py + gate.py]
 AUDIT & FINAL GATE (COMPREHENSIVE vs LIMITED vs PARTIAL)
   ↓ [package.py]
-QUIZ PACKAGE (Validated + Quality-Accepted questions only)
-  ↓ [build_web.py + build_pdf.py + check_pdf.py]
-STANDALONE WEB APP & PRINT-READY A4 PDFS (Version A: Exam, B: Key, C: Explanations)
+PACKAGE ASSEMBLY (Validated + Quality-Accepted questions only)
+  ↓ [build_web.py + dashboard.py + desktop_shortcut.py + build_pdf.py]
+STANDALONE STUDY MODULE, MASTER DASHBOARD, DESKTOP SHORTCUT & PRINT-READY PDFS
 ```
 
 ---
 
-## 3. Quickstart: One-Command Pipeline
+## 4. Quickstart: One-Command Pipeline
 
 Run all deterministic stages at once from a source document, inventory, and question bank:
 
@@ -76,7 +100,8 @@ Generated outputs in `build/my_run/`:
 - `audit_report.json`: Global audit of content, cognitive coverage, shares, and clusters
 - `gate.json`: Authoritative gate status (`COMPREHENSIVE`, `PARTIAL`, or `LIMITED`)
 - `quiz_package.json`: Packaged delivery artifact with quality-accepted questions
-- `quiz.html`: Standalone offline web workspace with practice/test/revision modes
+- `sample-source-module.html` & `quiz.html`: Standalone offline study workspace
+- `output/index.html`: Master StudySynth library dashboard
 - `pdf/question-paper-A.pdf`: Printable A4 question paper with OMR grid
 - `pdf/answer-key-B.pdf`: Compact answer key sheet
 - `pdf/explanations-C.pdf`: Pedagogical explanation booklet with source citations
@@ -84,61 +109,14 @@ Generated outputs in `build/my_run/`:
 
 ---
 
-## 4. End-to-End Example Walkthrough
-
-```bash
-# 1. Ingest document & detect anchors
-python scripts/ingest.py examples/sample_source.md --out build --run-id demo
-python scripts/anchors.py build/demo/document_structure.json --out build/demo/anchors.json
-
-# 2. Check inventory completeness against anchors
-python scripts/locate_excerpts.py examples/sample_inventory.json build/demo/document_structure.json
-python scripts/inventory_check.py examples/sample_inventory.json build/demo/document_structure.json \
-  --anchors build/demo/anchors.json --config config.default.json --out build/demo/inventory_check.json
-
-# 3. Validate question bank correctness
-python scripts/validate_questions.py examples/sample_bank.json examples/sample_inventory.json \
-  build/demo/document_structure.json --profile profiles/APSC_PRELIMS.json --mode SOURCE_BOUND \
-  --config config.default.json --out build/demo/validation_results.json
-
-# 4. Evaluate competitive-exam question quality (Phase 3)
-python scripts/quality.py examples/sample_bank.json examples/sample_inventory.json \
-  build/demo/document_structure.json --profile profiles/APSC_PRELIMS.json --mode SOURCE_BOUND \
-  --config config.default.json --out build/demo/quality_report.json
-
-# 5. Measure coverage and deduplicate
-python scripts/coverage.py examples/sample_bank.json examples/sample_inventory.json \
-  build/demo/validation_results.json --out build/demo/coverage_matrix.json --config config.default.json
-python scripts/dedupe.py examples/sample_bank.json --out build/demo/dedupe_report.json
-
-# 6. Audit, Gate & Report
-python scripts/audit.py examples/sample_inventory.json build/demo/coverage_matrix.json \
-  build/demo/validation_results.json build/demo/anchors.json --profile profiles/APSC_PRELIMS.json \
-  --config config.default.json --struct build/demo/document_structure.json \
-  --bank examples/sample_bank.json --quality build/demo/quality_report.json --out build/demo/audit_report.json
-python scripts/gate.py build/demo/audit_report.json --config config.default.json --out build/demo/gate.json
-python scripts/report.py build/demo/audit_report.json build/demo/gate.json examples/sample_bank.json
-
-# 7. Package and Deliver
-python scripts/package.py examples/sample_bank.json build/demo/audit_report.json build/demo/gate.json \
-  --profile profiles/APSC_PRELIMS.json --inventory examples/sample_inventory.json \
-  --quality build/demo/quality_report.json --out build/demo/quiz_package.json
-python scripts/build_web.py build/demo/quiz_package.json --out build/demo/quiz.html
-python scripts/build_pdf.py build/demo/quiz_package.json --out build/demo/pdf --profile profiles/APSC_PRELIMS.json
-python scripts/check_pdf.py build/demo/pdf/question-paper-A.pdf build/demo/pdf/answer-key-B.pdf \
-  build/demo/pdf/explanations-C.pdf --package build/demo/quiz_package.json --report build/demo/pdf_check_report.json
-```
-
----
-
 ## 5. Testing & Verification
 
-Run the entire test suite (245 unit and integration tests):
+Run the entire test suite (284 unit and integration tests):
 ```bash
 python tests/run_all.py
 ```
 
-Run the authoritative V1.0 release gate check:
+Run the authoritative release gate check:
 ```bash
 python scripts/release_gate.py
 ```

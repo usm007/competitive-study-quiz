@@ -19,9 +19,18 @@ def mod(name):
 
 def run_stage(fn, argv):
     try:
-        return fn(argv)
+        res = fn(argv)
+        return int(res) if isinstance(res, (int, bool)) else (0 if res is None else 1)
     except SystemExit as e:
-        return int(e.code or 0)
+        if isinstance(e.code, int):
+            return e.code
+        if e.code:
+            print(str(e.code), file=sys.stderr)
+            return 1
+        return 0
+    except Exception as e:
+        print("stage exception: %s" % e, file=sys.stderr)
+        return 1
 
 
 def schema_each(path, key, schema_path, label):
@@ -63,6 +72,11 @@ def main(argv):
     ap.add_argument("--web", action="store_true", help="Build standalone HTML quiz (implies --package)")
     ap.add_argument("--pdf", action="store_true", help="Build print-ready PDFs (implies --package)")
     ap.add_argument("--full", action="store_true", help="Run full pipeline including package, web, and pdf")
+    ap.add_argument("--deliver", action="store_true", help="Generate final user delivery package (PDF + HTML only)")
+    ap.add_argument("--delivery-dir", default=None, help="Directory for final user delivery deliverables (default: output)")
+    ap.add_argument("--delivery-mode", choices=["individual", "unified", "both"], default="individual", help="Delivery mode")
+    ap.add_argument("--dashboard", default=None, help="Path to master index.html dashboard")
+    ap.add_argument("--shortcut", action="store_true", help="Generate OS desktop shortcut to master dashboard")
     a = ap.parse_args(argv)
     if not os.path.isfile(a.source):
         print("error: source not found: %s" % a.source, file=sys.stderr)
@@ -79,6 +93,7 @@ def main(argv):
         return 1
     R = a.run_id if os.path.basename(os.path.normpath(a.build_dir)) == a.run_id else os.path.join(a.build_dir, a.run_id)
     ensure_dir(R)
+    pkg_dest = os.path.join(R, "quiz_package.json")
     cfg = load_json(a.config)
     mode = a.mode or cfg.get("fidelity_mode", "SOURCE_BOUND")
     F = {"struct": os.path.join(R, "document_structure.json"),
@@ -139,6 +154,20 @@ def main(argv):
         mark("audit", "pending", "needs inventory")
         mark("gate", "pending", "needs audit")
         mark("report", "pending", "needs audit/gate")
+
+        if (a.deliver or a.delivery_dir) and os.path.isfile(pkg_dest):
+            deliv_dir = a.delivery_dir or "output"
+            rc = run_stage(mod("package_delivery").main, [
+                pkg_dest,
+                "--out-dir", deliv_dir,
+                "--mode", a.delivery_mode,
+                "--profile", a.profile,
+            ])
+            mark("delivery", "ok" if rc == 0 else "failed")
+            if rc:
+                save_json(sp, state)
+                return rc
+
         save_json(sp, state)
         print("pipeline %s: deterministic stages done; inventory/bank pending (LLM steps)" % a.run_id)
         return 0
@@ -227,12 +256,12 @@ def main(argv):
     if a.count is not None:
         state["requested_count"] = a.count
 
-    do_pkg = a.package or a.web or a.pdf or a.full
+    do_pkg = a.package or a.web or a.pdf or a.full or a.deliver or bool(a.delivery_dir)
     do_web = a.web or a.full
     do_pdf = a.pdf or a.full
 
+    pkg_dest = os.path.join(R, "quiz_package.json")
     if do_pkg and a.bank and a.inventory:
-        pkg_dest = os.path.join(R, "quiz_package.json")
         rc = run_stage(mod("package").main, [
             a.bank, F["audit"], F["gate"],
             "--profile", a.profile,
@@ -245,34 +274,88 @@ def main(argv):
             save_json(sp, state)
             return rc
 
-        if do_web:
-            html_dest = os.path.join(R, "quiz.html")
-            rc = run_stage(mod("build_web").main, [pkg_dest, "--out", html_dest])
-            mark("build_web", "ok" if rc == 0 else "failed")
-            if rc:
-                save_json(sp, state)
-                return rc
+    if do_web and os.path.isfile(pkg_dest):
+        import shutil
+        from naming import parse_clean_title, generate_slug
 
-        if do_pdf:
-            pdf_dir = os.path.join(R, "pdf")
-            rc = run_stage(mod("build_pdf").main, [pkg_dest, "--out", pdf_dir, "--profile", a.profile])
-            mark("build_pdf", "ok" if rc == 0 else "failed")
-            if rc:
-                save_json(sp, state)
-                return rc
+        clean_title = parse_clean_title(a.source)
+        slug_file = generate_slug(a.source)
+        slug_dest = os.path.join(R, slug_file)
+        html_dest = os.path.join(R, "quiz.html")
 
-            pdf_check = os.path.join(R, "pdf_check_report.json")
-            rc = run_stage(mod("check_pdf").main, [
-                os.path.join(pdf_dir, "question-paper-A.pdf"),
-                os.path.join(pdf_dir, "answer-key-B.pdf"),
-                os.path.join(pdf_dir, "explanations-C.pdf"),
-                "--package", pkg_dest,
-                "--report", pdf_check
-            ])
-            mark("check_pdf", "ok" if rc == 0 else "failed")
-            if rc:
-                save_json(sp, state)
-                return rc
+        rc = run_stage(mod("build_web").main, [pkg_dest, "--out", slug_dest, "--title", clean_title])
+        mark("build_web", "ok" if rc == 0 else "failed")
+        if rc:
+            save_json(sp, state)
+            return rc
+
+        # Keep quiz.html for backward compatibility if slug_file is distinct
+        if slug_file != "quiz.html":
+            try:
+                shutil.copy2(slug_dest, html_dest)
+            except Exception:
+                pass
+
+        # Automatically update master index.html dashboard
+        root_out = a.delivery_dir or (a.build_dir if a.build_dir != "build" else "output")
+        dash_dest = a.dashboard or os.path.join(root_out, "index.html")
+        try:
+            from dashboard import update_dashboard
+            from desktop_shortcut import create_desktop_shortcut
+            q_cnt = None
+            try:
+                pkg_data = load_json(pkg_dest)
+                q_cnt = len(pkg_data.get("questions", []))
+            except Exception:
+                pass
+
+            update_dashboard(
+                dashboard_path=dash_dest,
+                module_path=slug_dest,
+                title=clean_title,
+                metadata={
+                    "status": state.get("stages", {}).get("gate", {}).get("status", "Comprehensive"),
+                    "question_count": q_cnt,
+                    "profile": a.profile,
+                }
+            )
+            create_desktop_shortcut(dash_dest, "StudySynth Library")
+        except Exception as e:
+            print("notice: dashboard/shortcut automation: %s" % e, file=sys.stderr)
+
+    if do_pdf and os.path.isfile(pkg_dest):
+        pdf_dir = os.path.join(R, "pdf")
+        rc = run_stage(mod("build_pdf").main, [pkg_dest, "--out", pdf_dir, "--profile", a.profile])
+        mark("build_pdf", "ok" if rc == 0 else "failed")
+        if rc:
+            save_json(sp, state)
+            return rc
+
+        pdf_check = os.path.join(R, "pdf_check_report.json")
+        rc = run_stage(mod("check_pdf").main, [
+            os.path.join(pdf_dir, "question-paper-A.pdf"),
+            os.path.join(pdf_dir, "answer-key-B.pdf"),
+            os.path.join(pdf_dir, "explanations-C.pdf"),
+            "--package", pkg_dest,
+            "--report", pdf_check
+        ])
+        mark("check_pdf", "ok" if rc == 0 else "failed")
+        if rc:
+            save_json(sp, state)
+            return rc
+
+    if (a.deliver or a.delivery_dir) and os.path.isfile(pkg_dest):
+        deliv_dir = a.delivery_dir or "output"
+        rc = run_stage(mod("package_delivery").main, [
+            pkg_dest,
+            "--out-dir", deliv_dir,
+            "--mode", a.delivery_mode,
+            "--profile", a.profile,
+        ])
+        mark("delivery", "ok" if rc == 0 else "failed")
+        if rc:
+            save_json(sp, state)
+            return rc
 
     save_json(sp, state)
     print("pipeline %s: done -> %s" % (a.run_id, R))

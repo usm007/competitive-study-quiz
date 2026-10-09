@@ -136,7 +136,7 @@ def doc_template(path: Path, cfg: dict, title: str) -> SimpleDocTemplate:
         str(path), pagesize=A4,
         leftMargin=float(pg.get("left_margin_pt", 54)), rightMargin=float(pg.get("right_margin_pt", 54)),
         topMargin=float(pg.get("top_margin_pt", 54)), bottomMargin=float(pg.get("bottom_margin_pt", 54)),
-        title=title, author="DocToQuiz",
+        title=title, author="StudySynth",
     )
 
 
@@ -277,14 +277,61 @@ def build_C(pkg: dict, meta: dict, prof: dict, cfg: dict, st: dict, fonts: tuple
     print(f"OK: wrote {out}")
 
 
+def build_single_pdf(
+    pkg: dict,
+    out_pdf: Path,
+    profile: str | dict | None = None,
+    style_path: Path | None = None,
+) -> Path:
+    """Build a single combined study PDF containing Question Paper, Answer Key, and Explanations."""
+    import tempfile
+    from pypdf import PdfWriter
+
+    warnings, errors = validate_structure(pkg)
+    for w in warnings:
+        print(f"WARNING: {w}", file=sys.stderr)
+    if errors:
+        raise SystemExit(f"ERROR: invalid quiz package:\n  " + "\n  ".join(errors))
+
+    meta = eff_meta(pkg)
+    prof = profile if isinstance(profile, dict) else resolve_profile(pkg, profile, PROFILES_DIR)
+    cfg = load_style(Path(style_path or DEFAULT_STYLE))
+    fonts = resolve_fonts()
+    st = make_styles(cfg, fonts[0], fonts[1])
+
+    out_pdf.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory() as tmp:
+        t = Path(tmp)
+        path_a = t / "question-paper-A.pdf"
+        path_b = t / "answer-key-B.pdf"
+        path_c = t / "explanations-C.pdf"
+        build_A(pkg, meta, prof, cfg, st, fonts, path_a)
+        build_B(pkg, meta, prof, cfg, st, fonts, path_b)
+        build_C(pkg, meta, prof, cfg, st, fonts, path_c)
+
+        writer = PdfWriter()
+        writer.append(str(path_a))
+        writer.append(str(path_b))
+        writer.append(str(path_c))
+        with open(out_pdf, "wb") as f:
+            writer.write(f)
+
+    print(f"OK: wrote single combined PDF {out_pdf}")
+    return out_pdf
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description="Build PDF versions A/B/C from a quiz package.")
     ap.add_argument("package", help="Path to quiz_package.json")
-    ap.add_argument("--out", required=True, help="Output directory for the three PDFs")
+    ap.add_argument("--out", default=None, help="Output directory for the three PDFs")
+    ap.add_argument("--single-out", default=None, help="Output path for the single combined PDF")
     ap.add_argument("--profile", default=None,
                     help="Profile name (profiles/*.json), path to profile JSON, or free name override")
     ap.add_argument("--style", default=str(DEFAULT_STYLE), help="Path to templates/pdf/style.json")
     args = ap.parse_args(argv)
+
+    if not args.out and not args.single_out:
+        ap.error("At least one of --out or --single-out is required")
 
     pkg = load_package_json(Path(args.package))
     warnings, errors = validate_structure(pkg)
@@ -299,11 +346,15 @@ def main(argv: list[str] | None = None) -> int:
     print(f"fonts: body={fonts[0]} bold={fonts[1]} embedded={fonts[2]}")
     st = make_styles(cfg, fonts[0], fonts[1])
 
-    outdir = Path(args.out)
-    outdir.mkdir(parents=True, exist_ok=True)
-    build_A(pkg, meta, prof, cfg, st, fonts, outdir / "question-paper-A.pdf")
-    build_B(pkg, meta, prof, cfg, st, fonts, outdir / "answer-key-B.pdf")
-    build_C(pkg, meta, prof, cfg, st, fonts, outdir / "explanations-C.pdf")
+    if args.single_out:
+        build_single_pdf(pkg, Path(args.single_out), prof, Path(args.style))
+
+    if args.out:
+        outdir = Path(args.out)
+        outdir.mkdir(parents=True, exist_ok=True)
+        build_A(pkg, meta, prof, cfg, st, fonts, outdir / "question-paper-A.pdf")
+        build_B(pkg, meta, prof, cfg, st, fonts, outdir / "answer-key-B.pdf")
+        build_C(pkg, meta, prof, cfg, st, fonts, outdir / "explanations-C.pdf")
     return 0
 
 

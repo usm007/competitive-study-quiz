@@ -116,7 +116,49 @@ def main(argv):
     tot = sum(mix.values()) or 1
     mix_pct = {k: round(100 * v / tot, 1) for k, v in mix.items()}
     target = prof.get("target_type_mix", {}) or {}
-    weak = [k for k, v in target.items() if abs(mix_pct.get(k, 0) - v) > 15]
+    bp_rules = prof.get("blueprint_rules", {}) or {}
+    tolerance = float(bp_rules.get("type_mix_tolerance", 15.0))
+    all_types = sorted(set(list(target.keys()) + list(mix.keys())))
+    bp_dims = {}
+    weak = []
+    for qtype in all_types:
+        t_pct = float(target.get(qtype, 0.0))
+        act_cnt = mix.get(qtype, 0)
+        act_pct = mix_pct.get(qtype, 0.0)
+        delta = round(act_pct - t_pct, 1)
+        if act_pct == t_pct:
+            st = "TARGET_MET"
+        elif act_pct < t_pct:
+            if (t_pct - act_pct) <= tolerance:
+                st = "WITHIN_TOLERANCE_UNDER"
+            else:
+                st = "UNDER_TARGET"
+                if t_pct > 0:
+                    weak.append(qtype)
+        else:
+            if (act_pct - t_pct) <= tolerance:
+                st = "WITHIN_TOLERANCE_OVER"
+            else:
+                st = "OVER_TARGET"
+                if t_pct > 0 or act_pct > tolerance:
+                    weak.append(qtype)
+        bp_dims[qtype] = {
+            "target_pct": t_pct,
+            "actual_count": act_cnt,
+            "actual_pct": act_pct,
+            "delta_pct": delta,
+            "tolerance_pct": tolerance,
+            "status": st
+        }
+    blueprint_compliance = {
+        "mode": "soft_target_with_tolerance",
+        "tolerance_pct": tolerance,
+        "compliant": len(weak) == 0,
+        "dimensions": {
+            "question_type": bp_dims
+        },
+        "weak_types": weak
+    }
     nv = len(validated_qs)
     nt = len(results)
     downgrade = []
@@ -249,6 +291,7 @@ def main(argv):
              "cluster_status": cluster_status, "unaddressed_clusters": unaddressed_clusters,
              "section_coverage": cov.get("section_coverage", {}),
              "has_explicit_purposes": cov.get("has_explicit_purposes", False),
+             "has_explicit_cognitive": cov.get("has_explicit_cognitive", False),
              "coverage_label": cov.get("coverage_label", ""), "cognitive_label": cov.get("cognitive_label", "")}
     dest = a.out if a.out.endswith(".json") else os.path.join(a.out, "audit_report.json")
     save_json(dest, audit)

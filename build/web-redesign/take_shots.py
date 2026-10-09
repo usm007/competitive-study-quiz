@@ -71,10 +71,10 @@ def run_width(width, tag, height=900):
         pg.evaluate("() => { var k=view.indexOf(QUESTIONS.findIndex(q=>q.id==='%s')); state.idx=(function(){ for(var i=0;i<view.length;i++){ if(QUESTIONS[view[i]].id==='%s') return i; } return 0; })(); render(); }" % (STMT_ID, STMT_ID))
         pg.wait_for_timeout(200)
         shot(pg, "%s-04-statement.png" % tag)
-        # 5 learn mode
-        pg.evaluate("() => setMode('learn')")
+        # 5 learn fresh (unanswered)
+        pg.evaluate("() => { setMode('learn'); state.idx=5; render(); }")
         pg.wait_for_timeout(200)
-        shot(pg, "%s-05-learn.png" % tag)
+        shot(pg, "%s-05-learn-fresh.png" % tag)
         # 6 test mode
         pg.evaluate("() => setMode('test')")
         pg.wait_for_timeout(200)
@@ -104,7 +104,7 @@ def run_width(width, tag, height=900):
         pg.wait_for_timeout(300)
         shot(pg, "%s-11-filters.png" % tag)
         pg.keyboard.press("Escape")
-        # 12 source drawer (needs answered q or any q)
+        # 12 source drawer
         pg.evaluate("() => openDrawer('sourceDrawer')")
         pg.wait_for_timeout(300)
         shot(pg, "%s-12-source.png" % tag)
@@ -114,8 +114,10 @@ def run_width(width, tag, height=900):
         b.close()
 
 
-run_width(1440, "d1440")
-run_width(1280, "d1280", 900)
+print("Running screenshot captures across all 5 resolutions...")
+run_width(1440, "d1440", 900)
+run_width(1280, "d1280x720", 720)
+run_width(1280, "d1280x800", 800)
 run_width(768, "tablet", 1024)
 run_width(390, "m390", 844)
-print("done", sorted(p.name for p in OUT.glob("*.png")))
+print("done", len(list(OUT.glob("*.png"))), "shots captured in", OUT)

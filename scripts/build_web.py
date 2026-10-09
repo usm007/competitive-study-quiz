@@ -1,20 +1,20 @@
-"""Build a standalone quiz HTML file from a quiz package.
+"""Build a standalone Study Module HTML file from a quiz package.
 
 Reads the self-contained template (templates/web/app.template.html),
-embeds the package JSON at the /*__PACKAGE__*/{} placeholder and the
-package status at the /*__STATUS__*/"" placeholder, and writes the result.
+embeds the package JSON at the /*__PACKAGE__*/{} placeholder, the
+package status at the /*__STATUS__*/"" placeholder, and the revision engine,
+and writes the result with StudySynth branding and dynamic clean title metadata.
 
 Verifies the embedded JSON parses and round-trips identically; fails loudly
 otherwise. Accepts both the delivery shape (meta + questions) and the
-canonical pipeline shape (run_id/profile/package_status + questions); if the
-profile is a bare name and profiles/<name>.json exists, the resolved profile
-dict is embedded so the app can score negative marking correctly.
+canonical pipeline shape (run_id/profile/package_status + questions).
 """
 from __future__ import annotations
 
 import argparse
 import html
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -25,6 +25,7 @@ from lib_quiz import (  # noqa: E402
     resolve_profile,
     validate_structure,
 )
+from naming import parse_clean_title  # noqa: E402
 
 HERE = Path(__file__).resolve()
 DEFAULT_TEMPLATE = HERE.parent.parent / "templates" / "web" / "app.template.html"
@@ -35,25 +36,42 @@ STATUS_PLACEHOLDER = '/*__STATUS__*/""'
 ENGINE_PLACEHOLDER = "/*__REVISION_ENGINE__*/"
 
 
-def prepare_package(package_path: Path) -> dict:
+def prepare_package(package_path: Path, title: str | None = None) -> tuple[dict, str]:
     pkg = load_package_json(package_path)
     warnings, errors = validate_structure(pkg)
     for w in warnings:
         print(f"WARNING: {w}", file=sys.stderr)
     if errors:
-        raise SystemExit(f"ERROR: invalid quiz package {package_path}:\n  " + "\n  ".join(errors))
-    meta = eff_meta(pkg)
+        raise SystemExit(f"ERROR: invalid package {package_path}:\n  " + "\n  ".join(errors))
+
+    pkg = json.loads(json.dumps(pkg, ensure_ascii=False))  # deep copy
+    m = pkg.get("meta")
+    if not isinstance(m, dict):
+        m = {}
+        pkg["meta"] = m
+
+    # Determine clean title
+    clean_t = title
+    if not clean_t:
+        raw_t = m.get("title")
+        if raw_t and raw_t not in ("Exam Quiz", "Study Quiz", "Competitive Quiz", "Study Module"):
+            clean_t = parse_clean_title(raw_t)
+        elif m.get("source"):
+            clean_t = parse_clean_title(m["source"])
+        elif pkg.get("run_id"):
+            clean_t = parse_clean_title(pkg["run_id"])
+    if not clean_t:
+        clean_t = "Study Module"
+
+    m["title"] = clean_t
+
     prof = resolve_profile(pkg, None, PROFILES_DIR)
     if isinstance(prof, dict) and prof.get("negative_marking"):
-        pkg = json.loads(json.dumps(pkg, ensure_ascii=False))  # deep copy
-        m = pkg.get("meta")
-        if not isinstance(m, dict):
-            m = {}
-            pkg["meta"] = m
         if not isinstance(m.get("profile"), dict):
             m["profile"] = prof
             print(f"profile: embedded resolved profile {prof.get('name', '?')}", file=sys.stderr)
-    return pkg
+
+    return pkg, clean_t
 
 
 def extract_braced(text: str, marker: str) -> str:
@@ -83,7 +101,7 @@ def extract_braced(text: str, marker: str) -> str:
 
 
 def build(package_path: Path, out_path: Path, template: Path, title: str | None) -> Path:
-    pkg = prepare_package(package_path)
+    pkg, clean_title = prepare_package(package_path, title=title)
     try:
         tpl = template.read_text(encoding="utf-8")
     except OSError as e:
@@ -119,8 +137,9 @@ def build(package_path: Path, out_path: Path, template: Path, title: str | None)
     if PKG_PLACEHOLDER in out or STATUS_PLACEHOLDER in out or ENGINE_PLACEHOLDER in out:
         raise SystemExit("ERROR: placeholder replacement incomplete; duplicate placeholders in template")
 
-    if title:
-        out = out.replace("<title>Exam Quiz</title>", "<title>" + html.escape(title) + "</title>", 1)
+    # Dynamic <title> tag replacement
+    page_title = f"{clean_title} — StudySynth"
+    out = re.sub(r"<title>.*?</title>", f"<title>{html.escape(page_title)}</title>", out, count=1)
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(out, encoding="utf-8")
@@ -137,13 +156,27 @@ def build(package_path: Path, out_path: Path, template: Path, title: str | None)
 
 
 def main(argv: list[str] | None = None) -> int:
-    ap = argparse.ArgumentParser(description="Build standalone quiz HTML from a quiz package.")
+    ap = argparse.ArgumentParser(description="Build standalone Study Module HTML from a package.")
     ap.add_argument("package", help="Path to quiz_package.json")
     ap.add_argument("--out", required=True, help="Output .html file")
-    ap.add_argument("--title", default=None, help="Override the HTML <title> fallback text")
+    ap.add_argument("--title", default=None, help="Override the clean module title")
     ap.add_argument("--template", default=str(DEFAULT_TEMPLATE), help="Template HTML file")
+    ap.add_argument("--dashboard", default=None, help="Path to master index.html dashboard to update")
     args = ap.parse_args(argv)
+
     out = build(Path(args.package), Path(args.out), Path(args.template), args.title)
+
+    if args.dashboard:
+        from dashboard import update_dashboard
+        meta = eff_meta(load_package_json(Path(args.package)))
+        clean_t = args.title or meta.get("title") or parse_clean_title(out.stem)
+        update_dashboard(
+            dashboard_path=args.dashboard,
+            module_path=out,
+            title=clean_t,
+            metadata={"status": meta.get("status"), "question_count": len(load_package_json(Path(args.package)).get("questions", []))},
+        )
+
     print(f"OK: wrote {out}")
     return 0
 

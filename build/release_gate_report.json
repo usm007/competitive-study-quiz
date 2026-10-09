@@ -5,7 +5,7 @@
     {
       "name": "full_test_suite",
       "passed": true,
-      "tests_run": 254,
+      "tests_run": 284,
       "failures": 0,
       "errors": 0,
       "skipped": 0

@@ -20,8 +20,15 @@ from lib_common import load_json, save_json, norm, token_set_sim, fail, run_main
 
 
 def blob(q):
-    return (q.get("stem", q.get("question", "")) or "") + " " + " ".join(
-        (o.get("text", "") or "") for o in (q.get("options") or []))
+    opts = []
+    for o in (q.get("options") or []):
+        if isinstance(o, dict):
+            opts.append(o.get("text", "") or "")
+        elif isinstance(o, str):
+            opts.append(o)
+        else:
+            opts.append(str(o))
+    return (q.get("stem", q.get("question", "")) or "") + " " + " ".join(opts)
 
 
 def get_prim_ku(q):

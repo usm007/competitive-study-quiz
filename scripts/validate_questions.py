@@ -181,12 +181,11 @@ def check_one(q, ku_ids, ku_map, block_ids, ntext, n_opts, mode, thr, seen_texts
             c["clue_stem_overlap_ok"] = False
             notes.append("flag: stem words only in key: %s" % leaked[:3])
     # ---- competitive-engine soft checks (flags, never hard-fail legacy) ----
-    # purpose: if present must be known; if absent, informational only
+    # purpose: MUST be present and valid from supported canonical taxonomy
     purp = q.get("purpose")
-    c["purpose_ok"] = True
-    if purp not in (None, "") and purp not in PURPOSES:
-        c["purpose_ok"] = False
-        notes.append("flag: unknown purpose %r" % (purp,))
+    c["purpose_ok"] = bool(purp and str(purp).strip() in PURPOSES)
+    if not c["purpose_ok"]:
+        notes.append("missing or invalid purpose %r (must be one of %s)" % (purp, sorted(PURPOSES)))
     # cognitive_level: if present must be known
     c["cognitive_ok"] = True
     if q.get("cognitive_level") not in (None, "") and q.get("cognitive_level") not in COG_LEVELS:

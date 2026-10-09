@@ -42,10 +42,8 @@ def mk_q(qid, prim, purpose=None, qtype="factual_mcq", cog=None, statements=None
          "source": [{"page": 1, "section_path": "S", "block_id": "B-1",
                      "char_start": 0, "char_end": 5, "table_ref": None}],
          "explanation": "exp", "difficulty": "medium", "origin": "source"}
-    if purpose:
-        q["purpose"] = purpose
-    if cog:
-        q["cognitive_level"] = cog
+    q["purpose"] = purpose or "direct_recall"
+    q["cognitive_level"] = cog or "recall"
     q["statements"] = statements
     if role_extra:
         q["knowledge_units"] += role_extra
